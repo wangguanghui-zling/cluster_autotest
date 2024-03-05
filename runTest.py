@@ -3,7 +3,7 @@ import os
 
 if __name__ == '__main__':
     pytest.main(["-q", "-s", "-ra", r"C:\Users\Administrator\Desktop\cluster_hmi\Project\testcases\test_a8e.py",'--alluredir',r'C:\Users\Administrator\Desktop\cluster_hmi\Project\reports'])
-    #方式一：直接打开默认浏览器展示报告，测试0305
+    #方式一：直接打开默认浏览器展示报告，测试030500000000000
     #allure serve ./result/
     #方式二：从结果生成报告
     #生成报告
