@@ -1,4 +1,3 @@
-import os
 import subprocess
 from datetime import datetime
 
@@ -36,3 +35,11 @@ class adb():
         process.stdin.close()
         process.wait()
         return dest_path
+    @staticmethod
+    def adb_devices():
+        """
+        获取adb设备
+        return: devices: 返回设备名称
+        """
+        result = subprocess.run(['adb','devices'], stdout=subprocess.PIPE)
+        output = result.stdout.decode('utf-8')

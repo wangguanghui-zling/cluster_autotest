@@ -1,7 +1,7 @@
--
+---
 #基本配置
 prject: "a8e" #车型
-devices: "1234567" #安卓地址
+devices: "192.168.7.16:5555" #安卓地址
 qnx_ip: "192.168.118.2" #qnxip地址，用于安卓连接到qnx
 qnx_user: "root"
 qnx_passwd: ""
