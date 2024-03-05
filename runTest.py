@@ -7,9 +7,9 @@ if __name__ == '__main__':
     pytest.main(["-q",
                 "-s", 
                 "-ra", 
-                r"C:\Users\Administrator\Desktop\cluster_hmi\Project\testcases\test_a8e.py",
+                r"C:\Users\Administrator\Desktop\cluster_hmi\Project\cluster_autotest\testcases\test_a8e.py",
                 '--alluredir',
-                r'C:\Users\Administrator\Desktop\cluster_hmi\Project\reports',])
+                r'C:\Users\Administrator\Desktop\cluster_hmi\Project\cluster_autotest\reports',])
     #方式一：直接打开默认浏览器展示报告
     #allure serve ./result/
     #方式二：从结果生成报告
@@ -17,4 +17,4 @@ if __name__ == '__main__':
     #allure generate ./result/ -o ./report/ --clean (覆盖路径加--clean)
     #打开报告
     #allure open -h 127.0.0.1 -p 8883 ./report/
-    #os.system(r'allure serve C:\Users\Administrator\Desktop\cluster_hmi\Project\reports')
+    os.system(r'allure serve C:\Users\Administrator\Desktop\cluster_hmi\Project\cluster_autotest\reports')

@@ -108,4 +108,3 @@ class Images():
         pytesseract.pytesseract.tesseract_cmd = tesseract_OCR #指定了 Tesseract OCR 引擎的安装路径
         boxes = pytesseract.image_to_boxes(content,output_type=pytesseract.Output.STRING)
         print(boxes)
-

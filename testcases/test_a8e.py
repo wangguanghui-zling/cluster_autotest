@@ -1,14 +1,17 @@
 from ..common import adb,qnx,images
 from ..utils import read_yaml
+from PIL import Image
 import pytest
+import allure
 
+'''
 class TestUint_Panel():
     def setup_class(self):
         print("前置条件")
 
     def teardown_class(self):
         print("后置条件")
-    @pytest.mark.parametrize("test_data", read_yaml.read_yaml('./config/config.yaml'))
+    @pytest.mark.parametrize("test_data", read_yaml.read_yaml('./cluster_autotest/config/config.yaml'))
     def test_01_spd(self,test_data):
         test_qnx = qnx.qnx(test_data["devices"],test_data["ip"],test_data["user"],test_data["passwd"])
         test_qnx.qnx_screenshot(test_data["qnx_screenshot_path"])
@@ -35,10 +38,11 @@ class TestUint_Warning():
         test_qnx.qnx_screenshot("/var/share/")
         test = adb.adb.adb_pull_image("1234567",
                                     "/data/nfs/nfs_share/screenshot.bmp",
-                                    "./testdata/actual/")
+                                    "./cluster_autotest/testdata/actual/")
         test_image=images.Images()
-        test_result = test_image.compare_by_matrix_in_same_area("./testdata/expect/screenshot_warning.bmp",
+        test_result = test_image.compare_by_matrix_in_same_area("./cluster_autotest/testdata/expect/screenshot_warning.bmp",
                                                                 test,
                                                                 (711,24,1227,80))
+        allure.attach.file("./cluster_autotest/testdata/expect/screenshot_warning.bmp", name="Expected Result", attachment_type=allure.attachment_type.BMP)
+        allure.attach.file(test, name="Screenshot", attachment_type=allure.attachment_type.BMP)
         assert test_result == None
-'''

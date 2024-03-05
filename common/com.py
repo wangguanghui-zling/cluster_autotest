@@ -53,8 +53,3 @@ class ComReadWrite():
         parame: commend: 端口命令
         """
         self.port.write(commend+"\n".encode('utf-8'))
-
-
-test=ComReadWrite("COM34",115200)
-test.com_write(b"/var/share/")
-test.com_write(b"screenshot")
