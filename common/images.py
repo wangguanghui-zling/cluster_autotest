@@ -23,7 +23,7 @@ class Images():
         """
         对比两张图片指定位置以外区域是否完全相同,方法是将不需要区域设置成存白色,再进行对比
         这里注意当传入图片后就已经做了加载处理,所以不再需要调Image.open,否则会报错
-        parame: expect_images: 图片地址
+        parame: expect_images: 图片地址0304
         parame: actal_images: 图片地址
         parame: position: 不对比的区域start_x, start_y, end_x, end_y
         return: compare_result: 对比结果若为None则两张图片完全相同,若返回元组则两张图片存在差异

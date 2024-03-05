@@ -40,4 +40,3 @@ class qnx():
         time.sleep(1)
         self.process.stdin.close()
         self.process.wait()
-        
