@@ -1,14 +1,16 @@
-import subprocess
+from testcases import execut_failed_cases
 import pytest
 import os
 
 if __name__ == '__main__':
-    pytest.main(["-q",
+    pytest.main([
+                "-q",
                 "-s", 
                 "-ra", 
-                r"C:\Users\Administrator\Desktop\cluster_hmi\Project\cluster_autotest\testcases\a8e",
+                r".\cluster_autotest\testcases\a8e",
                 '--alluredir',
-                r'C:\Users\Administrator\Desktop\cluster_hmi\Project\cluster_autotest\reports',])
+                r'.\cluster_autotest\reports',
+                ])
     #方式一：直接打开默认浏览器展示报告
     #allure serve ./result/
     #方式二：从结果生成报告
@@ -16,4 +18,4 @@ if __name__ == '__main__':
     #allure generate ./result/ -o ./report/ --clean (覆盖路径加--clean)
     #打开报告
     #allure open -h 127.0.0.1 -p 8883 ./report/
-    os.system(r'allure serve C:\Users\Administrator\Desktop\cluster_hmi\Project\cluster_autotest\reports')
+    os.system(r'allure serve .\cluster_autotest\reports')
