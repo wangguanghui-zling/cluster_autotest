@@ -2,13 +2,11 @@ import subprocess
 import pytest
 import os
 
-
-
 if __name__ == '__main__':
     pytest.main(["-q",
                 "-s", 
                 "-ra", 
-                r"C:\Users\Administrator\Desktop\cluster_hmi\Project\cluster_autotest\testcases\test_a8e.py",
+                r"C:\Users\Administrator\Desktop\cluster_hmi\Project\cluster_autotest\testcases\a8e",
                 '--alluredir',
                 r'C:\Users\Administrator\Desktop\cluster_hmi\Project\cluster_autotest\reports',])
     #方式一：直接打开默认浏览器展示报告
