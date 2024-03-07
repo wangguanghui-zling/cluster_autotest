@@ -15,17 +15,17 @@ class qnx():
         """
         command = "adb -s {} shell".format(devices)
         self.process = subprocess.Popen(command, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
-        time.sleep(1)
+        time.sleep(2)
         self.process.stdin.write("busybox telnet {}\n".format(ip)) #从安卓进入qnx命令
         self.process.stdin.flush()
-        time.sleep(1)
+        time.sleep(2)
         self.process.stdin.write("{}\n".format(user)) #输入用户名
         self.process.stdin.flush()
-        time.sleep(1)
+        time.sleep(2)
         if passwd != "":
             self.process.stdin.write("{}\n".format(passwd)) #输入密码
             self.process.stdin.flush()
-            time.sleep(1)
+            time.sleep(2)
         
     def qnx_screenshot(self,save:str):
         """
@@ -34,9 +34,9 @@ class qnx():
         """
         self.process.stdin.write("cd {}\n".format(save)) #输入密码
         self.process.stdin.flush()
-        time.sleep(1)
+        time.sleep(2)
         self.process.stdin.write("screenshot\n") #输入密码
         self.process.stdin.flush()
-        time.sleep(1)
+        time.sleep(2)
         self.process.stdin.close()
         self.process.wait()

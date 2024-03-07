@@ -6,6 +6,17 @@ class adb():
     adb相关命令操作
     """
     @staticmethod
+    def adb_root(devices:str):
+        """
+        导出安卓文件
+        parame: devices: 设备地址通过adb devices获得
+        """
+        command = "adb -s {} root".format(devices)
+        process = subprocess.Popen(command, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+        process.stdin.close()
+        process.wait()
+
+    @staticmethod
     def adb_pull(devices:str,source:str,dest:str):
         """
         导出安卓文件
@@ -17,7 +28,6 @@ class adb():
         process = subprocess.Popen(command, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
         process.stdin.close()
         process.wait()
-
     @staticmethod
     def adb_pull_image(devices:str,source:str,dest:str,):
         """
