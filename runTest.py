@@ -3,7 +3,6 @@ import os
 
 
 if __name__ == '__main__':
-    current_path = os.path.dirname(os.path.abspath(__file__))
     pytest.main([
                 "-q",
                 "-s", 

@@ -15,3 +15,5 @@ image_position_spd: [818,245,1092,485] #图片位置
 image_position_eps: [711,24,1227,80] #图片位置
 android_log_path: /mnt/user/log_android/ #安卓日志存放路径
 qnx_log_path: /data/nfs/nfs_log/ #qnx日志存放路径
+cfg_path: E:/工作文档\学习文档/自动化/cluster_autotest/common/canoe_project/Configuration.cfg #CANoe工程路径
+dbc_path: ./common/canoe_project/A8E_Proj_IHU_PFET_CMX+V1.25_20230421.dbc #DBC路径

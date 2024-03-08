@@ -37,6 +37,9 @@ class qnx():
         time.sleep(2)
         self.process.stdin.write("screenshot\n") #输入密码
         self.process.stdin.flush()
-        time.sleep(2)
+        time.sleep(4)
         self.process.stdin.close()
         self.process.wait()
+
+#test_qnx = qnx("192.168.7.16:5555","192.168.118.2","root","")
+#test_qnx.qnx_screenshot("/var/share/")
