@@ -6,11 +6,11 @@ qnx_ip: "192.168.118.2" #qnxip地址，用于安卓连接到qnx
 qnx_user: root
 qnx_passwd: ""
 #输入数据
-input_images_path_spd: ./cluster_autotest/testdata/expect/screenshot_spd.bmp #预期结果存放地址
-input_images_path_eps: ./cluster_autotest/testdata/expect/screenshot_eps.bmp #预期结果存放地址
+input_images_path_spd: ./testdata/expect/screenshot_spd.bmp #预期结果存放地址
+input_images_path_eps: ./testdata/expect/screenshot_eps.bmp #预期结果存放地址
 qnx_screenshot_path: /var/share/ #qnx截图存放路径，为了能去除来，最好是qnx与安卓共享路径
 adb_pull_source: /data/nfs/nfs_share/screenshot.bmp #安卓路径
-adb_pull_dest: ./cluster_autotest/testdata/actual/ #本地路径
+adb_pull_dest: ./testdata/actual/ #本地路径
 image_position_spd: [818,245,1092,485] #图片位置
 image_position_eps: [711,24,1227,80] #图片位置
 android_log_path: /mnt/user/log_android/ #安卓日志存放路径

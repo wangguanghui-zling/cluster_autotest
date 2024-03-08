@@ -1,8 +1,8 @@
-from cluster_autotest.common.adb import adb
-from cluster_autotest.common.qnx import qnx
-from cluster_autotest.common.images import Images
-from cluster_autotest.utils import read_yaml
-from cluster_autotest.testcases import execut_failed_cases
+from common.adb import adb
+from common.qnx import qnx
+from utils import read_yaml
+from common.images import Images
+from testcases import execut_failed_cases
 import pytest
 import allure
 
@@ -12,7 +12,7 @@ class TestUint_Panel():
     def teardown_class(self):
         print("后置条件")
     @execut_failed_cases.execut_failed_cases
-    @pytest.mark.parametrize("test_data", [read_yaml.read_yaml('./cluster_autotest/config/config.yaml')])
+    @pytest.mark.parametrize("test_data", [read_yaml.read_yaml('./config/config.yaml')])
     def test_01_spd(self,test_data):
         test_qnx = qnx(test_data["devices"],test_data["qnx_ip"],test_data["qnx_user"],test_data["qnx_passwd"])
         test_qnx.qnx_screenshot(test_data["qnx_screenshot_path"])

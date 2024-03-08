@@ -2,8 +2,8 @@ import os
 import time
 import functools
 from datetime import datetime
-from cluster_autotest.common.adb import adb
-from cluster_autotest.utils.read_yaml import read_yaml
+from common.adb import adb
+from utils.read_yaml import read_yaml
 
 def execut_failed_cases(func):
     """
@@ -22,7 +22,7 @@ def execut_failed_cases(func):
             test_name = func.__name__  # 获取测试用例名称
             current_time = datetime.now()
             formatted_time = current_time.strftime("%Y%m%d-%H%M%S")
-            local_path = './cluster_autotest/logs/' + test_name + formatted_time
+            local_path = './logs/' + test_name + formatted_time
             os.mkdir(local_path)
             export_android_log(local_path)
             export_qnx_log(local_path)
@@ -34,8 +34,8 @@ def export_android_log(folder):
     导出安卓log
     parame: folder: 文件夹名
     """
-    devices = read_yaml('./cluster_autotest/config/config.yaml')["devices"]
-    remote_path=read_yaml('./cluster_autotest/config/config.yaml')["android_log_path"]
+    devices = read_yaml('./config/config.yaml')["devices"]
+    remote_path=read_yaml('./config/config.yaml')["android_log_path"]
     adb.adb_root(devices)
     time.sleep(1)
     adb.adb_pull(devices,remote_path,folder)
@@ -45,8 +45,8 @@ def export_qnx_log(folder):
     导出qnxlog
     parame: folder: 文件夹名
     """
-    devices = read_yaml('./cluster_autotest/config/config.yaml')["devices"]
-    remote_path=read_yaml('./cluster_autotest/config/config.yaml')["qnx_log_path"]
+    devices = read_yaml('./config/config.yaml')["devices"]
+    remote_path=read_yaml('./config/config.yaml')["qnx_log_path"]
     adb.adb_root(devices)
     time.sleep(1)
     adb.adb_pull(devices,remote_path,folder)

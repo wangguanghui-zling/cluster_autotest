@@ -1,8 +1,8 @@
-from cluster_autotest.common.adb import adb
-from cluster_autotest.common.qnx import qnx
-from cluster_autotest.common.images import Images
-from cluster_autotest.utils import read_yaml
-from cluster_autotest.testcases import execut_failed_cases
+from common.adb import adb
+from common.qnx import qnx
+from common.images import Images
+from utils import read_yaml
+from testcases import execut_failed_cases
 import pytest
 import allure
 
@@ -13,7 +13,7 @@ class TestUint_Warning():
     def teardown_class(self):
         print("后置条件")
     @execut_failed_cases.execut_failed_cases #捕获执行失败用例
-    @pytest.mark.parametrize("test_data", [read_yaml.read_yaml('./cluster_autotest/config/config.yaml')]) #参数化装饰
+    @pytest.mark.parametrize("test_data", [read_yaml.read_yaml('./config/config.yaml')]) #参数化装饰
     def test_02_eps(self,test_data):
         test_qnx = qnx(test_data["devices"],test_data["qnx_ip"],test_data["qnx_user"],test_data["qnx_passwd"])
         test_qnx.qnx_screenshot(test_data["qnx_screenshot_path"])
