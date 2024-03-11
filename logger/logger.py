@@ -18,10 +18,10 @@ from loguru import logger as _logger
     3、 如果找不到配置文件，默认使用info级别输出log，并且不保存log内容到文件
 """
 
-config_file_name = "config.yml"
+config_file_name = "./config/config.yml"
 current_path = os.getcwd()
 log_level_type = "trace", "debug", "info", "warning", "error"
-
+print(current_path)
 
 def set_logger(level: str = "debug", folder: Optional[str] = None):
     # LOG的格式
@@ -131,7 +131,7 @@ def find_config_file(folder: str, config_yml_file: str) -> Tuple[str, Any]:
                     folder = parent_path
     return "info", None
 
-
+"""
 # 从文件中读取log等级，然后设置存放文件位置
 logger_level, logger_folder = find_config_file(current_path, config_file_name)
 if logger_level.lower() not in log_level_type:
@@ -139,3 +139,7 @@ if logger_level.lower() not in log_level_type:
 set_logger(logger_level, logger_folder)
 # 返回logger对象
 logger = _logger
+"""
+set_logger("debug","./logs/log")
+logger= _logger
+logger.info("test")
