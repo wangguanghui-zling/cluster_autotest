@@ -16,11 +16,11 @@ class TestUint_Panel():
     @execut_failed_cases.execut_failed_cases
     @pytest.mark.parametrize("test_data", [read_yaml.read_yaml('./config/config.yaml')])
     def test_01_spd(self,test_data):
-        #app = CANoe() #定义CANoe为app
-        #app.open_cfg(test_data["cfg_path"]) #导入某个CANoe congif
-        #time.sleep(2)
-        #app.start_Measurement()
-        #time.sleep(3)
+        app = CANoe() #定义CANoe为app
+        app.open_cfg(test_data["cfg_path"]) #导入某个CANoe congif
+        time.sleep(2)
+        app.start_Measurement()
+        time.sleep(3)
         test_qnx = qnx(test_data["devices"],test_data["qnx_ip"],test_data["qnx_user"],test_data["qnx_passwd"])
         test_qnx.qnx_screenshot(test_data["qnx_screenshot_path"])
         test = adb.adb_pull_image(test_data["devices"],
