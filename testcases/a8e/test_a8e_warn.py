@@ -25,9 +25,9 @@ class TestUint_Warning():
     def test_02_eps(self,test_data):
         position = (test_data["startx"],test_data["starty"],test_data["endx"],test_data["endy"])
         test_image=Images()
-        test_result = test_image.compare_by_matrix_in_same_area(test_data["本地图片位置"],
+        test_result = test_image.compare_by_matrix_in_same_area(test_data["预期结果"],
                                                                 self.test,
                                                                 position)
-        allure.attach.file(test_data["本地图片位置"], name="预期结果", attachment_type=allure.attachment_type.BMP)
+        allure.attach.file(test_data["预期结果"], name="预期结果", attachment_type=allure.attachment_type.BMP)
         allure.attach.file(self.test, name="实际结果", attachment_type=allure.attachment_type.BMP)
         assert test_result == None
