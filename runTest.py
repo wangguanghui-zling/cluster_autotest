@@ -1,5 +1,6 @@
 import os
 import pytest
+from common.images import Images
 
 if __name__ == '__main__':
     pytest.main([
@@ -9,6 +10,7 @@ if __name__ == '__main__':
                 r".\testcases\a8e",
                 '--alluredir',
                 r'.\reports',
+                '--clean-alluredir'
                 ])
     #方式一：直接打开默认浏览器展示报告
     #allure serve ./result/
