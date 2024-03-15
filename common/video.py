@@ -2,6 +2,7 @@ from logger.logger import logger
 import datetime
 import time
 import cv2
+flag = True #控制开启录制结束录制的阀值,True开始录制,False结束录制
 
 def duration(startTime:datetime, endTime:datetime):
     """
@@ -32,9 +33,9 @@ class camera():
             logger.error(e)
             raise
 
-    def record_video(self,path:str,fps:float,durat:int):
+    def record_video_durat(self,path:str,fps:float,durat:int):
         """
-        通过摄像头录制视频
+        通过摄像头录制视频,录制指定时长
         parame: path:录制文件存放路径
         parame: fps:视频帧率
         parame: durat:录制时长,单位为秒
@@ -50,6 +51,36 @@ class camera():
                 endtime = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
                 fenNum = duration(starttime, endtime) #计算时间间隔
                 if fenNum<durat:
+                    ret, frame = self.capture.read()
+                    if ret==True:
+                        output.write(frame) # 写入文件
+                        if cv2.waitKey(1) & 0xFF == ord('q'): # 按下q键退出循环
+                            break
+                    else:
+                        break
+                else:
+                    break
+            logger.info("视频录制成功，视频保存路径为{}".format(file_name))
+            return file_path
+        except Exception as e:
+            logger.error(e)
+            raise
+    def start_record_video(self,path:str,file:str,fps:float):
+        """
+        通过摄像头录制视频,录制指定时长
+        parame: path:录制文件存放路径
+        parame: file:文件名的前半部分,后半部分是以时间作为文件名的一部分
+        parame: fps:视频帧率
+        return: file_path:返回录制视频路径
+        """
+        try:
+            global flag
+            fourcc = cv2.VideoWriter_fourcc(*'mp4v')  # 使用MP4V编解码器
+            file_name = time.strftime("%Y%m%d_%H%M%S", time.localtime())+".mp4"
+            file_path = path+"\\"+file+file_name
+            output = cv2.VideoWriter(file_path, fourcc, fps, (640, 480))  # 设置本地保存视频名称、格式、帧率、分辨率
+            while(self.capture.isOpened()):
+                if flag==True:
                     ret, frame = self.capture.read()
                     if ret==True:
                         output.write(frame) # 写入文件
