@@ -1,6 +1,7 @@
 import subprocess
 from datetime import datetime
 from logger.logger import logger
+import time
 
 class adb():
     """
@@ -67,6 +68,54 @@ class adb():
         except Exception as e:
             logger.error(e)
             raise
+
+    @staticmethod
+    def del_qnximage():
+        """
+        删除qnx仪表截图
+        """
+        try: #删除qnx路径下截图
+            del_command = ("adb -s 192.168.7.16:5555 shell\n")
+            proc = subprocess.Popen(del_command, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+            proc.stdin.write("busybox telnet 192.168.118.2\n")
+            proc.stdin.flush()
+            time.sleep(2)
+            proc.stdin.write("root\n")
+            proc.stdin.flush()
+            time.sleep(2)
+            proc.stdin.write("rm /var/share/ *.bmp \n")
+            proc.stdin.flush()
+            time.sleep(4)
+            proc.stdin.close()
+            proc.wait()
+            status_code = proc.returncode  # 执行状态码，为0表示执行成功，为1表示执行失败
+            logger.info("执行成功,执行状态码为{}".format(status_code))
+        except Exception as e:
+            logger.error(e)
+            raise
+
+    @staticmethod
+    def del_iviimage():
+        """
+        删除android仪表截图
+        """
+        try: #删除android路径下截图
+            del_command = ("adb -s 192.168.7.16:5555 shell\n")
+            proc = subprocess.Popen(del_command, stdin=subprocess.PIPE, stdout=subprocess.PIPE,
+                                        stderr=subprocess.PIPE, text=True)
+            proc.stdin.write("rm /data/nfs/nfs_share/ *.bmp\n")
+            proc.stdin.flush()
+            time.sleep(4)
+            proc.stdin.close()
+            proc.wait()
+            status_code = proc.returncode  # 执行状态码，为0表示执行成功，为1表示执行失败
+            logger.info("执行成功,执行状态码为{}".format(status_code))
+
+        except Exception as e:
+            logger.error(e)
+            raise
+
+
     @staticmethod
     def adb_devices():
         """
