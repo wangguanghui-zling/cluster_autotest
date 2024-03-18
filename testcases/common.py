@@ -59,7 +59,7 @@ def export_qnx_log(folder):
     adb.adb_pull(devices,remote_path,folder)
 
 
-def start_recording(file):
+def start_recording(file:str):
     """
     开始录制视频
     parame: file: 文件名
@@ -93,7 +93,7 @@ def stop_recording():
     except Exception as e:
         logger.error(e)
 
-def trigger_start_event(file):
+def trigger_start_event(file:str):
     """
     触发开始录制事件,通过threading.Thread将start_recording方法添加到线程池,实现控制开启录制和停止录制
     parame: file: 文件名

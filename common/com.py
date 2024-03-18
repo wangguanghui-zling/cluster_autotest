@@ -5,14 +5,14 @@ class ComReadWrite():
     """
     串口连接、读取、写入、断开
     """
-    def __init__(self,comport,combaud):
+    def __init__(self,comport:int,combaud:int) -> None:
         """
         parame: comport: 端口号
         parame: combaud: 波特率
         """
         self.port = serial.Serial(comport,combaud)
 
-    def ComRead(self):
+    def ComRead(self) -> None:
         """
         读取串口输出内容
         """
@@ -25,7 +25,7 @@ class ComReadWrite():
                 if r"b'" in line0:
                     line = line0.split(r"b'")[1]
                 
-    def ComToAdb(self):
+    def ComToAdb(self) -> None:
         """
         开启adb
         """
@@ -33,7 +33,7 @@ class ComReadWrite():
         self.port.write("telnet 192.168.118.1\n".encode())
         self.port.write("setprop persist.vendor.bosch.usb2.mode peripheral\n".encode())
 
-    def ComToHost(self):
+    def ComToHost(self) -> None:
         """
         关闭adb
         """
@@ -41,13 +41,13 @@ class ComReadWrite():
         self.port.write("telnet 192.168.118.1\n".encode())
         self.port.write("setprop persist.vendor.bosch.usb2.mode host\n".encode())
 
-    def CloseCom(self):
+    def CloseCom(self) -> None:
         """
         关闭串口
         """
         self.port.close()
 
-    def com_write(self,commend):
+    def com_write(self,commend:str) -> None:
         """
         执行串口命令
         parame: commend: 端口命令
