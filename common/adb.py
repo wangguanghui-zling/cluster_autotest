@@ -1,6 +1,7 @@
 import subprocess
 from datetime import datetime
 from logger.logger import logger
+import time
 
 class adb():
     """
@@ -88,13 +89,9 @@ class adb():
         try: #删除qnx路径下截图
             del_command = ("adb -s 192.168.7.16:5555 shell\n")
             proc = subprocess.Popen(del_command, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
-            proc.stdin.write("busybox telnet 192.168.118.2\n")
-            proc.stdin.flush()
-            time.sleep(2)
-            proc.stdin.write("root\n")
-            proc.stdin.flush()
-            time.sleep(2)
-            proc.stdin.write("rm /var/share/ *.bmp \n")
+            proc.stdin.write("busybox telnet 192.168.118.2\n"
+                             "root\n"
+                             "rm /var/share/screenshot.bmp\n")
             proc.stdin.flush()
             time.sleep(4)
             proc.stdin.close()
@@ -114,7 +111,9 @@ class adb():
             del_command = ("adb -s 192.168.7.16:5555 shell\n")
             proc = subprocess.Popen(del_command, stdin=subprocess.PIPE, stdout=subprocess.PIPE,
                                         stderr=subprocess.PIPE, text=True)
-            proc.stdin.write("rm /data/nfs/nfs_share/ *.bmp\n")
+            proc.stdin.write("su\n"
+                             "rm /data/nfs/nfs_share/screenshot.bmp\n"
+                             "y\n")
             proc.stdin.flush()
             time.sleep(4)
             proc.stdin.close()
