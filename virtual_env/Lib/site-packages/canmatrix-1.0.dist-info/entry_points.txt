@@ -1,0 +1,4 @@
+[console_scripts]
+cancompare = canmatrix.cli.compare:cli_compare
+canconvert = canmatrix.cli.convert:cli_convert
+
