@@ -1,0 +1,25 @@
+/*@!Encoding:936*/
+includes
+{
+  
+}
+
+variables
+{
+  msTimer timer1;
+  message GW_BCS_2_B msg260;
+}
+
+on start{
+  setTimer(timer1,100);
+}
+
+on sysvar GW_BCS_2_B_260::BCS_VehSpd{
+  msg260.BCS_VehSpd.phys = @this; //phys发送物理值
+}
+
+on timer timer1{
+  setTimer(timer1,100);
+  output(msg260);
+  write("发送成功");
+}

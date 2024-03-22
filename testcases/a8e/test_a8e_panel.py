@@ -4,7 +4,7 @@ from common.can import CANoe
 from utils import read_yaml
 from utils import read_excel
 from common.images import Images
-# from testcases import execut_failed_cases
+from testcases import common
 import pytest
 import allure
 import time
@@ -27,7 +27,7 @@ class TestUint_Panel():
         adb.del_qnximage() #删除ivi侧截图
 
 
-    # @execut_failed_cases.execut_failed_cases
+    @common.execut_failed_cases
     @pytest.mark.parametrize("test_data", [read_excel.read_excel('./testdata/testdata.xlsx','test_01_spd')])
     def test_01_spd(self,test_data):
         # 获取信号
