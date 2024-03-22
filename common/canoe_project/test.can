@@ -18,6 +18,10 @@ on sysvar GW_BCS_2_B_260::BCS_VehSpd{
   msg260.BCS_VehSpd.phys = @this; //phys发送物理值
 }
 
+on sysvar GW_BCS_2_B_260::BCS_VehSpdVD{
+  msg260.BCS_VehSpd.phys = @this; //phys发送物理值
+}
+
 on timer timer1{
   setTimer(timer1,100);
   output(msg260);
