@@ -1,5 +1,5 @@
 import xlrd
-from logger.logger import logger
+from common.logger.logger import logger
 
 def read_excel(path,case):
     """

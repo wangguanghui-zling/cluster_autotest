@@ -1,5 +1,5 @@
 from PIL import Image, ImageChops
-from common.logger import logger
+from common.logger.logger import logger
 import pytesseract
 
 

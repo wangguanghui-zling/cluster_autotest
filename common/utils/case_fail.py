@@ -5,8 +5,8 @@ import threading
 import functools
 from datetime import datetime
 from common.adb.adb import adb
-from logger.logger import logger
-from utils.read_yaml import read_yaml
+from common.logger.logger import logger
+from common.utils.read_yaml import read_yaml
 
 
 recording = False #视频录制状态标志位
@@ -29,7 +29,7 @@ def execut_failed_cases(func):
             test_name = func.__name__  # 获取测试用例名称
             current_time = datetime.now()
             formatted_time = current_time.strftime("%Y%m%d-%H%M%S")
-            local_path = './logs/' + test_name + formatted_time
+            local_path = './test/output_logs/' + test_name + formatted_time
             os.mkdir(local_path)
             export_android_log(local_path)
             export_qnx_log(local_path)
