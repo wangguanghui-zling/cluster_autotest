@@ -1,4 +1,4 @@
-from logger.logger import logger
+from common.logger.logger import logger
 import subprocess
 import time
 
