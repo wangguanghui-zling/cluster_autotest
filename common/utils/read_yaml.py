@@ -1,5 +1,5 @@
 import yaml
-from logger.logger import logger
+from common.logger.logger import logger
 
 def read_yaml(path):
     """

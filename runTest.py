@@ -4,7 +4,7 @@ from common.can.can import *
 from common.images.images import Images
 from common.video.video import *
 from common.utils import *
-from common.video import common
+from common.utils import case_fail
 
 
 # dbc_path = './common/can/canoe_project/A8E_Proj_IHU_PFET_CMX+V1.25_20230421.dbc'
@@ -43,4 +43,4 @@ if __name__ == '__main__':
     #allure generate ./result/ -o ./report/ --clean (覆盖路径加--clean)
     #打开报告
     #allure open -h 127.0.0.1 -p 8883 ./report/
-    os.system(r'allure serve .\reports')
+    os.system(r'allure serve .\test\output_report')
