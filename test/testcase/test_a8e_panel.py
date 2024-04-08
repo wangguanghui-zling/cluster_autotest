@@ -28,7 +28,7 @@ class TestUint_Panel():
 
 
     @common.execut_failed_cases
-    @pytest.mark.parametrize("test_data", [read_excel.read_excel('./testdata/testdata.xlsx','test_01_spd')])
+    @pytest.mark.parametrize("test_data", [read_excel.read_excel('./input/input_case/testdata.xlsx','test_01_spd')])
     def test_01_spd(self,test_data):
         # 获取信号
         sig_msg = (test_data["msgId"], test_data["sigName"],test_data["sigData"])

@@ -4,7 +4,7 @@ import time
 import threading
 import functools
 from datetime import datetime
-from common.adb import adb
+from common.adb.adb import adb
 from logger.logger import logger
 from utils.read_yaml import read_yaml
 
