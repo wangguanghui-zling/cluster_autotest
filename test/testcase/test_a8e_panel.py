@@ -1,10 +1,10 @@
-from common.adb import adb
-from common.qnx import qnx
-from common.can import CANoe
-from utils import read_yaml
-from utils import read_excel
-from common.images import Images
-from testcases import common
+from common.adb.adb import adb
+from common.qnx.qnx import qnx
+from common.can.can import CANoe
+from common.utils import read_yaml
+from common.utils import read_excel
+from common.images.images import Images
+from common.video import common
 import pytest
 import allure
 import time
