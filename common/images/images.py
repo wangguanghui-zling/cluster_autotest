@@ -1,6 +1,6 @@
 from PIL import Image, ImageChops
-from logger.logger import logger
-import  pytesseract
+from common.logger import logger
+import pytesseract
 
 
 class Images():

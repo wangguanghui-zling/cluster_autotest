@@ -8,7 +8,7 @@ import time
 import cantools
 import platform
 from ctypes import *
-from logger.logger import logger
+from common.logger.logger import logger
 from win32com.client import *
 from win32com.client.connect import *
 
@@ -679,7 +679,7 @@ class IProperty(Structure):
 class ZCAN(object):
     def __init__(self):
         if platform.system() == "Windows":
-            self.__dll = windll.LoadLibrary("common/hardware/zlgcan.dll")
+            self.__dll = windll.LoadLibrary("common/can/hardware/zlgcan.dll")
         else:
             print("No support now!")
         if self.__dll == None:

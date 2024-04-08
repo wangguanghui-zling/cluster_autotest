@@ -1,6 +1,6 @@
 import subprocess
 from datetime import datetime
-from logger.logger import logger
+from common.logger.logger import logger
 import time
 
 class adb():

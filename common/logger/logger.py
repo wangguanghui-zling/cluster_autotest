@@ -48,7 +48,7 @@ def set_logger(level: str = "debug", folder: Optional[str] = None):
         file_path = folder
         # 传入的不是文件夹路径则在当前目录下建立log文件夹，然后再进行文件写入
         if not os.path.isdir(folder):
-            file_path = os.getcwd() + "\\logs"
+            file_path = os.getcwd() + "\\test\\output_logs"
             if not os.path.exists(file_path):
                 os.makedirs(file_path)
         _logger.add(os.path.join(file_path, "log_{time}.log"), level=level.upper(), format=formats, rotation=rotation)
@@ -140,6 +140,6 @@ set_logger(logger_level, logger_folder)
 # 返回logger对象
 logger = _logger
 """
-set_logger("debug","./logs/log")
+set_logger("debug","./test/output_logs")
 logger= _logger
 logger.info("test")
