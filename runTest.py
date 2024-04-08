@@ -7,24 +7,24 @@ from common.utils import *
 from common.video import common
 
 
-dbc_path = './common/can/canoe_project/A8E_Proj_IHU_PFET_CMX+V1.25_20230421.dbc'
-data = [0,0,0,0,0,0,0,0]
-message_id = 0x260
-signal_name1 = 'BCS_VehSpd'
-signal_name2 = 'BCS_VehSpdVD'
-signal_value1 = 92
-signal_value2 = 1
-message_fram1=physical_to_frame(dbc_path,data,message_id,signal_name1,signal_value1)
-message_fram2=physical_to_frame(dbc_path,message_fram1,message_id,signal_name2,signal_value2)
-can_transmit(message_fram2,10)
-#Close CAN
-ret=zcanlib.ResetCAN(chn_handle)
-if ret==1:
-    print("ResetCAN success! ")
-#Close Device
-ret=zcanlib.CloseDevice(handle)
-if ret==1:
-    print("CloseDevice success! ")
+# dbc_path = './common/can/canoe_project/A8E_Proj_IHU_PFET_CMX+V1.25_20230421.dbc'
+# data = [0,0,0,0,0,0,0,0]
+# message_id = 0x260
+# signal_name1 = 'BCS_VehSpd'
+# signal_name2 = 'BCS_VehSpdVD'
+# signal_value1 = 92
+# signal_value2 = 1
+# message_fram1=physical_to_frame(dbc_path,data,message_id,signal_name1,signal_value1)
+# message_fram2=physical_to_frame(dbc_path,message_fram1,message_id,signal_name2,signal_value2)
+# can_transmit(message_fram2,10)
+# #Close CAN
+# ret=zcanlib.ResetCAN(chn_handle)
+# if ret==1:
+#     print("ResetCAN success! ")
+# #Close Device
+# ret=zcanlib.CloseDevice(handle)
+# if ret==1:
+#     print("CloseDevice success! ")
 
 if __name__ == '__main__':
     pytest.main([
