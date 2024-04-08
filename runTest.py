@@ -1,10 +1,10 @@
 import os
 import pytest
-from common.can import *
-from common.images import Images
-from common.video import *
-from utils.read_yaml import read_yaml
-from testcases import common
+from common.can.can import *
+from common.images.images import Images
+from common.video.video import *
+from common.utils import *
+from common.video.common import common
 dbc_path = './common/canoe_project/A8E_Proj_IHU_PFET_CMX+V1.25_20230421.dbc'
 data = [0,0,0,0,0,0,0,0]
 message_id = 0x260
