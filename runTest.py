@@ -29,7 +29,7 @@ if __name__ == '__main__':
                 "-q",
                 "-s", 
                 "-ra", 
-                r".\testcases\a8e",
+                r".\test\testcase\test_a8e_panel.py",
                 '--alluredir',
                 r'.\reports',
                 '--clean-alluredir'
