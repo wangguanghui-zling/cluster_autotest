@@ -912,87 +912,87 @@ def canfd_start(zcanlib, device_handle, chn):
         print("startCAN failed!" %(chn))
         exit(0)  
 
-### Set Auto Transmit   
-    ret = zcanlib.SetValue(ip,str(chn)+"/clear_auto_send","0")
-    if ret != ZCAN_STATUS_OK:
-        print("Clear CH%d USBCANFD AutoSend failed!" %(chn))
-        exit(0)
+# ### Set Auto Transmit
+#     ret = zcanlib.SetValue(ip,str(chn)+"/clear_auto_send","0")
+#     if ret != ZCAN_STATUS_OK:
+#         print("Clear CH%d USBCANFD AutoSend failed!" %(chn))
+#         exit(0)
+#
+#     path = str(chn)+"/auto_send"
+#     func = CFUNCTYPE(c_uint, c_char_p, c_void_p)(ip.contents.SetValue)
+#     ret = func(c_char_p(path.encode("utf-8")), cast(byref(AutoCAN_A), c_void_p))
+#     ret = func(c_char_p(path.encode("utf-8")), cast(byref(AutoCAN_B), c_void_p))
+#     path = str(chn)+"/auto_send_param"
+#     ret = func(c_char_p(path.encode("utf-8")), cast(byref(AutoCAN_B_delay), c_void_p))  #delay 100ms
+#     '''
+#     ret = zcanlib.SetValue(ip,str(chn)+"/apply_auto_send","0")
+#     if ret != ZCAN_STATUS_OK:
+#         print("Apply CH%d USBCANFD AutoSend failed!" %(chn))
+#         exit(0)
+#     '''
+#
+#     zcanlib.ReleaseIProperty(ip)
+#     return chn_handle
 
-    path = str(chn)+"/auto_send"
-    func = CFUNCTYPE(c_uint, c_char_p, c_void_p)(ip.contents.SetValue)
-    ret = func(c_char_p(path.encode("utf-8")), cast(byref(AutoCAN_A), c_void_p))
-    ret = func(c_char_p(path.encode("utf-8")), cast(byref(AutoCAN_B), c_void_p))  
-    path = str(chn)+"/auto_send_param"
-    ret = func(c_char_p(path.encode("utf-8")), cast(byref(AutoCAN_B_delay), c_void_p))  #delay 100ms
-    '''   
-    ret = zcanlib.SetValue(ip,str(chn)+"/apply_auto_send","0")  
-    if ret != ZCAN_STATUS_OK:
-        print("Apply CH%d USBCANFD AutoSend failed!" %(chn))
-        exit(0)
-    '''
- 
-    zcanlib.ReleaseIProperty(ip) 
-    return chn_handle
+# zcanlib = ZCAN()
+# testcantype =0 #0:CAN; 1:canfd
+# handle = zcanlib.OpenDevice(ZCAN_USBCANFD_MINI, 0,0)
+# if handle == INVALID_DEVICE_HANDLE:
+#     print("Open CANFD Device failed!")
+#     exit(0)
+# print("device handle:%d." %(handle))
+#
+# info = zcanlib.GetDeviceInf(handle)
+# print("Device Information:\n%s" %(info))
 
-zcanlib = ZCAN() 
-testcantype =0 #0:CAN; 1:canfd
-handle = zcanlib.OpenDevice(ZCAN_USBCANFD_MINI, 0,0)
-if handle == INVALID_DEVICE_HANDLE:
-    print("Open CANFD Device failed!")
-    exit(0)
-print("device handle:%d." %(handle))
+# #set auto send obj
+# AutoCAN_A    =  ZCAN_AUTO_TRANSMIT_OBJ()
+# AutoCAN_B    =  ZCAN_AUTO_TRANSMIT_OBJ()
+# AutoCAN_A.enable                    = 1  #enable
+# AutoCAN_A.index                     = 0
+# AutoCAN_A.interval                  = 200  #ms
+# AutoCAN_A.obj.frame.can_id          = 0x100
+# AutoCAN_A.obj.transmit_type         = 0
+# AutoCAN_A.obj.frame.eff             = 0
+# AutoCAN_A.obj.frame.rtr             = 0
+# AutoCAN_A.obj.frame.can_dlc         = 8
+# for j in range(AutoCAN_A.obj.frame.can_dlc):
+#     AutoCAN_A.obj.frame.data[j] = j
+#
+# AutoCAN_B.enable                    = 1  #enable
+# AutoCAN_B.index                     = 1
+# AutoCAN_B.interval                  = 200  #ms
+# AutoCAN_B.obj.frame.can_id          = 0x300
+# AutoCAN_B.obj.transmit_type         = 0
+# AutoCAN_B.obj.frame.eff             = 0
+# AutoCAN_B.obj.frame.rtr             = 0
+# AutoCAN_B.obj.frame.can_dlc         = 8
+# for j in range(AutoCAN_B.obj.frame.can_dlc):
+#     AutoCAN_B.obj.frame.data[j] = j
+#
+# AutoCAN_B_delay=ZCANFD_AUTO_TRANSMIT_OBJ_PARAM()
+# AutoCAN_B_delay.index = AutoCAN_B.index
+# AutoCAN_B_delay.type  = 1
+# AutoCAN_B_delay.value = 100
+#
+# #Start CAN
+#
+# chn_handle = canfd_start(zcanlib, handle, 0)
+# print("channel handle:%d." %(chn_handle))
 
-info = zcanlib.GetDeviceInf(handle)
-print("Device Information:\n%s" %(info))
-
-#set auto send obj
-AutoCAN_A    =  ZCAN_AUTO_TRANSMIT_OBJ()
-AutoCAN_B    =  ZCAN_AUTO_TRANSMIT_OBJ()
-AutoCAN_A.enable                    = 1  #enable
-AutoCAN_A.index                     = 0
-AutoCAN_A.interval                  = 200  #ms
-AutoCAN_A.obj.frame.can_id          = 0x100
-AutoCAN_A.obj.transmit_type         = 0
-AutoCAN_A.obj.frame.eff             = 0
-AutoCAN_A.obj.frame.rtr             = 0
-AutoCAN_A.obj.frame.can_dlc         = 8
-for j in range(AutoCAN_A.obj.frame.can_dlc):
-    AutoCAN_A.obj.frame.data[j] = j
-
-AutoCAN_B.enable                    = 1  #enable
-AutoCAN_B.index                     = 1
-AutoCAN_B.interval                  = 200  #ms
-AutoCAN_B.obj.frame.can_id          = 0x300
-AutoCAN_B.obj.transmit_type         = 0
-AutoCAN_B.obj.frame.eff             = 0
-AutoCAN_B.obj.frame.rtr             = 0
-AutoCAN_B.obj.frame.can_dlc         = 8
-for j in range(AutoCAN_B.obj.frame.can_dlc):
-    AutoCAN_B.obj.frame.data[j] = j
-
-AutoCAN_B_delay=ZCANFD_AUTO_TRANSMIT_OBJ_PARAM()
-AutoCAN_B_delay.index = AutoCAN_B.index
-AutoCAN_B_delay.type  = 1
-AutoCAN_B_delay.value = 100
-
-#Start CAN
-
-chn_handle = canfd_start(zcanlib, handle, 0)
-print("channel handle:%d." %(chn_handle))
-
-#Send CAN Messages
-def can_transmit(data,count):
-    msgs = (ZCAN_Transmit_Data * count)()
-    for i in range(count):
-        msgs[i].transmit_type = 0 #0-正常发送，2-自发自收
-        msgs[i].frame.eff     = 0 #0-标准帧，1-扩展帧
-        msgs[i].frame.rtr     = 0 #0-数据帧，1-远程帧
-        msgs[i].frame.can_id  = 0x260
-        msgs[i].frame.can_dlc = 8
-        for j in range(msgs[i].frame.can_dlc):
-            msgs[i].frame.data[j] =data[j]
-    ret = zcanlib.Transmit(chn_handle, msgs, count)
-    print("Tranmit Num: %d." % ret)
+# #Send CAN Messages
+# def can_transmit(data,count):
+#     msgs = (ZCAN_Transmit_Data * count)()
+#     for i in range(count):
+#         msgs[i].transmit_type = 0 #0-正常发送，2-自发自收
+#         msgs[i].frame.eff     = 0 #0-标准帧，1-扩展帧
+#         msgs[i].frame.rtr     = 0 #0-数据帧，1-远程帧
+#         msgs[i].frame.can_id  = 0x260
+#         msgs[i].frame.can_dlc = 8
+#         for j in range(msgs[i].frame.can_dlc):
+#             msgs[i].frame.data[j] =data[j]
+#     ret = zcanlib.Transmit(chn_handle, msgs, count)
+#     print("Tranmit Num: %d." % ret)
 """
 #Send CANFD Messages
 transmit_canfd_num = 10
