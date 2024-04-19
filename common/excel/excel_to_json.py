@@ -2,6 +2,7 @@ import json
 from common.excel.excel import Excel
 import os
 from common.logger.logger import logger
+import codecs
 
 class Excel_To_JSON:
     def __init__(self, file_path: str):
@@ -40,8 +41,8 @@ class Excel_To_JSON:
                     one_line[k] = cell
                     logger.info(f"one_line={one_line}")
                 result.append(one_line)
-            json_str = json.dumps(result,indent=2,ensure_ascii=False)
-            with open(os.path.join(os.path.dirname(self.file_path),i+".json"),"w") as json_file:
+            json_str = json.dumps(result, indent=2, ensure_ascii=False)
+            with codecs.open(os.path.join(os.path.dirname(self.file_path), i+".json"), "w", "utf-8") as json_file:
                 json_file.write(json_str)
 
 
