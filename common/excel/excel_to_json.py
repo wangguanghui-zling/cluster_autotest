@@ -30,19 +30,19 @@ class Excel_To_JSON:
             result = []
             heads = []
             for col in range(max_colum):
-                heads.append(sht.read_cell(1,col+1))
+                heads.append(sht.read_cell(1, col+1))
             for row in range(max_row-1):
                 if row == 0:
                     continue
                 one_line = {}
-                for col in range(max_colum):
+                for col in range(max_colum-2):
                     k = heads[col]
-                    cell = sht.read_cell(row + 1 , col + 1)
+                    cell = sht.read_cell(row + 1, col + 1)
                     one_line[k] = cell
                     logger.info(f"one_line={one_line}")
                 result.append(one_line)
             json_str = json.dumps(result, indent=2, ensure_ascii=False)
-            with codecs.open(os.path.join(os.path.dirname(self.file_path), i+".json"), "w", "utf-8") as json_file:
+            with codecs.open(os.path.join(os.path.dirname(self.file_path), "test"+i+".json"), "w", "utf-8") as json_file:
                 json_file.write(json_str)
 
 
