@@ -12,7 +12,9 @@ except (ImportError, ModuleNotFoundError) as e:
     import logging as logger
 from common.tc.conf import ITEMS
 from common.tc.base import *
-
+import json
+import os
+import codecs
 
 class TC:
     def __init__(self, data: dict):
@@ -66,22 +68,49 @@ class TC:
 
         setattr(self, "AllureDescription", allure_description)
 
+key_mapping = {
+    "key": "TestId",
+    "summary": "TestTitle",
+    "desc": "TestDescription",
+    "precondition": "TestPrecondition",
+    "step": "TestStep",
+    "expect": "TestExpectation",
+    "type": "TestType",
+    "tag": "TestTag",
+    "priority": "TestPriority",
+}
+
+def read_json(file_path):
+    with codecs.open(file_path, "r", encoding="utf-8") as file:
+        json_data = json.load(file)
+        for item in json_data:
+            for new_key, old_key in key_mapping.items():
+                item[new_key] = item.pop(old_key)
+    logger.info(f"{json_data}")
+    with codecs.open(file_path, "w", encoding="utf-8") as file:
+        json.dump(json_data, file, indent=2, ensure_ascii=False)
+    file.close()
+
+
 
 if __name__ == "__main__":
-    case = {
-        "key": "id-1",
-        "summary": "这是一个测试",
-        "desc": "",
-        "precondition": ["BAT ON", "KL15 ON", "Vehicle_Config_ENGINE_CONTROL_UNIT=00001(发动机控制单元)"],
-        "step": """1.Send 0x371:EngClntTempWarn=1\n2.WAIT=1000\n3.Button:shortpress back""",
-        "expect": """常显“发动机水温过高”报警，无声音\nPic_发动机水温过高报警=90\nOCR_发动机水温过高报警_ocr=发动机水温过高""",
-        "type": "Auto",
-        "status": "normal",
-        "tag": "V3.5, B02",
-        "priority": "",
-        "req": "",
-        "comment": "",
-        "jiraid": ""
-    }
-    tc = TC(case)
-    print(tc.__dict__)
+    # case = {
+    #     "key": "id-1",
+    #     "summary": "这是一个测试",
+    #     "desc": "",
+    #     "precondition": ["BAT ON", "KL15 ON", "Vehicle_Config_ENGINE_CONTROL_UNIT=00001(发动机控制单元)"],
+    #     "step": """1.Send 0x371:EngClntTempWarn=1\n2.WAIT=1000\n3.Button:shortpress back""",
+    #     "expect": """常显“发动机水温过高”报警，无声音\nPic_发动机水温过高报警=90\nOCR_发动机水温过高报警_ocr=发动机水温过高""",
+    #     "type": "Auto",
+    #     "status": "normal",
+    #     "tag": "V3.5, B02",
+    #     "priority": "",
+    #     "req": "",
+    #     "comment": "",
+    #     "jiraid": ""
+    # }
+
+    file_path = r"E:\cluster_new\input\input_case\test_tell2.json"
+    json_data = read_json(file_path=file_path)
+    # tc = TC(get_dict)
+    # print(tc.__dict__)

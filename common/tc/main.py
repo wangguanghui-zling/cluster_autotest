@@ -153,5 +153,5 @@ class Gen:
 
 
 if __name__ == "__main__":
-    test = Gen()
+    test = Gen(r"E:\cluster_new\input\input_case")
     test.run()
