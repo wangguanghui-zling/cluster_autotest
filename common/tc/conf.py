@@ -21,7 +21,7 @@ ITEMS = (
     ("type",            "TestType"),
     # ("", "TestPlatform"),
     # ("", "TestProject"),
-    ("status",          "TestCaseStatus"),
+    # ("status",          "TestCaseStatus"),
     ("tag",             "TestTag"),
     ("priority",        "TestPriority"),
     # ("", "TestSeverity"),
@@ -29,14 +29,15 @@ ITEMS = (
     # ("", "TestEpic"),
     # ("", "TestStory"),
     # ("", "TestFeature"),
-    ("req",             "TestRequirement"),
-    ("comment",         "TestComment"),
+    # ("req",             "TestRequirement"),
+    # ("comment",         "TestComment"),
     # ("", "TestResult"),
-    ("jiraid",          "TestJiraId"),
+    # ("jiraid",          "TestJiraId"),
     # ("", "TestIssue"),
     # ("", "TestOperator"),
     # ("", "TestDateTime"),
 )
+
 
 
 class _Pattern:

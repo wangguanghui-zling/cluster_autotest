@@ -1,0 +1,35 @@
+[
+  {
+    "key": " TC_Telltale_Position_indicator_working_indicator_004",
+    "summary": "位置灯工作指示灯(配置智能保险盒或者CEM)",
+    "desc": "位置灯工作指示灯_基本功能",
+    "precondition": "BAT ON\nKL15 ON",
+    "step": "1.Send 0x19C:PosnLmpOutpSts_R_Pbox=0",
+    "expect": "位置灯工作指示灯熄灭",
+    "type": "HMI",
+    "tag": "A03",
+    "priority": "P1"
+  },
+  {
+    "key": " TC_Telltale_Position_indicator_working_indicator_005",
+    "summary": "位置灯工作指示灯(配置智能保险盒或者CEM)",
+    "desc": "位置灯工作指示灯_基本功能",
+    "precondition": "BAT ON\nIGN ON\n默认配置",
+    "step": "1.Set CAN ID $19C_PosnLmpOutpSts_R_Pbox=1",
+    "expect": "位置灯工作指示灯点亮",
+    "type": "HMI",
+    "tag": "A03",
+    "priority": "P1"
+  },
+  {
+    "key": " TC_Telltale_Position_indicator_working_indicator_006",
+    "summary": "位置灯工作指示灯(配置智能保险盒或者CEM)",
+    "desc": "位置灯工作指示灯_基本功能",
+    "precondition": "BAT ON\nIGN ON\n默认配置",
+    "step": "1.Set CAN ID $19C_PosnLmpOutpSts_R_Pbox=0\n2.Set CAN ID $19C_PosnLmpOutpSts_R_Pbox=1\n3.Set CAN ID $19C_PosnLmpOutpSts_R_Pbox=0",
+    "expect": "1.位置灯工作指示灯熄灭\n2.位置灯工作指示灯点亮\n3.位置灯工作指示灯熄灭",
+    "type": "HMI",
+    "tag": "A03",
+    "priority": "P1"
+  }
+]
