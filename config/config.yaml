@@ -11,7 +11,7 @@ adb_pull_source: /data/nfs/nfs_share/screenshot.bmp #安卓路径
 adb_pull_dest: ./test/output_images/ #本地路径
 android_log_path: /mnt/user/log_android/ #安卓日志存放路径
 qnx_log_path: /data/nfs/nfs_log/ #qnx日志存放路径
-cfg_path: E:\工作文档\学习文档\自动化\cluster_autotest_new\common\can\canoe_project\Configuration.cfg #CANoe工程路径
+cfg_path: E:\工作文档\学习文档\自动化\cluster_autotest\common\can\canoe_project\Configuration.cfg #CANoe工程路径
 dbc_path: ./common/can/canoe_project/A8E_Proj_IHU_PFET_CMX+V1.25_20230421.dbc #DBC路径
 video_path: E:/工作文档/学习文档/自动化/cluster_autotest/testdata #视频存放路径
 camera_index: 0 #摄像头索引

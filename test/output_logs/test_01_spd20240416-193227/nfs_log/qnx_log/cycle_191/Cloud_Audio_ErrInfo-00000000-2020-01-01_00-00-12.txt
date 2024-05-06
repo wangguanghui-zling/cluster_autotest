@@ -1,3 +1,0 @@
-{"fault_time_stamp":2947,-----ONLINE-----}
-{"fault_time_stamp":2947,"tag":03,"fault_code":68157458,"fault_string":"A2B line fault","fault_reason":"Cable Disconnected or Open Circuit","fault_detail":"PWRERR - Cable disconnected or open circuit or wrong port"}
-{"fault_time_stamp":1577808006506,-----ONLINE-----}

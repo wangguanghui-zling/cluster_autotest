@@ -1,12 +1,14 @@
 import os
 import pytest
-from common.can.canoe import *
 from common.images.images import Images
 from common.video.video import *
 from common.utils import *
 from common.utils import case_fail
+from common.utils import read_yaml
+from common.can.canoe import CANoe
 
-
+#zcan
+###########################################
 # dbc_path = './common/can/canoe_project/A8E_Proj_IHU_PFET_CMX+V1.25_20230421.dbc'
 # data = [0,0,0,0,0,0,0,0]
 # message_id = 0x260
@@ -25,13 +27,23 @@ from common.utils import case_fail
 # ret=zcanlib.CloseDevice(handle)
 # if ret==1:
 #     print("CloseDevice success! ")
+#CANoe
+#############################################
+config_data=read_yaml.read_yaml('./config/config.yaml')
+app = CANoe() #定义CANoe为app
+app.open_cfg(config_data["cfg_path"]) #导入某个CANoe congif
+app.start_Measurement()
+#app.set_SysVar("GW_BCS_2_B_260","BCS_VehSpd",92) #发送报文
+#app.set_SysVar("GW_BCS_2_B_260","BCS_VehSpdVD",1) #发送报文
+app.get_SigVal(1, "ACU_HVAC_1_B", "ACU_HVACFR_RrTempSetting", bus_type="CAN")
 
+"""
 if __name__ == '__main__':
     pytest.main([
                 "-q",
                 "-s", 
                 "-ra", 
-                r".\test\testcase",
+                r".\test\testcase\test_a8e_panel.py",
                 '--alluredir',
                 r'.\test\output_report',
                 '--clean-alluredir'
@@ -44,3 +56,4 @@ if __name__ == '__main__':
     #打开报告
     #allure open -h 127.0.0.1 -p 8883 ./report/
     os.system(r'allure serve .\test\output_report')
+"""
