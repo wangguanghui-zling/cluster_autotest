@@ -1,0 +1,172 @@
+DISPCTRL  E Thu Jan  1 00:00:03 1970, 0, DispCtrlMain main thread dispctrl.main
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 1, DispCtrlVersion constructed
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 2, DispCtrlVersion build version as PJ_GAC_AVNT_MAIN_V1.2.9.0
+DISPCTRL  E Thu Jan  1 00:00:03 1970, 3, DispCtrlMain Version: PJ_GAC_AVNT_MAIN_V1.2.9.0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 4, DispCtrlServer constructed
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 5, DispCtrlDiagnoser constructed
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 6, DispCtrlBacklight constructed
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 7, DispCtrlPersist constructed
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 8, DispCtrlPersist read USR_CNTRL_IVI_DISP_BRT_LVL success as 32
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 9, DispCtrlPersist read USR_CNTRL_IVI_DISP_BRT_LVL_NIGHT success as 10
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 10, DispCtrlPersist read USR_IPC_DISP_BRT_LVL success as 8
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 11, DispCtrlPersist read USR_IPC_DISP_BRT_LVL_NIGHT success as 4
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 12, DispCtrlPersist read USR_COD_IVI_DISP_BRT_LVL success as 50
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 13, DispCtrlPersist read USR_COD_IVI_DISP_BRT_LVL_NIGHT success as 25
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 14, DispCtrlPersist read USR_DISP_BRT_MODE from persist: 0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 15, DispCtrlPersist read CFG_VARIANT_TYPE from persist: 74
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 16, DispCtrlInduction constructed
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 17, DispCtrlHeadUp constructed
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 18, DispCtrlCalibration constructed
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 19, DispCtrlModInfo constructed
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 20, DispCtrlBrightnessClient constructed
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 21, DispCtrlVehicleClient constructed
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 22, DispCtrlLCMClient constructed
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 23, DispCtrlNtfCenterClient constructed
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 24, DispCtrlMain server bind url: svc://com.bosch.cm.dispctrl
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 25, DispCtrlMain client connect url: svc://com.bosch.cm.inc.brightness
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 26, DispCtrlMain client connect url: svc://com.bosch.cm.vehicle
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 27, DispCtrlMain client connect url: svc://com.bosch.cm.lcm
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 28, DispCtrlMain client connect url: svc://com.bosch.cm.qnx.notification-center
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 29, DispCtrlBrightnessClient session online: 0, secure: 0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 30, DispCtrlBrightnessClient updateClusterExecutionMode: 0
+DISPCTRL  E Thu Jan  1 00:00:03 1970, 31, DispCtrlBrightnessClient onStatus Error
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 32, DispCtrlBrightnessClient onStatus Reason: Automatically reply to subscribe request.
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 33, DispCtrlVehicleClient session online: 0, secure: 0
+DISPCTRL  E Thu Jan  1 00:00:03 1970, 34, DispCtrlVehicleClient can message lost.
+DISPCTRL  E Thu Jan  1 00:00:03 1970, 35, DispCtrlVehicleClient onStatus Error
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 36, DispCtrlVehicleClient onStatus Reason: Automatically reply to subscribe request.
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 37, DispCtrlNtfCenterClient session online: 0, secure: 0
+DISPCTRL  E Thu Jan  1 00:00:03 1970, 38, DispCtrlNtfCenterClient publishDispCtrlModuleInfo with version PJ_GAC_AVNT_MAIN_V1.2.9.0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 39, DispCtrlPersist read USR_HUD_ROT_DIR from persist: 0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 40, DispCtrlPersist read USR_HUD_ROT_LVL from persist: 0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 41, DispCtrlPersist read ENG_DISP_AUTO_DETECT_STAT from persist: 1
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 42, DispCtrlDiagWorker constructed
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 43, DispCtrlDiagRequestJob intenral DiagReq for DISP_HUT service id:22 info type:fefc
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 44, DispCtrlNtfCenterClient buildDispModInfo requested
+DISPCTRL  E Thu Jan  1 00:00:03 1970, 45, DispCtrlNtfCenterClient onStatus Error
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 46, DispCtrlDiagRequestJob intenral DiagReq for DISP_HUT service id:22 info type:fef0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 47, DispCtrlNtfCenterClient onStatus Reason: Automatically reply to subscribe request.
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 48, DispCtrlAdapter constructed
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 49, DispCtrlServer session online: 0, secure: 0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 50, DispCtrlPersist read USR_HUD_ROT_DIR from persist: 0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 51, DispCtrlPersist read USR_HUD_ROT_LVL from persist: 0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 52, DispCtrlLCMClient session online: 0, secure: 0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 53, DispCtrlNtfCenterClient onBroadcast DispPwrSplyStat: ivi 0, cluster:0, hvac:0, hud:0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 54, DispCtrlNtfCenterClient onBroadcast PwrModeStat save_mode :NTF_TRANPORT_OFF
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 55, DispCtrlNtfCenterClient onBroadcast DispPwrSplyStat: ivi 0, cluster:0, hvac:0, hud:0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 56, DispCtrlBacklight setBacklight DISP_HUT state to 0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 57, DispCtrlServer onInvoke display: client , pid 241729, sid 0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 58, DispCtrlBacklight setBacklight DISP_COPILOT state to 0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 59, DispCtrlServer onInvoke display: client , pid 241729, sid 0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 60, DispCtrlBacklight setBacklight DISP_IP state to 0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 61, DispCtrlServer onInvoke display: client , pid 241729, sid 0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 62, DispCtrlBacklight setBacklight DISP_COPILOT state to 0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 63, DispCtrlServer onInvoke display: client , pid 241729, sid 0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 64, DispCtrlNtfCenterClient onBroadcast PwrModeStat save_mode :NTF_TRANPORT_OFF
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 65, DispCtrlNtfCenterClient onBroadcast PwrModeStat save_mode :NTF_TRANPORT_OFF
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 66, DispCtrlNtfCenterClient onBroadcast PwrModeStat save_mode :NTF_TRANPORT_OFF
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 67, DispCtrlBacklight setBacklight DISP_IP state to 1
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 68, DispCtrlPersist persistBacklight DISP_IP to 1 success
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 69, DispCtrlServer onInvoke display: client , pid 241729, sid 0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 70, DispCtrlNtfCenterClient onBroadcast DispPwrSplyStat: ivi 0, cluster:1, hvac:0, hud:0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 71, DispCtrlBacklight broadcastDisplayStatus DISP_IP state:1 level:8
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 72, DispCtrlAdapter diag 0xfefc retrun 02 01 
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 73, DispCtrlDiagResultJob received info type:fefc code:DISP_DIAG_POSITIVE_RESPONSE
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 74, DispCtrlCalibration processUniqueId readed DISP_HUT unique id: 02 01
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 75, DispCtrlPersist read ENG_CNTRL_IVI_DISP_VEN_ID from persist: 2
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 76, DispCtrlPersist read ENG_CNTRL_IVI_DISP_SCRN_ID from persist: 1
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 77, DispCtrlCalibration processUniqueId keep DISP_HUT latest calibration result
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 78, DispCtrlDiagRequestJob intenral DiagReq for DISP_IP service id:22 info type:fefc
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 79, DispCtrlNtfCenterClient onBroadcast PwrModeStat save_mode :NTF_TRANPORT_OFF
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 80, DispCtrlBacklight setBacklight DISP_IP state to 1
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 81, DispCtrlServer onInvoke display: client , pid 241729, sid 0
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 82, DispCtrlBacklight setBacklight DISP_HUT state to 1
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 83, DispCtrlPersist persistBacklight DISP_HUT to 1 success
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 84, DispCtrlServer onInvoke display: client , pid 241729, sid 0
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 85, DispCtrlBacklight setBacklight DISP_COPILOT state to 1
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 86, DispCtrlPersist persistBacklight DISP_COPILOT to 1 success
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 87, DispCtrlServer onInvoke display: client , pid 241729, sid 0
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 88, DispCtrlNtfCenterClient onBroadcast PwrModeStat save_mode :NTF_TRANPORT_OFF
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 89, DispCtrlNtfCenterClient onBroadcast DispPwrSplyStat: ivi 1, cluster:1, hvac:1, hud:1
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 90, DispCtrlBacklight broadcastDisplayStatus DISP_HUT state:1 level:32
+DISPCTRL  E Wed Jan  1 00:00:03 2020, 91, DispCtrlBacklight onBacklightUpdate DISP_COPILOT failed
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 92, DispCtrlAdapter diag 0xfef0 retrun 38 35 36 30 30 31 30 43 4d 56 30 31 53 2e 41 30 39 
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 93, DispCtrlDiagResultJob received info type:fef0 code:DISP_DIAG_POSITIVE_RESPONSE
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 94, DispCtrlModInfo translateDispInfo result DISP_HUT:DISP_SW_VERSION:8560010CMV01S.A09
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 95, DispCtrlDiagRequestJob intenral DiagReq for DISP_HUT service id:22 info type:fef1
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 96, DispCtrlNtfCenterClient onBroadcast PwrModeStat save_mode :NTF_TRANPORT_OFF
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 97, DispCtrlNtfCenterClient onBroadcast PwrModeStat save_mode :NTF_TRANPORT_OFF
+DISPCTRL  N Wed Jan  1 00:00:03 2020, 98, DispCtrlDiagnoser onDtcInfo diag online state is: 0
+DISPCTRL  N Wed Jan  1 00:00:03 2020, 99, DispCtrlDiagnoser onDtcInfo screen 1 dtc:2000000000 lvds:0
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 100, handleInternelDTC type:DISP_HUT,dtcid:10,dtcStatus:0
+DISPCTRL  I Wed Jan  1 00:00:04 2020, 101, DispCtrlAdapter NRC data:31
+DISPCTRL  I Wed Jan  1 00:00:04 2020, 102, DispCtrlDiagResultJob received info type:fefc code:DISP_DIAG_NEGATIVE_RESPONSE
+DISPCTRL  W Wed Jan  1 00:00:04 2020, 103, DispCtrlCalibration processUniqueId failed to read DISP_IP unique id
+DISPCTRL  I Wed Jan  1 00:00:04 2020, 104, DispCtrlDiagRequestJob intenral DiagReq for DISP_IP service id:22 info type:fef5
+DISPCTRL  I Wed Jan  1 00:00:04 2020, 105, DispCtrlAdapter diag 0xfef1 retrun 38 35 36 30 30 31 30 43 4d 56 30 31 48 2e 44 30 30 
+DISPCTRL  I Wed Jan  1 00:00:04 2020, 106, DispCtrlDiagResultJob received info type:fef1 code:DISP_DIAG_POSITIVE_RESPONSE
+DISPCTRL  I Wed Jan  1 00:00:04 2020, 107, DispCtrlModInfo translateDispInfo result DISP_HUT:DISP_HW_VERSION:8560010CMV01H.D00
+DISPCTRL  I Wed Jan  1 00:00:04 2020, 108, DispCtrlDiagRequestJob intenral DiagReq for DISP_HUT service id:22 info type:fef5
+DISPCTRL  I Wed Jan  1 00:00:04 2020, 109, DispCtrlNtfCenterClient onBroadcast PwrModeStat save_mode :NTF_TRANPORT_OFF
+DISPCTRL  N Wed Jan  1 00:00:04 2020, 110, DispCtrlDiagnoser onDtcInfo diag online state is: 0
+DISPCTRL  N Wed Jan  1 00:00:04 2020, 111, DispCtrlDiagnoser onDtcInfo screen 1 dtc:0 lvds:0
+DISPCTRL  I Wed Jan  1 00:00:04 2020, 112, handleInternelDTC type:DISP_HUT,dtcid:10,dtcStatus:0
+DISPCTRL  I Wed Jan  1 00:00:05 2020, 113, DispCtrlServer session online: 1, secure: 0
+DISPCTRL  I Wed Jan  1 00:00:05 2020, 114, DispCtrlAdapter diag 0xfef5 retrun 38 35 36 30 30 30 38 43 4d 56 30 30 30 30 
+DISPCTRL  I Wed Jan  1 00:00:05 2020, 115, DispCtrlDiagResultJob received info type:fef5 code:DISP_DIAG_POSITIVE_RESPONSE
+DISPCTRL  I Wed Jan  1 00:00:05 2020, 116, DispCtrlCalibration processPartNum readed DISP_IP PN 8560008CMV0000
+DISPCTRL  I Wed Jan  1 00:00:05 2020, 117, DispCtrlPersist read ENG_IPC_DISP_VEN_ID from persist: 1
+DISPCTRL  I Wed Jan  1 00:00:05 2020, 118, DispCtrlPersist read ENG_IPC_DISP_SCRN_ID from persist: 1
+DISPCTRL  I Wed Jan  1 00:00:05 2020, 119, DispCtrlCalibration processPartNum keep DISP_IP calibrated result
+DISPCTRL  E Wed Jan  1 00:00:05 2020, 120, DispCtrlCalibration processNextDisplayCalibration failed to mapping HUD display.
+DISPCTRL  I Wed Jan  1 00:00:05 2020, 121, DispCtrlCalibration reportCalibrationResult FULLY_CALIBRATED
+DISPCTRL  I Wed Jan  1 00:00:05 2020, 122, DispCtrlPersist write ENG_DISP_AUTO_DETECT_STAT to 1 success
+DISPCTRL  E Wed Jan  1 00:00:05 2020, 123, DispCtrlCalibration reportCalibrationResult NO RESET for unchanged self calibration
+DISPCTRL  I Wed Jan  1 00:00:05 2020, 124, DispCtrlAdapter diag 0xfef5 retrun 38 35 36 30 30 31 30 43 4d 56 30 31 30 30 
+DISPCTRL  I Wed Jan  1 00:00:05 2020, 125, DispCtrlDiagResultJob received info type:fef5 code:DISP_DIAG_POSITIVE_RESPONSE
+DISPCTRL  I Wed Jan  1 00:00:05 2020, 126, DispCtrlModInfo translateDispInfo result DISP_HUT: DISP_PART_NUMBER:8560010CMV0100
+DISPCTRL  I Wed Jan  1 00:00:05 2020, 127, DispCtrlDiagRequestJob intenral DiagReq for DISP_HUT service id:22 info type:fef6
+DISPCTRL  I Wed Jan  1 00:00:06 2020, 128, DispCtrlAdapter diag 0xfef6 retrun ff ff ff ff ff ff ff ff 20 20 20 20 20 20 20 20 20 20 20 20 
+DISPCTRL  I Wed Jan  1 00:00:06 2020, 129, DispCtrlDiagResultJob received info type:fef6 code:DISP_DIAG_POSITIVE_RESPONSE
+DISPCTRL  E Wed Jan  1 00:00:06 2020, 130, DispCtrlModInfo translateDispInfo invalid ASCII info:255
+DISPCTRL  I Wed Jan  1 00:00:06 2020, 131, DispCtrlModInfo translateDispInfo result DISP_HUT:$DISP_SERIAL_NUMBER:
+DISPCTRL  I Wed Jan  1 00:00:06 2020, 132, DispCtrlDiagRequestJob intenral DiagReq for DISP_IP service id:22 info type:fef0
+DISPCTRL  I Wed Jan  1 00:00:06 2020, 133, DispCtrlServer session online: 2, secure: 0
+DISPCTRL  I Wed Jan  1 00:00:07 2020, 134, DispCtrlAdapter diag 0xfef0 retrun 38 35 36 30 30 30 38 43 4d 56 53 2e 32 30 30 30 00 
+DISPCTRL  I Wed Jan  1 00:00:07 2020, 135, DispCtrlDiagResultJob received info type:fef0 code:DISP_DIAG_POSITIVE_RESPONSE
+DISPCTRL  I Wed Jan  1 00:00:07 2020, 136, DispCtrlModInfo translateDispInfo result DISP_IP:DISP_SW_VERSION:8560008CMVS.2000
+DISPCTRL  I Wed Jan  1 00:00:07 2020, 137, DispCtrlDiagRequestJob intenral DiagReq for DISP_IP service id:22 info type:fef1
+DISPCTRL  I Wed Jan  1 00:00:07 2020, 138, DispCtrlAdapter diag 0xfef1 retrun 38 35 36 30 30 30 38 43 4d 56 48 2e 41 30 30 00 00 
+DISPCTRL  I Wed Jan  1 00:00:07 2020, 139, DispCtrlDiagResultJob received info type:fef1 code:DISP_DIAG_POSITIVE_RESPONSE
+DISPCTRL  I Wed Jan  1 00:00:07 2020, 140, DispCtrlModInfo translateDispInfo result DISP_IP:DISP_HW_VERSION:8560008CMVH.A00
+DISPCTRL  I Wed Jan  1 00:00:07 2020, 141, DispCtrlDiagRequestJob intenral DiagReq for DISP_IP service id:22 info type:fef5
+DISPCTRL  I Wed Jan  1 00:00:08 2020, 142, DispCtrlAdapter diag 0xfef5 retrun 38 35 36 30 30 30 38 43 4d 56 30 30 30 30 
+DISPCTRL  I Wed Jan  1 00:00:08 2020, 143, DispCtrlDiagResultJob received info type:fef5 code:DISP_DIAG_POSITIVE_RESPONSE
+DISPCTRL  I Wed Jan  1 00:00:08 2020, 144, DispCtrlModInfo translateDispInfo result DISP_IP: DISP_PART_NUMBER:8560008CMV0000
+DISPCTRL  I Wed Jan  1 00:00:08 2020, 145, DispCtrlDiagRequestJob intenral DiagReq for DISP_IP service id:22 info type:fef6
+DISPCTRL  I Wed Jan  1 00:00:08 2020, 146, DispCtrlAdapter diag 0xfef6 retrun 30 30 30 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+DISPCTRL  I Wed Jan  1 00:00:08 2020, 147, DispCtrlDiagResultJob received info type:fef6 code:DISP_DIAG_POSITIVE_RESPONSE
+DISPCTRL  I Wed Jan  1 00:00:08 2020, 148, DispCtrlModInfo translateDispInfo result DISP_IP:$DISP_SERIAL_NUMBER:000
+DISPCTRL  E Wed Jan  1 00:00:09 2020, 149, DispCtrlNtfCenterClient onBroadcast EVT_DIAG_SERV_ONLINE
+DISPCTRL  I Wed Jan  1 00:00:10 2020, 150, DispCtrlNtfCenterClient onBroadcast PwrModeStat save_mode :NTF_TRANPORT_OFF
+DISPCTRL I Wed Jan  1 00:00:16 2020, 152, DispCtrlServer session online: 3, secure: 1
+DISPCTRL I Wed Jan  1 00:00:16 2020, 153, DispCtrlNtfCenterClient onBroadcast PwrModeStat save_mode :NTF_TRANPORT_OFF
+DISPCTRL I Wed Jan  1 00:00:16 2020, 154, DispCtrlNtfCenterClient onBroadcast PwrModeStat save_mode :NTF_TRANPORT_OFF
+DISPCTRL I Wed Jan  1 00:00:22 2020, 155, DispCtrlServer handleGetDisplayInfo for DISP_HUT
+DISPCTRL I Wed Jan  1 00:00:22 2020, 156, DispCtrlBacklight broadcastDisplayStatus DISP_HUT state:1 level:32
+DISPCTRL I Wed Jan  1 00:00:22 2020, 157, DispCtrlServer onInvoke display: client 192.168.118.1, pid 496, sid 3
+DISPCTRL I Wed Jan  1 00:00:22 2020, 158, DispCtrlServer handleGetDisplayInfo for DISP_IP
+DISPCTRL I Wed Jan  1 00:00:22 2020, 159, DispCtrlBacklight broadcastDisplayStatus DISP_IP state:1 level:8
+DISPCTRL I Wed Jan  1 00:00:22 2020, 160, DispCtrlServer onInvoke display: client 192.168.118.1, pid 496, sid 3
+DISPCTRL I Wed Jan  1 00:00:22 2020, 161, DispCtrlServer handleGetDisplayInfo for DISP_COPILOT
+DISPCTRL I Wed Jan  1 00:00:22 2020, 162, DispCtrlBacklight broadcastDisplayStatus DISP_COPILOT state:1 level:50
+DISPCTRL I Wed Jan  1 00:00:22 2020, 163, DispCtrlServer onInvoke display: client 192.168.118.1, pid 496, sid 3
+DISPCTRL I Mon Apr 15 15:28:20 2024, 164, DispCtrlServer handleGetDisplayInfo for DISP_HUT
+DISPCTRL I Mon Apr 15 15:28:20 2024, 165, DispCtrlBacklight broadcastDisplayStatus DISP_HUT state:1 level:32
+DISPCTRL I Mon Apr 15 15:28:20 2024, 166, DispCtrlServer onInvoke display: client 192.168.118.1, pid 496, sid 3
+DISPCTRL I Mon Apr 15 15:28:20 2024, 167, DispCtrlServer handleGetDisplayInfo for DISP_IP
+DISPCTRL I Mon Apr 15 15:28:20 2024, 168, DispCtrlBacklight broadcastDisplayStatus DISP_IP state:1 level:8
+DISPCTRL I Mon Apr 15 15:28:20 2024, 169, DispCtrlServer onInvoke display: client 192.168.118.1, pid 496, sid 3
+DISPCTRL I Mon Apr 15 15:28:20 2024, 170, DispCtrlServer handleGetDisplayInfo for DISP_COPILOT
+DISPCTRL I Mon Apr 15 15:28:20 2024, 171, DispCtrlBacklight broadcastDisplayStatus DISP_COPILOT state:1 level:50
+DISPCTRL I Mon Apr 15 15:28:20 2024, 172, DispCtrlServer onInvoke display: client 192.168.118.1, pid 496, sid 3

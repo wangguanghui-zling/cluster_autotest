@@ -1,0 +1,1525 @@
+module name: sample, user_id: -1, module size: 4096, data size: 4096, key count: 33, offset: 0
+    key name: SAMPLE_INT8_MIN, total size: 1, array size: 0, offset: 0, type: 1
+        -128 
+    key name: SAMPLE_INT8_MAX, total size: 1, array size: 0, offset: 1, type: 1
+        127 
+    key name: SAMPLE_UINT8_MIN, total size: 1, array size: 0, offset: 2, type: 5
+        0 
+    key name: SAMPLE_UINT8_MAX, total size: 1, array size: 0, offset: 3, type: 5
+        255 
+    key name: SAMPLE_INT8_ARR, total size: 3, array size: 3, offset: 4, type: 1
+        -128 0 127 
+    key name: SAMPLE_UINT8_ARR, total size: 3, array size: 3, offset: 7, type: 5
+        0 127 255 
+    key name: SAMPLE_INT16_MIN, total size: 2, array size: 0, offset: 10, type: 2
+        -32768 
+    key name: SAMPLE_INT16_MAX, total size: 2, array size: 0, offset: 12, type: 2
+        32767 
+    key name: SAMPLE_UINT16_MIN, total size: 2, array size: 0, offset: 14, type: 6
+        0 
+    key name: SAMPLE_UINT16_MAX, total size: 2, array size: 0, offset: 16, type: 6
+        65535 
+    key name: SAMPLE_INT16_ARR, total size: 6, array size: 3, offset: 18, type: 2
+        -32768 0 32767 
+    key name: SAMPLE_UINT16_ARR, total size: 6, array size: 3, offset: 24, type: 6
+        0 32767 65535 
+    key name: SAMPLE_INT32_MIN, total size: 4, array size: 0, offset: 30, type: 3
+        -2147483648 
+    key name: SAMPLE_INT32_MAX, total size: 4, array size: 0, offset: 34, type: 3
+        2147483647 
+    key name: SAMPLE_UINT32_MIN, total size: 4, array size: 0, offset: 38, type: 7
+        0 
+    key name: SAMPLE_UINT32_MAX, total size: 4, array size: 0, offset: 42, type: 7
+        4294967295 
+    key name: SAMPLE_INT32_ARR, total size: 12, array size: 3, offset: 46, type: 3
+        -2147483648 0 2147483647 
+    key name: SAMPLE_UINT32_ARR, total size: 12, array size: 3, offset: 58, type: 7
+        0 2147483647 4294967295 
+    key name: SAMPLE_INT64_MIN, total size: 8, array size: 0, offset: 70, type: 4
+        -9223372036854775808 
+    key name: SAMPLE_INT64_MAX, total size: 8, array size: 0, offset: 78, type: 4
+        9223372036854775807 
+    key name: SAMPLE_UINT64_MIN, total size: 8, array size: 0, offset: 86, type: 8
+        0 
+    key name: SAMPLE_UINT64_MAX, total size: 8, array size: 0, offset: 94, type: 8
+        18446744073709551615 
+    key name: SAMPLE_INT64_ARR, total size: 24, array size: 3, offset: 102, type: 4
+        -9223372036854775808 0 9223372036854775807 
+    key name: SAMPLE_UINT64_ARR, total size: 24, array size: 3, offset: 126, type: 8
+        0 9223372036854775807 18446744073709551615 
+    key name: SAMPLE_CHAR, total size: 1, array size: 0, offset: 150, type: 9
+        a 
+    key name: SAMPLE_CHAR_ARR, total size: 3, array size: 3, offset: 151, type: 9
+        a b c 
+    key name: SAMPLE_STRING, total size: 25, array size: 25, offset: 154, type: 0
+        This is a SAMPLE string.
+    key name: SAMPLE_FLOAT, total size: 4, array size: 0, offset: 179, type: 10
+        0.000000 
+    key name: SAMPLE_FLOAT_ARR, total size: 12, array size: 3, offset: 183, type: 10
+        -1.000000 0.000000 1.000000 
+    key name: SAMPLE_DOUBLE, total size: 8, array size: 0, offset: 195, type: 11
+        0.000000 
+    key name: SAMPLE_DOUBLE_ARR, total size: 24, array size: 3, offset: 203, type: 11
+        -1.000000 0.000000 1.000000 
+    key name: RESERVED, total size: 3865, array size: 3865, offset: 227, type: 5
+        RESERVED has been collapsed!
+    key name: __checksum__, total size: 4, array size: 0, offset: 4092, type: 7
+        2640090066 
+module name: bosch_metadata, user_id: -1, module size: 4096, data size: 4096, key count: 5, offset: 4096
+    key name: MD_VERSION_MAJOR, total size: 2, array size: 0, offset: 0, type: 6
+        0 
+    key name: MD_VERSION_MINOR, total size: 2, array size: 0, offset: 2, type: 6
+        5 
+    key name: MD_MODIFIED_DATE, total size: 20, array size: 20, offset: 4, type: 0
+        2023-08-24
+    key name: RESERVED, total size: 4068, array size: 4068, offset: 24, type: 5
+        RESERVED has been collapsed!
+    key name: __checksum__, total size: 4, array size: 0, offset: 4092, type: 7
+        2199892343 
+module name: hut_cfg, user_id: -1, module size: 4096, data size: 4096, key count: 15, offset: 0
+    key name: CFG_VARIANT_TYPE, total size: 1, array size: 0, offset: 0, type: 5
+        74 
+    key name: CFG_AMPLIFIER_TYPE, total size: 1, array size: 0, offset: 1, type: 5
+        2 
+    key name: CFG_GNSS_TYPE, total size: 1, array size: 0, offset: 2, type: 5
+        1 
+    key name: CFG_REGION_TYPE, total size: 1, array size: 0, offset: 3, type: 5
+        0 
+    key name: CFG_ETH_PORT_TYPE, total size: 1, array size: 0, offset: 4, type: 5
+        0 
+    key name: CFG_1000M_ETH_SPEED_MODE, total size: 1, array size: 0, offset: 5, type: 5
+        0 
+    key name: CFG_USB3_MOUNT_DOMAIN, total size: 1, array size: 0, offset: 6, type: 5
+        0 
+    key name: CFG_SPEAKER_NUMBER, total size: 1, array size: 0, offset: 7, type: 5
+        4 
+    key name: CFG_DV_MODE, total size: 1, array size: 0, offset: 8, type: 5
+        0 
+    key name: CFG_AUDIO_ICC, total size: 1, array size: 0, offset: 9, type: 5
+        1 
+    key name: CFG_ENGINE_WAVE_SWITCH, total size: 1, array size: 0, offset: 10, type: 5
+        0 
+    key name: CFG_REAR_MIC, total size: 1, array size: 0, offset: 11, type: 5
+        1 
+    key name: CFG_A2B_PRODUCT, total size: 1, array size: 0, offset: 12, type: 5
+        0 
+    key name: RESERVED, total size: 4079, array size: 4079, offset: 13, type: 5
+        RESERVED has been collapsed!
+    key name: __checksum__, total size: 4, array size: 0, offset: 4092, type: 7
+        3486847905 
+module name: audio_cal, user_id: -1, module size: 4096, data size: 4096, key count: 454, offset: 0
+    key name: CAL_CHIME_HIGH, total size: 1, array size: 0, offset: 0, type: 1
+        -18 
+    key name: CAL_CHIME_MID, total size: 1, array size: 0, offset: 1, type: 1
+        -14 
+    key name: CAL_CHIME_LOW, total size: 1, array size: 0, offset: 2, type: 1
+        -10 
+    key name: CAL_CHIME_DEFAULT, total size: 1, array size: 0, offset: 3, type: 1
+        -14 
+    key name: CAL_LESS_40_COMPENSATION_0, total size: 1, array size: 0, offset: 4, type: 1
+        -96 
+    key name: CAL_LESS_40_COMPENSATION_1, total size: 1, array size: 0, offset: 5, type: 1
+        -60 
+    key name: CAL_LESS_40_COMPENSATION_2, total size: 1, array size: 0, offset: 6, type: 1
+        -55 
+    key name: CAL_LESS_40_COMPENSATION_3, total size: 1, array size: 0, offset: 7, type: 1
+        -50 
+    key name: CAL_LESS_40_COMPENSATION_4, total size: 1, array size: 0, offset: 8, type: 1
+        -45 
+    key name: CAL_LESS_40_COMPENSATION_5, total size: 1, array size: 0, offset: 9, type: 1
+        -43 
+    key name: CAL_LESS_40_COMPENSATION_6, total size: 1, array size: 0, offset: 10, type: 1
+        -41 
+    key name: CAL_LESS_40_COMPENSATION_7, total size: 1, array size: 0, offset: 11, type: 1
+        -39 
+    key name: CAL_LESS_40_COMPENSATION_8, total size: 1, array size: 0, offset: 12, type: 1
+        -37 
+    key name: CAL_LESS_40_COMPENSATION_9, total size: 1, array size: 0, offset: 13, type: 1
+        -35 
+    key name: CAL_LESS_40_COMPENSATION_10, total size: 1, array size: 0, offset: 14, type: 1
+        -33 
+    key name: CAL_LESS_40_COMPENSATION_11, total size: 1, array size: 0, offset: 15, type: 1
+        -32 
+    key name: CAL_LESS_40_COMPENSATION_12, total size: 1, array size: 0, offset: 16, type: 1
+        -31 
+    key name: CAL_LESS_40_COMPENSATION_13, total size: 1, array size: 0, offset: 17, type: 1
+        -30 
+    key name: CAL_LESS_40_COMPENSATION_14, total size: 1, array size: 0, offset: 18, type: 1
+        -29 
+    key name: CAL_LESS_40_COMPENSATION_15, total size: 1, array size: 0, offset: 19, type: 1
+        -28 
+    key name: CAL_LESS_40_COMPENSATION_16, total size: 1, array size: 0, offset: 20, type: 1
+        -27 
+    key name: CAL_LESS_40_COMPENSATION_17, total size: 1, array size: 0, offset: 21, type: 1
+        -26 
+    key name: CAL_LESS_40_COMPENSATION_18, total size: 1, array size: 0, offset: 22, type: 1
+        -25 
+    key name: CAL_LESS_40_COMPENSATION_19, total size: 1, array size: 0, offset: 23, type: 1
+        -24 
+    key name: CAL_LESS_40_COMPENSATION_20, total size: 1, array size: 0, offset: 24, type: 1
+        -23 
+    key name: CAL_LESS_40_COMPENSATION_21, total size: 1, array size: 0, offset: 25, type: 1
+        -22 
+    key name: CAL_LESS_40_COMPENSATION_22, total size: 1, array size: 0, offset: 26, type: 1
+        -21 
+    key name: CAL_LESS_40_COMPENSATION_23, total size: 1, array size: 0, offset: 27, type: 1
+        -20 
+    key name: CAL_LESS_40_COMPENSATION_24, total size: 1, array size: 0, offset: 28, type: 1
+        -19 
+    key name: CAL_LESS_40_COMPENSATION_25, total size: 1, array size: 0, offset: 29, type: 1
+        -18 
+    key name: CAL_LESS_40_COMPENSATION_26, total size: 1, array size: 0, offset: 30, type: 1
+        -17 
+    key name: CAL_LESS_40_COMPENSATION_27, total size: 1, array size: 0, offset: 31, type: 1
+        -16 
+    key name: CAL_LESS_40_COMPENSATION_28, total size: 1, array size: 0, offset: 32, type: 1
+        -15 
+    key name: CAL_LESS_40_COMPENSATION_29, total size: 1, array size: 0, offset: 33, type: 1
+        -14 
+    key name: CAL_LESS_40_COMPENSATION_30, total size: 1, array size: 0, offset: 34, type: 1
+        -13 
+    key name: CAL_LESS_40_COMPENSATION_31, total size: 1, array size: 0, offset: 35, type: 1
+        -12 
+    key name: CAL_LESS_40_COMPENSATION_32, total size: 1, array size: 0, offset: 36, type: 1
+        -11 
+    key name: CAL_LESS_40_COMPENSATION_33, total size: 1, array size: 0, offset: 37, type: 1
+        -10 
+    key name: CAL_LESS_40_COMPENSATION_34, total size: 1, array size: 0, offset: 38, type: 1
+        -9 
+    key name: CAL_LESS_40_COMPENSATION_35, total size: 1, array size: 0, offset: 39, type: 1
+        -8 
+    key name: CAL_LESS_40_COMPENSATION_36, total size: 1, array size: 0, offset: 40, type: 1
+        -7 
+    key name: CAL_LESS_40_COMPENSATION_37, total size: 1, array size: 0, offset: 41, type: 1
+        -6 
+    key name: CAL_LESS_40_COMPENSATION_38, total size: 1, array size: 0, offset: 42, type: 1
+        -5 
+    key name: CAL_LESS_40_COMPENSATION_39, total size: 1, array size: 0, offset: 43, type: 1
+        -4 
+    key name: CAL_LESS_60_COMPENSATION_0, total size: 1, array size: 0, offset: 44, type: 1
+        -96 
+    key name: CAL_LESS_60_COMPENSATION_1, total size: 1, array size: 0, offset: 45, type: 1
+        -59 
+    key name: CAL_LESS_60_COMPENSATION_2, total size: 1, array size: 0, offset: 46, type: 1
+        -54 
+    key name: CAL_LESS_60_COMPENSATION_3, total size: 1, array size: 0, offset: 47, type: 1
+        -49 
+    key name: CAL_LESS_60_COMPENSATION_4, total size: 1, array size: 0, offset: 48, type: 1
+        -44 
+    key name: CAL_LESS_60_COMPENSATION_5, total size: 1, array size: 0, offset: 49, type: 1
+        -42 
+    key name: CAL_LESS_60_COMPENSATION_6, total size: 1, array size: 0, offset: 50, type: 1
+        -40 
+    key name: CAL_LESS_60_COMPENSATION_7, total size: 1, array size: 0, offset: 51, type: 1
+        -38 
+    key name: CAL_LESS_60_COMPENSATION_8, total size: 1, array size: 0, offset: 52, type: 1
+        -36 
+    key name: CAL_LESS_60_COMPENSATION_9, total size: 1, array size: 0, offset: 53, type: 1
+        -34 
+    key name: CAL_LESS_60_COMPENSATION_10, total size: 1, array size: 0, offset: 54, type: 1
+        -32 
+    key name: CAL_LESS_60_COMPENSATION_11, total size: 1, array size: 0, offset: 55, type: 1
+        -31 
+    key name: CAL_LESS_60_COMPENSATION_12, total size: 1, array size: 0, offset: 56, type: 1
+        -30 
+    key name: CAL_LESS_60_COMPENSATION_13, total size: 1, array size: 0, offset: 57, type: 1
+        -29 
+    key name: CAL_LESS_60_COMPENSATION_14, total size: 1, array size: 0, offset: 58, type: 1
+        -28 
+    key name: CAL_LESS_60_COMPENSATION_15, total size: 1, array size: 0, offset: 59, type: 1
+        -27 
+    key name: CAL_LESS_60_COMPENSATION_16, total size: 1, array size: 0, offset: 60, type: 1
+        -26 
+    key name: CAL_LESS_60_COMPENSATION_17, total size: 1, array size: 0, offset: 61, type: 1
+        -25 
+    key name: CAL_LESS_60_COMPENSATION_18, total size: 1, array size: 0, offset: 62, type: 1
+        -24 
+    key name: CAL_LESS_60_COMPENSATION_19, total size: 1, array size: 0, offset: 63, type: 1
+        -23 
+    key name: CAL_LESS_60_COMPENSATION_20, total size: 1, array size: 0, offset: 64, type: 1
+        -22 
+    key name: CAL_LESS_60_COMPENSATION_21, total size: 1, array size: 0, offset: 65, type: 1
+        -21 
+    key name: CAL_LESS_60_COMPENSATION_22, total size: 1, array size: 0, offset: 66, type: 1
+        -20 
+    key name: CAL_LESS_60_COMPENSATION_23, total size: 1, array size: 0, offset: 67, type: 1
+        -19 
+    key name: CAL_LESS_60_COMPENSATION_24, total size: 1, array size: 0, offset: 68, type: 1
+        -18 
+    key name: CAL_LESS_60_COMPENSATION_25, total size: 1, array size: 0, offset: 69, type: 1
+        -17 
+    key name: CAL_LESS_60_COMPENSATION_26, total size: 1, array size: 0, offset: 70, type: 1
+        -16 
+    key name: CAL_LESS_60_COMPENSATION_27, total size: 1, array size: 0, offset: 71, type: 1
+        -15 
+    key name: CAL_LESS_60_COMPENSATION_28, total size: 1, array size: 0, offset: 72, type: 1
+        -14 
+    key name: CAL_LESS_60_COMPENSATION_29, total size: 1, array size: 0, offset: 73, type: 1
+        -13 
+    key name: CAL_LESS_60_COMPENSATION_30, total size: 1, array size: 0, offset: 74, type: 1
+        -12 
+    key name: CAL_LESS_60_COMPENSATION_31, total size: 1, array size: 0, offset: 75, type: 1
+        -11 
+    key name: CAL_LESS_60_COMPENSATION_32, total size: 1, array size: 0, offset: 76, type: 1
+        -10 
+    key name: CAL_LESS_60_COMPENSATION_33, total size: 1, array size: 0, offset: 77, type: 1
+        -9 
+    key name: CAL_LESS_60_COMPENSATION_34, total size: 1, array size: 0, offset: 78, type: 1
+        -8 
+    key name: CAL_LESS_60_COMPENSATION_35, total size: 1, array size: 0, offset: 79, type: 1
+        -7 
+    key name: CAL_LESS_60_COMPENSATION_36, total size: 1, array size: 0, offset: 80, type: 1
+        -6 
+    key name: CAL_LESS_60_COMPENSATION_37, total size: 1, array size: 0, offset: 81, type: 1
+        -5 
+    key name: CAL_LESS_60_COMPENSATION_38, total size: 1, array size: 0, offset: 82, type: 1
+        -4 
+    key name: CAL_LESS_60_COMPENSATION_39, total size: 1, array size: 0, offset: 83, type: 1
+        -3 
+    key name: CAL_LESS_80_COMPENSATION_0, total size: 1, array size: 0, offset: 84, type: 1
+        -96 
+    key name: CAL_LESS_80_COMPENSATION_1, total size: 1, array size: 0, offset: 85, type: 1
+        -58 
+    key name: CAL_LESS_80_COMPENSATION_2, total size: 1, array size: 0, offset: 86, type: 1
+        -53 
+    key name: CAL_LESS_80_COMPENSATION_3, total size: 1, array size: 0, offset: 87, type: 1
+        -48 
+    key name: CAL_LESS_80_COMPENSATION_4, total size: 1, array size: 0, offset: 88, type: 1
+        -43 
+    key name: CAL_LESS_80_COMPENSATION_5, total size: 1, array size: 0, offset: 89, type: 1
+        -41 
+    key name: CAL_LESS_80_COMPENSATION_6, total size: 1, array size: 0, offset: 90, type: 1
+        -39 
+    key name: CAL_LESS_80_COMPENSATION_7, total size: 1, array size: 0, offset: 91, type: 1
+        -37 
+    key name: CAL_LESS_80_COMPENSATION_8, total size: 1, array size: 0, offset: 92, type: 1
+        -35 
+    key name: CAL_LESS_80_COMPENSATION_9, total size: 1, array size: 0, offset: 93, type: 1
+        -33 
+    key name: CAL_LESS_80_COMPENSATION_10, total size: 1, array size: 0, offset: 94, type: 1
+        -31 
+    key name: CAL_LESS_80_COMPENSATION_11, total size: 1, array size: 0, offset: 95, type: 1
+        -30 
+    key name: CAL_LESS_80_COMPENSATION_12, total size: 1, array size: 0, offset: 96, type: 1
+        -29 
+    key name: CAL_LESS_80_COMPENSATION_13, total size: 1, array size: 0, offset: 97, type: 1
+        -28 
+    key name: CAL_LESS_80_COMPENSATION_14, total size: 1, array size: 0, offset: 98, type: 1
+        -27 
+    key name: CAL_LESS_80_COMPENSATION_15, total size: 1, array size: 0, offset: 99, type: 1
+        -26 
+    key name: CAL_LESS_80_COMPENSATION_16, total size: 1, array size: 0, offset: 100, type: 1
+        -25 
+    key name: CAL_LESS_80_COMPENSATION_17, total size: 1, array size: 0, offset: 101, type: 1
+        -24 
+    key name: CAL_LESS_80_COMPENSATION_18, total size: 1, array size: 0, offset: 102, type: 1
+        -23 
+    key name: CAL_LESS_80_COMPENSATION_19, total size: 1, array size: 0, offset: 103, type: 1
+        -22 
+    key name: CAL_LESS_80_COMPENSATION_20, total size: 1, array size: 0, offset: 104, type: 1
+        -21 
+    key name: CAL_LESS_80_COMPENSATION_21, total size: 1, array size: 0, offset: 105, type: 1
+        -20 
+    key name: CAL_LESS_80_COMPENSATION_22, total size: 1, array size: 0, offset: 106, type: 1
+        -19 
+    key name: CAL_LESS_80_COMPENSATION_23, total size: 1, array size: 0, offset: 107, type: 1
+        -18 
+    key name: CAL_LESS_80_COMPENSATION_24, total size: 1, array size: 0, offset: 108, type: 1
+        -17 
+    key name: CAL_LESS_80_COMPENSATION_25, total size: 1, array size: 0, offset: 109, type: 1
+        -16 
+    key name: CAL_LESS_80_COMPENSATION_26, total size: 1, array size: 0, offset: 110, type: 1
+        -15 
+    key name: CAL_LESS_80_COMPENSATION_27, total size: 1, array size: 0, offset: 111, type: 1
+        -14 
+    key name: CAL_LESS_80_COMPENSATION_28, total size: 1, array size: 0, offset: 112, type: 1
+        -13 
+    key name: CAL_LESS_80_COMPENSATION_29, total size: 1, array size: 0, offset: 113, type: 1
+        -12 
+    key name: CAL_LESS_80_COMPENSATION_30, total size: 1, array size: 0, offset: 114, type: 1
+        -11 
+    key name: CAL_LESS_80_COMPENSATION_31, total size: 1, array size: 0, offset: 115, type: 1
+        -10 
+    key name: CAL_LESS_80_COMPENSATION_32, total size: 1, array size: 0, offset: 116, type: 1
+        -9 
+    key name: CAL_LESS_80_COMPENSATION_33, total size: 1, array size: 0, offset: 117, type: 1
+        -8 
+    key name: CAL_LESS_80_COMPENSATION_34, total size: 1, array size: 0, offset: 118, type: 1
+        -7 
+    key name: CAL_LESS_80_COMPENSATION_35, total size: 1, array size: 0, offset: 119, type: 1
+        -6 
+    key name: CAL_LESS_80_COMPENSATION_36, total size: 1, array size: 0, offset: 120, type: 1
+        -5 
+    key name: CAL_LESS_80_COMPENSATION_37, total size: 1, array size: 0, offset: 121, type: 1
+        -4 
+    key name: CAL_LESS_80_COMPENSATION_38, total size: 1, array size: 0, offset: 122, type: 1
+        -3 
+    key name: CAL_LESS_80_COMPENSATION_39, total size: 1, array size: 0, offset: 123, type: 1
+        -2 
+    key name: CAL_LESS_100_COMPENSATION_0, total size: 1, array size: 0, offset: 124, type: 1
+        -96 
+    key name: CAL_LESS_100_COMPENSATION_1, total size: 1, array size: 0, offset: 125, type: 1
+        -57 
+    key name: CAL_LESS_100_COMPENSATION_2, total size: 1, array size: 0, offset: 126, type: 1
+        -52 
+    key name: CAL_LESS_100_COMPENSATION_3, total size: 1, array size: 0, offset: 127, type: 1
+        -47 
+    key name: CAL_LESS_100_COMPENSATION_4, total size: 1, array size: 0, offset: 128, type: 1
+        -42 
+    key name: CAL_LESS_100_COMPENSATION_5, total size: 1, array size: 0, offset: 129, type: 1
+        -40 
+    key name: CAL_LESS_100_COMPENSATION_6, total size: 1, array size: 0, offset: 130, type: 1
+        -38 
+    key name: CAL_LESS_100_COMPENSATION_7, total size: 1, array size: 0, offset: 131, type: 1
+        -36 
+    key name: CAL_LESS_100_COMPENSATION_8, total size: 1, array size: 0, offset: 132, type: 1
+        -34 
+    key name: CAL_LESS_100_COMPENSATION_9, total size: 1, array size: 0, offset: 133, type: 1
+        -32 
+    key name: CAL_LESS_100_COMPENSATION_10, total size: 1, array size: 0, offset: 134, type: 1
+        -30 
+    key name: CAL_LESS_100_COMPENSATION_11, total size: 1, array size: 0, offset: 135, type: 1
+        -29 
+    key name: CAL_LESS_100_COMPENSATION_12, total size: 1, array size: 0, offset: 136, type: 1
+        -28 
+    key name: CAL_LESS_100_COMPENSATION_13, total size: 1, array size: 0, offset: 137, type: 1
+        -27 
+    key name: CAL_LESS_100_COMPENSATION_14, total size: 1, array size: 0, offset: 138, type: 1
+        -26 
+    key name: CAL_LESS_100_COMPENSATION_15, total size: 1, array size: 0, offset: 139, type: 1
+        -25 
+    key name: CAL_LESS_100_COMPENSATION_16, total size: 1, array size: 0, offset: 140, type: 1
+        -24 
+    key name: CAL_LESS_100_COMPENSATION_17, total size: 1, array size: 0, offset: 141, type: 1
+        -23 
+    key name: CAL_LESS_100_COMPENSATION_18, total size: 1, array size: 0, offset: 142, type: 1
+        -22 
+    key name: CAL_LESS_100_COMPENSATION_19, total size: 1, array size: 0, offset: 143, type: 1
+        -21 
+    key name: CAL_LESS_100_COMPENSATION_20, total size: 1, array size: 0, offset: 144, type: 1
+        -20 
+    key name: CAL_LESS_100_COMPENSATION_21, total size: 1, array size: 0, offset: 145, type: 1
+        -19 
+    key name: CAL_LESS_100_COMPENSATION_22, total size: 1, array size: 0, offset: 146, type: 1
+        -18 
+    key name: CAL_LESS_100_COMPENSATION_23, total size: 1, array size: 0, offset: 147, type: 1
+        -17 
+    key name: CAL_LESS_100_COMPENSATION_24, total size: 1, array size: 0, offset: 148, type: 1
+        -16 
+    key name: CAL_LESS_100_COMPENSATION_25, total size: 1, array size: 0, offset: 149, type: 1
+        -15 
+    key name: CAL_LESS_100_COMPENSATION_26, total size: 1, array size: 0, offset: 150, type: 1
+        -14 
+    key name: CAL_LESS_100_COMPENSATION_27, total size: 1, array size: 0, offset: 151, type: 1
+        -13 
+    key name: CAL_LESS_100_COMPENSATION_28, total size: 1, array size: 0, offset: 152, type: 1
+        -12 
+    key name: CAL_LESS_100_COMPENSATION_29, total size: 1, array size: 0, offset: 153, type: 1
+        -11 
+    key name: CAL_LESS_100_COMPENSATION_30, total size: 1, array size: 0, offset: 154, type: 1
+        -10 
+    key name: CAL_LESS_100_COMPENSATION_31, total size: 1, array size: 0, offset: 155, type: 1
+        -9 
+    key name: CAL_LESS_100_COMPENSATION_32, total size: 1, array size: 0, offset: 156, type: 1
+        -8 
+    key name: CAL_LESS_100_COMPENSATION_33, total size: 1, array size: 0, offset: 157, type: 1
+        -7 
+    key name: CAL_LESS_100_COMPENSATION_34, total size: 1, array size: 0, offset: 158, type: 1
+        -6 
+    key name: CAL_LESS_100_COMPENSATION_35, total size: 1, array size: 0, offset: 159, type: 1
+        -5 
+    key name: CAL_LESS_100_COMPENSATION_36, total size: 1, array size: 0, offset: 160, type: 1
+        -4 
+    key name: CAL_LESS_100_COMPENSATION_37, total size: 1, array size: 0, offset: 161, type: 1
+        -3 
+    key name: CAL_LESS_100_COMPENSATION_38, total size: 1, array size: 0, offset: 162, type: 1
+        -2 
+    key name: CAL_LESS_100_COMPENSATION_39, total size: 1, array size: 0, offset: 163, type: 1
+        -1 
+    key name: CAL_LESS_120_COMPENSATION_0, total size: 1, array size: 0, offset: 164, type: 1
+        -96 
+    key name: CAL_LESS_120_COMPENSATION_1, total size: 1, array size: 0, offset: 165, type: 1
+        -56 
+    key name: CAL_LESS_120_COMPENSATION_2, total size: 1, array size: 0, offset: 166, type: 1
+        -51 
+    key name: CAL_LESS_120_COMPENSATION_3, total size: 1, array size: 0, offset: 167, type: 1
+        -46 
+    key name: CAL_LESS_120_COMPENSATION_4, total size: 1, array size: 0, offset: 168, type: 1
+        -41 
+    key name: CAL_LESS_120_COMPENSATION_5, total size: 1, array size: 0, offset: 169, type: 1
+        -39 
+    key name: CAL_LESS_120_COMPENSATION_6, total size: 1, array size: 0, offset: 170, type: 1
+        -37 
+    key name: CAL_LESS_120_COMPENSATION_7, total size: 1, array size: 0, offset: 171, type: 1
+        -35 
+    key name: CAL_LESS_120_COMPENSATION_8, total size: 1, array size: 0, offset: 172, type: 1
+        -33 
+    key name: CAL_LESS_120_COMPENSATION_9, total size: 1, array size: 0, offset: 173, type: 1
+        -31 
+    key name: CAL_LESS_120_COMPENSATION_10, total size: 1, array size: 0, offset: 174, type: 1
+        -29 
+    key name: CAL_LESS_120_COMPENSATION_11, total size: 1, array size: 0, offset: 175, type: 1
+        -28 
+    key name: CAL_LESS_120_COMPENSATION_12, total size: 1, array size: 0, offset: 176, type: 1
+        -27 
+    key name: CAL_LESS_120_COMPENSATION_13, total size: 1, array size: 0, offset: 177, type: 1
+        -26 
+    key name: CAL_LESS_120_COMPENSATION_14, total size: 1, array size: 0, offset: 178, type: 1
+        -25 
+    key name: CAL_LESS_120_COMPENSATION_15, total size: 1, array size: 0, offset: 179, type: 1
+        -24 
+    key name: CAL_LESS_120_COMPENSATION_16, total size: 1, array size: 0, offset: 180, type: 1
+        -23 
+    key name: CAL_LESS_120_COMPENSATION_17, total size: 1, array size: 0, offset: 181, type: 1
+        -22 
+    key name: CAL_LESS_120_COMPENSATION_18, total size: 1, array size: 0, offset: 182, type: 1
+        -21 
+    key name: CAL_LESS_120_COMPENSATION_19, total size: 1, array size: 0, offset: 183, type: 1
+        -20 
+    key name: CAL_LESS_120_COMPENSATION_20, total size: 1, array size: 0, offset: 184, type: 1
+        -19 
+    key name: CAL_LESS_120_COMPENSATION_21, total size: 1, array size: 0, offset: 185, type: 1
+        -18 
+    key name: CAL_LESS_120_COMPENSATION_22, total size: 1, array size: 0, offset: 186, type: 1
+        -17 
+    key name: CAL_LESS_120_COMPENSATION_23, total size: 1, array size: 0, offset: 187, type: 1
+        -16 
+    key name: CAL_LESS_120_COMPENSATION_24, total size: 1, array size: 0, offset: 188, type: 1
+        -15 
+    key name: CAL_LESS_120_COMPENSATION_25, total size: 1, array size: 0, offset: 189, type: 1
+        -14 
+    key name: CAL_LESS_120_COMPENSATION_26, total size: 1, array size: 0, offset: 190, type: 1
+        -13 
+    key name: CAL_LESS_120_COMPENSATION_27, total size: 1, array size: 0, offset: 191, type: 1
+        -12 
+    key name: CAL_LESS_120_COMPENSATION_28, total size: 1, array size: 0, offset: 192, type: 1
+        -11 
+    key name: CAL_LESS_120_COMPENSATION_29, total size: 1, array size: 0, offset: 193, type: 1
+        -10 
+    key name: CAL_LESS_120_COMPENSATION_30, total size: 1, array size: 0, offset: 194, type: 1
+        -9 
+    key name: CAL_LESS_120_COMPENSATION_31, total size: 1, array size: 0, offset: 195, type: 1
+        -8 
+    key name: CAL_LESS_120_COMPENSATION_32, total size: 1, array size: 0, offset: 196, type: 1
+        -7 
+    key name: CAL_LESS_120_COMPENSATION_33, total size: 1, array size: 0, offset: 197, type: 1
+        -6 
+    key name: CAL_LESS_120_COMPENSATION_34, total size: 1, array size: 0, offset: 198, type: 1
+        -5 
+    key name: CAL_LESS_120_COMPENSATION_35, total size: 1, array size: 0, offset: 199, type: 1
+        -4 
+    key name: CAL_LESS_120_COMPENSATION_36, total size: 1, array size: 0, offset: 200, type: 1
+        -3 
+    key name: CAL_LESS_120_COMPENSATION_37, total size: 1, array size: 0, offset: 201, type: 1
+        -2 
+    key name: CAL_LESS_120_COMPENSATION_38, total size: 1, array size: 0, offset: 202, type: 1
+        -1 
+    key name: CAL_LESS_120_COMPENSATION_39, total size: 1, array size: 0, offset: 203, type: 1
+        -1 
+    key name: CAL_MORE_120_COMPENSATION_0, total size: 1, array size: 0, offset: 204, type: 1
+        -96 
+    key name: CAL_MORE_120_COMPENSATION_1, total size: 1, array size: 0, offset: 205, type: 1
+        -55 
+    key name: CAL_MORE_120_COMPENSATION_2, total size: 1, array size: 0, offset: 206, type: 1
+        -50 
+    key name: CAL_MORE_120_COMPENSATION_3, total size: 1, array size: 0, offset: 207, type: 1
+        -45 
+    key name: CAL_MORE_120_COMPENSATION_4, total size: 1, array size: 0, offset: 208, type: 1
+        -40 
+    key name: CAL_MORE_120_COMPENSATION_5, total size: 1, array size: 0, offset: 209, type: 1
+        -38 
+    key name: CAL_MORE_120_COMPENSATION_6, total size: 1, array size: 0, offset: 210, type: 1
+        -36 
+    key name: CAL_MORE_120_COMPENSATION_7, total size: 1, array size: 0, offset: 211, type: 1
+        -34 
+    key name: CAL_MORE_120_COMPENSATION_8, total size: 1, array size: 0, offset: 212, type: 1
+        -32 
+    key name: CAL_MORE_120_COMPENSATION_9, total size: 1, array size: 0, offset: 213, type: 1
+        -30 
+    key name: CAL_MORE_120_COMPENSATION_10, total size: 1, array size: 0, offset: 214, type: 1
+        -28 
+    key name: CAL_MORE_120_COMPENSATION_11, total size: 1, array size: 0, offset: 215, type: 1
+        -27 
+    key name: CAL_MORE_120_COMPENSATION_12, total size: 1, array size: 0, offset: 216, type: 1
+        -26 
+    key name: CAL_MORE_120_COMPENSATION_13, total size: 1, array size: 0, offset: 217, type: 1
+        -25 
+    key name: CAL_MORE_120_COMPENSATION_14, total size: 1, array size: 0, offset: 218, type: 1
+        -24 
+    key name: CAL_MORE_120_COMPENSATION_15, total size: 1, array size: 0, offset: 219, type: 1
+        -23 
+    key name: CAL_MORE_120_COMPENSATION_16, total size: 1, array size: 0, offset: 220, type: 1
+        -22 
+    key name: CAL_MORE_120_COMPENSATION_17, total size: 1, array size: 0, offset: 221, type: 1
+        -21 
+    key name: CAL_MORE_120_COMPENSATION_18, total size: 1, array size: 0, offset: 222, type: 1
+        -20 
+    key name: CAL_MORE_120_COMPENSATION_19, total size: 1, array size: 0, offset: 223, type: 1
+        -19 
+    key name: CAL_MORE_120_COMPENSATION_20, total size: 1, array size: 0, offset: 224, type: 1
+        -18 
+    key name: CAL_MORE_120_COMPENSATION_21, total size: 1, array size: 0, offset: 225, type: 1
+        -17 
+    key name: CAL_MORE_120_COMPENSATION_22, total size: 1, array size: 0, offset: 226, type: 1
+        -16 
+    key name: CAL_MORE_120_COMPENSATION_23, total size: 1, array size: 0, offset: 227, type: 1
+        -15 
+    key name: CAL_MORE_120_COMPENSATION_24, total size: 1, array size: 0, offset: 228, type: 1
+        -14 
+    key name: CAL_MORE_120_COMPENSATION_25, total size: 1, array size: 0, offset: 229, type: 1
+        -13 
+    key name: CAL_MORE_120_COMPENSATION_26, total size: 1, array size: 0, offset: 230, type: 1
+        -12 
+    key name: CAL_MORE_120_COMPENSATION_27, total size: 1, array size: 0, offset: 231, type: 1
+        -11 
+    key name: CAL_MORE_120_COMPENSATION_28, total size: 1, array size: 0, offset: 232, type: 1
+        -10 
+    key name: CAL_MORE_120_COMPENSATION_29, total size: 1, array size: 0, offset: 233, type: 1
+        -9 
+    key name: CAL_MORE_120_COMPENSATION_30, total size: 1, array size: 0, offset: 234, type: 1
+        -8 
+    key name: CAL_MORE_120_COMPENSATION_31, total size: 1, array size: 0, offset: 235, type: 1
+        -7 
+    key name: CAL_MORE_120_COMPENSATION_32, total size: 1, array size: 0, offset: 236, type: 1
+        -6 
+    key name: CAL_MORE_120_COMPENSATION_33, total size: 1, array size: 0, offset: 237, type: 1
+        -5 
+    key name: CAL_MORE_120_COMPENSATION_34, total size: 1, array size: 0, offset: 238, type: 1
+        -4 
+    key name: CAL_MORE_120_COMPENSATION_35, total size: 1, array size: 0, offset: 239, type: 1
+        -3 
+    key name: CAL_MORE_120_COMPENSATION_36, total size: 1, array size: 0, offset: 240, type: 1
+        -2 
+    key name: CAL_MORE_120_COMPENSATION_37, total size: 1, array size: 0, offset: 241, type: 1
+        -1 
+    key name: CAL_MORE_120_COMPENSATION_38, total size: 1, array size: 0, offset: 242, type: 1
+        0 
+    key name: CAL_MORE_120_COMPENSATION_39, total size: 1, array size: 0, offset: 243, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_USB_MUSIC, total size: 1, array size: 0, offset: 244, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_USB_MOVIE, total size: 1, array size: 0, offset: 245, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_RADIO, total size: 1, array size: 0, offset: 246, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_BT_MUSIC, total size: 1, array size: 0, offset: 247, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_CARLIFE_MEDIA, total size: 1, array size: 0, offset: 248, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_CARPLAY_MEDIA, total size: 1, array size: 0, offset: 249, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_TX_MEDIA, total size: 1, array size: 0, offset: 250, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_TX_MEDIA_OTHER, total size: 1, array size: 0, offset: 251, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_3RD, total size: 1, array size: 0, offset: 252, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_AUTO_NAVI, total size: 1, array size: 0, offset: 253, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_TX_NAVI, total size: 1, array size: 0, offset: 254, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_CARLIFE_NAVI, total size: 1, array size: 0, offset: 255, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_CARPLAY_NAVI, total size: 1, array size: 0, offset: 256, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_RINGTONE, total size: 1, array size: 0, offset: 257, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_BLUETOOTH_CALL, total size: 1, array size: 0, offset: 258, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_ECALL, total size: 1, array size: 0, offset: 259, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_BCALL, total size: 1, array size: 0, offset: 260, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_CARPLAY_PHONE_RINGING, total size: 1, array size: 0, offset: 261, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_CARPLAY_TEL, total size: 1, array size: 0, offset: 262, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_CARLIFE_TEL, total size: 1, array size: 0, offset: 263, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_VOIP, total size: 1, array size: 0, offset: 264, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_VOIP_RING, total size: 1, array size: 0, offset: 265, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_TX_VR_TTS, total size: 1, array size: 0, offset: 266, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_TX_VR, total size: 1, array size: 0, offset: 267, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_CARLIFE_VR, total size: 1, array size: 0, offset: 268, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_CARPLAY_VR, total size: 1, array size: 0, offset: 269, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_MESSAGE, total size: 1, array size: 0, offset: 270, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_NOTIFICATION, total size: 1, array size: 0, offset: 271, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_LOCKSCREEN, total size: 1, array size: 0, offset: 272, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_DISCLAIMER, total size: 1, array size: 0, offset: 273, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_ACC_OFF, total size: 1, array size: 0, offset: 274, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_BOOT_ANIMATION, total size: 1, array size: 0, offset: 275, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_RADAR, total size: 1, array size: 0, offset: 276, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_READY, total size: 1, array size: 0, offset: 277, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_CLUSTER_BOOT, total size: 1, array size: 0, offset: 278, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_CLUSTER_SHUTDOWN, total size: 1, array size: 0, offset: 279, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_SYSTEM_SOUND, total size: 1, array size: 0, offset: 280, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_DOW_CLUSTER_WARNING, total size: 1, array size: 0, offset: 281, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_REVERSE, total size: 1, array size: 0, offset: 282, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_REVERSE_NOT_MIX, total size: 1, array size: 0, offset: 283, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_ADAS, total size: 1, array size: 0, offset: 284, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_ADAS_NOT_MIX, total size: 1, array size: 0, offset: 285, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_USB1_MUSIC, total size: 1, array size: 0, offset: 286, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_USB2_MUSIC, total size: 1, array size: 0, offset: 287, type: 1
+        0 
+    key name: CAL_AUDIO_USAGE_RADIO_AM, total size: 1, array size: 0, offset: 288, type: 1
+        10 
+    key name: CAL_AUDIO_USAGE_RADIO_FM, total size: 1, array size: 0, offset: 289, type: 1
+        8 
+    key name: CAL_AUDIO_USAGE_REVERSE_DUCK, total size: 1, array size: 0, offset: 290, type: 1
+        0 
+    key name: CAL_BMT_BASS_FC, total size: 2, array size: 0, offset: 291, type: 6
+        150 
+    key name: CAL_BMT_BASS_Q, total size: 1, array size: 0, offset: 293, type: 5
+        10 
+    key name: CAL_BMT_MIDDLE_FC, total size: 2, array size: 0, offset: 294, type: 6
+        1000 
+    key name: CAL_BMT_MIDDLE_Q, total size: 1, array size: 0, offset: 296, type: 5
+        10 
+    key name: CAL_BMT_TREBLE_FC, total size: 2, array size: 0, offset: 297, type: 6
+        8000 
+    key name: CAL_BMT_TREBLE_Q, total size: 1, array size: 0, offset: 299, type: 5
+        10 
+    key name: CAL_GEQ_BAND0_FC, total size: 2, array size: 0, offset: 300, type: 6
+        80 
+    key name: CAL_GEQ_BAND0_Q, total size: 1, array size: 0, offset: 302, type: 5
+        10 
+    key name: CAL_GEQ_BAND1_FC, total size: 2, array size: 0, offset: 303, type: 6
+        500 
+    key name: CAL_GEQ_BAND1_Q, total size: 1, array size: 0, offset: 305, type: 5
+        10 
+    key name: CAL_GEQ_BAND2_FC, total size: 2, array size: 0, offset: 306, type: 6
+        1000 
+    key name: CAL_GEQ_BAND2_Q, total size: 1, array size: 0, offset: 308, type: 5
+        10 
+    key name: CAL_GEQ_BAND3_FC, total size: 2, array size: 0, offset: 309, type: 6
+        5000 
+    key name: CAL_GEQ_BAND3_Q, total size: 1, array size: 0, offset: 311, type: 5
+        10 
+    key name: CAL_GEQ_BAND4_FC, total size: 2, array size: 0, offset: 312, type: 6
+        16000 
+    key name: CAL_GEQ_BAND4_Q, total size: 1, array size: 0, offset: 314, type: 5
+        10 
+    key name: CAL_LD_GN_BASS_FC, total size: 2, array size: 0, offset: 315, type: 6
+        0 
+    key name: CAL_LD_GN_BASS_Q, total size: 1, array size: 0, offset: 317, type: 5
+        0 
+    key name: CAL_LD_GN_BASS_VOL_TABLE_START_INDEX, total size: 1, array size: 0, offset: 318, type: 5
+        0 
+    key name: CAL_LD_GN_BASS_VOL_TABLE_LIST_LENGTH, total size: 1, array size: 0, offset: 319, type: 5
+        0 
+    key name: CAL_LD_GN_BASS_VOL_TABLE_ATT0, total size: 1, array size: 0, offset: 320, type: 5
+        0 
+    key name: CAL_LD_GN_BASS_VOL_TABLE_GAIN0, total size: 1, array size: 0, offset: 321, type: 5
+        0 
+    key name: CAL_LD_GN_BASS_VOL_TABLE_ATT1, total size: 1, array size: 0, offset: 322, type: 5
+        0 
+    key name: CAL_LD_GN_BASS_VOL_TABLE_GAIN1, total size: 1, array size: 0, offset: 323, type: 5
+        0 
+    key name: CAL_LD_GN_BASS_VOL_TABLE_ATT2, total size: 1, array size: 0, offset: 324, type: 5
+        0 
+    key name: CAL_LD_GN_BASS_VOL_TABLE_GAIN2, total size: 1, array size: 0, offset: 325, type: 5
+        0 
+    key name: CAL_LD_GN_BASS_VOL_TABLE_ATT3, total size: 1, array size: 0, offset: 326, type: 5
+        0 
+    key name: CAL_LD_GN_BASS_VOL_TABLE_GAIN3, total size: 1, array size: 0, offset: 327, type: 5
+        0 
+    key name: CAL_LD_GN_BASS_VOL_TABLE_ATT4, total size: 1, array size: 0, offset: 328, type: 5
+        0 
+    key name: CAL_LD_GN_BASS_VOL_TABLE_GAIN4, total size: 1, array size: 0, offset: 329, type: 5
+        0 
+    key name: CAL_LD_GN_BASS_VOL_TABLE_ATT5, total size: 1, array size: 0, offset: 330, type: 5
+        0 
+    key name: CAL_LD_GN_BASS_VOL_TABLE_GAIN5, total size: 1, array size: 0, offset: 331, type: 5
+        0 
+    key name: CAL_LD_GN_BASS_VOL_TABLE_ATT6, total size: 1, array size: 0, offset: 332, type: 5
+        0 
+    key name: CAL_LD_GN_BASS_VOL_TABLE_GAIN6, total size: 1, array size: 0, offset: 333, type: 5
+        0 
+    key name: CAL_LD_GN_BASS_VOL_TABLE_ATT7, total size: 1, array size: 0, offset: 334, type: 5
+        0 
+    key name: CAL_LD_GN_BASS_VOL_TABLE_GAIN7, total size: 1, array size: 0, offset: 335, type: 5
+        0 
+    key name: CAL_LD_GN_BASS_VOL_TABLE_ATT8, total size: 1, array size: 0, offset: 336, type: 5
+        0 
+    key name: CAL_LD_GN_BASS_VOL_TABLE_GAIN8, total size: 1, array size: 0, offset: 337, type: 5
+        0 
+    key name: CAL_LD_GN_BASS_VOL_TABLE_ATT9, total size: 1, array size: 0, offset: 338, type: 5
+        0 
+    key name: CAL_LD_GN_BASS_VOL_TABLE_GAIN9, total size: 1, array size: 0, offset: 339, type: 5
+        0 
+    key name: CAL_LD_GN_BASS_VOL_TABLE_ATT10, total size: 1, array size: 0, offset: 340, type: 5
+        0 
+    key name: CAL_LD_GN_BASS_VOL_TABLE_GAIN10, total size: 1, array size: 0, offset: 341, type: 5
+        0 
+    key name: CAL_LD_GN_BASS_VOL_TABLE_ATT11, total size: 1, array size: 0, offset: 342, type: 5
+        0 
+    key name: CAL_LD_GN_BASS_VOL_TABLE_GAIN11, total size: 1, array size: 0, offset: 343, type: 5
+        0 
+    key name: CAL_LD_GN_BASS_VOL_TABLE_ATT12, total size: 1, array size: 0, offset: 344, type: 5
+        0 
+    key name: CAL_LD_GN_BASS_VOL_TABLE_GAIN12, total size: 1, array size: 0, offset: 345, type: 5
+        0 
+    key name: CAL_LD_GN_BASS_VOL_TABLE_ATT13, total size: 1, array size: 0, offset: 346, type: 5
+        0 
+    key name: CAL_LD_GN_BASS_VOL_TABLE_GAIN13, total size: 1, array size: 0, offset: 347, type: 5
+        0 
+    key name: CAL_LD_GN_BASS_VOL_TABLE_ATT14, total size: 1, array size: 0, offset: 348, type: 5
+        0 
+    key name: CAL_LD_GN_BASS_VOL_TABLE_GAIN14, total size: 1, array size: 0, offset: 349, type: 5
+        0 
+    key name: CAL_LD_GN_BASS_VOL_TABLE_ATT15, total size: 1, array size: 0, offset: 350, type: 5
+        0 
+    key name: CAL_LD_GN_BASS_VOL_TABLE_GAIN15, total size: 1, array size: 0, offset: 351, type: 5
+        0 
+    key name: CAL_LD_GN_TREBLE_FC, total size: 2, array size: 0, offset: 352, type: 6
+        0 
+    key name: CAL_LD_GN_TREBLE_Q, total size: 1, array size: 0, offset: 354, type: 5
+        0 
+    key name: CAL_LD_GN_TREBLE_VOL_TABLE_START_INDEX, total size: 1, array size: 0, offset: 355, type: 5
+        0 
+    key name: CAL_LD_GN_TREBLE_VOL_TABLE_LIST_LENGTH, total size: 1, array size: 0, offset: 356, type: 5
+        0 
+    key name: CAL_LD_GN_TREBLE_VOL_TABLE_ATT0, total size: 1, array size: 0, offset: 357, type: 5
+        0 
+    key name: CAL_LD_GN_TREBLE_VOL_TABLE_GAIN0, total size: 1, array size: 0, offset: 358, type: 5
+        0 
+    key name: CAL_LD_GN_TREBLE_VOL_TABLE_ATT1, total size: 1, array size: 0, offset: 359, type: 5
+        0 
+    key name: CAL_LD_GN_TREBLE_VOL_TABLE_GAIN1, total size: 1, array size: 0, offset: 360, type: 5
+        0 
+    key name: CAL_LD_GN_TREBLE_VOL_TABLE_ATT2, total size: 1, array size: 0, offset: 361, type: 5
+        0 
+    key name: CAL_LD_GN_TREBLE_VOL_TABLE_GAIN2, total size: 1, array size: 0, offset: 362, type: 5
+        0 
+    key name: CAL_LD_GN_TREBLE_VOL_TABLE_ATT3, total size: 1, array size: 0, offset: 363, type: 5
+        0 
+    key name: CAL_LD_GN_TREBLE_VOL_TABLE_GAIN3, total size: 1, array size: 0, offset: 364, type: 5
+        0 
+    key name: CAL_LD_GN_TREBLE_VOL_TABLE_ATT4, total size: 1, array size: 0, offset: 365, type: 5
+        0 
+    key name: CAL_LD_GN_TREBLE_VOL_TABLE_GAIN4, total size: 1, array size: 0, offset: 366, type: 5
+        0 
+    key name: CAL_LD_GN_TREBLE_VOL_TABLE_ATT5, total size: 1, array size: 0, offset: 367, type: 5
+        0 
+    key name: CAL_LD_GN_TREBLE_VOL_TABLE_GAIN5, total size: 1, array size: 0, offset: 368, type: 5
+        0 
+    key name: CAL_LD_GN_TREBLE_VOL_TABLE_ATT6, total size: 1, array size: 0, offset: 369, type: 5
+        0 
+    key name: CAL_LD_GN_TREBLE_VOL_TABLE_GAIN6, total size: 1, array size: 0, offset: 370, type: 5
+        0 
+    key name: CAL_LD_GN_TREBLE_VOL_TABLE_ATT7, total size: 1, array size: 0, offset: 371, type: 5
+        0 
+    key name: CAL_LD_GN_TREBLE_VOL_TABLE_GAIN7, total size: 1, array size: 0, offset: 372, type: 5
+        0 
+    key name: CAL_LD_GN_TREBLE_VOL_TABLE_ATT8, total size: 1, array size: 0, offset: 373, type: 5
+        0 
+    key name: CAL_LD_GN_TREBLE_VOL_TABLE_GAIN8, total size: 1, array size: 0, offset: 374, type: 5
+        0 
+    key name: CAL_LD_GN_TREBLE_VOL_TABLE_ATT9, total size: 1, array size: 0, offset: 375, type: 5
+        0 
+    key name: CAL_LD_GN_TREBLE_VOL_TABLE_GAIN9, total size: 1, array size: 0, offset: 376, type: 5
+        0 
+    key name: CAL_LD_GN_TREBLE_VOL_TABLE_ATT10, total size: 1, array size: 0, offset: 377, type: 5
+        0 
+    key name: CAL_LD_GN_TREBLE_VOL_TABLE_GAIN10, total size: 1, array size: 0, offset: 378, type: 5
+        0 
+    key name: CAL_LD_GN_TREBLE_VOL_TABLE_ATT11, total size: 1, array size: 0, offset: 379, type: 5
+        0 
+    key name: CAL_LD_GN_TREBLE_VOL_TABLE_GAIN11, total size: 1, array size: 0, offset: 380, type: 5
+        0 
+    key name: CAL_LD_GN_TREBLE_VOL_TABLE_ATT12, total size: 1, array size: 0, offset: 381, type: 5
+        0 
+    key name: CAL_LD_GN_TREBLE_VOL_TABLE_GAIN12, total size: 1, array size: 0, offset: 382, type: 5
+        0 
+    key name: CAL_LD_GN_TREBLE_VOL_TABLE_ATT13, total size: 1, array size: 0, offset: 383, type: 5
+        0 
+    key name: CAL_LD_GN_TREBLE_VOL_TABLE_GAIN13, total size: 1, array size: 0, offset: 384, type: 5
+        0 
+    key name: CAL_LD_GN_TREBLE_VOL_TABLE_ATT14, total size: 1, array size: 0, offset: 385, type: 5
+        0 
+    key name: CAL_LD_GN_TREBLE_VOL_TABLE_GAIN14, total size: 1, array size: 0, offset: 386, type: 5
+        0 
+    key name: CAL_LD_GN_TREBLE_VOL_TABLE_ATT15, total size: 1, array size: 0, offset: 387, type: 5
+        0 
+    key name: CAL_LD_GN_TREBLE_VOL_TABLE_GAIN15, total size: 1, array size: 0, offset: 388, type: 5
+        0 
+    key name: CAL_MEDIA_VOLUME_STEP_0, total size: 1, array size: 0, offset: 389, type: 1
+        -96 
+    key name: CAL_MEDIA_VOLUME_STEP_1, total size: 1, array size: 0, offset: 390, type: 1
+        -68 
+    key name: CAL_MEDIA_VOLUME_STEP_2, total size: 1, array size: 0, offset: 391, type: 1
+        -60 
+    key name: CAL_MEDIA_VOLUME_STEP_3, total size: 1, array size: 0, offset: 392, type: 1
+        -56 
+    key name: CAL_MEDIA_VOLUME_STEP_4, total size: 1, array size: 0, offset: 393, type: 1
+        -54 
+    key name: CAL_MEDIA_VOLUME_STEP_5, total size: 1, array size: 0, offset: 394, type: 1
+        -52 
+    key name: CAL_MEDIA_VOLUME_STEP_6, total size: 1, array size: 0, offset: 395, type: 1
+        -50 
+    key name: CAL_MEDIA_VOLUME_STEP_7, total size: 1, array size: 0, offset: 396, type: 1
+        -48 
+    key name: CAL_MEDIA_VOLUME_STEP_8, total size: 1, array size: 0, offset: 397, type: 1
+        -46 
+    key name: CAL_MEDIA_VOLUME_STEP_9, total size: 1, array size: 0, offset: 398, type: 1
+        -44 
+    key name: CAL_MEDIA_VOLUME_STEP_10, total size: 1, array size: 0, offset: 399, type: 1
+        -42 
+    key name: CAL_MEDIA_VOLUME_STEP_11, total size: 1, array size: 0, offset: 400, type: 1
+        -40 
+    key name: CAL_MEDIA_VOLUME_STEP_12, total size: 1, array size: 0, offset: 401, type: 1
+        -38 
+    key name: CAL_MEDIA_VOLUME_STEP_13, total size: 1, array size: 0, offset: 402, type: 1
+        -36 
+    key name: CAL_MEDIA_VOLUME_STEP_14, total size: 1, array size: 0, offset: 403, type: 1
+        -34 
+    key name: CAL_MEDIA_VOLUME_STEP_15, total size: 1, array size: 0, offset: 404, type: 1
+        -32 
+    key name: CAL_MEDIA_VOLUME_STEP_16, total size: 1, array size: 0, offset: 405, type: 1
+        -30 
+    key name: CAL_MEDIA_VOLUME_STEP_17, total size: 1, array size: 0, offset: 406, type: 1
+        -28 
+    key name: CAL_MEDIA_VOLUME_STEP_18, total size: 1, array size: 0, offset: 407, type: 1
+        -27 
+    key name: CAL_MEDIA_VOLUME_STEP_19, total size: 1, array size: 0, offset: 408, type: 1
+        -26 
+    key name: CAL_MEDIA_VOLUME_STEP_20, total size: 1, array size: 0, offset: 409, type: 1
+        -25 
+    key name: CAL_MEDIA_VOLUME_STEP_21, total size: 1, array size: 0, offset: 410, type: 1
+        -24 
+    key name: CAL_MEDIA_VOLUME_STEP_22, total size: 1, array size: 0, offset: 411, type: 1
+        -23 
+    key name: CAL_MEDIA_VOLUME_STEP_23, total size: 1, array size: 0, offset: 412, type: 1
+        -22 
+    key name: CAL_MEDIA_VOLUME_STEP_24, total size: 1, array size: 0, offset: 413, type: 1
+        -21 
+    key name: CAL_MEDIA_VOLUME_STEP_25, total size: 1, array size: 0, offset: 414, type: 1
+        -20 
+    key name: CAL_MEDIA_VOLUME_STEP_26, total size: 1, array size: 0, offset: 415, type: 1
+        -19 
+    key name: CAL_MEDIA_VOLUME_STEP_27, total size: 1, array size: 0, offset: 416, type: 1
+        -18 
+    key name: CAL_MEDIA_VOLUME_STEP_28, total size: 1, array size: 0, offset: 417, type: 1
+        -17 
+    key name: CAL_MEDIA_VOLUME_STEP_29, total size: 1, array size: 0, offset: 418, type: 1
+        -16 
+    key name: CAL_MEDIA_VOLUME_STEP_30, total size: 1, array size: 0, offset: 419, type: 1
+        -15 
+    key name: CAL_MEDIA_VOLUME_STEP_31, total size: 1, array size: 0, offset: 420, type: 1
+        -14 
+    key name: CAL_MEDIA_VOLUME_STEP_32, total size: 1, array size: 0, offset: 421, type: 1
+        -13 
+    key name: CAL_MEDIA_VOLUME_STEP_33, total size: 1, array size: 0, offset: 422, type: 1
+        -12 
+    key name: CAL_MEDIA_VOLUME_STEP_34, total size: 1, array size: 0, offset: 423, type: 1
+        -11 
+    key name: CAL_MEDIA_VOLUME_STEP_35, total size: 1, array size: 0, offset: 424, type: 1
+        -10 
+    key name: CAL_MEDIA_VOLUME_STEP_36, total size: 1, array size: 0, offset: 425, type: 1
+        -9 
+    key name: CAL_MEDIA_VOLUME_STEP_37, total size: 1, array size: 0, offset: 426, type: 1
+        -8 
+    key name: CAL_MEDIA_VOLUME_STEP_38, total size: 1, array size: 0, offset: 427, type: 1
+        -7 
+    key name: CAL_MEDIA_VOLUME_STEP_39, total size: 1, array size: 0, offset: 428, type: 1
+        -6 
+    key name: CAL_VR_TTS_VOLUME_STEP_0, total size: 1, array size: 0, offset: 429, type: 1
+        -96 
+    key name: CAL_VR_TTS_VOLUME_STEP_1, total size: 1, array size: 0, offset: 430, type: 1
+        -55 
+    key name: CAL_VR_TTS_VOLUME_STEP_2, total size: 1, array size: 0, offset: 431, type: 1
+        -50 
+    key name: CAL_VR_TTS_VOLUME_STEP_3, total size: 1, array size: 0, offset: 432, type: 1
+        -43 
+    key name: CAL_VR_TTS_VOLUME_STEP_4, total size: 1, array size: 0, offset: 433, type: 1
+        -33 
+    key name: CAL_VR_TTS_VOLUME_STEP_5, total size: 1, array size: 0, offset: 434, type: 1
+        -25 
+    key name: CAL_VR_TTS_VOLUME_STEP_6, total size: 1, array size: 0, offset: 435, type: 1
+        -20 
+    key name: CAL_VR_TTS_VOLUME_STEP_7, total size: 1, array size: 0, offset: 436, type: 1
+        -15 
+    key name: CAL_VR_TTS_VOLUME_STEP_8, total size: 1, array size: 0, offset: 437, type: 1
+        -10 
+    key name: CAL_VR_TTS_VOLUME_STEP_9, total size: 1, array size: 0, offset: 438, type: 1
+        -7 
+    key name: CAL_VR_TTS_VOLUME_STEP_10, total size: 1, array size: 0, offset: 439, type: 1
+        -5 
+    key name: CAL_CALL_VOLUME_STEP_0, total size: 1, array size: 0, offset: 440, type: 1
+        -96 
+    key name: CAL_CALL_VOLUME_STEP_1, total size: 1, array size: 0, offset: 441, type: 1
+        -55 
+    key name: CAL_CALL_VOLUME_STEP_2, total size: 1, array size: 0, offset: 442, type: 1
+        -50 
+    key name: CAL_CALL_VOLUME_STEP_3, total size: 1, array size: 0, offset: 443, type: 1
+        -43 
+    key name: CAL_CALL_VOLUME_STEP_4, total size: 1, array size: 0, offset: 444, type: 1
+        -33 
+    key name: CAL_CALL_VOLUME_STEP_5, total size: 1, array size: 0, offset: 445, type: 1
+        -25 
+    key name: CAL_CALL_VOLUME_STEP_6, total size: 1, array size: 0, offset: 446, type: 1
+        -17 
+    key name: CAL_CALL_VOLUME_STEP_7, total size: 1, array size: 0, offset: 447, type: 1
+        -11 
+    key name: CAL_CALL_VOLUME_STEP_8, total size: 1, array size: 0, offset: 448, type: 1
+        -7 
+    key name: CAL_CALL_VOLUME_STEP_9, total size: 1, array size: 0, offset: 449, type: 1
+        -3 
+    key name: CAL_CALL_VOLUME_STEP_10, total size: 1, array size: 0, offset: 450, type: 1
+        0 
+    key name: CAL_NAVI_VOLUME_STEP_0, total size: 1, array size: 0, offset: 451, type: 1
+        -96 
+    key name: CAL_NAVI_VOLUME_STEP_1, total size: 1, array size: 0, offset: 452, type: 1
+        -50 
+    key name: CAL_NAVI_VOLUME_STEP_2, total size: 1, array size: 0, offset: 453, type: 1
+        -43 
+    key name: CAL_NAVI_VOLUME_STEP_3, total size: 1, array size: 0, offset: 454, type: 1
+        -33 
+    key name: CAL_NAVI_VOLUME_STEP_4, total size: 1, array size: 0, offset: 455, type: 1
+        -26 
+    key name: CAL_NAVI_VOLUME_STEP_5, total size: 1, array size: 0, offset: 456, type: 1
+        -22 
+    key name: CAL_NAVI_VOLUME_STEP_6, total size: 1, array size: 0, offset: 457, type: 1
+        -18 
+    key name: CAL_NAVI_VOLUME_STEP_7, total size: 1, array size: 0, offset: 458, type: 1
+        -15 
+    key name: CAL_NAVI_VOLUME_STEP_8, total size: 1, array size: 0, offset: 459, type: 1
+        -10 
+    key name: CAL_NAVI_VOLUME_STEP_9, total size: 1, array size: 0, offset: 460, type: 1
+        -8 
+    key name: CAL_NAVI_VOLUME_STEP_10, total size: 1, array size: 0, offset: 461, type: 1
+        -4 
+    key name: RESERVED, total size: 3630, array size: 3630, offset: 462, type: 5
+        RESERVED has been collapsed!
+    key name: __checksum__, total size: 4, array size: 0, offset: 4092, type: 7
+        286018002 
+module name: tuner_cal, user_id: -1, module size: 4096, data size: 4096, key count: 2, offset: 4096
+    key name: RESERVED, total size: 4092, array size: 4092, offset: 0, type: 5
+        RESERVED has been collapsed!
+    key name: __checksum__, total size: 4, array size: 0, offset: 4092, type: 7
+        4261553640 
+module name: hut_usr, user_id: -1, module size: 4096, data size: 4096, key count: 2, offset: 0
+    key name: RESERVED, total size: 4092, array size: 4092, offset: 0, type: 5
+        RESERVED has been collapsed!
+    key name: __checksum__, total size: 4, array size: 0, offset: 4092, type: 7
+        4261553640 
+module name: display_usr, user_id: -1, module size: 4096, data size: 4096, key count: 39, offset: 4096
+    key name: USR_CNTRL_IVI_DISP_BRT, total size: 1, array size: 0, offset: 0, type: 5
+        50 
+    key name: USR_COD_IVI_DISP_BRT, total size: 1, array size: 0, offset: 1, type: 5
+        50 
+    key name: USR_IPC_DISP_BRT, total size: 1, array size: 0, offset: 2, type: 5
+        4 
+    key name: USR_CP_DISP_BRT, total size: 1, array size: 0, offset: 3, type: 5
+        50 
+    key name: USR_HUD_DISP_BRT, total size: 1, array size: 0, offset: 4, type: 5
+        10 
+    key name: USR_CNTRL_IVI_DISP_BRT_LVL, total size: 1, array size: 0, offset: 5, type: 5
+        32 
+    key name: USR_COD_IVI_DISP_BRT_LVL, total size: 1, array size: 0, offset: 6, type: 5
+        50 
+    key name: USR_IPC_DISP_BRT_LVL, total size: 1, array size: 0, offset: 7, type: 5
+        8 
+    key name: USR_CP_DISP_BRT_LVL, total size: 1, array size: 0, offset: 8, type: 5
+        50 
+    key name: USR_HUD_DISP_BRT_LVL, total size: 1, array size: 0, offset: 9, type: 5
+        10 
+    key name: USR_DISP_AUTO_BRT, total size: 1, array size: 0, offset: 10, type: 5
+        0 
+    key name: USR_HUD_ROT_DIR, total size: 1, array size: 0, offset: 11, type: 5
+        0 
+    key name: USR_HUD_ROT_LVL, total size: 1, array size: 0, offset: 12, type: 5
+        0 
+    key name: USR_DISP_BRT_MODE, total size: 1, array size: 0, offset: 13, type: 5
+        0 
+    key name: ENG_CNTRL_IVI_DISP_VEN_ID, total size: 1, array size: 0, offset: 14, type: 5
+        2 
+    key name: ENG_CNTRL_IVI_DISP_SCRN_ID, total size: 1, array size: 0, offset: 15, type: 5
+        1 
+    key name: ENG_COD_IVI_DISP_VEN_ID, total size: 1, array size: 0, offset: 16, type: 5
+        0 
+    key name: ENG_COD_IVI_DISP_SCRN_ID, total size: 1, array size: 0, offset: 17, type: 5
+        0 
+    key name: ENG_IPC_DISP_VEN_ID, total size: 1, array size: 0, offset: 18, type: 5
+        1 
+    key name: ENG_IPC_DISP_SCRN_ID, total size: 1, array size: 0, offset: 19, type: 5
+        1 
+    key name: ENG_CP_DISP_VEN_ID, total size: 1, array size: 0, offset: 20, type: 5
+        0 
+    key name: ENG_CP_DISP_SCRN_ID, total size: 1, array size: 0, offset: 21, type: 5
+        0 
+    key name: ENG_HUD_VEN_ID, total size: 1, array size: 0, offset: 22, type: 5
+        0 
+    key name: ENG_HUD_SCRN_ID, total size: 1, array size: 0, offset: 23, type: 5
+        0 
+    key name: ENG_DISP_AUTO_DETECT_STAT, total size: 1, array size: 0, offset: 24, type: 5
+        1 
+    key name: USR_CNTRL_IVI_DISP_BRT_NIGHT, total size: 1, array size: 0, offset: 25, type: 5
+        25 
+    key name: USR_COD_IVI_DISP_BRT_NIGHT, total size: 1, array size: 0, offset: 26, type: 5
+        25 
+    key name: USR_IPC_DISP_BRT_NIGHT, total size: 1, array size: 0, offset: 27, type: 5
+        2 
+    key name: USR_CP_DISP_BRT_NIGHT, total size: 1, array size: 0, offset: 28, type: 5
+        25 
+    key name: USR_HUD_DISP_BRT_NIGHT, total size: 1, array size: 0, offset: 29, type: 5
+        5 
+    key name: USR_CNTRL_IVI_DISP_BRT_LVL_NIGHT, total size: 1, array size: 0, offset: 30, type: 5
+        10 
+    key name: USR_COD_IVI_DISP_BRT_LVL_NIGHT, total size: 1, array size: 0, offset: 31, type: 5
+        25 
+    key name: USR_IPC_DISP_BRT_LVL_NIGHT, total size: 1, array size: 0, offset: 32, type: 5
+        4 
+    key name: USR_CP_DISP_BRT_LVL_NIGHT, total size: 1, array size: 0, offset: 33, type: 5
+        25 
+    key name: USR_HUD_DISP_BRT_LVL_NIGHT, total size: 1, array size: 0, offset: 34, type: 5
+        5 
+    key name: ENG_ROBOT_DISP_VEN_ID, total size: 1, array size: 0, offset: 35, type: 5
+        0 
+    key name: ENG_ROBOT_DISP_SCRN_ID, total size: 1, array size: 0, offset: 36, type: 5
+        0 
+    key name: RESERVED, total size: 4055, array size: 4055, offset: 37, type: 5
+        RESERVED has been collapsed!
+    key name: __checksum__, total size: 4, array size: 0, offset: 4092, type: 7
+        2791988993 
+module name: camera_usr, user_id: -1, module size: 4096, data size: 4096, key count: 6, offset: 8192
+    key name: ENG_RVC_ID, total size: 1, array size: 0, offset: 0, type: 5
+        0 
+    key name: ENG_AVM_ID, total size: 1, array size: 0, offset: 1, type: 5
+        0 
+    key name: ENG_OMS_ID, total size: 1, array size: 0, offset: 2, type: 5
+        0 
+    key name: ENG_CAM_AUTO_DETECT_STAT, total size: 1, array size: 0, offset: 3, type: 5
+        0 
+    key name: RESERVED, total size: 4088, array size: 4088, offset: 4, type: 5
+        RESERVED has been collapsed!
+    key name: __checksum__, total size: 4, array size: 0, offset: 4092, type: 7
+        4261553640 
+module name: audio_usr, user_id: -1, module size: 4096, data size: 4096, key count: 18, offset: 12288
+    key name: USR_IP_CHIME_VOLUME_DEFAULT, total size: 1, array size: 0, offset: 0, type: 5
+        2 
+    key name: USR_TURN_CHIME_VOLUME_DEFAULT, total size: 1, array size: 0, offset: 1, type: 5
+        2 
+    key name: USR_RADAR_CHIME_VOLUME_DEFAULT, total size: 1, array size: 0, offset: 2, type: 5
+        2 
+    key name: USR_DTS_PRESET_MODE, total size: 1, array size: 0, offset: 3, type: 5
+        0 
+    key name: USR_AVAS_LAST_MODE, total size: 1, array size: 0, offset: 4, type: 5
+        255 
+    key name: USR_ANC_LEVEL_ENABLED, total size: 1, array size: 0, offset: 5, type: 5
+        1 
+    key name: USR_BEEP_SWITCH, total size: 1, array size: 0, offset: 6, type: 5
+        1 
+    key name: ENG_ECNR_LIB_VALID, total size: 1, array size: 0, offset: 7, type: 5
+        0 
+    key name: USR_ITU_CERT_EN, total size: 1, array size: 0, offset: 8, type: 5
+        0 
+    key name: USR_APQM_TUNING_EN, total size: 1, array size: 0, offset: 9, type: 5
+        0 
+    key name: USR_JACK_DUMP_EN, total size: 1, array size: 0, offset: 10, type: 5
+        0 
+    key name: USR_ACSTC_PRD_CNT, total size: 1, array size: 0, offset: 11, type: 5
+        0 
+    key name: USR_ESE_LAST_MODE, total size: 1, array size: 0, offset: 12, type: 5
+        255 
+    key name: USR_IP_CHIME_VOLUME_DEFAULT_EXT, total size: 1, array size: 0, offset: 13, type: 5
+        2 
+    key name: USR_TURN_CHIME_VOLUME_DEFAULT_EXT, total size: 1, array size: 0, offset: 14, type: 5
+        2 
+    key name: USR_RADAR_CHIME_VOLUME_DEFAULT_EXT, total size: 1, array size: 0, offset: 15, type: 5
+        2 
+    key name: RESERVED, total size: 4076, array size: 4076, offset: 16, type: 5
+        RESERVED has been collapsed!
+    key name: __checksum__, total size: 4, array size: 0, offset: 4092, type: 7
+        669042320 
+module name: lcm_usr, user_id: -1, module size: 4096, data size: 4096, key count: 2, offset: 16384
+    key name: RESERVED, total size: 4092, array size: 4092, offset: 0, type: 5
+        RESERVED has been collapsed!
+    key name: __checksum__, total size: 4, array size: 0, offset: 4092, type: 7
+        4261553640 
+module name: animation_usr, user_id: -1, module size: 4096, data size: 4096, key count: 2, offset: 20480
+    key name: RESERVED, total size: 4092, array size: 4092, offset: 0, type: 5
+        RESERVED has been collapsed!
+    key name: __checksum__, total size: 4, array size: 0, offset: 4092, type: 7
+        4261553640 
+module name: log_usr, user_id: -1, module size: 4096, data size: 4096, key count: 27, offset: 24576
+    key name: USR_QNX_KERNEL_LOG_LVL, total size: 1, array size: 0, offset: 0, type: 5
+        4 
+    key name: USR_QNX_AUDIO_LOG_LVL, total size: 1, array size: 0, offset: 1, type: 5
+        5 
+    key name: USR_QNX_ETH_LOG_LVL, total size: 1, array size: 0, offset: 2, type: 5
+        5 
+    key name: USR_QNX_VEHICLE_LOG_LVL, total size: 1, array size: 0, offset: 3, type: 5
+        5 
+    key name: USR_QNX_OTHER_LOG_LVL, total size: 1, array size: 0, offset: 4, type: 5
+        4 
+    key name: USR_QNX_DIAG_LOG_LVL, total size: 1, array size: 0, offset: 5, type: 5
+        5 
+    key name: USR_QNX_APPL_LOG_LVL, total size: 1, array size: 0, offset: 6, type: 5
+        5 
+    key name: USR_QNX_ERRM_LOG_LVL, total size: 1, array size: 0, offset: 7, type: 5
+        4 
+    key name: USR_QNX_INC_LOG_LVL, total size: 1, array size: 0, offset: 8, type: 5
+        5 
+    key name: USR_QNX_SYS_LOG_LVL, total size: 1, array size: 0, offset: 9, type: 5
+        4 
+    key name: USR_QNX_LCM_LOG_LVL, total size: 1, array size: 0, offset: 10, type: 5
+        5 
+    key name: USR_QNX_VIDEO_LOG_LVL, total size: 1, array size: 0, offset: 11, type: 5
+        4 
+    key name: USR_QNX_CLUSTER_LOG_LVL, total size: 1, array size: 0, offset: 12, type: 5
+        5 
+    key name: USR_QNX_ESM_LOG_LVL, total size: 1, array size: 0, offset: 13, type: 5
+        5 
+    key name: USR_QNX_BSP_LOG_LVL, total size: 1, array size: 0, offset: 14, type: 5
+        5 
+    key name: USR_ANDROID_KERNEL_LOG_LVL, total size: 1, array size: 0, offset: 15, type: 5
+        5 
+    key name: USR_ANDROID_SYSTEM_LOG_LVL, total size: 1, array size: 0, offset: 16, type: 5
+        5 
+    key name: USR_ANDROID_DEFAULT_LOG_LVL, total size: 1, array size: 0, offset: 17, type: 5
+        4 
+    key name: USR_ANDROID_APP_LOG_LVL, total size: 1, array size: 0, offset: 18, type: 5
+        4 
+    key name: USR_SCC_LOG_LVL, total size: 1, array size: 0, offset: 19, type: 5
+        5 
+    key name: ENG_LOG_STORE_CYCLE_CUR, total size: 4, array size: 0, offset: 20, type: 7
+        199 
+    key name: ENG_LOG_STORE_CYCLE_MIN, total size: 4, array size: 0, offset: 24, type: 7
+        181 
+    key name: USR_LOG_BOOT_CNT_CUR, total size: 4, array size: 0, offset: 28, type: 7
+        0 
+    key name: ENG_LOG_BOOT_CNT_MAX, total size: 4, array size: 0, offset: 32, type: 7
+        5 
+    key name: USR_LOG_LEVEL_INIT_STATUS, total size: 4, array size: 0, offset: 36, type: 7
+        1 
+    key name: RESERVED, total size: 4052, array size: 4052, offset: 40, type: 5
+        RESERVED has been collapsed!
+    key name: __checksum__, total size: 4, array size: 0, offset: 4092, type: 7
+        613572865 
+module name: diag_usr, user_id: -1, module size: 4096, data size: 4096, key count: 5, offset: 28672
+    key name: ENG_DIAG_DELIVERY_MODE, total size: 1, array size: 0, offset: 0, type: 5
+        1 
+    key name: ENG_DIAG_SCC_VARIANT, total size: 1, array size: 0, offset: 1, type: 5
+        4 
+    key name: ENG_HMI_UPDATE_INTERFACE_DISPLAY, total size: 1, array size: 0, offset: 2, type: 5
+        0 
+    key name: RESERVED, total size: 4089, array size: 4089, offset: 3, type: 5
+        RESERVED has been collapsed!
+    key name: __checksum__, total size: 4, array size: 0, offset: 4092, type: 7
+        3232278101 
+module name: eth_usr, user_id: -1, module size: 4096, data size: 4096, key count: 3, offset: 32768
+    key name: ENG_ETH_SWITCH_FW_TYPE, total size: 1, array size: 0, offset: 0, type: 5
+        0 
+    key name: RESERVED, total size: 4091, array size: 4091, offset: 1, type: 5
+        RESERVED has been collapsed!
+    key name: __checksum__, total size: 4, array size: 0, offset: 4092, type: 7
+        4261553640 
+module name: ipc_usr, user_id: -1, module size: 4096, data size: 4096, key count: 4, offset: 36864
+    key name: ENG_STATE_MACHINE_STORAGE_THEME, total size: 4, array size: 4, offset: 0, type: 5
+        1 1 1 1 
+    key name: ENG_CLUSTER_SETTING_STORAGE, total size: 20, array size: 20, offset: 4, type: 5
+        2 128 21 4 64 68 2 0 0 0 16 73 105 22 0 0 0 0 0 0 
+    key name: RESERVED, total size: 4068, array size: 4068, offset: 24, type: 5
+        RESERVED has been collapsed!
+    key name: __checksum__, total size: 4, array size: 0, offset: 4092, type: 7
+        3348345532 
+module name: veh_usr, user_id: -1, module size: 4096, data size: 4096, key count: 6, offset: 40960
+    key name: USR_VEHICLE_KEYCODE_CUSTOM_A88, total size: 2, array size: 2, offset: 0, type: 5
+        1 16 
+    key name: USR_VEHICLE_KEYCODE_CUSTOM_A58, total size: 2, array size: 2, offset: 2, type: 5
+        8 16 
+    key name: USR_VEHICLE_KEYCODE_CUSTOM_A13Y, total size: 2, array size: 2, offset: 4, type: 5
+        22 16 
+    key name: USR_VEHICLE_SIGNAL_FILTER_ENABLED, total size: 1, array size: 0, offset: 6, type: 5
+        1 
+    key name: RESERVED, total size: 4085, array size: 4085, offset: 7, type: 5
+        RESERVED has been collapsed!
+    key name: __checksum__, total size: 4, array size: 0, offset: 4092, type: 7
+        2747905767 
+module name: cluster_usr, user_id: -1, module size: 4096, data size: 4096, key count: 4, offset: 45056
+    key name: ENG_STATE_MACHINE_STORAGE_THEME, total size: 32, array size: 32, offset: 0, type: 5
+        1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: USR_STATE_MACHINE_STORAGE_RESERVED, total size: 32, array size: 32, offset: 32, type: 5
+        255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: RESERVED, total size: 4028, array size: 4028, offset: 64, type: 5
+        RESERVED has been collapsed!
+    key name: __checksum__, total size: 4, array size: 0, offset: 4092, type: 7
+        86786091 
+module name: veh_1_usr, user_id: -1, module size: 4096, data size: 4096, key count: 3, offset: 49152
+    key name: USR_VEHICLE_KEYCODE_CUSTOM_A8E, total size: 2, array size: 2, offset: 0, type: 5
+        15 16 
+    key name: RESERVED, total size: 4090, array size: 4090, offset: 2, type: 5
+        RESERVED has been collapsed!
+    key name: __checksum__, total size: 4, array size: 0, offset: 4092, type: 7
+        2940770510 
+module name: veh_2_usr, user_id: -1, module size: 4096, data size: 4096, key count: 3, offset: 53248
+    key name: USR_VEHICLE_KEYCODE_CUSTOM_GMC400, total size: 2, array size: 2, offset: 0, type: 5
+        1 16 
+    key name: RESERVED, total size: 4090, array size: 4090, offset: 2, type: 5
+        RESERVED has been collapsed!
+    key name: __checksum__, total size: 4, array size: 0, offset: 4092, type: 7
+        1487283834 
+module name: cus_metadata, user_id: -1, module size: 4096, data size: 4096, key count: 5, offset: 0
+    key name: MD_VERSION_MAJOR, total size: 2, array size: 0, offset: 0, type: 6
+        0 
+    key name: MD_VERSION_MINOR, total size: 2, array size: 0, offset: 2, type: 6
+        1 
+    key name: MD_MODIFIED_DATE, total size: 20, array size: 20, offset: 4, type: 0
+        2022-11-14
+    key name: RESERVED, total size: 4068, array size: 4068, offset: 24, type: 5
+        RESERVED has been collapsed!
+    key name: __checksum__, total size: 4, array size: 0, offset: 4092, type: 7
+        3727877951 
+module name: cus_cfg, user_id: -1, module size: 4096, data size: 4096, key count: 12, offset: 0
+    key name: CFG_HEAD_UNIT_CONFIGURATION, total size: 10, array size: 10, offset: 0, type: 5
+        0 3 141 13 4 64 4 145 216 1 
+    key name: CFG_HEAD_UNIT_CONFIGURATION_RESERVED, total size: 10, array size: 10, offset: 10, type: 5
+        0 0 0 0 0 0 0 0 0 0 
+    key name: CFG_VEHICLE_CONFIGURATION, total size: 44, array size: 44, offset: 20, type: 5
+        16 74 126 87 33 12 145 255 0 0 145 205 250 224 112 251 255 191 191 238 1 243 0 191 7 255 232 9 176 129 84 165 84 54 142 127 85 104 57 54 24 225 31 0 
+    key name: CFG_VEHICLE_CONFIGURATION_RESERVED, total size: 16, array size: 16, offset: 64, type: 5
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: CFG_CONFIGURATION_CALIBRATION, total size: 18, array size: 18, offset: 80, type: 5
+        71 127 254 111 192 123 207 128 70 128 138 21 208 136 1 0 0 0 
+    key name: CFG_CONFIGURATION_CALIBRATION_RESERVED, total size: 2, array size: 2, offset: 98, type: 5
+        0 0 
+    key name: CFG_MENU_CONFIGURATION_CALIBRATION, total size: 9, array size: 9, offset: 100, type: 5
+        138 123 240 90 80 1 50 0 9 
+    key name: CFG_MENU_CONFIGURATION_CALIBRATION_RESERVED, total size: 11, array size: 11, offset: 109, type: 5
+        0 0 0 0 0 0 0 0 0 0 0 
+    key name: CFG_FUNCTION_CALIBRATION, total size: 31, array size: 31, offset: 120, type: 5
+        251 255 191 195 153 249 191 9 192 255 239 255 243 232 6 81 129 243 207 198 0 3 179 0 0 15 0 6 0 0 0 
+    key name: CFG_FUNCTION_CALIBRATION_RESERVED, total size: 9, array size: 9, offset: 151, type: 5
+        0 0 0 0 0 0 0 0 0 
+    key name: RESERVED, total size: 3932, array size: 3932, offset: 160, type: 5
+        RESERVED has been collapsed!
+    key name: __checksum__, total size: 4, array size: 0, offset: 4092, type: 7
+        1103913635 
+module name: cus_cal, user_id: -1, module size: 4096, data size: 4096, key count: 44, offset: 0
+    key name: CAL_VEH_INFO_CALIBRATION, total size: 50, array size: 50, offset: 0, type: 5
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: CAL_VEH_INFO_CALIBRATION_RESERVED, total size: 10, array size: 10, offset: 50, type: 5
+        0 0 0 0 0 0 0 0 0 0 
+    key name: CAL_FUEL0_CALIBRATION_A, total size: 50, array size: 50, offset: 60, type: 5
+        5 200 100 50 3 232 3 232 0 0 3 148 0 0 3 250 0 0 35 200 0 0 35 200 0 1 101 208 0 1 101 208 0 0 3 148 0 0 3 148 0 0 3 148 0 0 4 176 0 0 
+    key name: CAL_FUEL0_CALIBRATION_A_RESERVED, total size: 10, array size: 10, offset: 110, type: 5
+        0 0 0 0 0 0 0 0 0 0 
+    key name: CAL_FUEL0_CALIBRATION_B, total size: 50, array size: 50, offset: 120, type: 5
+        0 50 0 15 0 160 0 250 3 5 5 30 5 10 10 1 2 48 2 18 0 70 0 60 110 110 16 12 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: CAL_FUEL0_CALIBRATION_B_RESERVED, total size: 10, array size: 10, offset: 170, type: 5
+        0 0 0 0 0 0 0 0 0 0 
+    key name: CAL_FUEL1_CALIBRATION_A, total size: 50, array size: 50, offset: 180, type: 5
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: CAL_FUEL1_CALIBRATION_A_RESERVED, total size: 10, array size: 10, offset: 230, type: 5
+        0 0 0 0 0 0 0 0 0 0 
+    key name: CAL_FUEL1_CALIBRATION_B, total size: 50, array size: 50, offset: 240, type: 5
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: CAL_FUEL1_CALIBRATION_B_RESERVED, total size: 10, array size: 10, offset: 290, type: 5
+        0 0 0 0 0 0 0 0 0 0 
+    key name: CAL_FUEL2_3_CALIBRATION_A, total size: 50, array size: 50, offset: 300, type: 5
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: CAL_FUEL2_3_CALIBRATION_A_RESERVED, total size: 10, array size: 10, offset: 350, type: 5
+        0 0 0 0 0 0 0 0 0 0 
+    key name: CAL_FUEL2_3_CALIBRATION_B, total size: 50, array size: 50, offset: 360, type: 5
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: CAL_FUEL2_3_CALIBRATION_B_RESERVED, total size: 10, array size: 10, offset: 410, type: 5
+        0 0 0 0 0 0 0 0 0 0 
+    key name: CAL_FUEL0_PARAMETER_CALIBRATION_A, total size: 60, array size: 60, offset: 420, type: 5
+        11 184 9 196 9 21 8 192 7 228 6 174 5 125 4 76 3 27 2 158 2 38 1 229 1 144 1 44 0 6 0 30 0 70 0 90 0 140 0 210 1 24 1 94 1 164 1 194 1 220 1 234 1 254 2 48 0 0 0 0 
+    key name: CAL_FUEL0_PARAMETER_CALIBRATION_A_RESERVED, total size: 10, array size: 10, offset: 480, type: 5
+        0 0 0 0 0 0 0 0 0 0 
+    key name: CAL_FUEL0_PARAMETER_CALIBRATION_B, total size: 60, array size: 60, offset: 490, type: 5
+        0 30 0 80 0 130 0 190 0 250 1 54 1 124 1 194 1 254 2 18 0 80 20 20 0 100 0 200 21 124 17 148 2 48 20 3 232 11 184 0 0 3 232 1 244 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 
+    key name: CAL_FUEL0_PARAMETER_CALIBRATION_B_RESERVED, total size: 10, array size: 10, offset: 550, type: 5
+        0 0 0 0 0 0 0 0 0 0 
+    key name: CAL_FUEL1_PARAMETER_CALIBRATION_A, total size: 60, array size: 60, offset: 560, type: 5
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: CAL_FUEL1_PARAMETER_CALIBRATION_A_RESERVED, total size: 10, array size: 10, offset: 620, type: 5
+        0 0 0 0 0 0 0 0 0 0 
+    key name: CAL_FUEL1_PARAMETER_CALIBRATION_B, total size: 60, array size: 60, offset: 630, type: 5
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: CAL_FUEL1_PARAMETER_CALIBRATION_B_RESERVED, total size: 10, array size: 10, offset: 690, type: 5
+        0 0 0 0 0 0 0 0 0 0 
+    key name: CAL_FUEL2_PARAMETER_CALIBRATION_A, total size: 60, array size: 60, offset: 700, type: 5
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: CAL_FUEL2_PARAMETER_CALIBRATION_A_RESERVED, total size: 10, array size: 10, offset: 760, type: 5
+        0 0 0 0 0 0 0 0 0 0 
+    key name: CAL_FUEL2_PARAMETER_CALIBRATION_B, total size: 60, array size: 60, offset: 770, type: 5
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: CAL_FUEL2_PARAMETER_CALIBRATION_B_RESERVED, total size: 10, array size: 10, offset: 830, type: 5
+        0 0 0 0 0 0 0 0 0 0 
+    key name: CAL_FUEL3_PARAMETER_CALIBRATION, total size: 60, array size: 60, offset: 840, type: 5
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: CAL_FUEL3_PARAMETER_CALIBRATION_RESERVED, total size: 10, array size: 10, offset: 900, type: 5
+        0 0 0 0 0 0 0 0 0 0 
+    key name: CAL_ENG_WATER_CALIBRATION, total size: 60, array size: 60, offset: 910, type: 5
+        120 4 2 0 0 0 0 0 0 50 60 70 80 106 110 115 120 0 0 0 0 0 0 0 0 0 0 0 0 0 3 232 0 20 19 136 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: CAL_ENG_WATER_CALIBRATION_RESERVED, total size: 10, array size: 10, offset: 970, type: 5
+        0 0 0 0 0 0 0 0 0 0 
+    key name: CAL_PARAMETER_CALIBRATION_A, total size: 50, array size: 50, offset: 980, type: 5
+        99 120 5 1 9 200 180 84 84 0 4 0 5 200 200 70 50 25 20 0 0 0 100 30 0 199 10 30 0 0 0 0 30 30 0 0 0 37 3 0 0 20 0 5 0 180 3 2 0 0 
+    key name: CAL_PARAMETER_CALIBRATION_A_RESERVED, total size: 10, array size: 10, offset: 1030, type: 5
+        0 0 0 0 0 0 0 0 0 0 
+    key name: CAL_PARAMETER_CALIBRATION_B, total size: 50, array size: 50, offset: 1040, type: 5
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: CAL_PARAMETER_CALIBRATION_B_RESERVED, total size: 10, array size: 10, offset: 1090, type: 5
+        0 0 0 0 0 0 0 0 0 0 
+    key name: CAL_FRONT_CAMERA_CALIBRATION_PARAMETER, total size: 38, array size: 38, offset: 1100, type: 5
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: CAL_FRONT_CAMERA_CALIBRATION_PARAMETER_RESERVED, total size: 12, array size: 12, offset: 1138, type: 5
+        0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: CAL_REAR_CAMERA_CALIBRATION_PARAMETER, total size: 38, array size: 38, offset: 1150, type: 5
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: CAL_REAR_CAMERA_CALIBRATION_PARAMETER_RESERVED, total size: 12, array size: 12, offset: 1188, type: 5
+        0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: CAL_LEFT_CAMERA_CALIBRATION_PARAMETER, total size: 38, array size: 38, offset: 1200, type: 5
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: CAL_LEFT_CAMERA_CALIBRATION_PARAMETER_RESERVED, total size: 12, array size: 12, offset: 1238, type: 5
+        0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: CAL_RIGHT_CAMERA_CALIBRATION_PARAMETER, total size: 38, array size: 38, offset: 1250, type: 5
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: CAL_RIGHT_CAMERA_CALIBRATION_PARAMETER_RESERVED, total size: 12, array size: 12, offset: 1288, type: 5
+        0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: RESERVED, total size: 2792, array size: 2792, offset: 1300, type: 5
+        RESERVED has been collapsed!
+    key name: __checksum__, total size: 4, array size: 0, offset: 4092, type: 7
+        2228688829 
+module name: cus_usr, user_id: -1, module size: 4096, data size: 4096, key count: 57, offset: 0
+    key name: ENG_MANUFACTORY_MODE, total size: 1, array size: 0, offset: 0, type: 5
+        255 
+    key name: ENG_DTC_SETTING_CONTROL_STATE, total size: 20, array size: 20, offset: 1, type: 5
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: ENG_TRANSPORTATION_MODE, total size: 1, array size: 0, offset: 21, type: 5
+        0 
+    key name: ENG_REPROGRAMMING_COUNTER, total size: 2, array size: 2, offset: 22, type: 5
+        0 0 
+    key name: ENG_REPROGRAMMING_ATTEMPT_COUNTER, total size: 2, array size: 2, offset: 24, type: 5
+        0 0 
+    key name: ENG_UDS_PROTOL_VERSION, total size: 2, array size: 2, offset: 26, type: 5
+        0 0 
+    key name: ENG_DCID, total size: 3, array size: 3, offset: 28, type: 5
+        0 0 0 
+    key name: ENG_MTOC, total size: 17, array size: 17, offset: 31, type: 5
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: ENG_GAC_DIAGNOSTIC_PARAMETER_TABLE_VERSION, total size: 4, array size: 4, offset: 48, type: 5
+        0 0 0 0 
+    key name: ENG_GAC_DIAGNOSTIC_SPECIFICATION_VERSION_DATA_IDENTIFIER, total size: 3, array size: 3, offset: 52, type: 5
+        0 0 0 
+    key name: ENG_GAC_ECU_HARDWARE_VERSION_NUMBER_DATA_IDENTIFIER, total size: 17, array size: 17, offset: 55, type: 5
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: ENG_APPLICATION_SOFTWARE_FINGERPRINT_DATA_IDENTIFIER, total size: 10, array size: 10, offset: 72, type: 5
+        0 0 0 0 0 0 0 0 0 0 
+    key name: ENG_GAC_SPARE_PART_NUMBER_DATA_IDENTIFIER, total size: 14, array size: 14, offset: 82, type: 5
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: ENG_ECU_SOFTWARE_VERSION_NUMBER_DATA_IDETIFIER, total size: 17, array size: 17, offset: 96, type: 5
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: ENG_SYSTEM_SUPPLIER_IDENTIFIER_DATA_IDENTIFIER, total size: 9, array size: 9, offset: 113, type: 5
+        0 0 0 0 0 0 0 0 0 
+    key name: ENG_ECU_SERIAL_NUMBER_DATA_IDENTIFIER, total size: 16, array size: 16, offset: 122, type: 5
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: ENG_GAC_KIT_ASSEMBLY_PART_NUMBER_DATA_IDENTIFIER, total size: 14, array size: 14, offset: 138, type: 5
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: ENG_GAC_ECU_SERIAL_NUMBER_DATA_IDENTIFIER, total size: 20, array size: 20, offset: 152, type: 5
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: ENG_VIN, total size: 17, array size: 17, offset: 172, type: 5
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: ENG_SYSTEM_SUPPLIER_ECU_HARDWARE_VERSION, total size: 62, array size: 62, offset: 189, type: 5
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: ENG_SYSTEM_SUPPLIER_ECU_SOFTWARE_VERSION, total size: 62, array size: 62, offset: 251, type: 5
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: ENG_SYSTEM_NAME_DATA_IDENTIFIER, total size: 20, array size: 20, offset: 313, type: 5
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: ENG_PROGRAMMING_DATE_DATA_IDENTIFIER, total size: 4, array size: 4, offset: 333, type: 5
+        0 0 0 0 
+    key name: ENG_CALIBRATION_SOFTWARE_IDENTIFIER, total size: 17, array size: 17, offset: 337, type: 5
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: ENG_OPTION_CODE, total size: 50, array size: 50, offset: 354, type: 5
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: ENG_PKI_APPLY, total size: 1, array size: 0, offset: 404, type: 5
+        0 
+    key name: ENG_PKI_CERTIFICATE_STATUS, total size: 1, array size: 0, offset: 405, type: 5
+        0 
+    key name: ENG_PKI_CERTIFICATE_MAINTENANCE_CYCLE, total size: 1, array size: 0, offset: 406, type: 5
+        0 
+    key name: ENG_PKI_SDK_VERSION, total size: 10, array size: 10, offset: 407, type: 5
+        0 0 0 0 0 0 0 0 0 0 
+    key name: ENG_PKI_DOMAIN_NAME, total size: 50, array size: 50, offset: 417, type: 5
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: ENG_PKI_PORT, total size: 8, array size: 8, offset: 467, type: 5
+        0 0 0 0 0 0 0 0 
+    key name: ENG_ODOMETER, total size: 3, array size: 3, offset: 475, type: 5
+        0 0 0 
+    key name: ENG_THE_NUMBER_OF_KILOMETERS_CAN_BE_SUBTRACTED, total size: 1, array size: 0, offset: 478, type: 5
+        0 
+    key name: ENG_DAYTIME_BACKLIGHT_LEVEL, total size: 8, array size: 8, offset: 479, type: 5
+        0 0 0 0 0 0 0 0 
+    key name: ENG_NIGHT_BACKLIGHT_LEVEL_MAX, total size: 8, array size: 8, offset: 487, type: 5
+        0 0 0 0 0 0 0 0 
+    key name: ENG_NIGHT_BACKLIGHT_LEVEL_MIN, total size: 8, array size: 8, offset: 495, type: 5
+        0 0 0 0 0 0 0 0 
+    key name: ENG_WARNING_SOUND_LEVEL, total size: 6, array size: 6, offset: 503, type: 5
+        0 0 0 0 0 0 
+    key name: ENG_TURN_SIGNAL_SOUND_LEVEL, total size: 6, array size: 6, offset: 509, type: 5
+        0 0 0 0 0 0 
+    key name: ENG_NEXT_SERVICE_MILEAGE, total size: 2, array size: 2, offset: 515, type: 5
+        0 0 
+    key name: ENG_NEXT_SERVICE_DATE, total size: 2, array size: 2, offset: 517, type: 5
+        0 0 
+    key name: ENG_CLUSTER_MODE, total size: 1, array size: 0, offset: 519, type: 5
+        0 
+    key name: ENG_SYSTEM_CALIBRATION_INFORMATION, total size: 5, array size: 5, offset: 520, type: 5
+        0 0 0 0 0 
+    key name: ENG_SYSTEM_CALIBRATION_SUCCESS_DATE, total size: 6, array size: 6, offset: 525, type: 5
+        0 0 0 0 0 0 
+    key name: ENG_IVI_DISPLAY_HARDWARE_VERSION_NUMBER, total size: 20, array size: 20, offset: 531, type: 5
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: ENG_IVI_DISPLAY_SOFTWARE_VERSION_NUMBER, total size: 20, array size: 20, offset: 551, type: 5
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: ENG_IVI_DISPLAY_TEMPERATURE, total size: 2, array size: 2, offset: 571, type: 5
+        0 0 
+    key name: ENG_IVI_DISPLAY_DTC, total size: 4, array size: 4, offset: 573, type: 5
+        0 0 0 0 
+    key name: ENG_IVI_DISPLAY_FAULTCODE, total size: 30, array size: 30, offset: 577, type: 5
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: ENG_IVI_TP_VERSION_NUMBER, total size: 10, array size: 10, offset: 607, type: 5
+        0 0 0 0 0 0 0 0 0 0 
+    key name: ENG_CLUSTER_DISPLAY_HARDWARE_VERSION_NUMBER, total size: 20, array size: 20, offset: 617, type: 5
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: ENG_CLUSTER_DISPLAY_SOFTWARE_VERSION_NUMBER, total size: 20, array size: 20, offset: 637, type: 5
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: ENG_CLUSTER_DISPLAY_TEMPERATURE, total size: 2, array size: 2, offset: 657, type: 5
+        0 0 
+    key name: ENG_CLUSTER_DISPLAY_DTC, total size: 4, array size: 4, offset: 659, type: 5
+        0 0 0 0 
+    key name: ENG_CLUSTER_DISPLAY_FAULTCODE, total size: 30, array size: 30, offset: 663, type: 5
+        0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+    key name: ENG_REMOTE_FAULT_DIAGNOSIS, total size: 8, array size: 8, offset: 693, type: 5
+        0 0 0 0 0 0 0 0 
+    key name: RESERVED, total size: 3391, array size: 3391, offset: 701, type: 5
+        RESERVED has been collapsed!
+    key name: __checksum__, total size: 4, array size: 0, offset: 4092, type: 7
+        2159639274 

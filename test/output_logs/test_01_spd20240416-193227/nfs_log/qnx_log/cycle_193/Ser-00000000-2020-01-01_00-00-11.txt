@@ -1,0 +1,91 @@
+[tid=1]load_early_variant:156 IfsLoader: block size =[4096].
+login: [24580:5] open64(/dev/disk/uda0,O_RDWR|O_SYNC) failed, err=2
+Open LUN 0 failed!(err = 2)
+QTD is enabled.
+[0.868832s]main:121 psis_server: init start
+[0.885829s]create_ifs_sync_point:48 psis_server: create point:/psis_server:9
+
+Loading deva-ctrl-qc version 0.94.0 on [Feb  5 2024]...
+1970-01-01 00:00:02 568 logStorage.main      info    early_log_storage has been launched!
+ASLR is enabled
+
+getCreateFunction : loaded successfully library with name:/usr/lib/libASCCmdCtrlPlugin.so
+*** sysmonitor: start as normal mode
+### Starting SysMonitor V0.2(20210415)   ###
+
+getCreateFunction : loaded successfully library with name:/usr/lib/libASCDSPCtrlPlugin.so
+
+getCreateFunction : loaded successfully library with name:/usr/lib/libASCRoutingPlugin.so
+*** sysmonitor: record start_count=197, err_count=0
+
+getCreateFunction : loaded successfully library with name:/usr/lib/libASCAmpCtrlPlugin.so
+gwm_BootControl_ClearUnbootCnt :0
+[DBG] write_cookie success 1200
+[DBG] write_cookie success 1200
+INFO: screen-pwrmgr[90]: Powering on display 0
+INFO: screen-pwrmgr[90]: Powering on display 1
+INFO: screen-pwrmgr[90]: Powering on display 2
+INFO: screen-pwrmgr[90]: Powering on display 3
+INFO: screen-pwrmgr[90]: Powering on display 4
+INFO: screen-pwrmgr[90]: Powering on display 5
+INFO: screen-pwrmgr[90]: Powering on display 6
+OmxPlayer::OmxPlayer RESMGR_H  had be defined
+/apps/cluster/A8E
+Successful registering slogger2 buffer!
+Successful registering slogger2 buffer!
+Successful registering slogger2 buffer!
+Successful registering slogger2 buffer!
+Successful registering slogger2 buffer!
+[0:0:3:405] EarlyTT::Main Called!
+[0:0:3:405] EarlyTT::HMIDisplay::initialize Called!
+mount logdata start
+dlopen load hab lib libuhab.so successful
+dlopen libuhab.so  handle=0xc4980fa8 successful
+waitfor /tmp/early_cluster_ready start
+check if bootchart can be run
+Successful registering slogger2 buffer!
+Successful registering slogger2 buffer!
+Successful registering slogger2 buffer!
+cfg=250 avm_mask=0x02,avm_cfg=1,avm_config=
+AVM is configured
+avm_start = 1
+Successful registering slogger2 buffer!
+Successful registering slogger2 buffer!
+Successful registering slogger2 buffer!
+Successful registering slogger2 buffer!
+[0:0:3:654] HVAC::onConfigure Called!
+cfg=255 mirror_dip_Mask=0x40,MirrorDipCfg=1
+Mirror Dip is configured
+MirrorDipCfg = 1
+checking /dev/disk/logdata
+Successful registering slogger2 buffer!
+[0:0:3:660] ClusterFunction::onConfigure start!
+[0:0:3:660] ClusterFunction::onConfigure Called!
+waitfor /tmp/early_cluster_ready end
+dt_patch start
+Successful registering slogger2 buffer!
+[438288:0:3:55] EarlyTT::HMIDisplay::run Called!
+[438288:0:3:97] EarlyTT::HMIDisplay::first rendering Called!
+CarType = A8E:normal
+Start AVM application
+/apps/avm
+/lib64/:/usr/lib64:/lib64/dll:/lib/:/usr/lib:/lib64/dll/pci:./lib
+*** sysmonitor: cluster chan read counter stay as same =0
+[main:425] Platform Subtype is: 68
+[main:442] change usb2info:generic> Window format rgba8888 set.
+info:generic> Window format rgba8888 set.
+0oc pin num to: 70
+[main:455] [dt_patch:/vm/images/sa8155-vm-la_in_android.dtb] Successfully patche[438288:0:3:334] HVAC::registerMetadataOverride Called!
+dwarning:generic> GLES API version support clamped to 3.1 due to Kanzi engine build configuration.
+ [438288:0:3:345] ClusterFunction::registerMetadataOverride Called!
+D[438288:0:3:346] ClusterFunction::onStartup start!
+T label "pmem_shared_mem" with "gvm_pmem"
+[438288:0:3:376] ClusterFunction::onStartup clusterfunction.kzb loaded!
+[main:503] CSuccessful registering slogger2 buffer!
+reated symlink /tmp/la.dtb -> [438288:0:3:494] ClusterFunction::onStartup  gauge.kzb loaded!
+/dev/shmem/sa8155-vm-la_in_android.dtb.patched
+[438288:0:3:536] ClusterFunction::onStartup  reource.kzb loaded!
+[438288:0:3:551] ClusterFunction::onStartup  adas.kzb loaded!
+[438288:0:3:567] ClusterFunction::onStartup  rightmenu.kzb loaded!
+[438288:0:3:567] HVAC::onProjectLoaded Called!
+[438288:0:3:578] ClusterFunction::onStartup done, clusterbackground.kzb loaded!

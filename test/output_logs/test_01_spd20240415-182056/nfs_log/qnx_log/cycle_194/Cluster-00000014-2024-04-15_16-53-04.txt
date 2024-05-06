@@ -1,0 +1,2060 @@
+2024-04-15 16:53:02.709    CMW_Cluster.495688..177    clusterlog      58701 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:02.717    CMW_Cluster.495688..177    clusterlog      58702 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:02.735    CMW_Cluster.495688..177    clusterlog      58703 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:02.746    CMW_Cluster.495688..177    clusterlog      58704 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:02.762    CMW_Cluster.495688..177    clusterlog      58705 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:02.811    CMW_Cluster.495688..177    clusterlog      58706 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267b0ca9]
+
+2024-04-15 16:53:02.811    CMW_Cluster.495688..177    clusterlog      58707 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267b0a89]
+
+2024-04-15 16:53:02.811    CMW_Cluster.495688..177    clusterlog      58708 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267b0869]
+
+2024-04-15 16:53:02.811    CMW_Cluster.495688..177    clusterlog      58709 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267b0649]
+
+2024-04-15 16:53:02.813    CMW_Cluster.495688..148    clusterlog      58710 10 I [etctpms] SetFlash mTpmsFlash1HZ = 0
+
+2024-04-15 16:53:02.813    CMW_Cluster.495688..64     clusterlog      58711  9 I [cluster.tt][INFO]  ON OFF: e3 40 62 1b 0b 00 00 21 00 00 08 01 00 00 00 00 
+
+
+2024-04-15 16:53:02.813    CMW_Cluster.495688..64     clusterlog      58712  9 I [cluster.tt][INFO]  blink : 00 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+
+2024-04-15 16:53:02.813    CMW_Cluster.495688..64     clusterlog      58713  9 I [cluster.tt][INFO]  selfcheck[2] TSR[0] MRR[0] 
+
+
+2024-04-15 16:53:02.813    CMW_Cluster.495688..64     clusterlog      58714  9 I [cluster.tt][INFO]  1 simple Data(s) was changed.
+
+
+2024-04-15 16:53:02.813    CMW_Cluster.495688..64     clusterlog      58715  9 I [cluster.tt][INFO]  [0] ID[15] ON[0] blink[1].
+
+
+2024-04-15 16:53:02.816    CMW_Cluster.495688..177    clusterlog      58716 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:02.835    CMW_Cluster.495688..177    clusterlog      58717 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:02.843    CMW_Cluster.495688..177    clusterlog      58718 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:02.862    CMW_Cluster.495688..177    clusterlog      58719 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:02.871    CMW_Cluster.495688..177    clusterlog      58720 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a50b9]
+
+2024-04-15 16:53:02.880    CMW_Cluster.495688..177    clusterlog      58721 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:02.889    CMW_Cluster.495688..177    clusterlog      58722 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:02.907    CMW_Cluster.495688..177    clusterlog      58723 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:02.925    CMW_Cluster.495688..177    clusterlog      58724 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:02.933    CMW_Cluster.495688..177    clusterlog      58725 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:02.942    CMW_Cluster.495688..177    clusterlog      58726 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:02.960    CMW_Cluster.495688..177    clusterlog      58727 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4af9]
+
+2024-04-15 16:53:02.970    CMW_Cluster.495688..177    clusterlog      58728 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:02.978    CMW_Cluster.495688..177    clusterlog      58729 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:02.987    CMW_Cluster.495688..177    clusterlog      58730 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:03.10     CMW_Cluster.495688..147    clusterlog      58731 11 I [EtcServer] QnxTimeNotifyProcessing: Year=2024, mMounth=4, mDay=15, mHour=4, mMin=53, mSec=3, AmPm=1, Format=1, TimeVD=1, mQnxTimeWeek=1, mQnxEnable=0
+
+2024-04-15 16:53:03.11     CMW_Cluster.495691..1      clusterlog      11515 12 I [ICFN]mQnxTimeHour: 4,mQnxTimeMin: 53
+
+2024-04-15 16:53:03.11     CMW_Cluster.495691..1      clusterlog      11516 12 I [ICFN]mQnxTimeVD: 1,mQnxEnable: 0
+
+2024-04-15 16:53:03.15     CMW_Cluster.495688..177    clusterlog      58732 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:03.23     CMW_Cluster.495688..177    clusterlog      58733 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:03.32     CMW_Cluster.495688..177    clusterlog      58734 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:03.41     CMW_Cluster.495688..177    clusterlog      58735 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:03.59     CMW_Cluster.495688..177    clusterlog      58736 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:03.60     CMW_Cluster.495688..151    clusterlog      58737 11 I [etcdrvmod] DriveTimerCnt DriveMode = 13, mDirveTimerCnt = 11
+
+2024-04-15 16:53:03.60     CMW_Cluster.495688..150    clusterlog      58738 11 I [etcoat] OAT Signal Missing mOatTimerCnt
+ 
+2024-04-15 16:53:03.69     CMW_Cluster.495688..177    clusterlog      58739 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:03.77     CMW_Cluster.495688..177    clusterlog      58740 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:03.87     CMW_Cluster.495688..177    clusterlog      58741 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:03.113    CMW_Cluster.495688..177    clusterlog      58742 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:03.122    CMW_Cluster.495688..177    clusterlog      58743 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:03.132    CMW_Cluster.495688..177    clusterlog      58744 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:03.141    CMW_Cluster.495688..177    clusterlog      58745 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:03.158    CMW_Cluster.495688..177    clusterlog      58746 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:03.167    CMW_Cluster.495688..177    clusterlog      58747 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:03.186    CMW_Cluster.495688..177    clusterlog      58748 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:03.196    CMW_Cluster.495688..177    clusterlog      58749 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:03.213    CMW_Cluster.495688..177    clusterlog      58750 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:03.221    CMW_Cluster.495688..177    clusterlog      58751 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:03.230    CMW_Cluster.495688..177    clusterlog      58752 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4af9]
+
+2024-04-15 16:53:03.240    CMW_Cluster.495688..177    clusterlog      58753 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a50b9]
+
+2024-04-15 16:53:03.257    CMW_Cluster.495688..177    clusterlog      58754 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:03.277    CMW_Cluster.495688..177    clusterlog      58755 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:03.286    CMW_Cluster.495688..177    clusterlog      58756 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:03.293    CMW_Cluster.495688..177    clusterlog      58757 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:03.312    CMW_Cluster.495688..177    clusterlog      58758 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:03.312    CMW_Cluster.495688..64     clusterlog      58759  9 I [cluster.tt][INFO]  ON OFF: e3 c0 62 1b 0b 00 00 21 00 00 08 01 00 00 00 00 
+
+
+2024-04-15 16:53:03.312    CMW_Cluster.495688..64     clusterlog      58760  9 I [cluster.tt][INFO]  blink : 00 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+
+2024-04-15 16:53:03.312    CMW_Cluster.495688..64     clusterlog      58761  9 I [cluster.tt][INFO]  selfcheck[2] TSR[0] MRR[0] 
+
+
+2024-04-15 16:53:03.312    CMW_Cluster.495688..64     clusterlog      58762  9 I [cluster.tt][INFO]  1 simple Data(s) was changed.
+
+
+2024-04-15 16:53:03.312    CMW_Cluster.495688..64     clusterlog      58763  9 I [cluster.tt][INFO]  [0] ID[15] ON[1] blink[1].
+
+
+2024-04-15 16:53:03.321    CMW_Cluster.495688..177    clusterlog      58764 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a50b9]
+
+2024-04-15 16:53:03.330    CMW_Cluster.495688..177    clusterlog      58765 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4af9]
+
+2024-04-15 16:53:03.338    CMW_Cluster.495688..177    clusterlog      58766 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:03.357    CMW_Cluster.495688..177    clusterlog      58767 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:03.375    CMW_Cluster.495688..177    clusterlog      58768 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:03.383    CMW_Cluster.495688..177    clusterlog      58769 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:03.392    CMW_Cluster.495688..177    clusterlog      58770 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:03.411    CMW_Cluster.495688..177    clusterlog      58771 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4af9]
+
+2024-04-15 16:53:03.420    CMW_Cluster.495688..177    clusterlog      58772 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:03.429    CMW_Cluster.495688..177    clusterlog      58773 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:03.438    CMW_Cluster.495688..177    clusterlog      58774 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:03.465    CMW_Cluster.495688..177    clusterlog      58775 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:03.473    CMW_Cluster.495688..177    clusterlog      58776 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:03.482    CMW_Cluster.495688..177    clusterlog      58777 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:03.492    CMW_Cluster.495688..177    clusterlog      58778 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:03.510    CMW_Cluster.495688..177    clusterlog      58779 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a50b9]
+
+2024-04-15 16:53:03.518    CMW_Cluster.495688..177    clusterlog      58780 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:03.527    CMW_Cluster.495688..177    clusterlog      58781 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:03.536    CMW_Cluster.495688..177    clusterlog      58782 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:03.564    CMW_Cluster.495688..177    clusterlog      58783 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:03.572    CMW_Cluster.495688..177    clusterlog      58784 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:03.582    CMW_Cluster.495688..177    clusterlog      58785 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:03.590    CMW_Cluster.495688..177    clusterlog      58786 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:03.608    CMW_Cluster.495688..177    clusterlog      58787 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:03.610    CMW_Cluster.495688..150    clusterlog      58788 11 I [etcoat] OAT Signal Missing mOatTimerCnt
+ 
+2024-04-15 16:53:03.617    CMW_Cluster.495688..177    clusterlog      58789 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:03.635    CMW_Cluster.495688..177    clusterlog      58790 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:03.646    CMW_Cluster.495688..177    clusterlog      58791 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:03.660    CMW_Cluster.495688..151    clusterlog      58792 11 I [etcdrvmod] DriveTimerCnt DriveMode = 13, mDirveTimerCnt = 11
+
+2024-04-15 16:53:03.662    CMW_Cluster.495688..177    clusterlog      58793 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:03.672    CMW_Cluster.495688..177    clusterlog      58794 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:03.681    CMW_Cluster.495688..177    clusterlog      58795 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:03.689    CMW_Cluster.495688..177    clusterlog      58796 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:03.707    CMW_Cluster.495688..177    clusterlog      58797 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:03.716    CMW_Cluster.495688..177    clusterlog      58798 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:03.735    CMW_Cluster.495688..177    clusterlog      58799 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:03.743    CMW_Cluster.495688..177    clusterlog      58800 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:03.762    CMW_Cluster.495688..177    clusterlog      58801 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:03.770    CMW_Cluster.495688..177    clusterlog      58802 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a50b9]
+
+2024-04-15 16:53:03.814    CMW_Cluster.495688..177    clusterlog      58803 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267b0dc9]
+
+2024-04-15 16:53:03.814    CMW_Cluster.495688..177    clusterlog      58804 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267b0ec9]
+
+2024-04-15 16:53:03.814    CMW_Cluster.495688..177    clusterlog      58805 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267b0a89]
+
+2024-04-15 16:53:03.816    CMW_Cluster.495688..148    clusterlog      58806 10 I [etctpms] SetFlash mTpmsFlash1HZ = 0
+
+2024-04-15 16:53:03.816    CMW_Cluster.495688..64     clusterlog      58807  9 I [cluster.tt][INFO]  ON OFF: e3 40 62 1b 0b 00 00 21 00 00 08 01 00 00 00 00 
+
+
+2024-04-15 16:53:03.816    CMW_Cluster.495688..64     clusterlog      58808  9 I [cluster.tt][INFO]  blink : 00 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+
+2024-04-15 16:53:03.816    CMW_Cluster.495688..64     clusterlog      58809  9 I [cluster.tt][INFO]  selfcheck[2] TSR[0] MRR[0] 
+
+
+2024-04-15 16:53:03.816    CMW_Cluster.495688..64     clusterlog      58810  9 I [cluster.tt][INFO]  1 simple Data(s) was changed.
+
+
+2024-04-15 16:53:03.816    CMW_Cluster.495688..64     clusterlog      58811  9 I [cluster.tt][INFO]  [0] ID[15] ON[0] blink[1].
+
+
+2024-04-15 16:53:03.826    CMW_Cluster.495688..177    clusterlog      58812 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:03.834    CMW_Cluster.495688..177    clusterlog      58813 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:03.842    CMW_Cluster.495688..177    clusterlog      58814 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:03.861    CMW_Cluster.495688..177    clusterlog      58815 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4af9]
+
+2024-04-15 16:53:03.869    CMW_Cluster.495688..177    clusterlog      58816 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:03.879    CMW_Cluster.495688..177    clusterlog      58817 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:03.887    CMW_Cluster.495688..177    clusterlog      58818 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:03.915    CMW_Cluster.495688..177    clusterlog      58819 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:03.923    CMW_Cluster.495688..177    clusterlog      58820 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:03.933    CMW_Cluster.495688..177    clusterlog      58821 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:03.941    CMW_Cluster.495688..177    clusterlog      58822 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:03.959    CMW_Cluster.495688..177    clusterlog      58823 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:03.968    CMW_Cluster.495688..177    clusterlog      58824 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:03.977    CMW_Cluster.495688..177    clusterlog      58825 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:03.987    CMW_Cluster.495688..177    clusterlog      58826 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:04.10     CMW_Cluster.495691..1      clusterlog      11517 12 I [ICFN]mQnxTimeHour: 4,mQnxTimeMin: 53
+
+2024-04-15 16:53:04.10     CMW_Cluster.495691..1      clusterlog      11518 12 I [ICFN]mQnxTimeVD: 1,mQnxEnable: 0
+
+2024-04-15 16:53:04.10     CMW_Cluster.495688..147    clusterlog      58827 11 I [EtcServer] QnxTimeNotifyProcessing: Year=2024, mMounth=4, mDay=15, mHour=4, mMin=53, mSec=4, AmPm=1, Format=1, TimeVD=1, mQnxTimeWeek=1, mQnxEnable=0
+
+2024-04-15 16:53:04.13     CMW_Cluster.495688..177    clusterlog      58828 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:04.22     CMW_Cluster.495688..177    clusterlog      58829 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:04.32     CMW_Cluster.495688..177    clusterlog      58830 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:04.41     CMW_Cluster.495688..177    clusterlog      58831 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:04.58     CMW_Cluster.495688..177    clusterlog      58832 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:04.67     CMW_Cluster.495688..177    clusterlog      58833 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:04.85     CMW_Cluster.495688..177    clusterlog      58834 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:04.96     CMW_Cluster.495688..177    clusterlog      58835 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:04.112    CMW_Cluster.495688..177    clusterlog      58836 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:04.122    CMW_Cluster.495688..177    clusterlog      58837 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:04.130    CMW_Cluster.495688..177    clusterlog      58838 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:04.141    CMW_Cluster.495688..177    clusterlog      58839 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a50b9]
+
+2024-04-15 16:53:04.157    CMW_Cluster.495688..177    clusterlog      58840 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:04.160    CMW_Cluster.495688..150    clusterlog      58841 11 I [etcoat] OAT Signal Missing mOatTimerCnt
+ 
+2024-04-15 16:53:04.167    CMW_Cluster.495688..177    clusterlog      58842 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:04.186    CMW_Cluster.495688..177    clusterlog      58843 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:04.193    CMW_Cluster.495688..177    clusterlog      58844 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:04.211    CMW_Cluster.495688..177    clusterlog      58845 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:04.221    CMW_Cluster.495688..177    clusterlog      58846 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4af9]
+
+2024-04-15 16:53:04.229    CMW_Cluster.495688..177    clusterlog      58847 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:04.238    CMW_Cluster.495688..177    clusterlog      58848 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:04.257    CMW_Cluster.495688..177    clusterlog      58849 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:04.260    CMW_Cluster.495688..151    clusterlog      58850 11 I [etcdrvmod] DriveTimerCnt DriveMode = 13, mDirveTimerCnt = 11
+
+2024-04-15 16:53:04.275    CMW_Cluster.495688..177    clusterlog      58851 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:04.283    CMW_Cluster.495688..177    clusterlog      58852 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:04.293    CMW_Cluster.495688..177    clusterlog      58853 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:04.311    CMW_Cluster.495688..177    clusterlog      58854 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:04.311    CMW_Cluster.495688..64     clusterlog      58855  9 I [cluster.tt][INFO]  ON OFF: e3 c0 62 1b 0b 00 00 21 00 00 08 01 00 00 00 00 
+
+
+2024-04-15 16:53:04.311    CMW_Cluster.495688..64     clusterlog      58856  9 I [cluster.tt][INFO]  blink : 00 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+
+2024-04-15 16:53:04.311    CMW_Cluster.495688..64     clusterlog      58857  9 I [cluster.tt][INFO]  selfcheck[2] TSR[0] MRR[0] 
+
+
+2024-04-15 16:53:04.311    CMW_Cluster.495688..64     clusterlog      58858  9 I [cluster.tt][INFO]  1 simple Data(s) was changed.
+
+
+2024-04-15 16:53:04.311    CMW_Cluster.495688..64     clusterlog      58859  9 I [cluster.tt][INFO]  [0] ID[15] ON[1] blink[1].
+
+
+2024-04-15 16:53:04.320    CMW_Cluster.495688..177    clusterlog      58860 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:04.328    CMW_Cluster.495688..177    clusterlog      58861 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:04.337    CMW_Cluster.495688..177    clusterlog      58862 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:04.366    CMW_Cluster.495688..177    clusterlog      58863 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:04.373    CMW_Cluster.495688..177    clusterlog      58864 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:04.382    CMW_Cluster.495688..177    clusterlog      58865 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:04.392    CMW_Cluster.495688..177    clusterlog      58866 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:04.410    CMW_Cluster.495688..177    clusterlog      58867 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a2219]
+
+2024-04-15 16:53:04.418    CMW_Cluster.495688..177    clusterlog      58868 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:04.427    CMW_Cluster.495688..177    clusterlog      58869 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:04.437    CMW_Cluster.495688..177    clusterlog      58870 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:04.463    CMW_Cluster.495688..177    clusterlog      58871 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:04.472    CMW_Cluster.495688..177    clusterlog      58872 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:04.482    CMW_Cluster.495688..177    clusterlog      58873 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:04.491    CMW_Cluster.495688..177    clusterlog      58874 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:04.509    CMW_Cluster.495688..177    clusterlog      58875 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:04.517    CMW_Cluster.495688..177    clusterlog      58876 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:04.536    CMW_Cluster.495688..177    clusterlog      58877 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:04.546    CMW_Cluster.495688..177    clusterlog      58878 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:04.562    CMW_Cluster.495688..177    clusterlog      58879 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:04.572    CMW_Cluster.495688..177    clusterlog      58880 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:04.581    CMW_Cluster.495688..177    clusterlog      58881 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4af9]
+
+2024-04-15 16:53:04.590    CMW_Cluster.495688..177    clusterlog      58882 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:04.607    CMW_Cluster.495688..177    clusterlog      58883 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:04.616    CMW_Cluster.495688..177    clusterlog      58884 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:04.635    CMW_Cluster.495688..177    clusterlog      58885 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:04.643    CMW_Cluster.495688..177    clusterlog      58886 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:04.662    CMW_Cluster.495688..177    clusterlog      58887 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:04.670    CMW_Cluster.495688..177    clusterlog      58888 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a50b9]
+
+2024-04-15 16:53:04.680    CMW_Cluster.495688..177    clusterlog      58889 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4af9]
+
+2024-04-15 16:53:04.688    CMW_Cluster.495688..177    clusterlog      58890 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:04.707    CMW_Cluster.495688..177    clusterlog      58891 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:04.710    CMW_Cluster.495688..150    clusterlog      58892 11 I [etcoat] OAT Signal Missing mOatTimerCnt
+ 
+2024-04-15 16:53:04.726    CMW_Cluster.495688..177    clusterlog      58893 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:04.733    CMW_Cluster.495688..177    clusterlog      58894 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:04.742    CMW_Cluster.495688..177    clusterlog      58895 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:04.761    CMW_Cluster.495688..177    clusterlog      58896 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:04.770    CMW_Cluster.495688..177    clusterlog      58897 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a50b9]
+
+2024-04-15 16:53:04.804    CMW_Cluster.495688..177    clusterlog      58898 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a2459]
+
+2024-04-15 16:53:04.804    CMW_Cluster.495688..177    clusterlog      58899 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a2239]
+
+2024-04-15 16:53:04.815    CMW_Cluster.495688..177    clusterlog      58900 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:04.816    CMW_Cluster.495688..148    clusterlog      58901 10 I [etctpms] SetFlash mTpmsFlash1HZ = 0
+
+2024-04-15 16:53:04.816    CMW_Cluster.495688..64     clusterlog      58902  9 I [cluster.tt][INFO]  ON OFF: e3 40 62 1b 0b 00 00 21 00 00 08 01 00 00 00 00 
+
+
+2024-04-15 16:53:04.816    CMW_Cluster.495688..64     clusterlog      58903  9 I [cluster.tt][INFO]  blink : 00 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+
+2024-04-15 16:53:04.816    CMW_Cluster.495688..64     clusterlog      58904  9 I [cluster.tt][INFO]  selfcheck[2] TSR[0] MRR[0] 
+
+
+2024-04-15 16:53:04.816    CMW_Cluster.495688..64     clusterlog      58905  9 I [cluster.tt][INFO]  1 simple Data(s) was changed.
+
+
+2024-04-15 16:53:04.816    CMW_Cluster.495688..64     clusterlog      58906  9 I [cluster.tt][INFO]  [0] ID[15] ON[0] blink[1].
+
+
+2024-04-15 16:53:04.823    CMW_Cluster.495688..177    clusterlog      58907 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:04.832    CMW_Cluster.495688..177    clusterlog      58908 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:04.842    CMW_Cluster.495688..177    clusterlog      58909 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:04.861    CMW_Cluster.495688..151    clusterlog      58910 11 I [etcdrvmod] DriveTimerCnt DriveMode = 13, mDirveTimerCnt = 11
+
+2024-04-15 16:53:04.862    CMW_Cluster.495688..177    clusterlog      58911 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:04.869    CMW_Cluster.495688..177    clusterlog      58912 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:04.877    CMW_Cluster.495688..177    clusterlog      58913 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:04.888    CMW_Cluster.495688..177    clusterlog      58914 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:04.913    CMW_Cluster.495688..177    clusterlog      58915 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:04.922    CMW_Cluster.495688..177    clusterlog      58916 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:04.931    CMW_Cluster.495688..177    clusterlog      58917 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:04.941    CMW_Cluster.495688..177    clusterlog      58918 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:04.958    CMW_Cluster.495688..177    clusterlog      58919 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:04.967    CMW_Cluster.495688..177    clusterlog      58920 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:04.985    CMW_Cluster.495688..177    clusterlog      58921 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:04.996    CMW_Cluster.495688..177    clusterlog      58922 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:05.10     CMW_Cluster.495688..147    clusterlog      58923 11 I [EtcServer] QnxTimeNotifyProcessing: Year=2024, mMounth=4, mDay=15, mHour=4, mMin=53, mSec=5, AmPm=1, Format=1, TimeVD=1, mQnxTimeWeek=1, mQnxEnable=0
+
+2024-04-15 16:53:05.11     CMW_Cluster.495691..1      clusterlog      11519 12 I [ICFN]mQnxTimeHour: 4,mQnxTimeMin: 53
+
+2024-04-15 16:53:05.11     CMW_Cluster.495691..1      clusterlog      11520 12 I [ICFN]mQnxTimeVD: 1,mQnxEnable: 0
+
+2024-04-15 16:53:05.13     CMW_Cluster.495688..177    clusterlog      58924 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:05.21     CMW_Cluster.495688..177    clusterlog      58925 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:05.30     CMW_Cluster.495688..177    clusterlog      58926 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4af9]
+
+2024-04-15 16:53:05.39     CMW_Cluster.495688..177    clusterlog      58927 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:05.57     CMW_Cluster.495688..177    clusterlog      58928 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:05.67     CMW_Cluster.495688..177    clusterlog      58929 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:05.86     CMW_Cluster.495688..177    clusterlog      58930 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:05.93     CMW_Cluster.495688..177    clusterlog      58931 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:05.111    CMW_Cluster.495688..177    clusterlog      58932 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:05.121    CMW_Cluster.495688..177    clusterlog      58933 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a50b9]
+
+2024-04-15 16:53:05.130    CMW_Cluster.495688..177    clusterlog      58934 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4af9]
+
+2024-04-15 16:53:05.138    CMW_Cluster.495688..177    clusterlog      58935 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:05.157    CMW_Cluster.495688..177    clusterlog      58936 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:05.175    CMW_Cluster.495688..177    clusterlog      58937 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:05.183    CMW_Cluster.495688..177    clusterlog      58938 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:05.192    CMW_Cluster.495688..177    clusterlog      58939 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:05.211    CMW_Cluster.495688..177    clusterlog      58940 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a50b9]
+
+2024-04-15 16:53:05.221    CMW_Cluster.495688..177    clusterlog      58941 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a50b9]
+
+2024-04-15 16:53:05.229    CMW_Cluster.495688..177    clusterlog      58942 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:05.237    CMW_Cluster.495688..177    clusterlog      58943 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:05.260    CMW_Cluster.495688..150    clusterlog      58944 11 I [etcoat] OAT Signal Missing mOatTimerCnt
+ 
+2024-04-15 16:53:05.266    CMW_Cluster.495688..177    clusterlog      58945 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:05.274    CMW_Cluster.495688..177    clusterlog      58946 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:05.282    CMW_Cluster.495688..177    clusterlog      58947 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:05.291    CMW_Cluster.495688..177    clusterlog      58948 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:05.310    CMW_Cluster.495688..177    clusterlog      58949 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:05.310    CMW_Cluster.495688..64     clusterlog      58950  9 I [cluster.tt][INFO]  ON OFF: e3 c0 62 1b 0b 00 00 21 00 00 08 01 00 00 00 00 
+
+
+2024-04-15 16:53:05.310    CMW_Cluster.495688..64     clusterlog      58951  9 I [cluster.tt][INFO]  blink : 00 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+
+2024-04-15 16:53:05.310    CMW_Cluster.495688..64     clusterlog      58952  9 I [cluster.tt][INFO]  selfcheck[2] TSR[0] MRR[0] 
+
+
+2024-04-15 16:53:05.310    CMW_Cluster.495688..64     clusterlog      58953  9 I [cluster.tt][INFO]  1 simple Data(s) was changed.
+
+
+2024-04-15 16:53:05.310    CMW_Cluster.495688..64     clusterlog      58954  9 I [cluster.tt][INFO]  [0] ID[15] ON[1] blink[1].
+
+
+2024-04-15 16:53:05.318    CMW_Cluster.495688..177    clusterlog      58955 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:05.327    CMW_Cluster.495688..177    clusterlog      58956 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:05.336    CMW_Cluster.495688..177    clusterlog      58957 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:05.364    CMW_Cluster.495688..177    clusterlog      58958 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:05.373    CMW_Cluster.495688..177    clusterlog      58959 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:05.382    CMW_Cluster.495688..177    clusterlog      58960 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:05.391    CMW_Cluster.495688..177    clusterlog      58961 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:05.408    CMW_Cluster.495688..177    clusterlog      58962 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:05.418    CMW_Cluster.495688..177    clusterlog      58963 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:05.437    CMW_Cluster.495688..177    clusterlog      58964 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:05.446    CMW_Cluster.495688..177    clusterlog      58965 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:05.461    CMW_Cluster.495688..151    clusterlog      58966 11 I [etcdrvmod] DriveTimerCnt DriveMode = 13, mDirveTimerCnt = 11
+
+2024-04-15 16:53:05.462    CMW_Cluster.495688..177    clusterlog      58967 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:05.471    CMW_Cluster.495688..177    clusterlog      58968 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:05.480    CMW_Cluster.495688..177    clusterlog      58969 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4af9]
+
+2024-04-15 16:53:05.490    CMW_Cluster.495688..177    clusterlog      58970 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:05.508    CMW_Cluster.495688..177    clusterlog      58971 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:05.517    CMW_Cluster.495688..177    clusterlog      58972 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:05.535    CMW_Cluster.495688..177    clusterlog      58973 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:05.543    CMW_Cluster.495688..177    clusterlog      58974 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:05.562    CMW_Cluster.495688..177    clusterlog      58975 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:05.570    CMW_Cluster.495688..177    clusterlog      58976 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:05.581    CMW_Cluster.495688..177    clusterlog      58977 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:05.589    CMW_Cluster.495688..177    clusterlog      58978 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:05.607    CMW_Cluster.495688..177    clusterlog      58979 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:05.626    CMW_Cluster.495688..177    clusterlog      58980 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:05.634    CMW_Cluster.495688..177    clusterlog      58981 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:05.642    CMW_Cluster.495688..177    clusterlog      58982 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:05.661    CMW_Cluster.495688..177    clusterlog      58983 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:05.670    CMW_Cluster.495688..177    clusterlog      58984 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:05.678    CMW_Cluster.495688..177    clusterlog      58985 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:05.687    CMW_Cluster.495688..177    clusterlog      58986 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:05.715    CMW_Cluster.495688..177    clusterlog      58987 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:05.723    CMW_Cluster.495688..177    clusterlog      58988 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:05.733    CMW_Cluster.495688..177    clusterlog      58989 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:05.741    CMW_Cluster.495688..177    clusterlog      58990 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:05.760    CMW_Cluster.495688..177    clusterlog      58991 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:05.769    CMW_Cluster.495688..177    clusterlog      58992 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a2699]
+
+2024-04-15 16:53:05.818    CMW_Cluster.495688..177    clusterlog      58993 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267b0ee9]
+
+2024-04-15 16:53:05.818    CMW_Cluster.495688..177    clusterlog      58994 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267b0cc9]
+
+2024-04-15 16:53:05.818    CMW_Cluster.495688..177    clusterlog      58995 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267b0aa9]
+
+2024-04-15 16:53:05.819    CMW_Cluster.495688..150    clusterlog      58996 11 I [etcoat] OAT Signal Missing mOatTimerCnt
+ 
+2024-04-15 16:53:05.819    CMW_Cluster.495688..148    clusterlog      58997 10 I [etctpms] SetFlash mTpmsFlash1HZ = 0
+
+2024-04-15 16:53:05.819    CMW_Cluster.495688..64     clusterlog      58998  9 I [cluster.tt][INFO]  ON OFF: e3 40 62 1b 0b 00 00 21 00 00 08 01 00 00 00 00 
+
+
+2024-04-15 16:53:05.819    CMW_Cluster.495688..64     clusterlog      58999  9 I [cluster.tt][INFO]  blink : 00 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+
+2024-04-15 16:53:05.819    CMW_Cluster.495688..64     clusterlog      59000  9 I [cluster.tt][INFO]  selfcheck[2] TSR[0] MRR[0] 
+
+
+2024-04-15 16:53:05.820    CMW_Cluster.495688..64     clusterlog      59001  9 I [cluster.tt][INFO]  1 simple Data(s) was changed.
+
+
+2024-04-15 16:53:05.820    CMW_Cluster.495688..64     clusterlog      59002  9 I [cluster.tt][INFO]  [0] ID[15] ON[0] blink[1].
+
+
+2024-04-15 16:53:05.822    CMW_Cluster.495688..177    clusterlog      59003 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:05.832    CMW_Cluster.495688..177    clusterlog      59004 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:05.840    CMW_Cluster.495688..177    clusterlog      59005 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:05.858    CMW_Cluster.495688..177    clusterlog      59006 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:05.867    CMW_Cluster.495688..177    clusterlog      59007 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:05.886    CMW_Cluster.495688..177    clusterlog      59008 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:05.896    CMW_Cluster.495688..177    clusterlog      59009 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:05.912    CMW_Cluster.495688..177    clusterlog      59010 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:05.922    CMW_Cluster.495688..177    clusterlog      59011 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:05.930    CMW_Cluster.495688..177    clusterlog      59012 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:05.940    CMW_Cluster.495688..177    clusterlog      59013 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:05.957    CMW_Cluster.495688..177    clusterlog      59014 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:05.967    CMW_Cluster.495688..177    clusterlog      59015 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:05.985    CMW_Cluster.495688..177    clusterlog      59016 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:05.993    CMW_Cluster.495688..177    clusterlog      59017 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:06.10     CMW_Cluster.495691..1      clusterlog      11521 12 I [ICFN]mQnxTimeHour: 4,mQnxTimeMin: 53
+
+2024-04-15 16:53:06.10     CMW_Cluster.495691..1      clusterlog      11522 12 I [ICFN]mQnxTimeVD: 1,mQnxEnable: 0
+
+2024-04-15 16:53:06.10     CMW_Cluster.495688..147    clusterlog      59018 11 I [EtcServer] QnxTimeNotifyProcessing: Year=2024, mMounth=4, mDay=15, mHour=4, mMin=53, mSec=6, AmPm=1, Format=1, TimeVD=1, mQnxTimeWeek=1, mQnxEnable=0
+
+2024-04-15 16:53:06.12     CMW_Cluster.495688..177    clusterlog      59019 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:06.21     CMW_Cluster.495688..177    clusterlog      59020 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:06.30     CMW_Cluster.495688..177    clusterlog      59021 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:06.38     CMW_Cluster.495688..177    clusterlog      59022 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:06.57     CMW_Cluster.495688..177    clusterlog      59023 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:06.59     CMW_Cluster.495688..151    clusterlog      59024 11 I [etcdrvmod] DriveTimerCnt DriveMode = 13, mDirveTimerCnt = 11
+
+2024-04-15 16:53:06.75     CMW_Cluster.495688..177    clusterlog      59025 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:06.83     CMW_Cluster.495688..177    clusterlog      59026 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:06.93     CMW_Cluster.495688..177    clusterlog      59027 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:06.110    CMW_Cluster.495688..177    clusterlog      59028 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:06.120    CMW_Cluster.495688..177    clusterlog      59029 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:06.128    CMW_Cluster.495688..177    clusterlog      59030 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:06.137    CMW_Cluster.495688..177    clusterlog      59031 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:06.166    CMW_Cluster.495688..177    clusterlog      59032 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:06.174    CMW_Cluster.495688..177    clusterlog      59033 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:06.182    CMW_Cluster.495688..177    clusterlog      59034 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:06.192    CMW_Cluster.495688..177    clusterlog      59035 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:06.210    CMW_Cluster.495688..177    clusterlog      59036 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:06.218    CMW_Cluster.495688..177    clusterlog      59037 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:06.228    CMW_Cluster.495688..177    clusterlog      59038 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:06.237    CMW_Cluster.495688..177    clusterlog      59039 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:06.263    CMW_Cluster.495688..177    clusterlog      59040 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:06.272    CMW_Cluster.495688..177    clusterlog      59041 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:06.282    CMW_Cluster.495688..177    clusterlog      59042 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:06.290    CMW_Cluster.495688..177    clusterlog      59043 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:06.309    CMW_Cluster.495688..177    clusterlog      59044 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:06.309    CMW_Cluster.495688..64     clusterlog      59045  9 I [cluster.tt][INFO]  ON OFF: e3 c0 62 1b 0b 00 00 21 00 00 08 01 00 00 00 00 
+
+
+2024-04-15 16:53:06.309    CMW_Cluster.495688..64     clusterlog      59046  9 I [cluster.tt][INFO]  blink : 00 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+
+2024-04-15 16:53:06.309    CMW_Cluster.495688..64     clusterlog      59047  9 I [cluster.tt][INFO]  selfcheck[2] TSR[0] MRR[0] 
+
+
+2024-04-15 16:53:06.310    CMW_Cluster.495688..64     clusterlog      59048  9 I [cluster.tt][INFO]  1 simple Data(s) was changed.
+
+
+2024-04-15 16:53:06.310    CMW_Cluster.495688..64     clusterlog      59049  9 I [cluster.tt][INFO]  [0] ID[15] ON[1] blink[1].
+
+
+2024-04-15 16:53:06.317    CMW_Cluster.495688..177    clusterlog      59050 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:06.336    CMW_Cluster.495688..177    clusterlog      59051 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:06.346    CMW_Cluster.495688..177    clusterlog      59052 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:06.359    CMW_Cluster.495688..150    clusterlog      59053 11 I [etcoat] OAT Signal Missing mOatTimerCnt
+ 
+2024-04-15 16:53:06.362    CMW_Cluster.495688..177    clusterlog      59054 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:06.373    CMW_Cluster.495688..177    clusterlog      59055 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:06.381    CMW_Cluster.495688..177    clusterlog      59056 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:06.390    CMW_Cluster.495688..177    clusterlog      59057 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:06.408    CMW_Cluster.495688..177    clusterlog      59058 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:06.416    CMW_Cluster.495688..177    clusterlog      59059 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:06.435    CMW_Cluster.495688..177    clusterlog      59060 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:06.443    CMW_Cluster.495688..177    clusterlog      59061 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:06.462    CMW_Cluster.495688..177    clusterlog      59062 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:06.470    CMW_Cluster.495688..177    clusterlog      59063 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:06.479    CMW_Cluster.495688..177    clusterlog      59064 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:06.488    CMW_Cluster.495688..177    clusterlog      59065 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:06.507    CMW_Cluster.495688..177    clusterlog      59066 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:06.525    CMW_Cluster.495688..177    clusterlog      59067 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:06.533    CMW_Cluster.495688..177    clusterlog      59068 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:06.542    CMW_Cluster.495688..177    clusterlog      59069 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:06.560    CMW_Cluster.495688..177    clusterlog      59070 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:06.570    CMW_Cluster.495688..177    clusterlog      59071 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:06.579    CMW_Cluster.495688..177    clusterlog      59072 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a50b9]
+
+2024-04-15 16:53:06.587    CMW_Cluster.495688..177    clusterlog      59073 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:06.615    CMW_Cluster.495688..177    clusterlog      59074 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:06.623    CMW_Cluster.495688..177    clusterlog      59075 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:06.632    CMW_Cluster.495688..177    clusterlog      59076 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:06.641    CMW_Cluster.495688..177    clusterlog      59077 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:06.659    CMW_Cluster.495688..151    clusterlog      59078 11 I [etcdrvmod] DriveTimerCnt DriveMode = 13, mDirveTimerCnt = 11
+
+2024-04-15 16:53:06.660    CMW_Cluster.495688..177    clusterlog      59079 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:06.669    CMW_Cluster.495688..177    clusterlog      59080 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:06.677    CMW_Cluster.495688..177    clusterlog      59081 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:06.687    CMW_Cluster.495688..177    clusterlog      59082 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:06.714    CMW_Cluster.495688..177    clusterlog      59083 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:06.722    CMW_Cluster.495688..177    clusterlog      59084 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:06.733    CMW_Cluster.495688..177    clusterlog      59085 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:06.740    CMW_Cluster.495688..177    clusterlog      59086 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:06.758    CMW_Cluster.495688..177    clusterlog      59087 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:06.767    CMW_Cluster.495688..177    clusterlog      59088 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:06.818    CMW_Cluster.495688..177    clusterlog      59089 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267b0ee9]
+
+2024-04-15 16:53:06.818    CMW_Cluster.495688..177    clusterlog      59090 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267b0cc9]
+
+2024-04-15 16:53:06.818    CMW_Cluster.495688..177    clusterlog      59091 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267b0aa9]
+
+2024-04-15 16:53:06.819    CMW_Cluster.495688..148    clusterlog      59092 10 I [etctpms] SetFlash mTpmsFlash1HZ = 0
+
+2024-04-15 16:53:06.819    CMW_Cluster.495688..64     clusterlog      59093  9 I [cluster.tt][INFO]  ON OFF: e3 40 62 1b 0b 00 00 21 00 00 08 01 00 00 00 00 
+
+
+2024-04-15 16:53:06.819    CMW_Cluster.495688..64     clusterlog      59094  9 I [cluster.tt][INFO]  blink : 00 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+
+2024-04-15 16:53:06.819    CMW_Cluster.495688..64     clusterlog      59095  9 I [cluster.tt][INFO]  selfcheck[2] TSR[0] MRR[0] 
+
+
+2024-04-15 16:53:06.819    CMW_Cluster.495688..64     clusterlog      59096  9 I [cluster.tt][INFO]  1 simple Data(s) was changed.
+
+
+2024-04-15 16:53:06.819    CMW_Cluster.495688..64     clusterlog      59097  9 I [cluster.tt][INFO]  [0] ID[15] ON[0] blink[1].
+
+
+2024-04-15 16:53:06.822    CMW_Cluster.495688..177    clusterlog      59098 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:06.830    CMW_Cluster.495688..177    clusterlog      59099 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:06.840    CMW_Cluster.495688..177    clusterlog      59100 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:06.857    CMW_Cluster.495688..177    clusterlog      59101 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:06.867    CMW_Cluster.495688..177    clusterlog      59102 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:06.885    CMW_Cluster.495688..177    clusterlog      59103 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:06.894    CMW_Cluster.495688..177    clusterlog      59104 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:06.909    CMW_Cluster.495688..150    clusterlog      59105 11 I [etcoat] OAT Signal Missing mOatTimerCnt
+ 
+2024-04-15 16:53:06.912    CMW_Cluster.495688..177    clusterlog      59106 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:06.920    CMW_Cluster.495688..177    clusterlog      59107 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:06.930    CMW_Cluster.495688..177    clusterlog      59108 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:06.938    CMW_Cluster.495688..177    clusterlog      59109 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:06.957    CMW_Cluster.495688..177    clusterlog      59110 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:06.975    CMW_Cluster.495688..177    clusterlog      59111 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:06.983    CMW_Cluster.495688..177    clusterlog      59112 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:06.992    CMW_Cluster.495688..177    clusterlog      59113 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:07.10     CMW_Cluster.495691..1      clusterlog      11523 12 I [ICFN]mQnxTimeHour: 4,mQnxTimeMin: 53
+
+2024-04-15 16:53:07.10     CMW_Cluster.495691..1      clusterlog      11524 12 I [ICFN]mQnxTimeVD: 1,mQnxEnable: 0
+
+2024-04-15 16:53:07.10     CMW_Cluster.495688..147    clusterlog      59114 11 I [EtcServer] QnxTimeNotifyProcessing: Year=2024, mMounth=4, mDay=15, mHour=4, mMin=53, mSec=7, AmPm=1, Format=1, TimeVD=1, mQnxTimeWeek=1, mQnxEnable=0
+
+2024-04-15 16:53:07.10     CMW_Cluster.495688..177    clusterlog      59115 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a50b9]
+
+2024-04-15 16:53:07.20     CMW_Cluster.495688..177    clusterlog      59116 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:07.29     CMW_Cluster.495688..177    clusterlog      59117 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:07.37     CMW_Cluster.495688..177    clusterlog      59118 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:07.65     CMW_Cluster.495688..177    clusterlog      59119 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:07.74     CMW_Cluster.495688..177    clusterlog      59120 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:07.82     CMW_Cluster.495688..177    clusterlog      59121 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:07.93     CMW_Cluster.495688..177    clusterlog      59122 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:07.110    CMW_Cluster.495688..177    clusterlog      59123 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:07.118    CMW_Cluster.495688..177    clusterlog      59124 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:07.127    CMW_Cluster.495688..177    clusterlog      59125 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:07.136    CMW_Cluster.495688..177    clusterlog      59126 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:07.164    CMW_Cluster.495688..177    clusterlog      59127 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:07.173    CMW_Cluster.495688..177    clusterlog      59128 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:07.181    CMW_Cluster.495688..177    clusterlog      59129 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:07.190    CMW_Cluster.495688..177    clusterlog      59130 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:07.208    CMW_Cluster.495688..177    clusterlog      59131 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:07.218    CMW_Cluster.495688..177    clusterlog      59132 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:07.236    CMW_Cluster.495688..177    clusterlog      59133 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:07.246    CMW_Cluster.495688..177    clusterlog      59134 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:07.259    CMW_Cluster.495688..151    clusterlog      59135 11 I [etcdrvmod] DriveTimerCnt DriveMode = 13, mDirveTimerCnt = 11
+
+2024-04-15 16:53:07.262    CMW_Cluster.495688..177    clusterlog      59136 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:07.272    CMW_Cluster.495688..177    clusterlog      59137 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:07.281    CMW_Cluster.495688..177    clusterlog      59138 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:07.290    CMW_Cluster.495688..177    clusterlog      59139 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:07.309    CMW_Cluster.495688..177    clusterlog      59140 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:07.310    CMW_Cluster.495688..64     clusterlog      59141  9 I [cluster.tt][INFO]  ON OFF: e3 c0 62 1b 0b 00 00 21 00 00 08 01 00 00 00 00 
+
+
+2024-04-15 16:53:07.310    CMW_Cluster.495688..64     clusterlog      59142  9 I [cluster.tt][INFO]  blink : 00 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+
+2024-04-15 16:53:07.310    CMW_Cluster.495688..64     clusterlog      59143  9 I [cluster.tt][INFO]  selfcheck[2] TSR[0] MRR[0] 
+
+
+2024-04-15 16:53:07.310    CMW_Cluster.495688..64     clusterlog      59144  9 I [cluster.tt][INFO]  1 simple Data(s) was changed.
+
+
+2024-04-15 16:53:07.310    CMW_Cluster.495688..64     clusterlog      59145  9 I [cluster.tt][INFO]  [0] ID[15] ON[1] blink[1].
+
+
+2024-04-15 16:53:07.317    CMW_Cluster.495688..177    clusterlog      59146 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:07.335    CMW_Cluster.495688..177    clusterlog      59147 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:07.343    CMW_Cluster.495688..177    clusterlog      59148 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:07.362    CMW_Cluster.495688..177    clusterlog      59149 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:07.370    CMW_Cluster.495688..177    clusterlog      59150 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:07.381    CMW_Cluster.495688..177    clusterlog      59151 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:07.389    CMW_Cluster.495688..177    clusterlog      59152 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:07.407    CMW_Cluster.495688..177    clusterlog      59153 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:07.426    CMW_Cluster.495688..177    clusterlog      59154 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:07.433    CMW_Cluster.495688..177    clusterlog      59155 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:07.442    CMW_Cluster.495688..177    clusterlog      59156 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:07.459    CMW_Cluster.495688..150    clusterlog      59157 11 I [etcoat] OAT Signal Missing mOatTimerCnt
+ 
+2024-04-15 16:53:07.461    CMW_Cluster.495688..177    clusterlog      59158 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:07.470    CMW_Cluster.495688..177    clusterlog      59159 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:07.478    CMW_Cluster.495688..177    clusterlog      59160 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:07.487    CMW_Cluster.495688..177    clusterlog      59161 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:07.509    CMW_Cluster.495688..121    clusterlog      59162  8 I [WARN_SRV] output topWarningId = 118, mCurPowerMode = 2 
+
+2024-04-15 16:53:07.510    CMW_Cluster.495691..1      clusterlog      11525 12 I [ICFN]top warning id: 118 
+
+
+2024-04-15 16:53:07.515    CMW_Cluster.495688..177    clusterlog      59163 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:07.524    CMW_Cluster.495688..177    clusterlog      59164 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:07.533    CMW_Cluster.495688..177    clusterlog      59165 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:07.541    CMW_Cluster.495688..177    clusterlog      59166 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:07.560    CMW_Cluster.495688..177    clusterlog      59167 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:07.568    CMW_Cluster.495688..177    clusterlog      59168 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:07.578    CMW_Cluster.495688..177    clusterlog      59169 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:07.587    CMW_Cluster.495688..177    clusterlog      59170 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:07.613    CMW_Cluster.495688..177    clusterlog      59171 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:07.623    CMW_Cluster.495688..177    clusterlog      59172 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:07.632    CMW_Cluster.495688..177    clusterlog      59173 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:07.640    CMW_Cluster.495688..177    clusterlog      59174 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:07.658    CMW_Cluster.495688..177    clusterlog      59175 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:07.668    CMW_Cluster.495688..177    clusterlog      59176 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:07.686    CMW_Cluster.495688..177    clusterlog      59177 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:07.696    CMW_Cluster.495688..177    clusterlog      59178 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:07.712    CMW_Cluster.495688..177    clusterlog      59179 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:07.722    CMW_Cluster.495688..177    clusterlog      59180 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:07.730    CMW_Cluster.495688..177    clusterlog      59181 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:07.740    CMW_Cluster.495688..177    clusterlog      59182 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:07.757    CMW_Cluster.495688..177    clusterlog      59183 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:07.767    CMW_Cluster.495688..177    clusterlog      59184 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:07.808    CMW_Cluster.495688..177    clusterlog      59185 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a2219]
+
+2024-04-15 16:53:07.808    CMW_Cluster.495688..177    clusterlog      59186 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:07.818    CMW_Cluster.495688..177    clusterlog      59187 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:07.820    CMW_Cluster.495688..148    clusterlog      59188 10 I [etctpms] SetFlash mTpmsFlash1HZ = 0
+
+2024-04-15 16:53:07.820    CMW_Cluster.495688..64     clusterlog      59189  9 I [cluster.tt][INFO]  ON OFF: e3 40 62 1b 0b 00 00 21 00 00 08 01 00 00 00 00 
+
+
+2024-04-15 16:53:07.820    CMW_Cluster.495688..64     clusterlog      59190  9 I [cluster.tt][INFO]  blink : 00 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+
+2024-04-15 16:53:07.820    CMW_Cluster.495688..64     clusterlog      59191  9 I [cluster.tt][INFO]  selfcheck[2] TSR[0] MRR[0] 
+
+
+2024-04-15 16:53:07.820    CMW_Cluster.495688..64     clusterlog      59192  9 I [cluster.tt][INFO]  1 simple Data(s) was changed.
+
+
+2024-04-15 16:53:07.820    CMW_Cluster.495688..64     clusterlog      59193  9 I [cluster.tt][INFO]  [0] ID[15] ON[0] blink[1].
+
+
+2024-04-15 16:53:07.821    CMW_Cluster.495688..177    clusterlog      59194 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:07.830    CMW_Cluster.495688..177    clusterlog      59195 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:07.838    CMW_Cluster.495688..177    clusterlog      59196 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:07.857    CMW_Cluster.495688..177    clusterlog      59197 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:07.859    CMW_Cluster.495688..151    clusterlog      59198 11 I [etcdrvmod] DriveTimerCnt DriveMode = 13, mDirveTimerCnt = 11
+
+2024-04-15 16:53:07.875    CMW_Cluster.495688..177    clusterlog      59199 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:07.884    CMW_Cluster.495688..177    clusterlog      59200 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:07.893    CMW_Cluster.495688..177    clusterlog      59201 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:07.910    CMW_Cluster.495688..177    clusterlog      59202 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:07.920    CMW_Cluster.495688..177    clusterlog      59203 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:07.928    CMW_Cluster.495688..177    clusterlog      59204 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:07.938    CMW_Cluster.495688..177    clusterlog      59205 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:07.966    CMW_Cluster.495688..177    clusterlog      59206 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:07.973    CMW_Cluster.495688..177    clusterlog      59207 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:07.982    CMW_Cluster.495688..177    clusterlog      59208 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:07.992    CMW_Cluster.495688..177    clusterlog      59209 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:08.10     CMW_Cluster.495691..1      clusterlog      11526 12 I [ICFN]mQnxTimeHour: 4,mQnxTimeMin: 53
+
+2024-04-15 16:53:08.10     CMW_Cluster.495691..1      clusterlog      11527 12 I [ICFN]mQnxTimeVD: 1,mQnxEnable: 0
+
+2024-04-15 16:53:08.10     CMW_Cluster.495688..150    clusterlog      59210 11 I [etcoat] OAT Signal Missing mOatTimerCnt
+ 
+2024-04-15 16:53:08.10     CMW_Cluster.495688..147    clusterlog      59211 11 I [EtcServer] QnxTimeNotifyProcessing: Year=2024, mMounth=4, mDay=15, mHour=4, mMin=53, mSec=8, AmPm=1, Format=1, TimeVD=1, mQnxTimeWeek=1, mQnxEnable=0
+
+2024-04-15 16:53:08.10     CMW_Cluster.495688..177    clusterlog      59212 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:08.18     CMW_Cluster.495688..177    clusterlog      59213 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:08.27     CMW_Cluster.495688..177    clusterlog      59214 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:08.37     CMW_Cluster.495688..177    clusterlog      59215 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:08.63     CMW_Cluster.495688..177    clusterlog      59216 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:08.72     CMW_Cluster.495688..177    clusterlog      59217 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:08.82     CMW_Cluster.495688..177    clusterlog      59218 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:08.90     CMW_Cluster.495688..177    clusterlog      59219 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:08.108    CMW_Cluster.495688..177    clusterlog      59220 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:08.118    CMW_Cluster.495688..177    clusterlog      59221 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:08.136    CMW_Cluster.495688..177    clusterlog      59222 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:08.146    CMW_Cluster.495688..177    clusterlog      59223 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:08.162    CMW_Cluster.495688..177    clusterlog      59224 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:08.171    CMW_Cluster.495688..177    clusterlog      59225 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:08.180    CMW_Cluster.495688..177    clusterlog      59226 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:08.190    CMW_Cluster.495688..177    clusterlog      59227 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:08.207    CMW_Cluster.495688..177    clusterlog      59228 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:08.216    CMW_Cluster.495688..177    clusterlog      59229 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:08.235    CMW_Cluster.495688..177    clusterlog      59230 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:08.244    CMW_Cluster.495688..177    clusterlog      59231 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:08.262    CMW_Cluster.495688..177    clusterlog      59232 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:08.270    CMW_Cluster.495688..177    clusterlog      59233 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:08.280    CMW_Cluster.495688..177    clusterlog      59234 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:08.288    CMW_Cluster.495688..177    clusterlog      59235 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:08.307    CMW_Cluster.495688..177    clusterlog      59236 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:08.308    CMW_Cluster.495688..64     clusterlog      59237  9 I [cluster.tt][INFO]  ON OFF: e3 c0 62 1b 0b 00 00 21 00 00 08 01 00 00 00 00 
+
+
+2024-04-15 16:53:08.308    CMW_Cluster.495688..64     clusterlog      59238  9 I [cluster.tt][INFO]  blink : 00 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+
+2024-04-15 16:53:08.308    CMW_Cluster.495688..64     clusterlog      59239  9 I [cluster.tt][INFO]  selfcheck[2] TSR[0] MRR[0] 
+
+
+2024-04-15 16:53:08.308    CMW_Cluster.495688..64     clusterlog      59240  9 I [cluster.tt][INFO]  1 simple Data(s) was changed.
+
+
+2024-04-15 16:53:08.308    CMW_Cluster.495688..64     clusterlog      59241  9 I [cluster.tt][INFO]  [0] ID[15] ON[1] blink[1].
+
+
+2024-04-15 16:53:08.326    CMW_Cluster.495688..177    clusterlog      59242 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:08.333    CMW_Cluster.495688..177    clusterlog      59243 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:08.342    CMW_Cluster.495688..177    clusterlog      59244 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:08.360    CMW_Cluster.495688..177    clusterlog      59245 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:08.370    CMW_Cluster.495688..177    clusterlog      59246 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:08.378    CMW_Cluster.495688..177    clusterlog      59247 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:08.388    CMW_Cluster.495688..177    clusterlog      59248 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:08.415    CMW_Cluster.495688..177    clusterlog      59249 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:08.423    CMW_Cluster.495688..177    clusterlog      59250 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:08.432    CMW_Cluster.495688..177    clusterlog      59251 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:08.442    CMW_Cluster.495688..177    clusterlog      59252 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:08.460    CMW_Cluster.495688..151    clusterlog      59253 11 I [etcdrvmod] DriveTimerCnt DriveMode = 13, mDirveTimerCnt = 11
+
+2024-04-15 16:53:08.461    CMW_Cluster.495688..177    clusterlog      59254 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:08.469    CMW_Cluster.495688..177    clusterlog      59255 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a2699]
+
+2024-04-15 16:53:08.477    CMW_Cluster.495688..177    clusterlog      59256 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:08.487    CMW_Cluster.495688..177    clusterlog      59257 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:08.514    CMW_Cluster.495688..177    clusterlog      59258 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:08.522    CMW_Cluster.495688..177    clusterlog      59259 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:08.533    CMW_Cluster.495688..177    clusterlog      59260 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:08.541    CMW_Cluster.495688..177    clusterlog      59261 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:08.558    CMW_Cluster.495688..177    clusterlog      59262 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:08.559    CMW_Cluster.495688..150    clusterlog      59263 11 I [etcoat] OAT Signal Missing mOatTimerCnt
+ 
+2024-04-15 16:53:08.567    CMW_Cluster.495688..177    clusterlog      59264 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:08.586    CMW_Cluster.495688..177    clusterlog      59265 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:08.596    CMW_Cluster.495688..177    clusterlog      59266 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:08.612    CMW_Cluster.495688..177    clusterlog      59267 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:08.622    CMW_Cluster.495688..177    clusterlog      59268 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:08.630    CMW_Cluster.495688..177    clusterlog      59269 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:08.640    CMW_Cluster.495688..177    clusterlog      59270 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:08.657    CMW_Cluster.495688..177    clusterlog      59271 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:08.667    CMW_Cluster.495688..177    clusterlog      59272 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:08.686    CMW_Cluster.495688..177    clusterlog      59273 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:08.694    CMW_Cluster.495688..177    clusterlog      59274 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:08.711    CMW_Cluster.495688..177    clusterlog      59275 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:08.720    CMW_Cluster.495688..177    clusterlog      59276 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:08.730    CMW_Cluster.495688..177    clusterlog      59277 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:08.738    CMW_Cluster.495688..177    clusterlog      59278 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:08.757    CMW_Cluster.495688..177    clusterlog      59279 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:08.775    CMW_Cluster.495688..177    clusterlog      59280 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:08.790    CMW_Cluster.495688..177    clusterlog      59281 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a2699]
+
+2024-04-15 16:53:08.819    CMW_Cluster.495688..177    clusterlog      59282 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a50b9]
+
+2024-04-15 16:53:08.819    CMW_Cluster.495688..177    clusterlog      59283 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267b0ee9]
+
+2024-04-15 16:53:08.821    CMW_Cluster.495688..148    clusterlog      59284 10 I [etctpms] SetFlash mTpmsFlash1HZ = 0
+
+2024-04-15 16:53:08.821    CMW_Cluster.495688..177    clusterlog      59285 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4af9]
+
+2024-04-15 16:53:08.821    CMW_Cluster.495688..64     clusterlog      59286  9 I [cluster.tt][INFO]  ON OFF: e3 40 62 1b 0b 00 00 21 00 00 08 01 00 00 00 00 
+
+
+2024-04-15 16:53:08.821    CMW_Cluster.495688..64     clusterlog      59287  9 I [cluster.tt][INFO]  blink : 00 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+
+2024-04-15 16:53:08.821    CMW_Cluster.495688..64     clusterlog      59288  9 I [cluster.tt][INFO]  selfcheck[2] TSR[0] MRR[0] 
+
+
+2024-04-15 16:53:08.821    CMW_Cluster.495688..64     clusterlog      59289  9 I [cluster.tt][INFO]  1 simple Data(s) was changed.
+
+
+2024-04-15 16:53:08.821    CMW_Cluster.495688..64     clusterlog      59290  9 I [cluster.tt][INFO]  [0] ID[15] ON[0] blink[1].
+
+
+2024-04-15 16:53:08.828    CMW_Cluster.495688..177    clusterlog      59291 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:08.838    CMW_Cluster.495688..177    clusterlog      59292 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:08.866    CMW_Cluster.495688..177    clusterlog      59293 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:08.874    CMW_Cluster.495688..177    clusterlog      59294 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:08.882    CMW_Cluster.495688..177    clusterlog      59295 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:08.893    CMW_Cluster.495688..177    clusterlog      59296 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:08.910    CMW_Cluster.495688..177    clusterlog      59297 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:08.919    CMW_Cluster.495688..177    clusterlog      59298 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a50b9]
+
+2024-04-15 16:53:08.927    CMW_Cluster.495688..177    clusterlog      59299 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:08.937    CMW_Cluster.495688..177    clusterlog      59300 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:08.964    CMW_Cluster.495688..177    clusterlog      59301 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:08.973    CMW_Cluster.495688..177    clusterlog      59302 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:08.982    CMW_Cluster.495688..177    clusterlog      59303 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:08.990    CMW_Cluster.495688..177    clusterlog      59304 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:09.8      CMW_Cluster.495688..177    clusterlog      59305 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:09.10     CMW_Cluster.495691..1      clusterlog      11528 12 I [ICFN]mQnxTimeHour: 4,mQnxTimeMin: 53
+
+2024-04-15 16:53:09.10     CMW_Cluster.495691..1      clusterlog      11529 12 I [ICFN]mQnxTimeVD: 1,mQnxEnable: 0
+
+2024-04-15 16:53:09.10     CMW_Cluster.495688..147    clusterlog      59306 11 I [EtcServer] QnxTimeNotifyProcessing: Year=2024, mMounth=4, mDay=15, mHour=4, mMin=53, mSec=9, AmPm=1, Format=1, TimeVD=1, mQnxTimeWeek=1, mQnxEnable=0
+
+2024-04-15 16:53:09.18     CMW_Cluster.495688..177    clusterlog      59307 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:09.36     CMW_Cluster.495688..177    clusterlog      59308 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:09.46     CMW_Cluster.495688..177    clusterlog      59309 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:09.59     CMW_Cluster.495688..151    clusterlog      59310 11 I [etcdrvmod] DriveTimerCnt DriveMode = 13, mDirveTimerCnt = 11
+
+2024-04-15 16:53:09.62     CMW_Cluster.495688..177    clusterlog      59311 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:09.72     CMW_Cluster.495688..177    clusterlog      59312 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:09.80     CMW_Cluster.495688..177    clusterlog      59313 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:09.90     CMW_Cluster.495688..177    clusterlog      59314 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:09.108    CMW_Cluster.495688..177    clusterlog      59315 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:09.109    CMW_Cluster.495688..150    clusterlog      59316 11 I [etcoat] OAT Signal Missing mOatTimerCnt
+ 
+2024-04-15 16:53:09.116    CMW_Cluster.495688..177    clusterlog      59317 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:09.135    CMW_Cluster.495688..177    clusterlog      59318 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:09.143    CMW_Cluster.495688..177    clusterlog      59319 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:09.162    CMW_Cluster.495688..177    clusterlog      59320 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:09.170    CMW_Cluster.495688..177    clusterlog      59321 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:09.180    CMW_Cluster.495688..177    clusterlog      59322 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:09.189    CMW_Cluster.495688..177    clusterlog      59323 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:09.207    CMW_Cluster.495688..177    clusterlog      59324 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:09.226    CMW_Cluster.495688..177    clusterlog      59325 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:09.234    CMW_Cluster.495688..177    clusterlog      59326 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:09.242    CMW_Cluster.495688..177    clusterlog      59327 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:09.261    CMW_Cluster.495688..177    clusterlog      59328 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:09.270    CMW_Cluster.495688..177    clusterlog      59329 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:09.278    CMW_Cluster.495688..177    clusterlog      59330 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:09.288    CMW_Cluster.495688..177    clusterlog      59331 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:09.316    CMW_Cluster.495688..177    clusterlog      59332 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:09.316    CMW_Cluster.495688..64     clusterlog      59333  9 I [cluster.tt][INFO]  ON OFF: e3 c0 62 1b 0b 00 00 21 00 00 08 01 00 00 00 00 
+
+
+2024-04-15 16:53:09.316    CMW_Cluster.495688..64     clusterlog      59334  9 I [cluster.tt][INFO]  blink : 00 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+
+2024-04-15 16:53:09.316    CMW_Cluster.495688..64     clusterlog      59335  9 I [cluster.tt][INFO]  selfcheck[2] TSR[0] MRR[0] 
+
+
+2024-04-15 16:53:09.317    CMW_Cluster.495688..64     clusterlog      59336  9 I [cluster.tt][INFO]  1 simple Data(s) was changed.
+
+
+2024-04-15 16:53:09.317    CMW_Cluster.495688..64     clusterlog      59337  9 I [cluster.tt][INFO]  [0] ID[15] ON[1] blink[1].
+
+
+2024-04-15 16:53:09.324    CMW_Cluster.495688..177    clusterlog      59338 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:09.333    CMW_Cluster.495688..177    clusterlog      59339 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:09.342    CMW_Cluster.495688..177    clusterlog      59340 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:09.360    CMW_Cluster.495688..177    clusterlog      59341 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:09.369    CMW_Cluster.495688..177    clusterlog      59342 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a50b9]
+
+2024-04-15 16:53:09.378    CMW_Cluster.495688..177    clusterlog      59343 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:09.387    CMW_Cluster.495688..177    clusterlog      59344 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:09.413    CMW_Cluster.495688..177    clusterlog      59345 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:09.422    CMW_Cluster.495688..177    clusterlog      59346 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:09.432    CMW_Cluster.495688..177    clusterlog      59347 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:09.440    CMW_Cluster.495688..177    clusterlog      59348 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:09.458    CMW_Cluster.495688..177    clusterlog      59349 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:09.468    CMW_Cluster.495688..177    clusterlog      59350 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:09.486    CMW_Cluster.495688..177    clusterlog      59351 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:09.496    CMW_Cluster.495688..177    clusterlog      59352 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:09.512    CMW_Cluster.495688..177    clusterlog      59353 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:09.522    CMW_Cluster.495688..177    clusterlog      59354 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:09.530    CMW_Cluster.495688..177    clusterlog      59355 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:09.540    CMW_Cluster.495688..177    clusterlog      59356 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:09.557    CMW_Cluster.495688..177    clusterlog      59357 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:09.567    CMW_Cluster.495688..177    clusterlog      59358 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:09.585    CMW_Cluster.495688..177    clusterlog      59359 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:09.594    CMW_Cluster.495688..177    clusterlog      59360 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:09.612    CMW_Cluster.495688..177    clusterlog      59361 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:09.621    CMW_Cluster.495688..177    clusterlog      59362 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:09.630    CMW_Cluster.495688..177    clusterlog      59363 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:09.638    CMW_Cluster.495688..177    clusterlog      59364 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:09.657    CMW_Cluster.495688..177    clusterlog      59365 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:09.659    CMW_Cluster.495688..151    clusterlog      59366 11 I [etcdrvmod] DriveTimerCnt DriveMode = 13, mDirveTimerCnt = 11
+
+2024-04-15 16:53:09.659    CMW_Cluster.495688..150    clusterlog      59367 11 I [etcoat] OAT Signal Missing mOatTimerCnt
+ 
+2024-04-15 16:53:09.675    CMW_Cluster.495688..177    clusterlog      59368 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:09.685    CMW_Cluster.495688..177    clusterlog      59369 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:09.693    CMW_Cluster.495688..177    clusterlog      59370 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:09.710    CMW_Cluster.495688..177    clusterlog      59371 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:09.720    CMW_Cluster.495688..177    clusterlog      59372 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:09.728    CMW_Cluster.495688..177    clusterlog      59373 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:09.738    CMW_Cluster.495688..177    clusterlog      59374 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:09.765    CMW_Cluster.495688..177    clusterlog      59375 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:09.774    CMW_Cluster.495688..177    clusterlog      59376 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:09.783    CMW_Cluster.495688..177    clusterlog      59377 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:09.804    CMW_Cluster.495688..177    clusterlog      59378 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a2459]
+
+2024-04-15 16:53:09.822    CMW_Cluster.495688..177    clusterlog      59379 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267b0ca9]
+
+2024-04-15 16:53:09.822    CMW_Cluster.495688..177    clusterlog      59380 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267b0a89]
+
+2024-04-15 16:53:09.823    CMW_Cluster.495688..148    clusterlog      59381 10 I [etctpms] SetFlash mTpmsFlash1HZ = 0
+
+2024-04-15 16:53:09.823    CMW_Cluster.495688..64     clusterlog      59382  9 I [cluster.tt][INFO]  ON OFF: e3 40 62 1b 0b 00 00 21 00 00 08 01 00 00 00 00 
+
+
+2024-04-15 16:53:09.823    CMW_Cluster.495688..64     clusterlog      59383  9 I [cluster.tt][INFO]  blink : 00 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+
+2024-04-15 16:53:09.823    CMW_Cluster.495688..64     clusterlog      59384  9 I [cluster.tt][INFO]  selfcheck[2] TSR[0] MRR[0] 
+
+
+2024-04-15 16:53:09.823    CMW_Cluster.495688..64     clusterlog      59385  9 I [cluster.tt][INFO]  1 simple Data(s) was changed.
+
+
+2024-04-15 16:53:09.823    CMW_Cluster.495688..64     clusterlog      59386  9 I [cluster.tt][INFO]  [0] ID[15] ON[0] blink[1].
+
+
+2024-04-15 16:53:09.827    CMW_Cluster.495688..177    clusterlog      59387 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:09.837    CMW_Cluster.495688..177    clusterlog      59388 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:09.864    CMW_Cluster.495688..177    clusterlog      59389 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:09.872    CMW_Cluster.495688..177    clusterlog      59390 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:09.882    CMW_Cluster.495688..177    clusterlog      59391 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:09.890    CMW_Cluster.495688..177    clusterlog      59392 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:09.909    CMW_Cluster.495688..177    clusterlog      59393 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:09.917    CMW_Cluster.495688..177    clusterlog      59394 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:09.936    CMW_Cluster.495688..177    clusterlog      59395 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:09.946    CMW_Cluster.495688..177    clusterlog      59396 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:09.963    CMW_Cluster.495688..177    clusterlog      59397 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:09.973    CMW_Cluster.495688..177    clusterlog      59398 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:09.980    CMW_Cluster.495688..177    clusterlog      59399 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:09.990    CMW_Cluster.495688..177    clusterlog      59400 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:10.8      CMW_Cluster.495688..177    clusterlog      59401 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.10     CMW_Cluster.495691..1      clusterlog      11530 12 I [ICFN]mQnxTimeHour: 4,mQnxTimeMin: 53
+
+2024-04-15 16:53:10.10     CMW_Cluster.495691..1      clusterlog      11531 12 I [ICFN]mQnxTimeVD: 1,mQnxEnable: 0
+
+2024-04-15 16:53:10.10     CMW_Cluster.495688..147    clusterlog      59402 11 I [EtcServer] QnxTimeNotifyProcessing: Year=2024, mMounth=4, mDay=15, mHour=4, mMin=53, mSec=10, AmPm=1, Format=1, TimeVD=1, mQnxTimeWeek=1, mQnxEnable=0
+
+2024-04-15 16:53:10.16     CMW_Cluster.495688..177    clusterlog      59403 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.36     CMW_Cluster.495688..177    clusterlog      59404 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.45     CMW_Cluster.495688..177    clusterlog      59405 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.62     CMW_Cluster.495688..177    clusterlog      59406 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:10.70     CMW_Cluster.495688..177    clusterlog      59407 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:10.80     CMW_Cluster.495688..177    clusterlog      59408 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.89     CMW_Cluster.495688..177    clusterlog      59409 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:10.107    CMW_Cluster.495688..177    clusterlog      59410 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.126    CMW_Cluster.495688..177    clusterlog      59411 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:10.134    CMW_Cluster.495688..177    clusterlog      59412 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.142    CMW_Cluster.495688..177    clusterlog      59413 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:10.160    CMW_Cluster.495688..177    clusterlog      59414 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.170    CMW_Cluster.495688..177    clusterlog      59415 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:10.179    CMW_Cluster.495688..177    clusterlog      59416 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.188    CMW_Cluster.495688..177    clusterlog      59417 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.209    CMW_Cluster.495688..150    clusterlog      59418 11 I [etcoat] OAT Signal Missing mOatTimerCnt
+ 
+2024-04-15 16:53:10.215    CMW_Cluster.495688..177    clusterlog      59419 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.223    CMW_Cluster.495688..177    clusterlog      59420 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:10.232    CMW_Cluster.495688..177    clusterlog      59421 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.242    CMW_Cluster.495688..177    clusterlog      59422 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:10.259    CMW_Cluster.495688..151    clusterlog      59423 11 I [etcdrvmod] DriveTimerCnt DriveMode = 13, mDirveTimerCnt = 11
+
+2024-04-15 16:53:10.260    CMW_Cluster.495688..177    clusterlog      59424 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:10.268    CMW_Cluster.495688..177    clusterlog      59425 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.278    CMW_Cluster.495688..177    clusterlog      59426 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:10.287    CMW_Cluster.495688..177    clusterlog      59427 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.314    CMW_Cluster.495688..177    clusterlog      59428 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:10.314    CMW_Cluster.495688..64     clusterlog      59429  9 I [cluster.tt][INFO]  ON OFF: e3 c0 62 1b 0b 00 00 21 00 00 08 01 00 00 00 00 
+
+
+2024-04-15 16:53:10.315    CMW_Cluster.495688..64     clusterlog      59430  9 I [cluster.tt][INFO]  blink : 00 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+
+2024-04-15 16:53:10.315    CMW_Cluster.495688..64     clusterlog      59431  9 I [cluster.tt][INFO]  selfcheck[2] TSR[0] MRR[0] 
+
+
+2024-04-15 16:53:10.315    CMW_Cluster.495688..64     clusterlog      59432  9 I [cluster.tt][INFO]  1 simple Data(s) was changed.
+
+
+2024-04-15 16:53:10.315    CMW_Cluster.495688..64     clusterlog      59433  9 I [cluster.tt][INFO]  [0] ID[15] ON[1] blink[1].
+
+
+2024-04-15 16:53:10.322    CMW_Cluster.495688..177    clusterlog      59434 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:10.333    CMW_Cluster.495688..177    clusterlog      59435 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.341    CMW_Cluster.495688..177    clusterlog      59436 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:10.358    CMW_Cluster.495688..177    clusterlog      59437 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.368    CMW_Cluster.495688..177    clusterlog      59438 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:10.386    CMW_Cluster.495688..177    clusterlog      59439 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.396    CMW_Cluster.495688..177    clusterlog      59440 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:10.413    CMW_Cluster.495688..177    clusterlog      59441 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.422    CMW_Cluster.495688..177    clusterlog      59442 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:10.430    CMW_Cluster.495688..177    clusterlog      59443 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.440    CMW_Cluster.495688..177    clusterlog      59444 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:10.458    CMW_Cluster.495688..177    clusterlog      59445 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.467    CMW_Cluster.495688..177    clusterlog      59446 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:10.486    CMW_Cluster.495688..177    clusterlog      59447 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:10.494    CMW_Cluster.495688..177    clusterlog      59448 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.512    CMW_Cluster.495688..177    clusterlog      59449 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.520    CMW_Cluster.495688..177    clusterlog      59450 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:10.530    CMW_Cluster.495688..177    clusterlog      59451 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.539    CMW_Cluster.495688..177    clusterlog      59452 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:10.557    CMW_Cluster.495688..177    clusterlog      59453 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.575    CMW_Cluster.495688..177    clusterlog      59454 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:10.584    CMW_Cluster.495688..177    clusterlog      59455 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.593    CMW_Cluster.495688..177    clusterlog      59456 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:10.610    CMW_Cluster.495688..177    clusterlog      59457 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.620    CMW_Cluster.495688..177    clusterlog      59458 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:10.628    CMW_Cluster.495688..177    clusterlog      59459 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.637    CMW_Cluster.495688..177    clusterlog      59460 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:10.666    CMW_Cluster.495688..177    clusterlog      59461 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.674    CMW_Cluster.495688..177    clusterlog      59462 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.682    CMW_Cluster.495688..177    clusterlog      59463 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.692    CMW_Cluster.495688..177    clusterlog      59464 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:10.710    CMW_Cluster.495688..177    clusterlog      59465 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.719    CMW_Cluster.495688..177    clusterlog      59466 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:10.728    CMW_Cluster.495688..177    clusterlog      59467 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.737    CMW_Cluster.495688..177    clusterlog      59468 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.759    CMW_Cluster.495688..150    clusterlog      59469 11 I [etcoat] OAT Signal Missing mOatTimerCnt
+ 
+2024-04-15 16:53:10.763    CMW_Cluster.495688..177    clusterlog      59470 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.772    CMW_Cluster.495688..177    clusterlog      59471 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:10.781    CMW_Cluster.495688..177    clusterlog      59472 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.806    CMW_Cluster.495688..177    clusterlog      59473 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4af9]
+
+2024-04-15 16:53:10.826    CMW_Cluster.495688..177    clusterlog      59474 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:10.827    CMW_Cluster.495688..177    clusterlog      59475 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.827    CMW_Cluster.495688..64     clusterlog      59476  9 I [cluster.tt][INFO]  ON OFF: e3 40 62 1b 0b 00 00 21 00 00 08 01 00 00 00 00 
+
+
+2024-04-15 16:53:10.827    CMW_Cluster.495688..64     clusterlog      59477  9 I [cluster.tt][INFO]  blink : 00 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+
+2024-04-15 16:53:10.827    CMW_Cluster.495688..64     clusterlog      59478  9 I [cluster.tt][INFO]  selfcheck[2] TSR[0] MRR[0] 
+
+
+2024-04-15 16:53:10.827    CMW_Cluster.495688..64     clusterlog      59479  9 I [cluster.tt][INFO]  1 simple Data(s) was changed.
+
+
+2024-04-15 16:53:10.827    CMW_Cluster.495688..64     clusterlog      59480  9 I [cluster.tt][INFO]  [0] ID[15] ON[0] blink[1].
+
+
+2024-04-15 16:53:10.827    CMW_Cluster.495688..148    clusterlog      59481 10 I [etctpms] SetFlash mTpmsFlash1HZ = 0
+
+2024-04-15 16:53:10.836    CMW_Cluster.495688..177    clusterlog      59482 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.847    CMW_Cluster.495688..177    clusterlog      59483 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:10.859    CMW_Cluster.495688..151    clusterlog      59484 11 I [etcdrvmod] DriveTimerCnt DriveMode = 13, mDirveTimerCnt = 11
+
+2024-04-15 16:53:10.862    CMW_Cluster.495688..177    clusterlog      59485 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.872    CMW_Cluster.495688..177    clusterlog      59486 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:10.880    CMW_Cluster.495688..177    clusterlog      59487 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.890    CMW_Cluster.495688..177    clusterlog      59488 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:10.908    CMW_Cluster.495688..177    clusterlog      59489 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.917    CMW_Cluster.495688..177    clusterlog      59490 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.935    CMW_Cluster.495688..177    clusterlog      59491 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:10.944    CMW_Cluster.495688..177    clusterlog      59492 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:10.962    CMW_Cluster.495688..177    clusterlog      59493 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.971    CMW_Cluster.495688..177    clusterlog      59494 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:10.980    CMW_Cluster.495688..177    clusterlog      59495 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:10.988    CMW_Cluster.495688..177    clusterlog      59496 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:11.7      CMW_Cluster.495688..177    clusterlog      59497 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:11.10     CMW_Cluster.495691..1      clusterlog      11532 12 I [ICFN]mQnxTimeHour: 4,mQnxTimeMin: 53
+
+2024-04-15 16:53:11.10     CMW_Cluster.495691..1      clusterlog      11533 12 I [ICFN]mQnxTimeVD: 1,mQnxEnable: 0
+
+2024-04-15 16:53:11.10     CMW_Cluster.495688..147    clusterlog      59498 11 I [EtcServer] QnxTimeNotifyProcessing: Year=2024, mMounth=4, mDay=15, mHour=4, mMin=53, mSec=11, AmPm=1, Format=1, TimeVD=1, mQnxTimeWeek=1, mQnxEnable=0
+
+2024-04-15 16:53:11.26     CMW_Cluster.495688..177    clusterlog      59499 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:11.35     CMW_Cluster.495688..177    clusterlog      59500 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:11.43     CMW_Cluster.495688..177    clusterlog      59501 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:11.61     CMW_Cluster.495688..177    clusterlog      59502 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:11.70     CMW_Cluster.495688..177    clusterlog      59503 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:11.79     CMW_Cluster.495688..177    clusterlog      59504 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:11.88     CMW_Cluster.495688..177    clusterlog      59505 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:11.117    CMW_Cluster.495688..177    clusterlog      59506 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:11.124    CMW_Cluster.495688..177    clusterlog      59507 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:11.133    CMW_Cluster.495688..177    clusterlog      59508 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:11.142    CMW_Cluster.495688..177    clusterlog      59509 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:11.160    CMW_Cluster.495688..177    clusterlog      59510 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:11.169    CMW_Cluster.495688..177    clusterlog      59511 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a2699]
+
+2024-04-15 16:53:11.178    CMW_Cluster.495688..177    clusterlog      59512 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:11.187    CMW_Cluster.495688..177    clusterlog      59513 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:11.213    CMW_Cluster.495688..177    clusterlog      59514 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:11.222    CMW_Cluster.495688..177    clusterlog      59515 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:11.232    CMW_Cluster.495688..177    clusterlog      59516 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:11.240    CMW_Cluster.495688..177    clusterlog      59517 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:11.259    CMW_Cluster.495688..177    clusterlog      59518 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:11.267    CMW_Cluster.495688..177    clusterlog      59519 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:11.286    CMW_Cluster.495688..177    clusterlog      59520 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:11.296    CMW_Cluster.495688..177    clusterlog      59521 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:11.309    CMW_Cluster.495688..150    clusterlog      59522 11 I [etcoat] OAT Signal Missing mOatTimerCnt
+ 
+2024-04-15 16:53:11.313    CMW_Cluster.495688..177    clusterlog      59523 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:11.313    CMW_Cluster.495688..64     clusterlog      59524  9 I [cluster.tt][INFO]  ON OFF: e3 c0 62 1b 0b 00 00 21 00 00 08 01 00 00 00 00 
+
+
+2024-04-15 16:53:11.313    CMW_Cluster.495688..64     clusterlog      59525  9 I [cluster.tt][INFO]  blink : 00 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+
+2024-04-15 16:53:11.313    CMW_Cluster.495688..64     clusterlog      59526  9 I [cluster.tt][INFO]  selfcheck[2] TSR[0] MRR[0] 
+
+
+2024-04-15 16:53:11.313    CMW_Cluster.495688..64     clusterlog      59527  9 I [cluster.tt][INFO]  1 simple Data(s) was changed.
+
+
+2024-04-15 16:53:11.313    CMW_Cluster.495688..64     clusterlog      59528  9 I [cluster.tt][INFO]  [0] ID[15] ON[1] blink[1].
+
+
+2024-04-15 16:53:11.322    CMW_Cluster.495688..177    clusterlog      59529 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:11.331    CMW_Cluster.495688..177    clusterlog      59530 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:11.340    CMW_Cluster.495688..177    clusterlog      59531 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:11.357    CMW_Cluster.495688..177    clusterlog      59532 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:11.367    CMW_Cluster.495688..177    clusterlog      59533 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:11.386    CMW_Cluster.495688..177    clusterlog      59534 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:11.394    CMW_Cluster.495688..177    clusterlog      59535 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:11.412    CMW_Cluster.495688..177    clusterlog      59536 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:11.420    CMW_Cluster.495688..177    clusterlog      59537 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:11.430    CMW_Cluster.495688..177    clusterlog      59538 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:11.439    CMW_Cluster.495688..177    clusterlog      59539 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:11.457    CMW_Cluster.495688..177    clusterlog      59540 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:11.459    CMW_Cluster.495688..151    clusterlog      59541 11 I [etcdrvmod] DriveTimerCnt DriveMode = 13, mDirveTimerCnt = 11
+
+2024-04-15 16:53:11.476    CMW_Cluster.495688..177    clusterlog      59542 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:11.483    CMW_Cluster.495688..177    clusterlog      59543 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:11.492    CMW_Cluster.495688..177    clusterlog      59544 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:11.511    CMW_Cluster.495688..177    clusterlog      59545 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:11.521    CMW_Cluster.495688..177    clusterlog      59546 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:11.529    CMW_Cluster.495688..177    clusterlog      59547 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:11.538    CMW_Cluster.495688..177    clusterlog      59548 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:11.566    CMW_Cluster.495688..177    clusterlog      59549 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:11.574    CMW_Cluster.495688..177    clusterlog      59550 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:11.582    CMW_Cluster.495688..177    clusterlog      59551 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:11.592    CMW_Cluster.495688..177    clusterlog      59552 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:11.610    CMW_Cluster.495688..177    clusterlog      59553 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:11.619    CMW_Cluster.495688..177    clusterlog      59554 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4af9]
+
+2024-04-15 16:53:11.628    CMW_Cluster.495688..177    clusterlog      59555 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:11.637    CMW_Cluster.495688..177    clusterlog      59556 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:11.664    CMW_Cluster.495688..177    clusterlog      59557 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:11.672    CMW_Cluster.495688..177    clusterlog      59558 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:11.682    CMW_Cluster.495688..177    clusterlog      59559 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:11.691    CMW_Cluster.495688..177    clusterlog      59560 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:11.708    CMW_Cluster.495688..177    clusterlog      59561 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:11.718    CMW_Cluster.495688..177    clusterlog      59562 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:11.736    CMW_Cluster.495688..177    clusterlog      59563 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:11.746    CMW_Cluster.495688..177    clusterlog      59564 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:11.762    CMW_Cluster.495688..177    clusterlog      59565 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:11.772    CMW_Cluster.495688..177    clusterlog      59566 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:11.781    CMW_Cluster.495688..177    clusterlog      59567 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:11.829    CMW_Cluster.495688..177    clusterlog      59568 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267b0ca9]
+
+2024-04-15 16:53:11.829    CMW_Cluster.495688..177    clusterlog      59569 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267b0a89]
+
+2024-04-15 16:53:11.829    CMW_Cluster.495688..177    clusterlog      59570 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267b0869]
+
+2024-04-15 16:53:11.830    CMW_Cluster.495688..148    clusterlog      59571 10 I [etctpms] SetFlash mTpmsFlash1HZ = 0
+
+2024-04-15 16:53:11.830    CMW_Cluster.495688..64     clusterlog      59572  9 I [cluster.tt][INFO]  ON OFF: e3 40 62 1b 0b 00 00 21 00 00 08 01 00 00 00 00 
+
+
+2024-04-15 16:53:11.830    CMW_Cluster.495688..64     clusterlog      59573  9 I [cluster.tt][INFO]  blink : 00 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+
+2024-04-15 16:53:11.830    CMW_Cluster.495688..64     clusterlog      59574  9 I [cluster.tt][INFO]  selfcheck[2] TSR[0] MRR[0] 
+
+
+2024-04-15 16:53:11.830    CMW_Cluster.495688..64     clusterlog      59575  9 I [cluster.tt][INFO]  1 simple Data(s) was changed.
+
+
+2024-04-15 16:53:11.830    CMW_Cluster.495688..64     clusterlog      59576  9 I [cluster.tt][INFO]  [0] ID[15] ON[0] blink[1].
+
+
+2024-04-15 16:53:11.835    CMW_Cluster.495688..177    clusterlog      59577 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:11.843    CMW_Cluster.495688..177    clusterlog      59578 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:11.859    CMW_Cluster.495688..150    clusterlog      59579 11 I [etcoat] OAT Signal Missing mOatTimerCnt
+ 
+2024-04-15 16:53:11.862    CMW_Cluster.495688..177    clusterlog      59580 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:11.870    CMW_Cluster.495688..177    clusterlog      59581 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:11.880    CMW_Cluster.495688..177    clusterlog      59582 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:11.889    CMW_Cluster.495688..177    clusterlog      59583 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:11.907    CMW_Cluster.495688..177    clusterlog      59584 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:11.926    CMW_Cluster.495688..177    clusterlog      59585 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:11.934    CMW_Cluster.495688..177    clusterlog      59586 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:11.943    CMW_Cluster.495688..177    clusterlog      59587 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:11.960    CMW_Cluster.495688..177    clusterlog      59588 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:11.970    CMW_Cluster.495688..177    clusterlog      59589 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:11.979    CMW_Cluster.495688..177    clusterlog      59590 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4af9]
+
+2024-04-15 16:53:11.989    CMW_Cluster.495688..177    clusterlog      59591 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:12.9      CMW_Cluster.495688..147    clusterlog      59592 11 I [EtcServer] QnxTimeNotifyProcessing: Year=2024, mMounth=4, mDay=15, mHour=4, mMin=53, mSec=12, AmPm=1, Format=1, TimeVD=1, mQnxTimeWeek=1, mQnxEnable=0
+
+2024-04-15 16:53:12.10     CMW_Cluster.495691..1      clusterlog      11534 12 I [ICFN]mQnxTimeHour: 4,mQnxTimeMin: 53
+
+2024-04-15 16:53:12.10     CMW_Cluster.495691..1      clusterlog      11535 12 I [ICFN]mQnxTimeVD: 1,mQnxEnable: 0
+
+2024-04-15 16:53:12.15     CMW_Cluster.495688..177    clusterlog      59593 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:12.24     CMW_Cluster.495688..177    clusterlog      59594 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:12.33     CMW_Cluster.495688..177    clusterlog      59595 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:12.43     CMW_Cluster.495688..177    clusterlog      59596 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:12.59     CMW_Cluster.495688..151    clusterlog      59597 11 I [etcdrvmod] DriveTimerCnt DriveMode = 13, mDirveTimerCnt = 11
+
+2024-04-15 16:53:12.60     CMW_Cluster.495688..177    clusterlog      59598 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:12.68     CMW_Cluster.495688..177    clusterlog      59599 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:12.78     CMW_Cluster.495688..177    clusterlog      59600 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:12.87     CMW_Cluster.495688..177    clusterlog      59601 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:12.113    CMW_Cluster.495688..177    clusterlog      59602 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:12.123    CMW_Cluster.495688..177    clusterlog      59603 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:12.131    CMW_Cluster.495688..177    clusterlog      59604 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:12.141    CMW_Cluster.495688..177    clusterlog      59605 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:12.159    CMW_Cluster.495688..177    clusterlog      59606 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4af9]
+
+2024-04-15 16:53:12.168    CMW_Cluster.495688..177    clusterlog      59607 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:12.186    CMW_Cluster.495688..177    clusterlog      59608 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:12.196    CMW_Cluster.495688..177    clusterlog      59609 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:12.212    CMW_Cluster.495688..177    clusterlog      59610 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:12.222    CMW_Cluster.495688..177    clusterlog      59611 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:12.231    CMW_Cluster.495688..177    clusterlog      59612 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:12.240    CMW_Cluster.495688..177    clusterlog      59613 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:12.258    CMW_Cluster.495688..177    clusterlog      59614 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:12.267    CMW_Cluster.495688..177    clusterlog      59615 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:12.286    CMW_Cluster.495688..177    clusterlog      59616 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:12.294    CMW_Cluster.495688..177    clusterlog      59617 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:12.311    CMW_Cluster.495688..177    clusterlog      59618 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:12.312    CMW_Cluster.495688..64     clusterlog      59619  9 I [cluster.tt][INFO]  ON OFF: e3 c0 62 1b 0b 00 00 21 00 00 08 01 00 00 00 00 
+
+
+2024-04-15 16:53:12.312    CMW_Cluster.495688..64     clusterlog      59620  9 I [cluster.tt][INFO]  blink : 00 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+
+2024-04-15 16:53:12.312    CMW_Cluster.495688..64     clusterlog      59621  9 I [cluster.tt][INFO]  selfcheck[2] TSR[0] MRR[0] 
+
+
+2024-04-15 16:53:12.312    CMW_Cluster.495688..64     clusterlog      59622  9 I [cluster.tt][INFO]  1 simple Data(s) was changed.
+
+
+2024-04-15 16:53:12.312    CMW_Cluster.495688..64     clusterlog      59623  9 I [cluster.tt][INFO]  [0] ID[15] ON[1] blink[1].
+
+
+2024-04-15 16:53:12.321    CMW_Cluster.495688..177    clusterlog      59624 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:12.331    CMW_Cluster.495688..177    clusterlog      59625 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:12.339    CMW_Cluster.495688..177    clusterlog      59626 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:12.357    CMW_Cluster.495688..177    clusterlog      59627 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:12.376    CMW_Cluster.495688..177    clusterlog      59628 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:12.384    CMW_Cluster.495688..177    clusterlog      59629 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:12.393    CMW_Cluster.495688..177    clusterlog      59630 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:12.409    CMW_Cluster.495688..150    clusterlog      59631 11 I [etcoat] OAT Signal Missing mOatTimerCnt
+ 
+2024-04-15 16:53:12.410    CMW_Cluster.495688..177    clusterlog      59632 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:12.420    CMW_Cluster.495688..177    clusterlog      59633 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:12.429    CMW_Cluster.495688..177    clusterlog      59634 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4af9]
+
+2024-04-15 16:53:12.438    CMW_Cluster.495688..177    clusterlog      59635 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:12.466    CMW_Cluster.495688..177    clusterlog      59636 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:12.474    CMW_Cluster.495688..177    clusterlog      59637 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:12.483    CMW_Cluster.495688..177    clusterlog      59638 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:12.492    CMW_Cluster.495688..177    clusterlog      59639 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:12.511    CMW_Cluster.495688..177    clusterlog      59640 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:12.519    CMW_Cluster.495688..177    clusterlog      59641 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a50b9]
+
+2024-04-15 16:53:12.528    CMW_Cluster.495688..177    clusterlog      59642 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:12.537    CMW_Cluster.495688..177    clusterlog      59643 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:12.564    CMW_Cluster.495688..177    clusterlog      59644 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:12.573    CMW_Cluster.495688..177    clusterlog      59645 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:12.582    CMW_Cluster.495688..177    clusterlog      59646 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:12.591    CMW_Cluster.495688..177    clusterlog      59647 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:12.608    CMW_Cluster.495688..177    clusterlog      59648 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:12.610    CMW_Cluster.495691..1      clusterlog      11536 12 I [ICFN]top warning id: 100 
+
+
+2024-04-15 16:53:12.610    CMW_Cluster.495688..121    clusterlog      59649  8 I [WARN_SRV] output topWarningId = 100, mCurPowerMode = 2 
+
+2024-04-15 16:53:12.618    CMW_Cluster.495688..177    clusterlog      59650 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:12.637    CMW_Cluster.495688..177    clusterlog      59651 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:12.646    CMW_Cluster.495688..177    clusterlog      59652 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:12.659    CMW_Cluster.495688..151    clusterlog      59653 11 I [etcdrvmod] DriveTimerCnt DriveMode = 13, mDirveTimerCnt = 11
+
+2024-04-15 16:53:12.663    CMW_Cluster.495688..177    clusterlog      59654 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:12.672    CMW_Cluster.495688..177    clusterlog      59655 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+
+2024-04-15 16:53:12.681    CMW_Cluster.495688..177    clusterlog      59656 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a4c39]
+
+2024-04-15 16:53:12.690    CMW_Cluster.495688..177    clusterlog      59657 17 E [cluster.mcuserver] ReceiveData Tc dataSize error: in[56] cur[64] buf[3e267a51f9]
+

@@ -1,0 +1,1135 @@
+[    0.000000] Booting Linux on physical CPU 0x0
+[    0.000000] Linux version 4.14.156+ (cmg1szh@e26754c720f3) (Android (4691093 based on r316199) clang version 6.0.2 (https://android.googlesource.com/toolchain/clang 183abd29fc496f55536e7d904e0abae47888fc7f) (https://android.googlesource.com/toolchain/llvm 34361f192e41ed6e4e8f9aca80a4ea7e9856f327) (based on LLVM 6.0.2svn)) #1 SMP PREEMPT Mon Feb 5 17:31:05 UTC 2024
+[    0.000000] Boot CPU: AArch64 Processor [51df804e]
+[    0.000000] memblock_reserve: 0x36c10 setup_arch+0xb0/0x558
+[    0.000000] Machine: Qualcomm Technologies, Inc. SA8155 V2 PM8150 Qualcomm Technologies, Inc. SA8155 Single LA Virtual Machine
+[    0.000000] earlycon: pl11 at MMIO 0x000000001c090000 (options '')
+[    0.000000] bootconsole [pl11] enabled
+[    0.000000] /cpus/cpu@7: missing enable-method property
+[    0.000000] Failed to register dummy clock controller for dummy_clk
+[    0.000748] Unable to find CPU node for ffffffcd3ca03ba8
+[    0.002988] /cpus/cpu-map/cluster2/core3: Can't get CPU for leaf core
+[    0.373551] hab:hab_shmem_probe:236 pchan idx 0, hab irq=11 shmem_base=ffffff8008065000, mem ffffffcd23e1a700 , maximum channel 23
+[    0.373582] hab:hab_shmem_probe:236 pchan idx 1, hab irq=12 shmem_base=ffffff800806d000, mem ffffffcd23e1ad00 , maximum channel 23
+[    0.385230] hab:hab_shmem_probe:236 pchan idx 2, hab irq=13 shmem_base=ffffff8008075000, mem ffffffcd23e32680 , maximum channel 23
+[    0.398307] hab:hab_shmem_probe:236 pchan idx 3, hab irq=14 shmem_base=ffffff800807d000, mem ffffffcd23e32000 , maximum channel 23
+[    0.409516] hab:hab_shmem_probe:236 pchan idx 4, hab irq=15 shmem_base=ffffff8008cf5000, mem ffffffcd23e32f00 , maximum channel 23
+[    0.419865] hab:hab_shmem_probe:236 pchan idx 5, hab irq=16 shmem_base=ffffff8008cfd000, mem ffffffcd23e32500 , maximum channel 23
+[    0.426807] hab:hab_shmem_probe:236 pchan idx 6, hab irq=17 shmem_base=ffffff800a28d000, mem ffffffcd23e43d80 , maximum channel 23
+[    0.431011] hab:hab_shmem_probe:236 pchan idx 7, hab irq=18 shmem_base=ffffff800a295000, mem ffffffcd23e43f80 , maximum channel 23
+[    0.435281] hab:hab_shmem_probe:236 pchan idx 8, hab irq=19 shmem_base=ffffff800a29d000, mem ffffffcd23e43580 , maximum channel 23
+[    0.441341] hab:hab_shmem_probe:236 pchan idx 9, hab irq=20 shmem_base=ffffff800a2a5000, mem ffffffcd23e47f00 , maximum channel 23
+[    0.445509] hab:hab_shmem_probe:236 pchan idx 10, hab irq=21 shmem_base=ffffff800a2ad000, mem ffffffcd23e47500 , maximum channel 23
+[    0.449658] hab:hab_shmem_probe:236 pchan idx 11, hab irq=22 shmem_base=ffffff800a2b5000, mem ffffffcd23e47780 , maximum channel 23
+[    0.453899] hab:hab_shmem_probe:236 pchan idx 12, hab irq=23 shmem_base=ffffff800a2bd000, mem ffffffcd23e4bd80 , maximum channel 23
+[    0.458275] hab:hab_shmem_probe:236 pchan idx 13, hab irq=24 shmem_base=ffffff800a2c5000, mem ffffffcd23e4bf80 , maximum channel 23
+[    0.462144] hab:hab_shmem_probe:236 pchan idx 14, hab irq=25 shmem_base=ffffff800a2cd000, mem ffffffcd23e4b580 , maximum channel 23
+[    0.466404] hab:hab_shmem_probe:236 pchan idx 15, hab irq=26 shmem_base=ffffff800a2d5000, mem ffffffcd23e4f900 , maximum channel 23
+[    0.470661] hab:hab_shmem_probe:236 pchan idx 16, hab irq=27 shmem_base=ffffff800a2dd000, mem ffffffcd23e4fe80 , maximum channel 23
+[    0.476511] hab:hab_shmem_probe:236 pchan idx 17, hab irq=28 shmem_base=ffffff800a2e5000, mem ffffffcd23e4fb00 , maximum channel 23
+[    0.481128] hab:hab_shmem_probe:236 pchan idx 18, hab irq=29 shmem_base=ffffff800a2ed000, mem ffffffcd23e52f80 , maximum channel 23
+[    0.485516] hab:hab_shmem_probe:236 pchan idx 19, hab irq=30 shmem_base=ffffff800a2f5000, mem ffffffcd23e52580 , maximum channel 23
+[    0.489810] hab:hab_shmem_probe:236 pchan idx 20, hab irq=31 shmem_base=ffffff800a2fd000, mem ffffffcd23e52980 , maximum channel 23
+[    0.493726] hab:hab_shmem_probe:236 pchan idx 21, hab irq=32 shmem_base=ffffff800a3ed000, mem ffffffcd23e52b80 , maximum channel 23
+[    0.498232] hab:hab_shmem_probe:236 pchan idx 22, hab irq=33 shmem_base=ffffff800a3f5000, mem ffffffcd23e56600 , maximum channel 23
+[    0.502370] hab:hab_shmem_probe:206 no more channel, current 23, maximum 23
+[    0.514728] hab:hab_shmem_probe:206 no more channel, current 23, maximum 23
+[    0.528671] sm8150-pinctrl 3000000.pinctrl: invalid resource
+[    0.537269] SMEM is not initialized.
+[    0.784306] arm-smmu: CB 0, FSR 0xffffffff reset
+[    0.789890] arm-smmu: CB 1, FSR 0xffffffff reset
+[    0.794323] arm-smmu: CB 2, FSR 0xffffffff reset
+[    0.798316] arm-smmu: CB 3, FSR 0xffffffff reset
+[    0.801391] arm-smmu: CB 4, FSR 0xffffffff reset
+[    0.806751] arm-smmu: CB 5, FSR 0xffffffff reset
+[    0.809210] arm-smmu: CB 6, FSR 0xffffffff reset
+[    0.813117] arm-smmu: CB 10, FSR 0xffffffff reset
+[    0.816115] arm-smmu: CB 11, FSR 0xffffffff reset
+[    0.821087] arm-smmu: CB 12, FSR 0xffffffff reset
+[    0.824132] arm-smmu: CB 13, FSR 0xffffffff reset
+[    0.826660] arm-smmu: CB 14, FSR 0xffffffff reset
+[    0.829304] arm-smmu: CB 15, FSR 0xffffffff reset
+[    0.832474] arm-smmu: CB 16, FSR 0xffffffff reset
+[    0.835446] arm-smmu: CB 17, FSR 0xffffffff reset
+[    0.839219] arm-smmu: CB 18, FSR 0xffffffff reset
+[    0.842574] arm-smmu: CB 19, FSR 0xffffffff reset
+[    0.844969] arm-smmu: CB 20, FSR 0xffffffff reset
+[    0.848548] arm-smmu: CB 21, FSR 0xffffffff reset
+[    0.852658] arm-smmu: CB 22, FSR 0xffffffff reset
+[    0.856426] arm-smmu: CB 23, FSR 0xffffffff reset
+[    0.859851] arm-smmu: CB 24, FSR 0xffffffff reset
+[    0.863530] arm-smmu: CB 25, FSR 0xffffffff reset
+[    0.866948] arm-smmu: CB 26, FSR 0xffffffff reset
+[    0.870451] arm-smmu: CB 27, FSR 0xffffffff reset
+[    0.873636] arm-smmu: CB 28, FSR 0xffffffff reset
+[    0.877309] arm-smmu: CB 29, FSR 0xffffffff reset
+[    0.881428] arm-smmu: CB 30, FSR 0xffffffff reset
+[    0.885176] arm-smmu: CB 31, FSR 0xffffffff reset
+[    0.888685] arm-smmu: CB 32, FSR 0xffffffff reset
+[    0.892025] arm-smmu: CB 33, FSR 0xffffffff reset
+[    0.894962] arm-smmu: CB 34, FSR 0xffffffff reset
+[    0.898102] arm-smmu: CB 35, FSR 0xffffffff reset
+[    0.902000] arm-smmu: CB 36, FSR 0xffffffff reset
+[    0.906504] arm-smmu: CB 37, FSR 0xffffffff reset
+[    0.909872] arm-smmu: CB 38, FSR 0xffffffff reset
+[    0.913331] arm-smmu: CB 39, FSR 0xffffffff reset
+[    0.917854] arm-smmu: CB 40, FSR 0xffffffff reset
+[    0.923046] arm-smmu: CB 41, FSR 0xffffffff reset
+[    0.926054] arm-smmu: CB 42, FSR 0xffffffff reset
+[    0.929853] arm-smmu: CB 43, FSR 0xffffffff reset
+[    0.933127] arm-smmu: CB 44, FSR 0xffffffff reset
+[    0.936693] arm-smmu: CB 45, FSR 0xffffffff reset
+[    0.941052] arm-smmu: CB 46, FSR 0xffffffff reset
+[    0.943646] arm-smmu: CB 47, FSR 0xffffffff reset
+[    0.946366] arm-smmu: CB 48, FSR 0xffffffff reset
+[    0.950264] arm-smmu: CB 49, FSR 0xffffffff reset
+[    0.954475] arm-smmu: CB 50, FSR 0xffffffff reset
+[    0.958471] arm-smmu: CB 51, FSR 0xffffffff reset
+[    0.961117] arm-smmu: CB 52, FSR 0xffffffff reset
+[    0.964317] arm-smmu: CB 53, FSR 0xffffffff reset
+[    0.968876] arm-smmu: CB 54, FSR 0xffffffff reset
+[    0.972735] arm-smmu: CB 55, FSR 0xffffffff reset
+[    0.976215] arm-smmu: CB 62, FSR 0xffffffff reset
+[    0.979811] arm-smmu: CB 63, FSR 0xffffffff reset
+[    0.984177] arm-smmu: CB 64, FSR 0xffffffff reset
+[    0.987291] arm-smmu: CB 65, FSR 0xffffffff reset
+[    1.004674] HAB channel is not opened
+[    1.006947] HAB channel is not opened
+[    1.009839] ipa ipa_is_mem_dump_allowed:6650 SCM DUMP_STATE call failed
+[    1.015411] ipa ipa3_pre_init:6852 failed to get bus scaling reset bus hdl
+[    1.024844] pcie:pcie_init.
+[    1.028323] msm_pcie_probe: PCIe: Driver probe failed for RC0:-517
+[    1.063116] msm_pcie_get_resources: PCIe: RC0 can't get tcsr resource.
+[    1.065607] msm_pcie_probe: PCIe: RC0 could not get pinctrl sleep state
+[    1.108661] qti_pfk_ice_get_info failed ret = -11 error_count 1
+[    1.759576] clk_core_set_rate_nolock: failed to set gcc_usb3_prim_clkref_en clock to run at 19200000
+[    1.763130] clk_core_set_rate_nolock: failed to set gcc_usb30_prim_sleep_clk clock to run at 32000
+[    1.771327] clk_core_set_rate_nolock: failed to set gcc_usb3_sec_clkref_en clock to run at 19200000
+[    1.776523] clk_core_set_rate_nolock: failed to set gcc_usb30_sec_sleep_clk clock to run at 32000
+[    1.791404] nitrous_probe
+[    1.797518] msm-usb-ssphy-qmp 88eb000.ssphy: phy_phy_reset assert failed
+[    1.814917] core_ctl: HW configuration not supported
+[    1.817875] Please check if `measure` clk is registered.
+[    2.026568] init: waitid failed: No child processes
+[    2.040345] selinux: avc:  denied  { set } for  scontext=u:r:vendor_init:s0 tcontext=u:object_r:default_prop:s0 tclass=property_service permissive=1
+[    2.040345] 
+[    2.060881] init: /init.rc: 817: Invalid keyword 'disable'
+[    2.064802] init: Unable to read config file '/init.qcom.rc': open() failed: No such file or directory
+[    2.068718] init: /init.rc: 37: Could not import file '/init.qcom.rc': No such file or directory
+[    2.073673] init: /vendor/etc/init/hw/init.qcom.rc: 55: Invalid keyword 'ln'
+[    2.076552] init: /vendor/etc/init/hw/init.qcom.rc: 56: Invalid keyword 'ln'
+[    2.079349] init: /vendor/etc/init/hw/init.qcom.rc: 57: Invalid keyword 'ln'
+[    2.082056] init: /vendor/etc/init/hw/init.qcom.rc: 58: Invalid keyword 'ln'
+[    2.084822] init: /vendor/etc/init/hw/init.qcom.rc: 211: chown requires between 2 and 3 arguments
+[    2.088852] init: /vendor/etc/init/hw/init.qcom.rc: 212: chmod requires 2 arguments
+[    2.092360] init: /vendor/etc/init/hw/init.qcom.rc: 215: chown requires between 2 and 3 arguments
+[    2.095447] init: /vendor/etc/init/hw/init.qcom.rc: 216: chmod requires 2 arguments
+[    2.098940] init: /vendor/etc/init/hw/init.qcom.rc: 524: ParseTriggers() failed: unexported property tigger found: persist.debug.trace
+[    2.102101] init: /vendor/etc/init/hw/init.qcom.rc: 528: ParseTriggers() failed: unexported property tigger found: init.svc.wpa_supplicant
+[    2.106011] init: /vendor/etc/init/hw/init.qcom.rc: 537: ParseTriggers() failed: unexported property tigger found: ro.bluetooth.ftm_enabled
+[    2.110792] init: /vendor/etc/init/hw/init.qcom.rc: 572: ParseTriggers() failed: unexported property tigger found: persist.env.fastdorm.enabled
+[    2.114789] init: /vendor/etc/init/hw/init.qcom.rc: 643: Unable to decode GID for 'net_bt_stack': getpwnam failed: No such file or directory
+[    2.119359] init: /vendor/etc/init/hw/init.qcom.rc: 714: ParseTriggers() failed: unexported property tigger found: ro.data.large_tcp_window_size
+[    2.122747] init: /vendor/etc/init/hw/init.qcom.rc: 717: ParseTriggers() failed: unexported property tigger found: sys.sysctl.tcp_adv_win_scale
+[    2.128147] init: /vendor/etc/init/hw/init.qcom.rc: 915: ParseTriggers() failed: unexported property tigger found: crypto.driver.load
+[    2.131679] init: /vendor/etc/init/hw/init.qcom.rc: 925: ParseTriggers() failed: unexported property tigger found: drmdiag.load
+[    2.135051] init: /vendor/etc/init/hw/init.qcom.rc: 928: ParseTriggers() failed: unexported property tigger found: drmdiag.load
+[    2.141288] init: /vendor/etc/init/hw/init.qcom.rc: 1013: ParseTriggers() failed: unexported property tigger found: persist.ims.regmanager.mode
+[    2.145682] init: /vendor/etc/init/hw/init.qcom.rc: 1016: ParseTriggers() failed: unexported property tigger found: ro.data.large_tcp_window_size
+[    2.149868] init: /vendor/etc/init/hw/init.qcom.rc: 1061: ParseTriggers() failed: unexported property tigger found: persist.usb.hvdcp.detect
+[    2.154134] init: /vendor/etc/init/hw/init.qcom.rc: 1064: ParseTriggers() failed: unexported property tigger found: persist.usb.hvdcp.detect
+[    2.158617] init: /vendor/etc/init/hw/init.qcom.rc: 1076: ParseTriggers() failed: unexported property tigger found: sys.qbcharger.enable
+[    2.162715] init: /vendor/etc/init/hw/init.qcom.rc: 1079: ParseTriggers() failed: unexported property tigger found: sys.qbcharger.enable
+[    2.166279] init: /vendor/etc/init/hw/init.qcom.rc: 1100: ParseTriggers() failed: unexported property tigger found: persist.sys.qlogd
+[    2.170396] init: /vendor/etc/init/hw/init.qcom.rc: 1102: ParseTriggers() failed: unexported property tigger found: persist.sys.qlogd
+[    2.180241] init: /vendor/etc/init/hw/init.msm.usb.configfs.rc: 1296: Invalid keyword 'echo'
+[    2.183252] init: /vendor/etc/init/hw/init.msm.usb.configfs.rc: 1347: symlink requires 2 arguments
+[    2.187636] init: /vendor/etc/init/hw/init.target.rc: 116: ParseTriggers() failed: unexported property tigger found: init.svc.bootanim
+[    2.191848] init: /vendor/etc/init/hw/init.target.rc: 119: ParseTriggers() failed: unexported property tigger found: init.svc.media
+[    2.197710] init: /vendor/etc/init/hw/init.qcom.test.rc: 52: ParseTriggers() failed: unexported property tigger found: sys.vendor.dbg.coresight.enable
+[    2.201443] init: /vendor/etc/init/hw/init.qcom.test.rc: 55: ParseTriggers() failed: unexported property tigger found: sys.vendor.dbg.coresight.enable
+[    2.213190] init: /system/etc/init/caraudioserver.rc: 3: Unable to find UID for 'caraudioserver': getpwnam failed: No such file or directory
+[    2.239874] init: Unable to read config file '/product/etc/init': open() failed: No such file or directory
+[    2.242951] init: Unable to read config file '/odm/etc/init': open() failed: No such file or directory
+[    2.246321] init: /vendor/etc/init/android.hardware.audio@2.0-service.rc: 12: Interface 'android.hardware.audio@4.0::IDevicesFactory/default' redefined in vendor.audio-hal-2-0 but is already defined by vendor.audio-hal-2-0
+[    2.253389] init: /vendor/etc/init/android.hardware.audio@2.0-service.rc: 14: Interface 'android.hardware.audio@2.0::IDevicesFactory/default' redefined in vendor.audio-hal-2-0 but is already defined by vendor.audio-hal-2-0
+[    2.260895] init: /vendor/etc/init/android.hardware.audio@2.0-service.rc: 17: Invalid fully-qualified name for interface 'vendor::bosch::hardware::streamrecord::V1_0::IStreamRecord'
+[    2.265991] init: /vendor/etc/init/android.hardware.audio@2.0-service.rc: 1: ignored duplicate definition of service 'vendor.audio-hal-2-0'
+[    2.280794] init: /vendor/etc/init/hostapd.android.rc: 15: Interface 'android.hardware.wifi.hostapd@1.0::IHostapd/default' redefined in hostapd but is already defined by hostapd_fst
+[    2.289138] init: /vendor/etc/init/init.platform.rc: 69: ParseTriggers() failed: unexported property tigger found: init.svc.qcom-post-boot
+[    2.298510] init: /vendor/etc/init/vendor.bosch.hardware.broadcastradio@2.0-service.rc: 2: Invalid keyword 'su'
+[    2.302514] init: /vendor/etc/init/vendor.bosch.hardware.broadcastradio@2.0-service.rc: 8: Invalid keyword 'ulimit'
+[    2.309318] init: /vendor/etc/init/vendor.bosch.log@1.0-service.rc: 5: Unable to decode GID for 'external_storage': getpwnam failed: No such file or directory
+[    2.315984] init: /vendor/etc/init/vendor.gxa.perscommonservice@1.0-service.rc: 6: ParseTriggers() failed: unexported property tigger found: init.svc.pers_admin
+[    2.322791] init: /vendor/etc/init/vendor.gxa.persistenceadmin@1.0-service.rc: 10: ParseTriggers() failed: unexported property tigger found: init.svc.dlt_daemon
+[    2.331434] init: /vendor/etc/init/vendor.qti.rmt_storage.rc: 7: ignored duplicate definition of service 'vendor.rmt_storage'
+[    2.350271] ueventd: Unable to read config file '/odm/ueventd.rc': open() failed: No such file or directory
+[    2.355000] ueventd: Unable to read config file 'qcom': open() failed: No such file or directory
+[    2.396339] ueventd: The network interface name is empty or configure script is not exit?!
+[    2.399138] ueventd: The network interface name is empty or configure script is not exit?!
+[    2.399937] ueventd: The network interface name is empty or configure script is not exit?!
+[    2.405698] ueventd: The network interface name is empty or configure script is not exit?!
+[    2.405706] ueventd: The network interface name is empty or configure script is not exit?!
+[    2.407322] ueventd: The network interface name is empty or configure script is not exit?!
+[    2.482473] sm8150-pinctrl 3000000.pinctrl: function 'sleep' not supported
+[    2.485130] sm8150-pinctrl 3000000.pinctrl: invalid function sleep in map table
+[    3.410485] selinux: avc:  denied  { set } for property=ro.boot.product.hardware.sku pid=286 uid=0 gid=0 scontext=u:r:qti_init_shell:s0 tcontext=u:object_r:exported_default_prop:s0 tclass=property_service permissive=1
+[    3.410485] 
+[    3.476554] init: could not open /dev/keychord: No such file or directory
+[    5.071392] EXT4-fs (vdh): errors=remount-ro for active namespaces on umount 0
+[    5.938001] init: Unable to read config file '/product/etc/init': open() failed: No such file or directory
+[    5.940172] init: Unable to read config file '/odm/etc/init': open() failed: No such file or directory
+[    5.960124] init: Unable to set property 'ro.telephony.default_network' to '22,22' in property file '/system/build.prop': Property type check failed, value doesn't match expected type 'int'
+[    5.965816] selinux: avc:  denied  { set } for property=pm.dexopt.disable_bg_dexopt pid=1 uid=0 gid=0 scontext=u:r:vendor_init:s0 tcontext=u:object_r:pm_prop:s0 tclass=property_service permissive=1
+[    5.965816] 
+[    5.973079] selinux: avc:  denied  { set } for property=audio.volume.headset.gain.depcal pid=1 uid=0 gid=0 scontext=u:r:vendor_init:s0 tcontext=u:object_r:rbgwm_audio_prop:s0 tclass=property_service permissive=1
+[    5.973079] 
+[    5.978872] selinux: avc:  denied  { set } for property=persist.debug.trace pid=1 uid=0 gid=0 scontext=u:r:vendor_init:s0 tcontext=u:object_r:persist_debug_prop:s0 tclass=property_service permissive=1
+[    5.978872] 
+[    5.984598] selinux: avc:  denied  { set } for property=vendor.gnss_fw_update pid=1 uid=0 gid=0 scontext=u:r:vendor_init:s0 tcontext=u:object_r:bosch_prop:s0 tclass=property_service permissive=1
+[    5.984598] 
+[    5.991314] selinux: avc:  denied  { set } for property=persist.logd.logpersistd.default pid=1 uid=0 gid=0 scontext=u:r:vendor_init:s0 tcontext=u:object_r:logpersistd_logging_prop:s0 tclass=property_service permissive=1
+[    5.991314] 
+[    5.998138] selinux: avc:  denied  { set } for property=persist.vendor.ims.disabled pid=1 uid=0 gid=0 scontext=u:r:vendor_init:s0 tcontext=u:object_r:ims_prop:s0 tclass=property_service permissive=1
+[    5.998138] 
+[    6.003292] init: /recovery not specified in fstab
+[    6.031493] selinux: SELinux:  Could not stat /metadata: No such file or directory.
+[    6.031493] 
+[    6.078545] audit: rate limit exceeded
+[    6.080491] error_count 1
+[    6.133720] scm_call failed: func id 0x72000206, ret: -1, syscall returns: 0xffffffffffffffff, 0xffffffffffffffff, 0x0
+[    6.141306] scm_call failed: func id 0x72000206, ret: -1, syscall returns: 0xffffffffffffffff, 0xffffffffffffffff, 0x0
+[    6.152118] scm_call failed: func id 0x72000206, ret: -1, syscall returns: 0xffffffffffffffff, 0xffffffffffffffff, 0x0
+[    6.158428] vdc: ##### vdc main: +++
+[    6.159724] vdc: arg[0] = cryptfs
+[    6.160973] vdc: arg[1] = enablefilecrypto
+[    6.194441] vold: #### VoldNativeService::fbeEnable +++
+[    6.203760] init: Could not find service hosting interface android.hardware.keymaster@4.0::IKeymasterDevice/default
+[    6.208489] init: Could not find service hosting interface android.hardware.keymaster@4.0::IKeymasterDevice/default
+[    6.327949] vold: #### VoldNativeService::fbeEnable ---
+[    6.330135] vdc: ##### vdc main: ---
+[    6.344117] qti_pfk_ice_get_info failed ret = -11 error_count 1000
+[    6.346316] qti_pfk_ice_get_info failed ret = -11 error_count 2000
+[    6.442552] selinux: avc:  denied  { set } for property=persist.vendor.bosch.cfg.hut.finish pid=336 uid=1000 gid=1000 scontext=u:r:variant_client:s0 tcontext=u:object_r:gwm_project_prop:s0 tclass=property_service permissive=1
+[    6.442552] 
+[    6.474312] vdc: ##### vdc main: +++
+[    6.476377] vdc: arg[0] = cryptfs
+[    6.477657] vdc: arg[1] = init_user0
+[    6.566150] vdc: ##### vdc main: ---
+[    6.851835] init: couldn't write 483 to /dev/cpuset/camera-daemon/tasks: No such file or directory
+[    6.871286] init: Could not start service 'iop-hal-2-0' as part of class 'hal': File /vendor/bin/hw/vendor.qti.hardware.iop@2.0-service(labeled "u:object_r:vendor_file:s0") has incorrect label or no domain transition from u:r:init:s0 to another SELinux domain defined. Have you configured your service correctly? https://source.android.com/security/selinux/device-policy#label_new_services_and_address_denials
+[    6.889909] init: Could not start service 'vendor.tftp_server' as part of class 'core': Cannot find '/vendor/bin/tftp_server': No such file or directory
+[    6.895656] init: Could not start service 'esepmdaemon' as part of class 'core': Cannot find '/system/vendor/bin/esepmdaemon': No such file or directory
+[    6.920116] selinux: avc:  denied  { set } for property=sys.vendor.connectivity.gatekeeper pid=521 uid=1000 gid=1000 scontext=u:r:toolbox:s0 tcontext=u:object_r:system_prop:s0 tclass=property_service permissive=1
+[    6.920116] 
+[    6.920191] init: Failed to bind socket 'pdx/system/vr/display/client': No such file or directory
+[    6.929015] init: Failed to bind socket 'pdx/system/vr/display/manager': No such file or directory
+[    6.930973] init: Failed to bind socket 'pdx/system/vr/display/vsync': No such file or directory
+[    6.972588] init: starting service 'console'...
+[    6.981049] init: setpgid failed for console: Operation not permitted
+[    6.985527] healthd: No battery devices found
+[    6.987457] i2c_geni a84000.i2c: i2c error :-107
+[    6.989511] android.hardware.health@2.0-impl: wakealarm_init: timerfd_create failed
+[    6.990888] healthd: battery none chg=
+[    6.994825] i2c_geni a84000.i2c: i2c error :-107
+[    7.004938] i2c_geni a84000.i2c: i2c error :-107
+console:/ $ [    7.031948] geant_setup: finished
+[    7.058929] rmt_storage:ERR:check_support_using_property: Remote storage service is not supported on unknown target
+[    7.097822] init: Sending signal 9 to service 'vendor.rmt_storage' (pid 511) process group...
+[    7.109853] ufsd: module license 'Commercial product' taints kernel.
+[    7.111048] Disabling lock debugging due to kernel taint
+[    7.116385] ufsd: driver (UFSD_HEAD lke_10.4.2_b150, acl, sd2(5), tr)
+[    7.116385] exFAT support included
+[    7.116385] Build_for__Bosch_China_GWM_k4.14.156_a9_2020-11-24_lke_10.4.2_b150
+[    7.122766] ufsd: PAGE_SIZE=4K, THREAD_SIZE=16k
+[    7.125845] ufsd: Kernel .config hash: original 0x87625e26, current 0xc6f0bc5f, not matched.
+[    7.128052] ufsd: 268 (init): Kernel .config hash: original 0x87625e26, current 0xc6f0bc5f, not matched
+[    7.129717] ufsd: (ex)fat can't store dates before Jan 1, 1980. Please update current date
+[    7.135724] sysfs: cannot create duplicate filename '/class/ipodout'
+[    7.137474] ------------[ cut here ]------------
+[    7.139608] WARNING: CPU: 3 PID: 268 at /var/gac-avnt/rb-gac-avnt_generic-1.0_maindev_a8e_sop2_release/LINUX/android/kernel/msm-4.14/fs/sysfs/dir.c:31 sysfs_warn_dup+0x5c/0x74
+[    7.145259] ---[ end trace eb6db7e3772c742f ]---
+[    7.149137] kobject_add_internal failed for ipodout with -EEXIST, don't try to register things with the same name in the same directory.
+[    7.153384] giap_setup: failed to create ipodg class, err = -17
+[    7.157595] selinux: avc:  denied  { set } for property=persist.log.tag pid=498 uid=1000 gid=1023 scontext=u:r:logcat_file_count_sh:s0 tcontext=u:object_r:log_tag_prop:s0 tclass=property_service permissive=1
+[    7.157595] 
+[    7.209225] init: starting service 'adbd'...
+[    7.213123] init: starting service 'vendor.ssr_setup'...
+[    7.216601] init: starting service 'ethcfg'...
+[    7.222045] init: starting service 'wlan_multiko'...
+[    7.224832] init: starting service 'exec 10 (/system/bin/sh /system/bin/init.qti.khung.sh surfaceflinger)'...
+[    7.230586] init: cannot setexeccon('u:r:qti-khung:s0') for exec 10 (/system/bin/sh /system/bin/init.qti.khung.sh surfaceflinger): Invalid argument
+[    7.235153] init: starting service 'exec 11 (/system/bin/sh /system/bin/init.qti.khung.sh audioserver)'...
+[    7.240426] init: starting service 'exec 12 (/system/bin/sh /system/bin/init.qti.khung.sh system_server)'...
+[    7.241936] init: cannot setexeccon('u:r:qti-khung:s0') for exec 11 (/system/bin/sh /system/bin/init.qti.khung.sh audioserver): Invalid argument
+[    7.244805] init: cannot setexeccon('u:r:qti-khung:s0') for exec 12 (/system/bin/sh /system/bin/init.qti.khung.sh system_server): Invalid argument
+[    7.254270] init: starting service 'exec 13 (/system/bin/sh /system/bin/init.qti.khung.sh vold)'...
+[    7.259567] init: cannot setexeccon('u:r:qti-khung:s0') for exec 13 (/system/bin/sh /system/bin/init.qti.khung.sh vold): Invalid argument
+[    7.262888] init: starting service 'tbx-gnss'...
+[    7.268046] init: starting service 'vendor.bosch.vehicle-hal-2.0'...
+[    7.271452] init: Could not start service 'flash_recovery' as part of class 'main': Cannot find '/system/bin/install-recovery.sh': No such file or directory
+[    7.274700] init: Could not start service 'qcomsysd' as part of class 'main': File /vendor/bin/qcom-system-daemon(labeled "u:object_r:vendor_file:s0") has incorrect label or no domain transition from u:r:init:s0 to another SELinux domain defined. Have you configured your service correctly? https://source.android.com/security/selinux/device-policy#label_new_services_and_address_denials
+[    7.282957] init: starting service 'qcom-c_main-sh'...
+[    7.285535] init: Could not start service 'vendor.cnd' as part of class 'main': Cannot find '/system/vendor/bin/cnd': No such file or directory
+[    7.288556] init: Could not start service 'dpmQmiMgr' as part of class 'main': Cannot find '/system/vendor/bin/dpmQmiMgr': No such file or directory
+[    7.293071] init: Could not start service 'ptt_socket_app' as part of class 'main': Cannot find '/system/vendor/bin/ptt_socket_app': No such file or directory
+[    7.295558] init: Could not start service 'vendor.vppservice' as part of class 'main': File /vendor/bin/vppservice(labeled "u:object_r:vendor_file:s0") has incorrect label or no domain transition from u:r:init:s0 to another SELinux domain defined. Have you configured your service correctly? https://source.android.com/security/selinux/device-policy#label_new_services_and_address_denials
+[    7.307521] init: Could not start service 'vendor.wifilearner' as part of class 'main': Cannot find '/system/vendor/bin/wifilearner': No such file or directory
+[    7.313071] init: starting service 'vendor.thermal-engine'...
+[    7.316999] init: starting service 'amfsservice'...
+[    7.322015] init: Could not start service 'audiod' as part of class 'main': Cannot find '/vendor/bin/audiod': No such file or directory
+[    7.325113] init: Could not start service 'vendor.imsqmidaemon' as part of class 'main': Cannot find '/vendor/bin/imsqmidaemon': No such file or directory
+[    7.329031] init: starting service 'vendor.mdm_launcher'...
+[    7.331625] init: Could not start service 'vendor.imsrcsservice' as part of class 'main': Cannot find '/vendor/bin/imsrcsd': No such file or directory
+[    7.334302] init: Could not start service 'cnss_diag' as part of class 'main': Cannot find '/system/vendor/bin/cnss_diag': No such file or directory
+[    7.337745] init: Could not start service 'vendor.ims_rtp_daemon' as part of class 'main': Cannot find '/vendor/bin/ims_rtp_daemon': No such file or directory
+[    7.343238] init: Could not start service 'vendor.energy-awareness' as part of class 'main': Cannot find '/vendor/bin/energy-awareness': No such file or directory
+[    7.350061] init: starting service 'vendor.hvdcp_opti'...
+[    7.352853] init: starting service 'cameraserver'...
+[    7.354931] init: starting service 'caraudioserver'...
+[    7.359128] init: starting service 'drm'...
+[    7.362037] init: starting service 'gocsdk'...
+[    7.365099] init: starting service 'incidentd'...
+[    7.368464] init: starting service 'installd'...
+[    7.370726] init: starting service 'keystore'...
+[    7.372954] init: starting service 'mediadrm'...
+[    7.375032] init: starting service 'mediaextractor'...
+[    7.377222] init: starting service 'mediametrics'...
+[    7.379548] init: starting service 'media'...
+[    7.385089] init: Could not start service 'vendor.perfservice' as part of class 'main': File /system/bin/perfservice(labeled "u:object_r:system_file:s0") has incorrect label or no domain transition from u:r:init:s0 to another SELinux domain defined. Have you configured your service correctly? https://source.android.com/security/selinux/device-policy#label_new_services_and_address_denials
+[    7.394921] init: starting service 'statsd'...
+[    7.403273] init: starting service 'storaged'...
+[    7.404584] MAIN_MGR: hvdcp_opti Version: 3:0:0
+[    7.406355] init: Failed to open file '/d/mmc0/mmc0:0001/ext_csd': No such file or directory
+[    7.407100] init: starting service 'wificond'...
+[    7.413206] init: starting service 'vendor.media.omx'...
+[    7.420842] init: Could not start service 'wifidisplayhalservice' as part of class 'main': File /vendor/bin/wifidisplayhalservice(labeled "u:object_r:vendor_file:s0") has incorrect label or no domain transition from u:r:init:s0 to another SELinux domain defined. Have you configured your service correctly? https://source.android.com/security/selinux/device-policy#label_new_services_and_address_denials
+[    7.437596] init: starting service 'broadcastradio-hal-2-0'...
+[    7.441589] init: starting service 'pers_common_service'...
+[    7.444612] init: starting service 'pers_admin'...
+[    7.448104] init: starting service 'usbadapter'...
+[    7.453921] init: Could not start service 'nqnfcinfo' as part of class 'late_start': Cannot find '/system/vendor/bin/nqnfcinfo': No such file or directory
+[    7.460744] init: Could not start service 'qcom-c_late-sh' as part of class 'late_start': File /vendor/bin/init.class_late.sh(labeled "u:object_r:vendor_file:s0") has incorrect label or no domain transition from u:r:init:s0 to another SELinux domain defined. Have you configured your service correctly? https://source.android.com/security/selinux/device-policy#label_new_services_and_address_denials
+[    7.480524] init: Could not start service 'cnss-daemon' as part of class 'late_start': Cannot find '/system/vendor/bin/cnss-daemon': No such file or directory
+[    7.489977] init: Could not start service 'ssgqmigd' as part of class 'late_start': File /vendor/bin/ssgqmigd(labeled "u:object_r:vendor_file:s0") has incorrect label or no domain transition from u:r:init:s0 to another SELinux domain defined. Have you configured your service correctly? https://source.android.com/security/selinux/device-policy#label_new_services_and_address_denials
+[    7.505278] init: Could not start service 'mlid' as part of class 'late_start': File /vendor/bin/mlid(labeled "u:object_r:vendor_file:s0") has incorrect label or no domain transition from u:r:init:s0 to another SELinux domain defined. Have you configured your service correctly? https://source.android.com/security/selinux/device-policy#label_new_services_and_address_denials
+[    7.524373] init: Could not start service 'vendor.qdmastatsd' as part of class 'late_start': Cannot find '/system/vendor/bin/qdmastatsd': No such file or directory
+[    7.532594] init: Could not start service 'loc_launcher' as part of class 'late_start': Cannot find '/system/vendor/bin/loc_launcher': No such file or directory
+[    7.541456] init: starting service 'qcom-sh'...
+[    7.547100] init: starting service 'crashdata-sh'...
+[    7.551613] init: Could not start service 'qvop-daemon' as part of class 'late_start': Cannot find '/vendor/bin/qvop-daemon': No such file or directory
+[    7.557712] init: Could not start service 'qseeproxydaemon' as part of class 'late_start': Cannot find '/system/vendor/bin/qseeproxydaemon': No such file or directory
+[    7.566080] init: Could not start service 'seemp_healthd' as part of class 'late_start': Cannot find '/vendor/bin/seemp_healthd': No such file or directory
+[    7.575456] init: Could not start service 'chre' as part of class 'late_start': Cannot find '/vendor/bin/chre': No such file or directory
+[    7.578971] init: Could not start service 'vendor.tlocd' as part of class 'late_start': Cannot find '/vendor/bin/tloc_daemon': No such file or directory
+[    7.583695] init: starting service 'gatekeeperd'...
+[    7.587975] init: starting service 'perfprofd'...
+[    7.593461] init: starting service 'tombstoned'...
+[    7.599956] init: starting service 'usbd'...
+[    7.616353] init: starting service 'mdnsd'...
+[    7.624314] init: Could not ctl.start for service vendor.qmuxd: Cannot find '/system/vendor/bin/qmuxd': No such file or directory
+[    7.639096] MAIN_MGR: Disable hvdcp_opti persist.vendor.hvdcp_opti.disable = 0
+[    7.645639] selinux: avc:  denied  { set } for property=ro.bosch.dbc.ver pid=631 uid=1054 gid=1000 scontext=u:r:hal_vehicle_bosch:s0 tcontext=u:object_r:bosch_prop:s0 tclass=property_service permissive=1
+[    7.645639] 
+[    7.660369] init: Sending signal 9 to service 'tbx-gnss' (pid 628) process group...
+[    7.672724] init: starting service 'vendor.msm_irqbalance'...
+[    7.679373] init: Sending signal 9 to service 'vendor.hvdcp_opti' (pid 659) process group...
+[    7.688778] init: starting service 'gnss_fw_update'...
+[    7.747004] init: No such service 'ril-daemon' for ctl.stop
+[    7.762374] init: starting service 'ubx-gnss'...
+[    7.769471] init: Sending signal 9 to service 'ubx-gnss' (pid 783) process group...
+[    7.794341] init: starting service 'exec 14 (/system/bin/sh /system/bin/init.qti.khung.sh cameraserver)'...
+[    7.800911] init: cannot setexeccon('u:r:qti-khung:s0') for exec 14 (/system/bin/sh /system/bin/init.qti.khung.sh cameraserver): Invalid argument
+[    7.806246] init: No such service 'vendor.ril-daemon' for ctl.stop
+[    7.829155] init: No such service 'vendor.qcrild' for ctl.start
+[    8.371597] i2c_geni a84000.i2c: i2c error :-107
+[    8.381139] i2c_geni a84000.i2c: i2c error :-107
+[    8.547942] hsi2s_device 172c0000.qcom,hsi2s:qcom,hs0_i2s: Primary client connected. Active clients : 1
+[    8.734539] hsi2s_device 172c0000.qcom,hsi2s:qcom,hs0_i2s: Triggering normal operation
+[    9.195062] ueventd: The network interface name is empty or configure script is not exit?!
+[    9.204583] ueventd: The network interface name is empty or configure script is not exit?!
+[    9.212376] init: starting service 'vendor.ipacm-diag'...
+[    9.212412] ueventd: The network interface name is empty or configure script is not exit?!
+[    9.223167] init: starting service 'ubx-gnss'...
+[    9.227912] init: Could not find service hosting interface vendor.bosch.audio.control@1.0::IRBAudioControl/default
+[    9.232592] init: Could not find service hosting interface vendor.bosch.audio.control@1.0::IRBAudioControl/default
+[    9.237948] selinux: avc:  denied  { set } for property=sys.asm.boot pid=665 uid=0 gid=1000 scontext=u:r:np_caraudioserver_deamon:s0 tcontext=u:object_r:np_caraudioserver_deamon_prop:s0 tclass=property_service permissive=1
+[    9.237948] 
+[    9.255332] init: starting service 'vendor.ipacm'...
+[    9.263918] init: starting service 'store_wifi_mac'...
+[    9.279104] init: Could not ctl.start for service vendor.dataqti: Cannot find '/system/vendor/bin/qti': No such file or directory
+[    9.294789] ipa ipa3_ioctl:899 IPA not ready, waiting for init completion
+[    9.300948] init: Could not ctl.start for service vendor.dataadpl: Cannot find '/system/vendor/bin/adpl': No such file or directory
+[    9.303751] selinux: avc:  denied  { set } for property=sys.wifi.mac pid=1106 uid=0 gid=0 scontext=u:r:qti_init_shell:s0 tcontext=u:object_r:sys_wifi_prop:s0 tclass=property_service permissive=1
+[    9.303751] 
+[    9.323341] init: Could not ctl.start for service vendor.netmgrd: Cannot find '/system/vendor/bin/netmgrd': No such file or directory
+[    9.346153] init: Could not ctl.start for service vendor.port-bridge: Cannot find '/system/vendor/bin/port-bridge': No such file or directory
+[   10.321466] ipa ipa3_ioctl:904 IPA not ready, return
+[   10.326991] ipa ipa3_ioctl:899 IPA not ready, waiting for init completion
+[   10.849156] healthd: battery none chg=
+[   10.850495] healthd: battery none chg=
+[   10.904682] healthd: battery none chg=
+[   11.371250] ipa ipa3_ioctl:904 IPA not ready, return
+[   11.863930] init: starting service 'logcatd_default'...
+[   11.919200] init: Sending signal 9 to service 'logcatd_default' (pid 1428) process group...
+[   13.405286] selinux: avc:  denied  { set } for property=SN pid=1703 uid=1000 gid=1000 scontext=u:r:system_app:s0 tcontext=u:object_r:default_prop:s0 tclass=property_service permissive=1
+[   13.405286] 
+[   13.521087] selinux: avc:  denied  { set } for property=persist.vendor.gxa.firstboot pid=1621 uid=1000 gid=1000 scontext=u:r:system_app:s0 tcontext=u:object_r:vendor_default_prop:s0 tclass=property_service permissive=1
+[   13.521087] 
+[   14.525144] selinux: avc:  denied  { set } for property=sys.lastmode.scene.isrestore pid=1457 uid=1000 gid=1000 scontext=u:r:np_uiframework_scenetransition_app:s0 tcontext=u:object_r:system_prop:s0 tclass=property_service permissive=1
+[   14.525144] 
+[   14.841812] selinux: avc:  denied  { set } for property=sys.usb1.status pid=1937 uid=10007 gid=10007 scontext=u:r:mediaprovider:s0:c512,c768 tcontext=u:object_r:system_prop:s0 tclass=property_service permissive=1
+[   14.841812] 
+[   16.870680] init: starting service 'logcatd_default'...
+[   19.356493] init: starting service 'ssgtzd'...
+[   19.361065] init: starting service 'qcom-post-boot'...
+[   19.369864] init: starting service 'qti-testscripts'...
+[   19.391211] ptp_virtual_get_dts_config: read reserved-addr: 0xeb600000 size: 0x1000
+[   19.406221] ptp_virtual_init: virtbase: 171b5000
+[   19.414235] ptp_virtual_init: ptp clock registered:
+[   19.420533] init: Command 'write /proc/sys/kernel/printk 9' action=sys.boot_completed=1 (/vendor/etc/init/hw/init.target.rc:378) took 0ms and succeeded
+[   19.435350] init: processing action (sys.boot_completed=1) from (/vendor/etc/init/hw/init.qcom.test.rc:49)
+[   19.440897] init: starting service 'cs-post-boot'...
+[   19.453836] init: Command 'start cs-post-boot' action=sys.boot_completed=1 (/vendor/etc/init/hw/init.qcom.test.rc:50) took 13ms and succeeded
+[   19.458298] init: processing action (sys.boot_completed=1 && sys.logbootcomplete=1) from (/system/etc/init/bootstat.rc:70)
+[   19.465674] init: starting service 'exec 15 (/system/bin/bootstat --set_system_boot_reason --record_boot_complete --record_boot_reason --record_time_since_factory_reset -l)'...
+[   19.479937] init: Command 'exec_background - system log -- /system/bin/bootstat --set_system_boot_reason --record_boot_complete --record_boot_reason --record_time_since_factory_reset -l' action=sys.boot_completed=1 && sys.logbootcomplete=1 (/system/etc/init/bootstat.rc:76) took 15ms and succeeded
+[   19.491301] init: processing action (sys.boot_completed=1 && sys.wifitracing.started=0) from (/system/etc/init/wifi-events.rc:20)
+[   19.645795] init: Command 'mkdir /sys/kernel/debug/tracing/instances/wifi 711' action=sys.boot_completed=1 && sys.wifitracing.started=0 (/system/etc/init/wifi-events.rc:22) took 140ms and succeeded
+[   19.656701] init: Command 'restorecon_recursive /sys/kernel/debug/tracing/instances/wifi' action=sys.boot_completed=1 && sys.wifitracing.started=0 (/system/etc/init/wifi-events.rc:23) took 3ms and succeeded
+[   19.663591] init: Command 'write /sys/kernel/debug/tracing/instances/wifi/tracing_on 0' action=sys.boot_completed=1 && sys.wifitracing.started=0 (/system/etc/init/wifi-events.rc:24) took 1ms and succeeded
+[   19.699524] zram0: detected capacity change from 0 to 1073741824
+[   19.730713] init: Command 'write /sys/kernel/debug/tracing/instances/wifi/buffer_size_kb 1' action=sys.boot_completed=1 && sys.wifitracing.started=0 (/system/etc/init/wifi-events.rc:25) took 61ms and succeeded
+[   19.746414] init: Command 'write /sys/kernel/debug/tracing/instances/wifi/trace_options disable_on_free' action=sys.boot_completed=1 && sys.wifitracing.started=0 (/system/etc/init/wifi-events.rc:26) took 0ms and succeeded
+[   19.762953] init: Command 'write /sys/kernel/debug/tracing/instances/wifi/events/cfg80211/cfg80211_gtk_rekey_notify/enable 1' action=sys.boot_completed=1 && sys.wifitracing.started=0 (/system/etc/init/wifi-events.rc:32) took 0ms and succeeded
+[   19.783499] init: Command 'write /sys/kernel/debug/tracing/instances/wifi/events/cfg80211/rdev_add_key/enable 1' action=sys.boot_completed=1 && sys.wifitracing.started=0 (/system/etc/init/wifi-events.rc:33) took 2ms and succeeded
+[   19.797545] init: Command 'write /sys/kernel/debug/tracing/instances/wifi/events/cfg80211/rdev_assoc/enable 1' action=sys.boot_completed=1 && sys.wifitracing.started=0 (/system/etc/init/wifi-events.rc:34) took 3ms and succeeded
+[   19.804468] init: Command 'write /sys/kernel/debug/tracing/instances/wifi/events/cfg80211/rdev_auth/enable 1' action=sys.boot_completed=1 && sys.wifitracing.started=0 (/system/etc/init/wifi-events.rc:35) took 1ms and succeeded
+[   19.813286] init: Command 'write /sys/kernel/debug/tracing/instances/wifi/events/cfg80211/rdev_connect/enable 1' action=sys.boot_completed=1 && sys.wifitracing.started=0 (/system/etc/init/wifi-events.rc:36) took 4ms and succeeded
+[   19.819389] init: Unable to set property 'ro.vendor.dbg.coresight.stm_cfg_done' to '1' from uid:0 gid:0 pid:2480: Read-only property was already set
+[   19.823743] Adding 1048572k swap on /dev/block/zram0.  Priority:32758 extents:1 across:1048572k SS
+[   19.832743] init: Command 'write /sys/kernel/debug/tracing/instances/wifi/events/cfg80211/rdev_set_default_key/enable 1' action=sys.boot_completed=1 && sys.wifitracing.started=0 (/system/etc/init/wifi-events.rc:37) took 0ms and succeeded
+[   19.840867] init: Command 'write /sys/kernel/debug/tracing/instances/wifi/events/cfg80211/rdev_set_default_mgmt_key/enable 1' action=sys.boot_completed=1 && sys.wifitracing.started=0 (/system/etc/init/wifi-events.rc:38) took 1ms and succeeded
+[   19.846116] init: Service 'cs-post-boot' (pid 2320) exited with status 0
+[   19.860765] init: Command 'write /sys/kernel/debug/tracing/instances/wifi/events/cfg80211/rdev_set_rekey_data/enable 1' action=sys.boot_completed=1 && sys.wifitracing.started=0 (/system/etc/init/wifi-events.rc:39) took 8ms and succeeded
+[   19.930697] init: Command 'write /sys/kernel/debug/tracing/instances/wifi/events/net/filter name==${wifi.interface:-wlan0}' action=sys.boot_completed=1 && sys.wifitracing.started=0 (/system/etc/init/wifi-events.rc:46) took 59ms and succeeded
+[   19.953899] init: Command 'write /sys/kernel/debug/tracing/instances/wifi/events/net/net_dev_queue/enable 1' action=sys.boot_completed=1 && sys.wifitracing.started=0 (/system/etc/init/wifi-events.rc:47) took 14ms and succeeded
+[   19.961120] logd: logdr: UID=1000 GID=1007 PID=2328 n tail=0 logMask=80 pid=0 start=0ns timeout=0ns
+[   19.961920] init: Command 'write /sys/kernel/debug/tracing/instances/wifi/events/net/net_dev_xmit/enable 1' action=sys.boot_completed=1 && sys.wifitracing.started=0 (/system/etc/init/wifi-events.rc:48) took 0ms and succeeded
+[   19.973314] init: Command 'write /sys/kernel/debug/tracing/instances/wifi/events/net/netif_rx/enable 1' action=sys.boot_completed=1 && sys.wifitracing.started=0 (/system/etc/init/wifi-events.rc:49) took 0ms and succeeded
+[   19.980945] init: Command 'write /sys/kernel/debug/tracing/instances/wifi/events/net/netif_receive_skb/enable 1' action=sys.boot_completed=1 && sys.wifitracing.started=0 (/system/etc/init/wifi-events.rc:50) took 2ms and succeeded
+[   19.987423] init: Command 'chown system /sys/kernel/debug/tracing/instances/wifi/tracing_on' action=sys.boot_completed=1 && sys.wifitracing.started=0 (/system/etc/init/wifi-events.rc:54) took 0ms and succeeded
+[   20.008713] init: Command 'chown system /sys/kernel/debug/tracing/instances/wifi/free_buffer' action=sys.boot_completed=1 && sys.wifitracing.started=0 (/system/etc/init/wifi-events.rc:55) took 0ms and succeeded
+[   20.023410] init: Command 'chown system /sys/kernel/debug/tracing/instances/wifi/trace' action=sys.boot_completed=1 && sys.wifitracing.started=0 (/system/etc/init/wifi-events.rc:56) took 0ms and succeeded
+[   20.029276] init: Command 'chmod 200 /sys/kernel/debug/tracing/instances/wifi/tracing_on' action=sys.boot_completed=1 && sys.wifitracing.started=0 (/system/etc/init/wifi-events.rc:57) took 0ms and succeeded
+[   20.033179] init: Command 'chmod 400 /sys/kernel/debug/tracing/instances/wifi/free_buffer' action=sys.boot_completed=1 && sys.wifitracing.started=0 (/system/etc/init/wifi-events.rc:58) took 0ms and succeeded
+[   20.039821] init: Command 'chmod 600 /sys/kernel/debug/tracing/instances/wifi/trace' action=sys.boot_completed=1 && sys.wifitracing.started=0 (/system/etc/init/wifi-events.rc:59) took 0ms and succeeded
+[   20.051028] init: Command 'setprop sys.wifitracing.started 1' action=sys.boot_completed=1 && sys.wifitracing.started=0 (/system/etc/init/wifi-events.rc:60) took 0ms and succeeded
+[   20.059469] init: processing action (sys.boot_completed=1) from (/vendor/etc/init/init.platform.rc:115)
+[   20.062647] init: starting service 'bosch-nfs-sh'...
+[   20.071051] init: Command 'start bosch-nfs-sh' action=sys.boot_completed=1 (/vendor/etc/init/init.platform.rc:116) took 8ms and succeeded
+[   20.075714] init: Service 'exec 15 (/system/bin/bootstat --set_system_boot_reason --record_boot_complete --record_boot_reason --record_time_since_factory_reset -l)' (pid 2328) exited with status 0
+[   20.084910] init: processing action (sys.boot_completed=1) from (/vendor/etc/init/init.platform.rc:118)
+[   20.088399] init: Command 'start bosch-perf-sh' action=sys.boot_completed=1 (/vendor/etc/init/init.platform.rc:119) took 0ms and failed: service bosch-perf-sh not found
+[   20.093954] init: starting service 'adb'...
+[   20.115970] init: Command 'start adb' action=sys.boot_completed=1 (/vendor/etc/init/init.platform.rc:123) took 22ms and succeeded
+[   20.130374] init: processing action (sys.boot_completed=1) from (/vendor/etc/init/pki.rc:20)
+[   20.134556] init: starting service 'pkisecuritydaemon'...
+[   20.141107] init: Command 'start pkisecuritydaemon' action=sys.boot_completed=1 (/vendor/etc/init/pki.rc:21) took 8ms and succeeded
+[   20.164904] init: processing action (launcher.start=1) from (/init.rc:762)
+[   20.166431] init: Command 'bootchart stop' action=launcher.start=1 (/init.rc:763) took 0ms and succeeded
+[   20.194824] init: processing action (ro.boot.bootreason=*) from (/system/etc/init/bootstat.rc:4)
+[   20.203892] init: Command 'setprop sys.boot.reason ${ro.boot.bootreason}' action=ro.boot.bootreason=* (/system/etc/init/bootstat.rc:5) took 0ms and succeeded
+[   20.230658] init: processing action (sys.boot_completed=1) from (/vendor/etc/init/hw/init.qcom.rc:508)
+[   20.235329] Boot completed 
+[   20.235485] init: Command 'write /dev/kmsg Boot completed ' action=sys.boot_completed=1 (/vendor/etc/init/hw/init.qcom.rc:509) took 0ms and succeeded
+[   20.255462] init: Command 'write /sys/block/dm-0/queue/read_ahead_kb 512' action=sys.boot_completed=1 (/vendor/etc/init/hw/init.qcom.rc:511) took 3ms and failed: Unable to write to file '/sys/block/dm-0/queue/read_ahead_kb': open() failed: No such file or directory
+[   20.276875] init: Command 'write /sys/block/dm-1/queue/read_ahead_kb 512' action=sys.boot_completed=1 (/vendor/etc/init/hw/init.qcom.rc:512) took 3ms and failed: Unable to write to file '/sys/block/dm-1/queue/read_ahead_kb': open() failed: No such file or directory
+[   20.283199] init: Command 'chown media audio /sys/kernel/wdsp0/boot' action=sys.boot_completed=1 (/vendor/etc/init/hw/init.qcom.rc:514) took 0ms and failed: lchown() failed: No such file or directory
+[   20.290906] init: Command 'chown media audio /sys/kernel/wcd_cpe0/fw_name' action=sys.boot_completed=1 (/vendor/etc/init/hw/init.qcom.rc:515) took 0ms and failed: lchown() failed: No such file or directory
+[   20.299325] init: processing action (sys.boot_completed=1) from (/vendor/etc/init/hw/init.qcom.rc:896)
+[   20.303063] init: Command 'start ssgtzd' action=sys.boot_completed=1 (/vendor/etc/init/hw/init.qcom.rc:897) took 0ms and succeeded
+[   20.305334] init: processing action (sys.boot_completed=1) from (/vendor/etc/init/hw/init.qcom.rc:973)
+[   20.308911] init: Command 'start qcom-post-boot' action=sys.boot_completed=1 (/vendor/etc/init/hw/init.qcom.rc:974) took 0ms and succeeded
+[   20.312039] init: starting service 'qti-testscripts'...
+[   20.315207] init: Command 'start qti-testscripts' action=sys.boot_completed=1 (/vendor/etc/init/hw/init.qcom.rc:975) took 3ms and succeeded
+[   20.330434] init: processing action (sys.boot_completed=1) from (/vendor/etc/init/hw/init.target.rc:128)
+[   20.335626] init: Command 'write /sys/kernel/debug/bootkpi/kpi_values K - USER Android Boot Complete' action=sys.boot_completed=1 (/vendor/etc/init/hw/init.target.rc:129) took 1ms and succeeded
+[   20.350409] init: processing action (sys.boot_completed=1) from (/vendor/etc/init/hw/init.target.rc:306)
+[   20.354984] init: Command 'start vendor.ais_server' action=sys.boot_completed=1 (/vendor/etc/init/hw/init.target.rc:307) took 0ms and failed: Could not start service: Cannot find '/vendor/bin/ais_server': No such file or directory
+[   20.364863] init: processing action (sys.boot_completed=1) from (/vendor/etc/init/hw/init.target.rc:333)
+[   20.368296] loading ptp virtual driver
+[   20.370439] init: Command 'write /dev/kmsg loading ptp virtual driver' action=sys.boot_completed=1 (/vendor/etc/init/hw/init.target.rc:334) took 2ms and succeeded
+[   20.381115] init: Command 'insmod /vendor/lib/modules/ptp_virtual.ko' action=sys.boot_completed=1 (/vendor/etc/init/hw/init.target.rc:335) took 6ms and failed: finit_module for "/vendor/lib/modules/ptp_virtual.ko" failed: File exists
+[   20.385517] init: processing action (sys.boot_completed=1) from (/vendor/etc/init/hw/init.target.rc:350)
+[   20.397577] init: Command 'start carpowerd' action=sys.boot_completed=1 (/vendor/etc/init/hw/init.target.rc:351) took 0ms and failed: Could not start service: Cannot find '/vendor/bin/car_power_daemon': No such file or directory
+[   20.410624] init: processing action (sys.boot_completed=1) from (/vendor/etc/init/hw/init.target.rc:377)
+[   20.416012] init: Command 'write /proc/sys/kernel/printk 9' action=sys.boot_completed=1 (/vendor/etc/init/hw/init.target.rc:378) took 0ms and succeeded
+[   20.420663] init: Service 'qti-testscripts' (pid 2679) exited with status 0
+[   20.422244] init: processing action (sys.boot_completed=1) from (/vendor/etc/init/hw/init.qcom.test.rc:49)
+[   20.425420] init: starting service 'cs-post-boot'...
+[   20.430667] init: Command 'start cs-post-boot' action=sys.boot_completed=1 (/vendor/etc/init/hw/init.qcom.test.rc:50) took 5ms and succeeded
+[   20.435803] init: processing action (sys.boot_completed=1 && sys.logbootcomplete=1) from (/system/etc/init/bootstat.rc:70)
+[   20.446385] init: starting service 'exec 16 (/system/bin/bootstat --set_system_boot_reason --record_boot_complete --record_boot_reason --record_time_since_factory_reset -l)'...
+[   20.450980] init: Command 'exec_background - system log -- /system/bin/bootstat --set_system_boot_reason --record_boot_complete --record_boot_reason --record_time_since_factory_reset -l' action=sys.boot_completed=1 && sys.logbootcomplete=1 (/system/etc/init/bootstat.rc:76) took 11ms and succeeded
+[   20.455539] init: processing action (sys.boot_completed=1) from (/vendor/etc/init/init.platform.rc:115)
+[   20.457526] init: Command 'start bosch-nfs-sh' action=sys.boot_completed=1 (/vendor/etc/init/init.platform.rc:116) took 0ms and succeeded
+[   20.462067] init: processing action (sys.boot_completed=1) from (/vendor/etc/init/init.platform.rc:118)
+[   20.469283] init: Command 'start bosch-perf-sh' action=sys.boot_completed=1 (/vendor/etc/init/init.platform.rc:119) took 0ms and failed: service bosch-perf-sh not found
+[   20.471875] init: Command 'start adb' action=sys.boot_completed=1 (/vendor/etc/init/init.platform.rc:123) took 0ms and succeeded
+[   20.474556] init: processing action (sys.boot_completed=1) from (/vendor/etc/init/pki.rc:20)
+[   20.482782] init: Command 'start pkisecuritydaemon' action=sys.boot_completed=1 (/vendor/etc/init/pki.rc:21) took 0ms and succeeded
+[   20.506922] logd: logdr: UID=1000 GID=1007 PID=2721 n tail=0 logMask=80 pid=0 start=0ns timeout=0ns
+[   20.582502] msm-dwc3 a600000.ssusb: DWC3 exited from low power mode
+[   20.630439] msm_set_image_version: Failed to get image version base address
+[   20.630503] msm_set_image_variant: Failed to get image version base address
+[   20.632829] msm_set_image_crm_version: Failed to get image version base address
+[   20.703080] init: Service 'qcom-post-boot' (pid 2299) exited with status 1
+[   20.712881] init: Unable to set property 'ro.vendor.dbg.coresight.stm_cfg_done' to '1' from uid:0 gid:0 pid:2840: Read-only property was already set
+[   20.724562] init: Service 'cs-post-boot' (pid 2710) exited with status 0
+[   20.812836] init: Service 'exec 16 (/system/bin/bootstat --set_system_boot_reason --record_boot_complete --record_boot_reason --record_time_since_factory_reset -l)' (pid 2721) exited with status 0
+[   22.061625] init: Service 'bosch-nfs-sh' (pid 2556) exited with status 0
+[   23.039442] selinux: avc:  denied  { set } for property=gocsdk.a2dp.source pid=811 uid=0 gid=0 scontext=u:r:gocsdk:s0 tcontext=u:object_r:default_prop:s0 tclass=property_service permissive=1
+[   23.039442] 
+[   23.043876] rtk_btusb: btchr_open: BT usb char device is opening
+[   23.045214] rtk_btusb: btchr_open: Device not probed
+[   23.581121] init: Service 'adb' (pid 2575) exited with status 0
+[   24.373012] iap_bind: Interface id is: 0
+[   24.373720] dual speed iap: IN/ep3out-bulk, OUT/ep3in-bulk
+[   24.375721] using random self ethernet address
+[   24.376597] using random host ethernet address
+[   24.397560] CFG80211-ERROR) wl_cfg80211_netdev_notifier_call : 
+[   24.397566] wdev null. Do nothing
+[   24.406393] ueventd: The network interface name is empty or configure script is not exit?!
+[   24.415406] CFG80211-ERROR) wl_cfg80211_netdev_notifier_call : 
+[   24.415411] wdev null. Do nothing
+[   24.421211] usb0: HOST MAC 86:9c:d8:25:4f:6d
+[   24.423690] CFG80211-ERROR) wl_cfg80211_netdev_notifier_call : 
+[   24.423694] wdev null. Do nothing
+[   24.427098] usb0: MAC 86:9c:d8:25:4f:6c
+[   24.431967] android_work: did not send uevent (0 0 0000000000000000 0)
+[   24.524545] nitrous_rfkill_set_power: off (blocked=1)
+[   24.525614] nitrous_rfkill_set_power already in requsted state. Ignoring.
+[   24.526941] nitrous_rfkill_set_power: on (blocked=0)
+[   28.046039] rtk_btusb: btchr_open: BT usb char device is opening
+[   28.048423] rtk_btusb: btchr_open: Device not probed
+[   31.166246] init: Received control message 'start' for 'wpa_supplicant' from pid: 690 (/system/bin/wificond)
+[   31.171128] init: starting service 'wpa_supplicant'...
+[   31.201195] init: Created socket '/dev/socket/wpa_wlan0', mode 660, user 1010, group 1010
+[   31.319380] CFG80211-ERROR) init_roam_cache : 
+[   31.319383] roamscan_mode iovar failed. -23
+[   31.323771] CFG80211-ERROR) wl_cfg80211_up : 
+[   31.323773] Failed to enable RCC.
+[   31.329441] [wlan0] tx queue started
+[   31.433242] CFGP2P-ERROR) wl_cfgp2p_add_p2p_disc_if : 
+[   31.433244] P2P interface registered
+[   31.443266] WLC_E_IF: NO_IF set, event Ignored
+[   31.514482] Random MAC OUI to be used - da:1:19
+[   31.542889] WLDEV-INFO) 
+[   31.542891] wldev_set_country: set country for CN as CN rev -1
+[   31.554210] net_os_enable_packet_filter: val = 0
+[   31.555149] net_os_rxfilter_add_remove: add_remove = 1, num = 2
+[   31.557739] net_os_enable_packet_filter: val = 1
+[   31.558640] net_os_enable_packet_filter: val = 0
+[   31.561354] net_os_rxfilter_add_remove: add_remove = 1, num = 3
+[   31.563158] net_os_enable_packet_filter: val = 1
+[   31.564820] dhd_set_suspend: Remove extra suspend setting 
+[   31.565934] dhd_wl_ioctl_set_intiovar: set int iovar arpoe failed, ERR -23
+[   31.568497] dhd_enable_packet_filter: enter, value = 0
+[   31.572904] dhd_set_suspend: allmulti failed:-1
+[   31.573883] dhd_set_suspend: allmulti failed:-1
+[   31.575441] dhd_set_suspend:lpas failed:-23
+[   31.576768] dhd_set_suspend:bcn_to_dly failed:-23
+[   31.850857] vreg_conn_1p8: disabling
+[   32.288367] CFG80211-ERROR) wl_cfg80211_connect : 
+[   32.288370] [wlan0] Connecting with d0:21:f9:fd:d2:e3 ssid "智能软件内部", len (18) channels:1 
+[   32.288370] 
+[   32.395537] ETHER_TYPE_802_1X[wlan0] [RX]: EAPOL Packet, 4-way handshake, M1
+[   32.398934] ETHER_TYPE_802_1X[wlan0] [TX]: EAPOL Packet, 4-way handshake, M2 TX_PKTHASH:0x0 TX_PKT_FATE:N/A
+[   32.400715] dhd_prot_flow_ring_create: Send Flow Create Req flow ID 41 for peer d0:21:f9:fd:d2:e3 prio 7 ifindex 0
+[   32.404907] dhd_prot_flow_ring_create_response_process: Flow Create Response status = 0 Flow 41
+[   32.415554] ETHER_TYPE_802_1X[wlan0] [RX]: EAPOL Packet, 4-way handshake, M3
+[   32.417390] ETHER_TYPE_802_1X[wlan0] [TX]: EAPOL Packet, 4-way handshake, M4 TX_PKTHASH:0x0 TX_PKT_FATE:N/A
+[   32.422461] CFG80211-ERROR) wl_add_keyext : 
+[   32.422466] key index (0)
+[   32.467219] dhd_dev_apf_get_version: firmware doesn't support APF
+[   32.470333] dhd_dev_apf_get_max_len: firmware doesn't support APF
+[   32.481676] dhd_prot_flow_ring_create: Send Flow Create Req flow ID 40 for peer 33:33:ff:50:06:49 prio 0 ifindex 0
+[   32.483364] dhd_prot_flow_ring_create_response_process: Flow Create Response status = 0 Flow 40
+[   32.493752] dhd_ndo_remove_ip_by_type: failed, retcode = -23
+[   32.495561] dhd_dev_ndo_cfg: failed to update host ip addr: -23
+[   32.497346] CFG80211-ERROR) wl_cfgvendor_configure_nd_offload : 
+[   32.497348] dhd_dev_ndo_cfg() failed: -23
+[   32.506101] net_os_enable_packet_filter: val = 0
+[   32.508512] net_os_rxfilter_add_remove: add_remove = 0, num = 2
+[   32.514130] net_os_enable_packet_filter: val = 1
+[   32.524125] CFG80211-ERROR) wl_run_escan : 
+[   32.524130]  Escan set error (-16)
+[   32.526814] CFG80211-ERROR) wl_run_escan : 
+[   32.526818] scan error (-16)
+[   32.529604] CFG80211-ERROR) wl_cfgscan_handle_scanbusy : 
+[   32.529606] Scan err = (-16), busy?-16
+[   32.940560] CFG80211-ERROR) wl_cfg80211_scan : 
+[   32.941559] scan error (-16)
+[   33.029255] dhd_set_suspend: Remove extra suspend setting 
+[   33.030394] dhd_wl_ioctl_set_intiovar: set int iovar arpoe failed, ERR -23
+[   33.031895] dhd_enable_packet_filter: enter, value = 0
+[   33.036474] dhd_set_suspend: allmulti failed:-1
+[   33.038005] dhd_set_suspend: allmulti failed:-1
+[   33.039676] dhd_set_suspend:lpas failed:-23
+[   33.040522] dhd_set_suspend:bcn_to_dly failed:-23
+[   33.043836] dhd_wl_ioctl_set_intiovar: set int iovar ndoe failed, ERR -23
+[   33.045481] dhd_ndo_enable: failed to enabe ndo to 0, retcode = -23
+[   33.046967] dhd_set_suspend: failed to disable NDO
+[   33.049294] rtk_btusb: btchr_open: BT usb char device is opening
+[   33.050380] rtk_btusb: btchr_open: Device not probed
+[   33.102631] dhd_aoe_hostip_clr failed code -23
+[   33.103501] aoe_update_host_ipv4_table failed
+[   33.130956] dhd_prot_flow_ring_create: Send Flow Create Req flow ID 39 for peer 01:00:5e:00:00:16 prio 3 ifindex 0
+[   33.134362] dhd_prot_flow_ring_create_response_process: Flow Create Response status = 0 Flow 39
+[   33.145100] init: processing action (sys.sysctl.tcp_def_init_rwnd=*) from (/init.rc:772)
+[   33.147724] init: Command 'write /proc/sys/net/ipv4/tcp_default_init_rwnd ${sys.sysctl.tcp_def_init_rwnd}' action=sys.sysctl.tcp_def_init_rwnd=* (/init.rc:773) took 0ms and succeeded
+[   38.052536] rtk_btusb: btchr_open: BT usb char device is opening
+[   38.053489] rtk_btusb: btchr_open: Device not probed
+[   43.054320] rtk_btusb: btchr_open: BT usb char device is opening
+[   43.055358] rtk_btusb: btchr_open: Device not probed
+[   48.056347] rtk_btusb: btchr_open: BT usb char device is opening
+[   48.057345] rtk_btusb: btchr_open: Device not probed
+[   52.888349] CFG80211-ERROR) wl_cfg80211_send_action_frame : 
+[   52.888355] Failed to send Action Frame(retry 6)
+[   52.890772] CFG80211-ERROR) wl_cfg80211_send_action_frame : 
+[   52.890774] -- Action Frame Tx failed, listen chan: 0
+[   53.058721] rtk_btusb: btchr_open: BT usb char device is opening
+[   53.059543] rtk_btusb: btchr_open: Device not probed
+[   58.062683] rtk_btusb: btchr_open: BT usb char device is opening
+[   58.063914] rtk_btusb: btchr_open: Device not probed
+[   63.065275] rtk_btusb: btchr_open: BT usb char device is opening
+[   63.066401] rtk_btusb: btchr_open: Device not probed
+[   68.068651] rtk_btusb: btchr_open: BT usb char device is opening
+[   68.069541] rtk_btusb: btchr_open: Device not probed
+[   73.070269] rtk_btusb: btchr_open: BT usb char device is opening
+[   73.071322] rtk_btusb: btchr_open: Device not probed
+[   78.073248] rtk_btusb: btchr_open: BT usb char device is opening
+[   78.074383] rtk_btusb: btchr_open: Device not probed
+[   83.076356] rtk_btusb: btchr_open: BT usb char device is opening
+[   83.077295] rtk_btusb: btchr_open: Device not probed
+[   87.216131] nf_conntrack: default automatic helper assignment has been turned off for security reasons and CT-based  firewall rule not found. Use the iptables CT target to attach helpers instead.
+[   88.079508] rtk_btusb: btchr_open: BT usb char device is opening
+[   88.080248] rtk_btusb: btchr_open: Device not probed
+[   93.081273] rtk_btusb: btchr_open: BT usb char device is opening
+[   93.082274] rtk_btusb: btchr_open: Device not probed
+[   98.084867] rtk_btusb: btchr_open: BT usb char device is opening
+[   98.085618] rtk_btusb: btchr_open: Device not probed
+[  103.087165] rtk_btusb: btchr_open: BT usb char device is opening
+[  103.088805] rtk_btusb: btchr_open: Device not probed
+[  108.090513] rtk_btusb: btchr_open: BT usb char device is opening
+[  108.091331] rtk_btusb: btchr_open: Device not probed
+[  112.880293] CFG80211-ERROR) wl_cfg80211_send_action_frame : 
+[  112.880297] Failed to send Action Frame(retry 6)
+[  112.882429] CFG80211-ERROR) wl_cfg80211_send_action_frame : 
+[  112.882431] -- Action Frame Tx failed, listen chan: 0
+[  113.094278] rtk_btusb: btchr_open: BT usb char device is opening
+[  113.095655] rtk_btusb: btchr_open: Device not probed
+[  118.097282] rtk_btusb: btchr_open: BT usb char device is opening
+[  118.098617] rtk_btusb: btchr_open: Device not probed
+[  123.100314] rtk_btusb: btchr_open: BT usb char device is opening
+[  123.101466] rtk_btusb: btchr_open: Device not probed
+[  128.103388] rtk_btusb: btchr_open: BT usb char device is opening
+[  128.104347] rtk_btusb: btchr_open: Device not probed
+[  133.105258] rtk_btusb: btchr_open: BT usb char device is opening
+[  133.106333] rtk_btusb: btchr_open: Device not probed
+[  138.109258] rtk_btusb: btchr_open: BT usb char device is opening
+[  138.109902] rtk_btusb: btchr_open: Device not probed
+[  143.112313] rtk_btusb: btchr_open: BT usb char device is opening
+[  143.113053] rtk_btusb: btchr_open: Device not probed
+[  148.115305] rtk_btusb: btchr_open: BT usb char device is opening
+[  148.116916] rtk_btusb: btchr_open: Device not probed
+[  153.119328] rtk_btusb: btchr_open: BT usb char device is opening
+[  153.120104] rtk_btusb: btchr_open: Device not probed
+[  158.121340] rtk_btusb: btchr_open: BT usb char device is opening
+[  158.122737] rtk_btusb: btchr_open: Device not probed
+[  163.124358] rtk_btusb: btchr_open: BT usb char device is opening
+[  163.125557] rtk_btusb: btchr_open: Device not probed
+[  168.127197] rtk_btusb: btchr_open: BT usb char device is opening
+[  168.128617] rtk_btusb: btchr_open: Device not probed
+[  173.131276] rtk_btusb: btchr_open: BT usb char device is opening
+[  173.133416] rtk_btusb: btchr_open: Device not probed
+[  178.134221] rtk_btusb: btchr_open: BT usb char device is opening
+[  178.135354] rtk_btusb: btchr_open: Device not probed
+[  183.136242] rtk_btusb: btchr_open: BT usb char device is opening
+[  183.137191] rtk_btusb: btchr_open: Device not probed
+[  188.139875] rtk_btusb: btchr_open: BT usb char device is opening
+[  188.141091] rtk_btusb: btchr_open: Device not probed
+[  193.143334] rtk_btusb: btchr_open: BT usb char device is opening
+[  193.144116] rtk_btusb: btchr_open: Device not probed
+[  198.144877] rtk_btusb: btchr_open: BT usb char device is opening
+[  198.146823] rtk_btusb: btchr_open: Device not probed
+[  203.148828] rtk_btusb: btchr_open: BT usb char device is opening
+[  203.149754] rtk_btusb: btchr_open: Device not probed
+[  208.151731] rtk_btusb: btchr_open: BT usb char device is opening
+[  208.152693] rtk_btusb: btchr_open: Device not probed
+[  213.155242] rtk_btusb: btchr_open: BT usb char device is opening
+[  213.157464] rtk_btusb: btchr_open: Device not probed
+[  218.159276] rtk_btusb: btchr_open: BT usb char device is opening
+[  218.160262] rtk_btusb: btchr_open: Device not probed
+[  223.162285] rtk_btusb: btchr_open: BT usb char device is opening
+[  223.162882] rtk_btusb: btchr_open: Device not probed
+[  228.164806] rtk_btusb: btchr_open: BT usb char device is opening
+[  228.165620] rtk_btusb: btchr_open: Device not probed
+[  233.167345] rtk_btusb: btchr_open: BT usb char device is opening
+[  233.168119] rtk_btusb: btchr_open: Device not probed
+[  238.169886] rtk_btusb: btchr_open: BT usb char device is opening
+[  238.171039] rtk_btusb: btchr_open: Device not probed
+[  243.172459] rtk_btusb: btchr_open: BT usb char device is opening
+[  243.173641] rtk_btusb: btchr_open: Device not probed
+[  248.176252] rtk_btusb: btchr_open: BT usb char device is opening
+[  248.177851] rtk_btusb: btchr_open: Device not probed
+[  253.179319] rtk_btusb: btchr_open: BT usb char device is opening
+[  253.180924] rtk_btusb: btchr_open: Device not probed
+[  258.184275] rtk_btusb: btchr_open: BT usb char device is opening
+[  258.185060] rtk_btusb: btchr_open: Device not probed
+[  263.187260] rtk_btusb: btchr_open: BT usb char device is opening
+[  263.188565] rtk_btusb: btchr_open: Device not probed
+[  268.190575] rtk_btusb: btchr_open: BT usb char device is opening
+[  268.192537] rtk_btusb: btchr_open: Device not probed
+[  273.195313] rtk_btusb: btchr_open: BT usb char device is opening
+[  273.197038] rtk_btusb: btchr_open: Device not probed
+[  278.198766] rtk_btusb: btchr_open: BT usb char device is opening
+[  278.199759] rtk_btusb: btchr_open: Device not probed
+[  283.201589] rtk_btusb: btchr_open: BT usb char device is opening
+[  283.202734] rtk_btusb: btchr_open: Device not probed
+[  288.204391] rtk_btusb: btchr_open: BT usb char device is opening
+[  288.205393] rtk_btusb: btchr_open: Device not probed
+[  293.206110] rtk_btusb: btchr_open: BT usb char device is opening
+[  293.208380] rtk_btusb: btchr_open: Device not probed
+[  298.210770] rtk_btusb: btchr_open: BT usb char device is opening
+[  298.212213] rtk_btusb: btchr_open: Device not probed
+[  303.214300] rtk_btusb: btchr_open: BT usb char device is opening
+[  303.217335] rtk_btusb: btchr_open: Device not probed
+[  305.043109] msm-dwc3 a600000.ssusb: DWC3 in low power mode
+[  305.045790] msm-dwc3 a600000.ssusb: DWC3 exited from low power mode
+[  306.043536] msm-dwc3 a600000.ssusb: DWC3 in low power mode
+[  306.053264] msm-dwc3 a600000.ssusb: DWC3 exited from low power mode
+[  308.053419] msm-dwc3 a600000.ssusb: DWC3 in low power mode
+[  308.059451] msm-dwc3 a600000.ssusb: DWC3 exited from low power mode
+[  308.220423] rtk_btusb: btchr_open: BT usb char device is opening
+[  308.221363] rtk_btusb: btchr_open: Device not probed
+[  309.063040] msm-dwc3 a600000.ssusb: DWC3 in low power mode
+[  309.071512] msm-dwc3 a600000.ssusb: DWC3 exited from low power mode
+[  310.074998] msm-dwc3 a600000.ssusb: DWC3 in low power mode
+[  310.079314] msm-dwc3 a600000.ssusb: DWC3 exited from low power mode
+[  311.084860] msm-dwc3 a600000.ssusb: DWC3 in low power mode
+[  311.088404] msm-dwc3 a600000.ssusb: DWC3 exited from low power mode
+[  312.093865] msm-dwc3 a600000.ssusb: DWC3 in low power mode
+[  312.095797] msm-dwc3 a600000.ssusb: DWC3 exited from low power mode
+[  313.093882] msm-dwc3 a600000.ssusb: DWC3 in low power mode
+[  313.100291] msm-dwc3 a600000.ssusb: DWC3 exited from low power mode
+[  313.222493] rtk_btusb: btchr_open: BT usb char device is opening
+[  313.224306] rtk_btusb: btchr_open: Device not probed
+[  314.103138] msm-dwc3 a600000.ssusb: DWC3 in low power mode
+[  314.106284] msm-dwc3 a600000.ssusb: DWC3 exited from low power mode
+[  315.105615] msm-dwc3 a600000.ssusb: DWC3 in low power mode
+[  315.110797] msm-dwc3 a600000.ssusb: DWC3 exited from low power mode
+[  318.225581] rtk_btusb: btchr_open: BT usb char device is opening
+[  318.226935] rtk_btusb: btchr_open: Device not probed
+[  323.231416] rtk_btusb: btchr_open: BT usb char device is opening
+[  323.232327] rtk_btusb: btchr_open: Device not probed
+[  327.253542] init: Received control message 'stop' for 'receiverbasesoftware-hal-1-0' from pid: 693 (/vendor/bin/hw/vendor.bosch.hardware.broadcastradio@2.0-service)
+[  327.257595] init: Sending signal 9 to service 'receiverbasesoftware-hal-1-0' (pid 526) process group...
+[  327.263247] hsi2s_device 172c0000.qcom,hsi2s:qcom,hs0_i2s: Primary client disconnected. Active clients : 0
+[  327.266447] libprocessgroup: Successfully killed process cgroup uid 0 pid 526 in 6ms
+[  327.270447] init: Service 'receiverbasesoftware-hal-1-0' (pid 526) received signal 9
+[  327.271882] init: Service 'sbrserver' (pid 480) received signal 13
+[  327.274785] init: Sending signal 9 to service 'sbrserver' (pid 480) process group...
+[  327.276253] libprocessgroup: Successfully killed process cgroup uid 0 pid 480 in 0ms
+[  327.278695] init: starting service 'sbrserver'...
+[  328.234285] rtk_btusb: btchr_open: BT usb char device is opening
+[  328.236057] rtk_btusb: btchr_open: Device not probed
+[  333.238244] rtk_btusb: btchr_open: BT usb char device is opening
+[  333.241055] rtk_btusb: btchr_open: Device not probed
+[  338.243564] rtk_btusb: btchr_open: BT usb char device is opening
+[  338.245356] rtk_btusb: btchr_open: Device not probed
+[  343.246259] rtk_btusb: btchr_open: BT usb char device is opening
+[  343.247273] rtk_btusb: btchr_open: Device not probed
+[  348.248407] rtk_btusb: btchr_open: BT usb char device is opening
+[  348.249468] rtk_btusb: btchr_open: Device not probed
+[  353.251244] rtk_btusb: btchr_open: BT usb char device is opening
+[  353.252330] rtk_btusb: btchr_open: Device not probed
+[  358.254447] rtk_btusb: btchr_open: BT usb char device is opening
+[  358.256096] rtk_btusb: btchr_open: Device not probed
+[  363.258316] rtk_btusb: btchr_open: BT usb char device is opening
+[  363.259096] rtk_btusb: btchr_open: Device not probed
+[  368.261121] rtk_btusb: btchr_open: BT usb char device is opening
+[  368.262058] rtk_btusb: btchr_open: Device not probed
+[  373.263841] rtk_btusb: btchr_open: BT usb char device is opening
+[  373.266135] rtk_btusb: btchr_open: Device not probed
+[  378.268316] rtk_btusb: btchr_open: BT usb char device is opening
+[  378.270039] rtk_btusb: btchr_open: Device not probed
+[  383.272569] rtk_btusb: btchr_open: BT usb char device is opening
+[  383.273377] rtk_btusb: btchr_open: Device not probed
+[  388.275084] rtk_btusb: btchr_open: BT usb char device is opening
+[  388.276938] rtk_btusb: btchr_open: Device not probed
+[  393.279267] rtk_btusb: btchr_open: BT usb char device is opening
+[  393.279880] rtk_btusb: btchr_open: Device not probed
+[  398.282316] rtk_btusb: btchr_open: BT usb char device is opening
+[  398.283082] rtk_btusb: btchr_open: Device not probed
+[  403.284497] rtk_btusb: btchr_open: BT usb char device is opening
+[  403.285281] rtk_btusb: btchr_open: Device not probed
+[  408.287447] rtk_btusb: btchr_open: BT usb char device is opening
+[  408.289062] rtk_btusb: btchr_open: Device not probed
+[  413.292263] rtk_btusb: btchr_open: BT usb char device is opening
+[  413.292997] rtk_btusb: btchr_open: Device not probed
+[  418.295349] rtk_btusb: btchr_open: BT usb char device is opening
+[  418.296143] rtk_btusb: btchr_open: Device not probed
+[  423.298431] rtk_btusb: btchr_open: BT usb char device is opening
+[  423.299332] rtk_btusb: btchr_open: Device not probed
+[  428.300639] rtk_btusb: btchr_open: BT usb char device is opening
+[  428.301567] rtk_btusb: btchr_open: Device not probed
+[  433.304145] rtk_btusb: btchr_open: BT usb char device is opening
+[  433.305160] rtk_btusb: btchr_open: Device not probed
+[  438.306490] rtk_btusb: btchr_open: BT usb char device is opening
+[  438.307605] rtk_btusb: btchr_open: Device not probed
+[  443.308845] rtk_btusb: btchr_open: BT usb char device is opening
+[  443.309629] rtk_btusb: btchr_open: Device not probed
+[  448.311244] rtk_btusb: btchr_open: BT usb char device is opening
+[  448.312011] rtk_btusb: btchr_open: Device not probed
+[  453.314508] rtk_btusb: btchr_open: BT usb char device is opening
+[  453.315291] rtk_btusb: btchr_open: Device not probed
+[  458.318506] rtk_btusb: btchr_open: BT usb char device is opening
+[  458.320552] rtk_btusb: btchr_open: Device not probed
+[  463.323090] rtk_btusb: btchr_open: BT usb char device is opening
+[  463.324929] rtk_btusb: btchr_open: Device not probed
+[  468.326301] rtk_btusb: btchr_open: BT usb char device is opening
+[  468.327772] rtk_btusb: btchr_open: Device not probed
+[  473.332553] rtk_btusb: btchr_open: BT usb char device is opening
+[  473.333479] rtk_btusb: btchr_open: Device not probed
+[  478.334280] rtk_btusb: btchr_open: BT usb char device is opening
+[  478.336254] rtk_btusb: btchr_open: Device not probed
+[  483.337383] rtk_btusb: btchr_open: BT usb char device is opening
+[  483.339445] rtk_btusb: btchr_open: Device not probed
+[  488.340852] rtk_btusb: btchr_open: BT usb char device is opening
+[  488.341632] rtk_btusb: btchr_open: Device not probed
+[  493.343360] rtk_btusb: btchr_open: BT usb char device is opening
+[  493.344426] rtk_btusb: btchr_open: Device not probed
+[  498.347000] rtk_btusb: btchr_open: BT usb char device is opening
+[  498.348454] rtk_btusb: btchr_open: Device not probed
+[  503.350288] rtk_btusb: btchr_open: BT usb char device is opening
+[  503.351839] rtk_btusb: btchr_open: Device not probed
+[  508.353310] rtk_btusb: btchr_open: BT usb char device is opening
+[  508.354408] rtk_btusb: btchr_open: Device not probed
+[  513.355321] rtk_btusb: btchr_open: BT usb char device is opening
+[  513.359342] rtk_btusb: btchr_open: Device not probed
+[  518.361381] rtk_btusb: btchr_open: BT usb char device is opening
+[  518.362548] rtk_btusb: btchr_open: Device not probed
+[  523.363348] rtk_btusb: btchr_open: BT usb char device is opening
+[  523.364601] rtk_btusb: btchr_open: Device not probed
+[  528.366502] rtk_btusb: btchr_open: BT usb char device is opening
+[  528.367991] rtk_btusb: btchr_open: Device not probed
+[  533.370324] rtk_btusb: btchr_open: BT usb char device is opening
+[  533.372561] rtk_btusb: btchr_open: Device not probed
+[  538.376572] rtk_btusb: btchr_open: BT usb char device is opening
+[  538.378749] rtk_btusb: btchr_open: Device not probed
+[  543.380393] rtk_btusb: btchr_open: BT usb char device is opening
+[  543.381213] rtk_btusb: btchr_open: Device not probed
+[  548.382203] rtk_btusb: btchr_open: BT usb char device is opening
+[  548.383341] rtk_btusb: btchr_open: Device not probed
+[  553.385256] rtk_btusb: btchr_open: BT usb char device is opening
+[  553.386607] rtk_btusb: btchr_open: Device not probed
+[  558.389485] rtk_btusb: btchr_open: BT usb char device is opening
+[  558.390419] rtk_btusb: btchr_open: Device not probed
+[  563.391977] rtk_btusb: btchr_open: BT usb char device is opening
+[  563.393590] rtk_btusb: btchr_open: Device not probed
+[  568.395349] rtk_btusb: btchr_open: BT usb char device is opening
+[  568.396664] rtk_btusb: btchr_open: Device not probed
+[  573.398475] rtk_btusb: btchr_open: BT usb char device is opening
+[  573.399566] rtk_btusb: btchr_open: Device not probed
+[  578.400690] rtk_btusb: btchr_open: BT usb char device is opening
+[  578.402242] rtk_btusb: btchr_open: Device not probed
+[  583.403297] rtk_btusb: btchr_open: BT usb char device is opening
+[  583.405386] rtk_btusb: btchr_open: Device not probed
+[  588.407304] rtk_btusb: btchr_open: BT usb char device is opening
+[  588.408244] rtk_btusb: btchr_open: Device not probed
+[  593.412372] rtk_btusb: btchr_open: BT usb char device is opening
+[  593.413774] rtk_btusb: btchr_open: Device not probed
+[  598.415440] rtk_btusb: btchr_open: BT usb char device is opening
+[  598.416313] rtk_btusb: btchr_open: Device not probed
+[  603.419262] rtk_btusb: btchr_open: BT usb char device is opening
+[  603.420629] rtk_btusb: btchr_open: Device not probed
+[  608.423383] rtk_btusb: btchr_open: BT usb char device is opening
+[  608.424844] rtk_btusb: btchr_open: Device not probed
+[  613.428417] rtk_btusb: btchr_open: BT usb char device is opening
+[  613.430677] rtk_btusb: btchr_open: Device not probed
+[  618.433253] rtk_btusb: btchr_open: BT usb char device is opening
+[  618.434950] rtk_btusb: btchr_open: Device not probed
+[  623.436039] rtk_btusb: btchr_open: BT usb char device is opening
+[  623.437435] rtk_btusb: btchr_open: Device not probed
+[  628.439421] rtk_btusb: btchr_open: BT usb char device is opening
+[  628.440346] rtk_btusb: btchr_open: Device not probed
+[  633.195781] dhd_set_suspend: Remove extra suspend setting 
+[  633.197347] dhd_wl_ioctl_set_intiovar: set int iovar arpoe failed, ERR -23
+[  633.198326] dhd_enable_packet_filter: enter, value = 0
+[  633.201746] dhd_set_suspend: allmulti failed:-1
+[  633.203547] dhd_set_suspend: allmulti failed:-1
+[  633.205718] dhd_set_suspend:lpas failed:-23
+[  633.206927] dhd_set_suspend:bcn_to_dly failed:-23
+[  633.208902] dhd_wl_ioctl_set_intiovar: set int iovar ndoe failed, ERR -23
+[  633.209793] dhd_ndo_enable: failed to enabe ndo to 0, retcode = -23
+[  633.211441] dhd_set_suspend: failed to disable NDO
+[  633.441051] rtk_btusb: btchr_open: BT usb char device is opening
+[  633.442326] rtk_btusb: btchr_open: Device not probed
+[  638.443089] rtk_btusb: btchr_open: BT usb char device is opening
+[  638.444674] rtk_btusb: btchr_open: Device not probed
+[  643.447307] rtk_btusb: btchr_open: BT usb char device is opening
+[  643.448292] rtk_btusb: btchr_open: Device not probed
+[  648.449029] rtk_btusb: btchr_open: BT usb char device is opening
+[  648.449871] rtk_btusb: btchr_open: Device not probed
+[  653.452702] rtk_btusb: btchr_open: BT usb char device is opening
+[  653.453615] rtk_btusb: btchr_open: Device not probed
+[  658.456448] rtk_btusb: btchr_open: BT usb char device is opening
+[  658.457411] rtk_btusb: btchr_open: Device not probed
+[  663.460457] rtk_btusb: btchr_open: BT usb char device is opening
+[  663.461600] rtk_btusb: btchr_open: Device not probed
+[  668.465318] rtk_btusb: btchr_open: BT usb char device is opening
+[  668.467360] rtk_btusb: btchr_open: Device not probed
+[  673.470296] rtk_btusb: btchr_open: BT usb char device is opening
+[  673.471844] rtk_btusb: btchr_open: Device not probed
+[  678.474261] rtk_btusb: btchr_open: BT usb char device is opening
+[  678.475507] rtk_btusb: btchr_open: Device not probed
+[  683.477470] rtk_btusb: btchr_open: BT usb char device is opening
+[  683.478127] rtk_btusb: btchr_open: Device not probed
+[  688.480370] rtk_btusb: btchr_open: BT usb char device is opening
+[  688.482528] rtk_btusb: btchr_open: Device not probed
+[  693.485248] rtk_btusb: btchr_open: BT usb char device is opening
+[  693.486032] rtk_btusb: btchr_open: Device not probed
+[  698.488360] rtk_btusb: btchr_open: BT usb char device is opening
+[  698.489221] rtk_btusb: btchr_open: Device not probed
+[  703.492281] rtk_btusb: btchr_open: BT usb char device is opening
+[  703.493037] rtk_btusb: btchr_open: Device not probed
+[  708.494298] rtk_btusb: btchr_open: BT usb char device is opening
+[  708.495705] rtk_btusb: btchr_open: Device not probed
+[  713.497314] rtk_btusb: btchr_open: BT usb char device is opening
+[  713.498729] rtk_btusb: btchr_open: Device not probed
+[  718.500603] rtk_btusb: btchr_open: BT usb char device is opening
+[  718.501383] rtk_btusb: btchr_open: Device not probed
+[  723.502306] rtk_btusb: btchr_open: BT usb char device is opening
+[  723.503345] rtk_btusb: btchr_open: Device not probed
+[  728.506338] rtk_btusb: btchr_open: BT usb char device is opening
+[  728.507439] rtk_btusb: btchr_open: Device not probed
+[  733.508818] rtk_btusb: btchr_open: BT usb char device is opening
+[  733.509727] rtk_btusb: btchr_open: Device not probed
+[  738.511282] rtk_btusb: btchr_open: BT usb char device is opening
+[  738.511902] rtk_btusb: btchr_open: Device not probed
+[  743.514277] rtk_btusb: btchr_open: BT usb char device is opening
+[  743.515132] rtk_btusb: btchr_open: Device not probed
+[  748.516568] rtk_btusb: btchr_open: BT usb char device is opening
+[  748.517943] rtk_btusb: btchr_open: Device not probed
+[  753.520386] rtk_btusb: btchr_open: BT usb char device is opening
+[  753.521092] rtk_btusb: btchr_open: Device not probed
+[  758.522313] rtk_btusb: btchr_open: BT usb char device is opening
+[  758.523046] rtk_btusb: btchr_open: Device not probed
+[  763.525133] rtk_btusb: btchr_open: BT usb char device is opening
+[  763.526418] rtk_btusb: btchr_open: Device not probed
+[  768.529277] rtk_btusb: btchr_open: BT usb char device is opening
+[  768.531018] rtk_btusb: btchr_open: Device not probed
+[  773.533225] rtk_btusb: btchr_open: BT usb char device is opening
+[  773.534007] rtk_btusb: btchr_open: Device not probed
+[  778.537298] rtk_btusb: btchr_open: BT usb char device is opening
+[  778.538543] rtk_btusb: btchr_open: Device not probed
+[  783.540314] rtk_btusb: btchr_open: BT usb char device is opening
+[  783.541115] rtk_btusb: btchr_open: Device not probed
+[  788.542211] rtk_btusb: btchr_open: BT usb char device is opening
+[  788.543556] rtk_btusb: btchr_open: Device not probed
+[  793.545311] rtk_btusb: btchr_open: BT usb char device is opening
+[  793.546479] rtk_btusb: btchr_open: Device not probed
+[  798.549541] rtk_btusb: btchr_open: BT usb char device is opening
+[  798.550395] rtk_btusb: btchr_open: Device not probed
+[  803.553601] rtk_btusb: btchr_open: BT usb char device is opening
+[  803.554803] rtk_btusb: btchr_open: Device not probed
+[  804.885400] msm-dwc3 a600000.ssusb: DWC3 in low power mode
+[  804.889008] msm-dwc3 a600000.ssusb: DWC3 exited from low power mode
+[  806.894094] msm-dwc3 a600000.ssusb: DWC3 in low power mode
+[  806.897757] msm-dwc3 a600000.ssusb: DWC3 exited from low power mode
+[  808.555574] rtk_btusb: btchr_open: BT usb char device is opening
+[  808.557421] rtk_btusb: btchr_open: Device not probed
+[  808.903004] msm-dwc3 a600000.ssusb: DWC3 in low power mode
+[  808.905322] msm-dwc3 a600000.ssusb: DWC3 exited from low power mode
+[  810.904318] msm-dwc3 a600000.ssusb: DWC3 in low power mode
+[  810.909312] msm-dwc3 a600000.ssusb: DWC3 exited from low power mode
+[  813.560318] rtk_btusb: btchr_open: BT usb char device is opening
+[  813.561090] rtk_btusb: btchr_open: Device not probed
+[  818.564400] rtk_btusb: btchr_open: BT usb char device is opening
+[  818.565305] rtk_btusb: btchr_open: Device not probed
+[  823.569275] rtk_btusb: btchr_open: BT usb char device is opening
+[  823.570886] rtk_btusb: btchr_open: Device not probed
+[  828.572467] rtk_btusb: btchr_open: BT usb char device is opening
+[  828.573496] rtk_btusb: btchr_open: Device not probed
+[  832.879081] CFG80211-ERROR) wl_cfg80211_send_action_frame : 
+[  832.879083] Failed to send Action Frame(retry 6)
+[  832.881238] CFG80211-ERROR) wl_cfg80211_send_action_frame : 
+[  832.881240] -- Action Frame Tx failed, listen chan: 0
+[  833.576312] rtk_btusb: btchr_open: BT usb char device is opening
+[  833.577101] rtk_btusb: btchr_open: Device not probed
+[  838.579297] rtk_btusb: btchr_open: BT usb char device is opening
+[  838.580414] rtk_btusb: btchr_open: Device not probed
+[  843.582278] rtk_btusb: btchr_open: BT usb char device is opening
+[  843.583426] rtk_btusb: btchr_open: Device not probed
+[  848.585301] rtk_btusb: btchr_open: BT usb char device is opening
+[  848.586466] rtk_btusb: btchr_open: Device not probed
+[  853.588360] rtk_btusb: btchr_open: BT usb char device is opening
+[  853.589971] rtk_btusb: btchr_open: Device not probed
+[  858.592293] rtk_btusb: btchr_open: BT usb char device is opening
+[  858.593071] rtk_btusb: btchr_open: Device not probed
+[  863.594311] rtk_btusb: btchr_open: BT usb char device is opening
+[  863.595168] rtk_btusb: btchr_open: Device not probed
+[  868.597270] rtk_btusb: btchr_open: BT usb char device is opening
+[  868.598051] rtk_btusb: btchr_open: Device not probed
+[  873.600796] rtk_btusb: btchr_open: BT usb char device is opening
+[  873.601717] rtk_btusb: btchr_open: Device not probed
+[  878.604313] rtk_btusb: btchr_open: BT usb char device is opening
+[  878.605344] rtk_btusb: btchr_open: Device not probed
+[  883.606504] rtk_btusb: btchr_open: BT usb char device is opening
+[  883.607527] rtk_btusb: btchr_open: Device not probed
+[  885.042763] msm-dwc3 a600000.ssusb: DWC3 in low power mode
+[  885.045534] msm-dwc3 a600000.ssusb: DWC3 exited from low power mode
+[  886.043330] msm-dwc3 a600000.ssusb: DWC3 in low power mode
+[  886.053126] msm-dwc3 a600000.ssusb: DWC3 exited from low power mode
+[  887.053411] msm-dwc3 a600000.ssusb: DWC3 in low power mode
+[  887.057663] msm-dwc3 a600000.ssusb: DWC3 exited from low power mode
+[  888.064338] msm-dwc3 a600000.ssusb: DWC3 in low power mode
+[  888.068752] msm-dwc3 a600000.ssusb: DWC3 exited from low power mode
+[  888.610411] rtk_btusb: btchr_open: BT usb char device is opening
+[  888.611449] rtk_btusb: btchr_open: Device not probed
+[  889.075264] msm-dwc3 a600000.ssusb: DWC3 in low power mode
+[  889.079099] msm-dwc3 a600000.ssusb: DWC3 exited from low power mode
+[  890.084760] msm-dwc3 a600000.ssusb: DWC3 in low power mode
+[  890.087829] msm-dwc3 a600000.ssusb: DWC3 exited from low power mode
+[  890.356425] Space not available: ring h2drxp items 32 write 448 read 480 error_count 100
+[  891.084954] msm-dwc3 a600000.ssusb: DWC3 in low power mode
+[  891.092793] msm-dwc3 a600000.ssusb: DWC3 exited from low power mode
+[  892.094283] msm-dwc3 a600000.ssusb: DWC3 in low power mode
+[  892.097036] msm-dwc3 a600000.ssusb: DWC3 exited from low power mode
+[  893.093541] msm-dwc3 a600000.ssusb: DWC3 in low power mode
+[  893.103547] msm-dwc3 a600000.ssusb: DWC3 exited from low power mode
+[  893.612681] rtk_btusb: btchr_open: BT usb char device is opening
+[  893.613694] rtk_btusb: btchr_open: Device not probed
+[  894.104326] msm-dwc3 a600000.ssusb: DWC3 in low power mode
+[  894.107425] msm-dwc3 a600000.ssusb: DWC3 exited from low power mode
+[  898.615402] rtk_btusb: btchr_open: BT usb char device is opening
+[  898.616194] rtk_btusb: btchr_open: Device not probed
+[  903.617342] rtk_btusb: btchr_open: BT usb char device is opening
+[  903.619126] rtk_btusb: btchr_open: Device not probed
+[  908.621334] rtk_btusb: btchr_open: BT usb char device is opening
+[  908.622341] rtk_btusb: btchr_open: Device not probed
+[  913.625331] rtk_btusb: btchr_open: BT usb char device is opening
+[  913.626638] rtk_btusb: btchr_open: Device not probed
+[  918.629296] rtk_btusb: btchr_open: BT usb char device is opening
+[  918.630067] rtk_btusb: btchr_open: Device not probed
+[  923.631302] rtk_btusb: btchr_open: BT usb char device is opening
+[  923.632073] rtk_btusb: btchr_open: Device not probed
+[  928.634321] rtk_btusb: btchr_open: BT usb char device is opening
+[  928.635098] rtk_btusb: btchr_open: Device not probed
+[  933.636897] rtk_btusb: btchr_open: BT usb char device is opening
+[  933.637933] rtk_btusb: btchr_open: Device not probed
+[  938.639681] rtk_btusb: btchr_open: BT usb char device is opening
+[  938.640791] rtk_btusb: btchr_open: Device not probed
+[  943.642413] rtk_btusb: btchr_open: BT usb char device is opening
+[  943.643450] rtk_btusb: btchr_open: Device not probed
+[  948.645589] rtk_btusb: btchr_open: BT usb char device is opening
+[  948.646277] rtk_btusb: btchr_open: Device not probed
+[  953.647753] rtk_btusb: btchr_open: BT usb char device is opening
+[  953.648512] rtk_btusb: btchr_open: Device not probed
+[  955.968656] init: Service 'adbd' (pid 610) exited with status 1
+[  955.969405] init: Sending signal 9 to service 'adbd' (pid 610) process group...
+[  955.971000] libprocessgroup: Successfully killed process cgroup uid 0 pid 610 in 0ms
+[  955.973186] init: starting service 'adbd'...
+[  955.975014] init: Created socket '/dev/socket/adbd', mode 660, user 1000, group 1000
+[  955.981000] read descriptors
+[  955.981437] read strings
+[  955.982327] init: processing action (sys.usb.config=adb && sys.usb.configfs=1 && sys.usb.ffs.ready=1) from (/init.usb.configfs.rc:20)
+[  955.985827] init: Command 'write /config/usb_gadget/g1/configs/b.1/strings/0x409/configuration adb' action=sys.usb.config=adb && sys.usb.configfs=1 && sys.usb.ffs.ready=1 (/init.usb.configfs.rc:21) took 0ms and succeeded
+[  955.994647] init: Command 'symlink /config/usb_gadget/g1/functions/ffs.adb /config/usb_gadget/g1/configs/b.1/f1' action=sys.usb.config=adb && sys.usb.configfs=1 && sys.usb.ffs.ready=1 (/init.usb.configfs.rc:22) took 0ms and failed: symlink() failed: File exists
+[  956.001612] android_work: did not send uevent (0 0 0000000000000000 0)
+[  956.004392] init: Command 'write /config/usb_gadget/g1/UDC ${sys.usb.controller}' action=sys.usb.config=adb && sys.usb.configfs=1 && sys.usb.ffs.ready=1 (/init.usb.configfs.rc:23) took 4ms and succeeded
+[  956.008795] init: Command 'setprop sys.usb.state ${sys.usb.config}' action=sys.usb.config=adb && sys.usb.configfs=1 && sys.usb.ffs.ready=1 (/init.usb.configfs.rc:24) took 0ms and succeeded
+[  958.649377] rtk_btusb: btchr_open: BT usb char device is opening
+[  958.650626] rtk_btusb: btchr_open: Device not probed
+[  963.651835] rtk_btusb: btchr_open: BT usb char device is opening
+[  963.652969] rtk_btusb: btchr_open: Device not probed
+[  968.655019] rtk_btusb: btchr_open: BT usb char device is opening
+[  968.657088] rtk_btusb: btchr_open: Device not probed
+[  973.659177] rtk_btusb: btchr_open: BT usb char device is opening
+[  973.661023] rtk_btusb: btchr_open: Device not probed
+[  978.663330] rtk_btusb: btchr_open: BT usb char device is opening
+[  978.664542] rtk_btusb: btchr_open: Device not probed
+[  982.952939] Space not available: ring h2drxp items 32 write 416 read 448 error_count 200
+[  983.666294] rtk_btusb: btchr_open: BT usb char device is opening
+[  983.667344] rtk_btusb: btchr_open: Device not probed
+[  988.671282] rtk_btusb: btchr_open: BT usb char device is opening
+[  988.672045] rtk_btusb: btchr_open: Device not probed
+[  993.673511] rtk_btusb: btchr_open: BT usb char device is opening
+[  993.674676] rtk_btusb: btchr_open: Device not probed
+[  998.676384] rtk_btusb: btchr_open: BT usb char device is opening
+[  998.677704] rtk_btusb: btchr_open: Device not probed
+[ 1003.681286] rtk_btusb: btchr_open: BT usb char device is opening
+[ 1003.682679] rtk_btusb: btchr_open: Device not probed
+[ 1008.686276] rtk_btusb: btchr_open: BT usb char device is opening
+[ 1008.687237] rtk_btusb: btchr_open: Device not probed
+[ 1011.073216] Space not available: ring h2drxp items 32 write 224 read 256 error_count 300
+[ 1013.689293] rtk_btusb: btchr_open: BT usb char device is opening
+[ 1013.691132] rtk_btusb: btchr_open: Device not probed
+[ 1018.692934] rtk_btusb: btchr_open: BT usb char device is opening
+[ 1018.693787] rtk_btusb: btchr_open: Device not probed
+[ 1023.695333] rtk_btusb: btchr_open: BT usb char device is opening
+[ 1023.696723] rtk_btusb: btchr_open: Device not probed
+[ 1028.698413] rtk_btusb: btchr_open: BT usb char device is opening
+[ 1028.699517] rtk_btusb: btchr_open: Device not probed
+[ 1033.702288] rtk_btusb: btchr_open: BT usb char device is opening
+[ 1033.703938] rtk_btusb: btchr_open: Device not probed
+[ 1038.705367] rtk_btusb: btchr_open: BT usb char device is opening
+[ 1038.706991] rtk_btusb: btchr_open: Device not probed
+[ 1040.562430] Space not available: ring h2drxp items 32 write 448 read 480 error_count 400
+[ 1043.709157] rtk_btusb: btchr_open: BT usb char device is opening
+[ 1043.711091] rtk_btusb: btchr_open: Device not probed
+[ 1048.712548] rtk_btusb: btchr_open: BT usb char device is opening
+[ 1048.713434] rtk_btusb: btchr_open: Device not probed
+[ 1053.716376] rtk_btusb: btchr_open: BT usb char device is opening
+[ 1053.719423] rtk_btusb: btchr_open: Device not probed
+[ 1058.720475] rtk_btusb: btchr_open: BT usb char device is opening
+[ 1058.721250] rtk_btusb: btchr_open: Device not probed
+[ 1063.724428] rtk_btusb: btchr_open: BT usb char device is opening
+[ 1063.725538] rtk_btusb: btchr_open: Device not probed
+[ 1068.727307] rtk_btusb: btchr_open: BT usb char device is opening
+[ 1068.728075] rtk_btusb: btchr_open: Device not probed
+[ 1072.855442] Space not available: ring h2drxp items 32 write 256 read 288 error_count 500
+[ 1073.730405] rtk_btusb: btchr_open: BT usb char device is opening
+[ 1073.732494] rtk_btusb: btchr_open: Device not probed
+[ 1078.734289] rtk_btusb: btchr_open: BT usb char device is opening
+[ 1078.735556] rtk_btusb: btchr_open: Device not probed
+[ 1083.736718] rtk_btusb: btchr_open: BT usb char device is opening
+[ 1083.737736] rtk_btusb: btchr_open: Device not probed
+[ 1088.740053] rtk_btusb: btchr_open: BT usb char device is opening
+[ 1088.741944] rtk_btusb: btchr_open: Device not probed
+[ 1093.745319] rtk_btusb: btchr_open: BT usb char device is opening
+[ 1093.746440] rtk_btusb: btchr_open: Device not probed
+[ 1098.747488] rtk_btusb: btchr_open: BT usb char device is opening
+[ 1098.749022] rtk_btusb: btchr_open: Device not probed
+[ 1103.751329] rtk_btusb: btchr_open: BT usb char device is opening
+[ 1103.753053] rtk_btusb: btchr_open: Device not probed
+[ 1105.480089] Space not available: ring h2drxp items 32 write 480 read 0 error_count 600
+[ 1108.756374] rtk_btusb: btchr_open: BT usb char device is opening
+[ 1108.757918] rtk_btusb: btchr_open: Device not probed
+[ 1113.761343] rtk_btusb: btchr_open: BT usb char device is opening
+[ 1113.763008] rtk_btusb: btchr_open: Device not probed
+[ 1118.765337] rtk_btusb: btchr_open: BT usb char device is opening
+[ 1118.767377] rtk_btusb: btchr_open: Device not probed
+[ 1123.770557] rtk_btusb: btchr_open: BT usb char device is opening
+[ 1123.773406] rtk_btusb: btchr_open: Device not probed
+[ 1128.776281] rtk_btusb: btchr_open: BT usb char device is opening
+[ 1128.777750] rtk_btusb: btchr_open: Device not probed
+[ 1133.780852] rtk_btusb: btchr_open: BT usb char device is opening
+[ 1133.781833] rtk_btusb: btchr_open: Device not probed
+[ 1136.391924] Space not available: ring h2drxp items 32 write 128 read 160 error_count 700
+[ 1138.784383] rtk_btusb: btchr_open: BT usb char device is opening
+[ 1138.785503] rtk_btusb: btchr_open: Device not probed
+[ 1143.787307] rtk_btusb: btchr_open: BT usb char device is opening
+[ 1143.788697] rtk_btusb: btchr_open: Device not probed

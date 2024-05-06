@@ -1,6 +1,6 @@
 import os
 import pytest
-from common.can.can import *
+from common.can.canoe import *
 from common.images.images import Images
 from common.video.video import *
 from common.utils import *
@@ -31,7 +31,7 @@ if __name__ == '__main__':
                 "-q",
                 "-s", 
                 "-ra", 
-                r".\test\testcase\test_a8e_panel.py",
+                r".\test\testcase",
                 '--alluredir',
                 r'.\test\output_report',
                 '--clean-alluredir'

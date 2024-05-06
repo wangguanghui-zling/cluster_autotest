@@ -1,0 +1,323 @@
+Network Interface check: time=01-01 08:00:06.001
+
+ifconfig -a
+bond0     Link encap:Ethernet  HWaddr c6:0c:4c:3f:c7:ab
+          BROADCAST MASTER MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 TX bytes:0 
+
+wlan2     Link encap:Ethernet  HWaddr 2a:0f:eb:50:06:49
+          BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 TX bytes:0 
+
+vt3       Link encap:Ethernet  HWaddr aa:aa:aa:aa:aa:b3  Driver virtio_net
+          inet addr:192.168.118.1  Bcast:0.0.0.0  Mask:255.255.255.0 
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:822 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:866 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:122553 TX bytes:60363 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0 
+          inet6 addr: ::1/128 Scope: Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:2 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:2 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:80 TX bytes:80 
+
+wlan1     Link encap:Ethernet  HWaddr 2a:0f:eb:50:06:49
+          BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 TX bytes:0 
+
+dummy0    Link encap:Ethernet  HWaddr e6:c0:6a:b1:ae:34
+          inet6 addr: fe80::e4c0:6aff:feb1:ae34/64 Scope: Link
+          UP BROADCAST RUNNING NOARP  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:11 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 TX bytes:2099 
+
+sit0      Link encap:IPv6-in-IPv4  
+          NOARP  MTU:1480  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 TX bytes:0 
+
+veth0     Link encap:Ethernet  HWaddr 02:47:00:00:00:2b  Driver virtio_net
+          inet addr:10.0.0.43  Bcast:0.0.0.0  Mask:255.255.0.0 
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:5 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:10 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:342 TX bytes:1335 
+
+wlan0     Link encap:Ethernet  HWaddr 28:0f:eb:50:06:49
+          BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 TX bytes:0 
+
+==================
+PING 192.168.118.2 (192.168.118.2) 56(84) bytes of data.
+64 bytes from 192.168.118.2: icmp_seq=1 ttl=255 time=1.53 ms
+
+--- 192.168.118.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 1.536/1.536/1.536/0.000 ms
+==================
+PING 192.168.118.2 (192.168.118.2) 56(84) bytes of data.
+64 bytes from 192.168.118.2: icmp_seq=1 ttl=255 time=0.540 ms
+
+--- 192.168.118.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.540/0.540/0.540/0.000 ms
+==================
+PING 192.168.118.2 (192.168.118.2) 56(84) bytes of data.
+64 bytes from 192.168.118.2: icmp_seq=1 ttl=255 time=0.442 ms
+
+--- 192.168.118.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.442/0.442/0.442/0.000 ms
+==================
+PING 192.168.118.2 (192.168.118.2) 56(84) bytes of data.
+64 bytes from 192.168.118.2: icmp_seq=1 ttl=255 time=0.429 ms
+
+--- 192.168.118.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.429/0.429/0.429/0.000 ms
+==================
+PING 192.168.118.2 (192.168.118.2) 56(84) bytes of data.
+64 bytes from 192.168.118.2: icmp_seq=1 ttl=255 time=1.00 ms
+
+--- 192.168.118.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 1.009/1.009/1.009/0.000 ms
+==================
+PING 192.168.118.2 (192.168.118.2) 56(84) bytes of data.
+64 bytes from 192.168.118.2: icmp_seq=1 ttl=255 time=0.318 ms
+
+--- 192.168.118.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.318/0.318/0.318/0.000 ms
+==================
+PING 192.168.118.2 (192.168.118.2) 56(84) bytes of data.
+64 bytes from 192.168.118.2: icmp_seq=1 ttl=255 time=0.739 ms
+
+--- 192.168.118.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.739/0.739/0.739/0.000 ms
+==================
+PING 192.168.118.2 (192.168.118.2) 56(84) bytes of data.
+64 bytes from 192.168.118.2: icmp_seq=1 ttl=255 time=0.430 ms
+
+--- 192.168.118.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.430/0.430/0.430/0.000 ms
+==================
+PING 192.168.118.2 (192.168.118.2) 56(84) bytes of data.
+64 bytes from 192.168.118.2: icmp_seq=1 ttl=255 time=0.832 ms
+
+--- 192.168.118.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.832/0.832/0.832/0.000 ms
+==================
+PING 192.168.118.2 (192.168.118.2) 56(84) bytes of data.
+64 bytes from 192.168.118.2: icmp_seq=1 ttl=255 time=0.948 ms
+
+--- 192.168.118.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.948/0.948/0.948/0.000 ms
+==================
+PING 192.168.118.2 (192.168.118.2) 56(84) bytes of data.
+64 bytes from 192.168.118.2: icmp_seq=1 ttl=255 time=0.293 ms
+
+--- 192.168.118.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.293/0.293/0.293/0.000 ms
+==================
+PING 192.168.118.2 (192.168.118.2) 56(84) bytes of data.
+64 bytes from 192.168.118.2: icmp_seq=1 ttl=255 time=0.242 ms
+
+--- 192.168.118.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.242/0.242/0.242/0.000 ms
+==================
+PING 192.168.118.2 (192.168.118.2) 56(84) bytes of data.
+64 bytes from 192.168.118.2: icmp_seq=1 ttl=255 time=0.444 ms
+
+--- 192.168.118.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.444/0.444/0.444/0.000 ms
+==================
+PING 192.168.118.2 (192.168.118.2) 56(84) bytes of data.
+64 bytes from 192.168.118.2: icmp_seq=1 ttl=255 time=0.296 ms
+
+--- 192.168.118.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.296/0.296/0.296/0.000 ms
+==================
+PING 192.168.118.2 (192.168.118.2) 56(84) bytes of data.
+64 bytes from 192.168.118.2: icmp_seq=1 ttl=255 time=0.237 ms
+
+--- 192.168.118.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.237/0.237/0.237/0.000 ms
+==================
+PING 192.168.118.2 (192.168.118.2) 56(84) bytes of data.
+64 bytes from 192.168.118.2: icmp_seq=1 ttl=255 time=0.318 ms
+
+--- 192.168.118.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.318/0.318/0.318/0.000 ms
+==================
+PING 192.168.118.2 (192.168.118.2) 56(84) bytes of data.
+64 bytes from 192.168.118.2: icmp_seq=1 ttl=255 time=0.241 ms
+
+--- 192.168.118.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.241/0.241/0.241/0.000 ms
+==================
+PING 192.168.118.2 (192.168.118.2) 56(84) bytes of data.
+64 bytes from 192.168.118.2: icmp_seq=1 ttl=255 time=1.21 ms
+
+--- 192.168.118.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 1.213/1.213/1.213/0.000 ms
+==================
+PING 192.168.118.2 (192.168.118.2) 56(84) bytes of data.
+64 bytes from 192.168.118.2: icmp_seq=1 ttl=255 time=0.302 ms
+
+--- 192.168.118.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.302/0.302/0.302/0.000 ms
+==================
+PING 192.168.118.2 (192.168.118.2) 56(84) bytes of data.
+64 bytes from 192.168.118.2: icmp_seq=1 ttl=255 time=0.349 ms
+
+--- 192.168.118.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.349/0.349/0.349/0.000 ms
+==================
+PING 192.168.118.2 (192.168.118.2) 56(84) bytes of data.
+64 bytes from 192.168.118.2: icmp_seq=1 ttl=255 time=0.262 ms
+
+--- 192.168.118.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.262/0.262/0.262/0.000 ms
+==================
+PING 192.168.118.2 (192.168.118.2) 56(84) bytes of data.
+64 bytes from 192.168.118.2: icmp_seq=1 ttl=255 time=0.776 ms
+
+--- 192.168.118.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.776/0.776/0.776/0.000 ms
+==================
+PING 192.168.118.2 (192.168.118.2) 56(84) bytes of data.
+64 bytes from 192.168.118.2: icmp_seq=1 ttl=255 time=0.984 ms
+
+--- 192.168.118.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.984/0.984/0.984/0.000 ms
+==================
+PING 192.168.118.2 (192.168.118.2) 56(84) bytes of data.
+64 bytes from 192.168.118.2: icmp_seq=1 ttl=255 time=0.318 ms
+
+--- 192.168.118.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.318/0.318/0.318/0.000 ms
+==================
+PING 192.168.118.2 (192.168.118.2) 56(84) bytes of data.
+64 bytes from 192.168.118.2: icmp_seq=1 ttl=255 time=0.289 ms
+
+--- 192.168.118.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.289/0.289/0.289/0.000 ms
+==================
+PING 192.168.118.2 (192.168.118.2) 56(84) bytes of data.
+64 bytes from 192.168.118.2: icmp_seq=1 ttl=255 time=0.259 ms
+
+--- 192.168.118.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.259/0.259/0.259/0.000 ms
+==================
+PING 192.168.118.2 (192.168.118.2) 56(84) bytes of data.
+64 bytes from 192.168.118.2: icmp_seq=1 ttl=255 time=0.388 ms
+
+--- 192.168.118.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.388/0.388/0.388/0.000 ms
+==================
+PING 192.168.118.2 (192.168.118.2) 56(84) bytes of data.
+64 bytes from 192.168.118.2: icmp_seq=1 ttl=255 time=0.354 ms
+
+--- 192.168.118.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.354/0.354/0.354/0.000 ms
+==================
+PING 192.168.118.2 (192.168.118.2) 56(84) bytes of data.
+64 bytes from 192.168.118.2: icmp_seq=1 ttl=255 time=0.448 ms
+
+--- 192.168.118.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.448/0.448/0.448/0.000 ms
+==================
+PING 192.168.118.2 (192.168.118.2) 56(84) bytes of data.
+64 bytes from 192.168.118.2: icmp_seq=1 ttl=255 time=0.866 ms
+
+--- 192.168.118.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.866/0.866/0.866/0.000 ms
+==================
+PING 192.168.118.2 (192.168.118.2) 56(84) bytes of data.
+64 bytes from 192.168.118.2: icmp_seq=1 ttl=255 time=0.315 ms
+
+--- 192.168.118.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.315/0.315/0.315/0.000 ms
+==================
+PING 192.168.118.2 (192.168.118.2) 56(84) bytes of data.
+64 bytes from 192.168.118.2: icmp_seq=1 ttl=255 time=0.175 ms
+
+--- 192.168.118.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.175/0.175/0.175/0.000 ms
+==================
+PING 192.168.118.2 (192.168.118.2) 56(84) bytes of data.
+64 bytes from 192.168.118.2: icmp_seq=1 ttl=255 time=0.344 ms
+
+--- 192.168.118.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.344/0.344/0.344/0.000 ms
+==================
+PING 192.168.118.2 (192.168.118.2) 56(84) bytes of data.
+64 bytes from 192.168.118.2: icmp_seq=1 ttl=255 time=0.258 ms
+
+--- 192.168.118.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.258/0.258/0.258/0.000 ms
+==================
+PING 192.168.118.2 (192.168.118.2) 56(84) bytes of data.
+64 bytes from 192.168.118.2: icmp_seq=1 ttl=255 time=0.670 ms
+
+--- 192.168.118.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.670/0.670/0.670/0.000 ms
+==================
+PING 192.168.118.2 (192.168.118.2) 56(84) bytes of data.
+64 bytes from 192.168.118.2: icmp_seq=1 ttl=255 time=0.282 ms
+
+--- 192.168.118.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.282/0.282/0.282/0.000 ms

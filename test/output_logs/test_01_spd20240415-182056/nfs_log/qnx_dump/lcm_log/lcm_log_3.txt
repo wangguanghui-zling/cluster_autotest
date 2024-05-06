@@ -1,0 +1,1400 @@
+LCM  I Thu Jan  1 00:00:03 1970, 0, priority from 25 to 25
+LCM  I Thu Jan  1 00:00:03 1970, 1, LCM::SUSDMain: Entered
+LCM  I Thu Jan  1 00:00:03 1970, 2, SUSDFdbLcmServer constructed
+LCM  I Thu Jan  1 00:00:03 1970, 3, boot_failed_cnt 0!
+
+LCM  I Thu Jan  1 00:00:03 1970, 4, SUSDFdbLcmServer Start Android for SUSD_FULL_SOC_MODE
+
+LCM  I Thu Jan  1 00:00:03 1970, 5, SUSDIpkStateMachine constructed
+
+LCM  E Thu Jan  1 00:00:03 1970, 6, gwm_BootControl_GetRecoveryReason_Bitmask reset_reason 0
+
+LCM  I Thu Jan  1 00:00:03 1970, 7, gwm_BootControl_GetRecoveryReason request_reason 0!
+
+LCM  I Thu Jan  1 00:00:03 1970, 8, LcmPersist constructed
+LCM  I Thu Jan  1 00:00:03 1970, 9, LcmPersist getSleepTimeParams success a2b 20, a2s 5, b2s 180
+LCM  I Thu Jan  1 00:00:03 1970, 10, SLEEPREADY_ATOB_TIMEb 20000, SLEEPREADY_ATOSLEEP_TIME 5000, SLEEPREADY_BTOSLEEP_TIME 180000
+LCM  I Thu Jan  1 00:00:03 1970, 11, LcmPersist read vehicle_type success as 9
+LCM  I Thu Jan  1 00:00:03 1970, 12, SUSDFdbLcmClient constructed
+
+LCM  I Thu Jan  1 00:00:03 1970, 13, SUSDIviClient constructed
+
+LCM  I Thu Jan  1 00:00:03 1970, 14, SUSDSysMonServer constructed
+LCM  I Thu Jan  1 00:00:03 1970, 15, SUSDDisplayClient constructed
+
+LCM  I Thu Jan  1 00:00:03 1970, 16, SUSDFdbFpsClient constructed
+
+LCM  I Thu Jan  1 00:00:03 1970, 17, SUSDSusdVehicleClient constructed
+
+LCM  I Thu Jan  1 00:00:03 1970, 18, SUSDFdbDispatcher launchFdbLcmServer url: svc://com.bosch.cm.lcm
+LCM  I Thu Jan  1 00:00:03 1970, 19, SUSDFdbDispatcher launchFdbLcmClient url: svc://com.bosch.cm.inc.system_state launched
+
+LCM  I Thu Jan  1 00:00:03 1970, 20, SUSDFdbDispatcher launchFdbSysMonServer url: svc://com.bosch.cm.sysmon
+LCM  I Thu Jan  1 00:00:03 1970, 21, SUSDFdbDispatcher launchIviClient url: svc://com.bosch.cm.ivi_vehicle launched
+
+LCM  I Thu Jan  1 00:00:03 1970, 22, SUSDFdbDispatcher mSusdNotificationClient url: svc://com.bosch.cm.qnx.notification-center launched
+
+LCM  I Thu Jan  1 00:00:03 1970, 23, SUSDFdbDispatcher mSUSDDisplayClient url: svc://com.bosch.cm.dispctrl launched
+
+LCM  I Thu Jan  1 00:00:03 1970, 24, SUSDFdbDispatcher mSusdVehicleClient url: svc://com.bosch.cm.vehicle launched
+
+LCM  I Thu Jan  1 00:00:03 1970, 25, SUSDFdbDispatcher mSUSDFdbFpsClient url: svc://ClusterMiddleware_HMI launched
+
+LCM  I Thu Jan  1 00:00:03 1970, 26, LCM::SUSDMain: SUSDController initialized
+LCM  I Thu Jan  1 00:00:03 1970, 27, RegisterForVMMNotification - entry
+
+LCM  I Thu Jan  1 00:00:03 1970, 28, SystemMonitor::startSystemMonitoring - entry
+LCM  E Thu Jan  1 00:00:03 1970, 29, LCM current active mode 0
+
+LCM  I Thu Jan  1 00:00:03 1970, 30, SystemMonitor::monitorApplications - entry
+LCM  E Thu Jan  1 00:00:03 1970, 31, LCM pon_reason1: 128, warm_reset_reason1: 0 on_reason:128
+
+LCM  E Thu Jan  1 00:00:03 1970, 32, LCM last reset reason: is RAW_XVDD_RB_OCCURED
+
+LCM  E Thu Jan  1 00:00:03 1970, 33, setting pin 105 to 1
+
+LCM  E Thu Jan  1 00:00:03 1970, 34, setting pin 160 to 0
+
+LCM  E Thu Jan  1 00:00:03 1970, 35, setting pin 79 to 1
+
+LCM  E Thu Jan  1 00:00:03 1970, 36, toggle_cpu_alive() set CPU_SYS_ALIVE gpio config
+
+LCM  E Thu Jan  1 00:00:03 1970, 37, LCM str_wakeup_handler_thread_fn - entry
+
+LCM  E Thu Jan  1 00:00:03 1970, 38, LCM scc_reset_req_fn - entry
+
+LCM  E Thu Jan  1 00:00:03 1970, 39, LCM irq corresponding to STR_WUP_B is 605
+
+LCM  E Thu Jan  1 00:00:03 1970, 40, LCM irq corresponding to scc_reset_req_fn is 652
+
+LCM  E Thu Jan  1 00:00:03 1970, 41, LCM Wakeup setup successfully and now wait for interrupt
+
+LCM  E Thu Jan  1 00:00:03 1970, 42, LCM scc_reset_req_fn setup successfully and now wait for interrupt
+
+LCM  E Thu Jan  1 00:00:03 1970, 43, LCM toggle_cpu_alive() begin to toggle CPU_SYS_ALIVE
+
+LCM  I Thu Jan  1 00:00:03 1970, 44, priority from 25 to 25
+LCM  I Thu Jan  1 00:00:03 1970, 45, SUSDFdbLcmClient session online: 0, secure: 0
+
+LCM  I Thu Jan  1 00:00:03 1970, 46, Sent LCM_REPORT_POWER_LEVEL 1
+LCM  I Thu Jan  1 00:00:03 1970, 47, Sent LCM_REPORT_POWER_LEVEL 2
+LCM  I Thu Jan  1 00:00:03 1970, 48, Sent LCM_REPORT_POWER_LEVEL 5
+LCM  I Thu Jan  1 00:00:03 1970, 49, IviHwKeyStatus IVI_ACC_OFF sent
+
+LCM  I Thu Jan  1 00:00:03 1970, 50, mCanActive changed 1
+
+LCM  W Thu Jan  1 00:00:03 1970, 51, processIpkEvent event 28 in IPK_SLEEP
+
+LCM  I Thu Jan  1 00:00:03 1970, 52, stateIpkSleepGacHandler mEvent 28
+
+LCM  I Thu Jan  1 00:00:03 1970, 53, mIpkMode to IPK_PREPARE_SLEEP_A for T9
+
+LCM  I Thu Jan  1 00:00:03 1970, 54, Thu Jan  1 00:00:03 1970
+ handleIpkPowerModeChanged IPK_PREPARE_SLEEP_A
+
+LCM  I Thu Jan  1 00:00:03 1970, 55, Sent LCM_REPORT_POWER_LEVEL 10
+LCM  I Thu Jan  1 00:00:03 1970, 56, PM_STARTUP in state 0
+
+LCM  I Thu Jan  1 00:00:03 1970, 57, SUSDPowerModeChanged power_mode PM_INIT1_QNX, voltage_state VOLTAGE_NORMAL, ps_mode SUSD_TRANPORT_OFF, ipk_mode IPK_PREPARE_SLEEP_A
+
+LCM  I Thu Jan  1 00:00:03 1970, 58, IVI Display OFF, Cluster Display OFF, Audio ON
+
+LCM  I Thu Jan  1 00:00:03 1970, 59, SUSDFdbDispatcher dispatch_publishPowerMode published.
+
+LCM  I Thu Jan  1 00:00:03 1970, 60, mIpkDispActive 0 m_door_opened 0 mIpkAccTimeout 1
+
+LCM  I Thu Jan  1 00:00:03 1970, 61, m_stt_state 0 m_tt_state 0 m_warning_info 0 m_warning_state 0
+
+LCM  I Thu Jan  1 00:00:03 1970, 62, DisplayPowerModeChanged mPowerDispActive 0 mIpkDispActive 0 mIpkTransportActive 0
+
+LCM  I Thu Jan  1 00:00:03 1970, 63, DisplayPowerModeChanged mStatic2DispActive 0 mVoltDispActive 0 mThermalDispActive 0
+
+LCM  I Thu Jan  1 00:00:03 1970, 64, DisplayPowerModeChanged ivi_disp 0 cluster_disp 0
+
+LCM  I Thu Jan  1 00:00:03 1970, 65, IviPowerServer IVI_POWER_STATE_CHANGED power_state ON_DISP_OFF
+
+LCM  W Thu Jan  1 00:00:03 1970, 66, Set All display off
+LCM  I Thu Jan  1 00:00:03 1970, 67, SUSDDisplayClient handleSetBacklightOn on 0 mask 2.
+
+LCM  I Thu Jan  1 00:00:03 1970, 68, SUSDDisplayClient handleSetBacklightOn isn't online.
+
+LCM  I Thu Jan  1 00:00:03 1970, 69, SUSDFdbDispatcher dispatch_publishNotificationEvents published.
+
+LCM  I Thu Jan  1 00:00:03 1970, 70, IviPowerServer IVI_POWER_STATE_CHANGED power_state ON_DISP_OFF
+
+LCM  I Thu Jan  1 00:00:03 1970, 71, SusdNotificationClient session online: 0, secure: 0
+
+LCM  I Thu Jan  1 00:00:03 1970, 72, SUSDFdbDispatcher dispatch_publishNotificationEvents published.
+
+LCM  E Thu Jan  1 00:00:03 1970, 73, SUSDFdbLcmClient onStatus error_code -11, msg->code() 0
+
+LCM  I Thu Jan  1 00:00:03 1970, 74, SUSDFdbLcmClient onStatus Reason: Automatically reply to subscribe request.
+LCM  I Thu Jan  1 00:00:03 1970, 75, SUSDFdbLcmServer session online: 0, secure: 0
+
+LCM  I Thu Jan  1 00:00:03 1970, 76, handleIncrrementBootResetCounter called 0
+
+LCM  I Thu Jan  1 00:00:03 1970, 77, gwm_BootControl_GetBootResetCounter called 206
+
+LCM  I Thu Jan  1 00:00:03 1970, 78, SdReasonManager constructed
+
+LCM  I Thu Jan  1 00:00:03 1970, 79, SUSDFdbLcmServer onSubscribe message 158 received unexpected
+LCM  I Thu Jan  1 00:00:03 1970, 80, SUSDFdbLcmServer session online: 1, secure: 0
+
+LCM  I Thu Jan  1 00:00:03 1970, 81, SUSDFdbDispatcher dispatch_publishPowerMode published.
+
+LCM  I Thu Jan  1 00:00:03 1970, 82, IviPowerServer IVI_POWER_STATE_CHANGED power_state ON_DISP_OFF
+
+LCM  I Thu Jan  1 00:00:03 1970, 83, SUSDFdbLcmServer onSubscribe message 258 received unexpected
+LCM  I Thu Jan  1 00:00:03 1970, 84, IviHwKeyStatus IVI_ACC_OFF sent
+
+LCM  I Thu Jan  1 00:00:03 1970, 85, SUSDFdbLcmServer onSubscribe message 260 received unexpected
+LCM  I Thu Jan  1 00:00:03 1970, 86, SUSDFdbLcmServer session online: 2, secure: 0
+
+LCM  I Thu Jan  1 00:00:03 1970, 87, SUSDFdbLcmServer onSubscribe message 158 received unexpected
+LCM  I Thu Jan  1 00:00:03 1970, 88, SUSDFdbLcmServer session online: 3, secure: 0
+
+LCM  I Thu Jan  1 00:00:03 1970, 89, SUSDFdbLcmServer session online: 4, secure: 0
+
+LCM  I Thu Jan  1 00:00:03 1970, 90, SUSDFdbLcmServer session online: 5, secure: 0
+
+LCM  I Thu Jan  1 00:00:03 1970, 91, SUSDFdbLcmServer session online: 6, secure: 0
+
+LCM  I Thu Jan  1 00:00:03 1970, 92, SUSDFdbLcmServer onSubscribe message 116 received unexpected
+LCM  I Thu Jan  1 00:00:03 1970, 93, SUSDDisplayClient session online: 0, secure: 0
+
+LCM  I Thu Jan  1 00:00:03 1970, 94, SUSDDisplayClient onOnline mvTodoBacklight.size() 1
+
+LCM  I Thu Jan  1 00:00:03 1970, 95, SUSDDisplayClient onOnline to set delayed backlight
+LCM  I Thu Jan  1 00:00:03 1970, 96, SUSDDisplayClient handleSetBacklightOn on 0 mask 16.
+
+LCM  I Thu Jan  1 00:00:03 1970, 97, SupportedDisplays size 3 got.
+
+LCM  I Thu Jan  1 00:00:03 1970, 98, DispType DISP_HUT set backlight 0 mask 80.
+
+LCM  I Thu Jan  1 00:00:03 1970, 99, DispType DISP_COPILOT set backlight 0 mask 80.
+
+LCM  I Thu Jan  1 00:00:03 1970, 100, SUSDDisplayClient handleSetBacklightOn on 0 mask 8.
+
+LCM  I Thu Jan  1 00:00:03 1970, 101, SupportedDisplays size 3 got.
+
+LCM  I Thu Jan  1 00:00:03 1970, 102, DispType DISP_IP set backlight 0 mask 8.
+
+LCM  I Thu Jan  1 00:00:03 1970, 103, SUSDDisplayClient handleSetBacklightOn on 0 mask 64.
+
+LCM  I Thu Jan  1 00:00:03 1970, 104, SupportedDisplays size 3 got.
+
+LCM  I Thu Jan  1 00:00:03 1970, 105, DispType DISP_COPILOT set backlight 0 mask 64.
+
+LCM  I Thu Jan  1 00:00:03 1970, 106, SUSDFdbLcmServer session online: 7, secure: 0
+
+LCM  I Thu Jan  1 00:00:03 1970, 107, SUSDFdbLcmServer onInvoke msg code: SUSD_SHUTDOWN_PREPARE_COMPLETED
+LCM  I Thu Jan  1 00:00:03 1970, 108, app_name psis_server register for shutdown prepare
+LCM  I Thu Jan  1 00:00:03 1970, 109, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_BOOT_COMPLETE received
+LCM  I Thu Jan  1 00:00:03 1970, 110, gwm_BootControl_ClearBootFailedCnt m_soc_mode 0 error:0
+
+LCM  I Thu Jan  1 00:00:03 1970, 111, DisplayPowerModeChanged mPowerDispActive 0 mIpkDispActive 0 mIpkTransportActive 0
+
+LCM  I Thu Jan  1 00:00:03 1970, 112, DisplayPowerModeChanged mStatic2DispActive 0 mVoltDispActive 0 mThermalDispActive 0
+
+LCM  I Thu Jan  1 00:00:03 1970, 113, DisplayPowerModeChanged ivi_disp 0 cluster_disp 0
+
+LCM  I Thu Jan  1 00:00:03 1970, 114, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_SHUTDOWN_REASON received
+LCM  E Thu Jan  1 00:00:03 1970, 115, lcmReportShutdownReason ignored for mDbLoaded
+
+LCM  I Thu Jan  1 00:00:03 1970, 116, SusdVehicleClient onStatus Reason: Automatically reply to subscribe request.
+LCM  I Thu Jan  1 00:00:03 1970, 117, PM_NORMAL in state 2
+
+LCM  I Thu Jan  1 00:00:03 1970, 118, SUSDFdbDispatcher LCM_REPORT_REFLASH_STATE 2
+LCM  W Thu Jan  1 00:00:03 1970, 119, mLastIviBCallStatus 0, mBcallStatus 0
+
+LCM  I Thu Jan  1 00:00:03 1970, 120, SUSDFdbDispatcher LCM_BCALL_STATUS_REQ 0, 4
+LCM  I Thu Jan  1 00:00:03 1970, 121, SUSDFdbDispatcher LCM_BCALL_STATUS_REQ 0, 1
+LCM  I Thu Jan  1 00:00:03 1970, 122, IviHwKeyStatus IVI_IGN_ON sent
+
+LCM  W Thu Jan  1 00:00:03 1970, 123, processIpkEvent event 4 in IPK_PREPARE_SLEEP_A
+
+LCM  I Thu Jan  1 00:00:03 1970, 124, mIpkMode changed to IPK_ANIMATION
+
+LCM  I Thu Jan  1 00:00:03 1970, 125, Thu Jan  1 00:00:03 1970
+ handleIpkPowerModeChanged IPK_ANIMATION
+
+LCM  I Thu Jan  1 00:00:03 1970, 126, IviPowerServer IVI_POWER_STATE_CHANGED power_state ON_DISP_OFF
+
+LCM  I Thu Jan  1 00:00:03 1970, 127, m_first_normal PM_NORMAL happened!
+
+LCM  W Thu Jan  1 00:00:03 1970, 128, processIpkEvent event 30 in IPK_ANIMATION
+
+LCM  I Thu Jan  1 00:00:03 1970, 129, Thu Jan  1 00:00:03 1970
+ handleIpkPowerModeChanged IPK_IGNITE_ON
+
+LCM  I Thu Jan  1 00:00:03 1970, 130, SUSDPowerModeChanged power_mode PM_NORMAL, voltage_state VOLTAGE_NORMAL, ps_mode SUSD_TRANPORT_OFF, ipk_mode IPK_IGNITE_ON
+
+LCM  I Thu Jan  1 00:00:03 1970, 131, IVI Display OFF, Cluster Display OFF, Audio ON
+
+LCM  I Thu Jan  1 00:00:03 1970, 132, PM_NORMAL isn't sent to IVI for animation not ready
+
+LCM  I Thu Jan  1 00:00:03 1970, 133, SUSDFdbDispatcher dispatch_publishPowerMode published.
+
+LCM  I Wed Jan  1 00:00:03 2020, 134, DisplayPowerModeChanged mPowerDispActive 0 mIpkDispActive 1 mIpkTransportActive 0
+
+LCM  I Wed Jan  1 00:00:03 2020, 135, DisplayPowerModeChanged mStatic2DispActive 0 mVoltDispActive 0 mThermalDispActive 0
+
+LCM  I Wed Jan  1 00:00:03 2020, 136, DisplayPowerModeChanged ivi_disp 0 cluster_disp 1
+
+LCM  I Wed Jan  1 00:00:03 2020, 137, IviPowerServer IVI_POWER_STATE_CHANGED power_state ON_DISP_OFF
+
+LCM  I Wed Jan  1 00:00:03 2020, 138, SUSDDisplayClient handleSetBacklightOn on 1 mask 8.
+
+LCM  I Wed Jan  1 00:00:03 2020, 139, SupportedDisplays size 3 got.
+
+LCM  I Wed Jan  1 00:00:03 2020, 140, DispType DISP_IP set backlight 1 mask 8.
+
+LCM  I Wed Jan  1 00:00:03 2020, 141, SUSDFdbDispatcher dispatch_publishNotificationEvents published.
+
+LCM  I Wed Jan  1 00:00:03 2020, 142, IviPowerServer IVI_POWER_STATE_CHANGED power_state ON_DISP_OFF
+
+LCM  W Wed Jan  1 00:00:03 2020, 143, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM  W Wed Jan  1 00:00:03 2020, 144, SUSDFdbLcmClient m_power_state_count 4 m_power_calc_count 1
+
+LCM  E Wed Jan  1 00:00:03 2020, 145, SUSDDisplayClient onStatus error_code -11, msg->code() 0
+
+LCM  I Wed Jan  1 00:00:03 2020, 146, SUSDDisplayClient onStatus Reason: Automatically reply to subscribe request.
+LCM  I Wed Jan  1 00:00:03 2020, 147, SUSDFdbLcmServer session online: 8, secure: 0
+
+LCM  I Wed Jan  1 00:00:03 2020, 148, IviHwKeyStatus IVI_IGN_ON sent
+
+LCM  W Wed Jan  1 00:00:03 2020, 149, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM  W Wed Jan  1 00:00:03 2020, 150, SUSDFdbLcmClient m_power_state_count 5 m_power_calc_count 2
+
+LCM  I Wed Jan  1 00:00:03 2020, 151, SUSDFdbLcmServer session online: 9, secure: 0
+
+LCM  I Wed Jan  1 00:00:03 2020, 152, PM_NORMAL isn't sent to IVI for animation not ready
+
+LCM  I Wed Jan  1 00:00:03 2020, 153, SUSDFdbDispatcher dispatch_publishPowerMode published.
+
+LCM  I Wed Jan  1 00:00:03 2020, 154, IviPowerServer IVI_POWER_STATE_CHANGED power_state ON_DISP_OFF
+
+LCM  I Wed Jan  1 00:00:03 2020, 155, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_ANIMATION_STATUS
+LCM  I Wed Jan  1 00:00:03 2020, 156, SUSDSetAnimationStatus changed to SUSD_ANIMATION_PLAY
+LCM  W Wed Jan  1 00:00:03 2020, 157, processIpkEvent event 16 in IPK_IGNITE_ON
+
+LCM  I Wed Jan  1 00:00:03 2020, 158, SUSD_ANIMATION_PLAY in wrong mIpkMode IPK_IGNITE_ON
+
+LCM  I Wed Jan  1 00:00:03 2020, 159, Wed Jan  1 00:00:03 2020
+ handleIpkPowerModeChanged IPK_IGNITE_ON
+
+LCM  I Wed Jan  1 00:00:03 2020, 160, SUSDPowerModeChanged power_mode PM_NORMAL, voltage_state VOLTAGE_NORMAL, ps_mode SUSD_TRANPORT_OFF, ipk_mode IPK_IGNITE_ON
+
+LCM  I Wed Jan  1 00:00:03 2020, 161, IVI Display OFF, Cluster Display ON, Audio ON
+
+LCM  I Wed Jan  1 00:00:03 2020, 162, PM_NORMAL isn't sent to IVI for animation not ready
+
+LCM  I Wed Jan  1 00:00:03 2020, 163, SUSDFdbDispatcher dispatch_publishPowerMode published.
+
+LCM  I Wed Jan  1 00:00:03 2020, 164, DisplayPowerModeChanged mPowerDispActive 1 mIpkDispActive 1 mIpkTransportActive 0
+
+LCM  I Wed Jan  1 00:00:03 2020, 165, DisplayPowerModeChanged mStatic2DispActive 0 mVoltDispActive 0 mThermalDispActive 0
+
+LCM  I Wed Jan  1 00:00:03 2020, 166, DisplayPowerModeChanged ivi_disp 1 cluster_disp 1
+
+LCM  I Wed Jan  1 00:00:03 2020, 167, IviPowerServer IVI_POWER_STATE_CHANGED power_state ON_DISP_OFF
+
+LCM  W Wed Jan  1 00:00:03 2020, 168, Set All display on
+LCM  I Wed Jan  1 00:00:03 2020, 169, SUSDDisplayClient handleSetBacklightOn on 1 mask 2.
+
+LCM  I Wed Jan  1 00:00:03 2020, 170, SupportedDisplays size 3 got.
+
+LCM  I Wed Jan  1 00:00:03 2020, 171, DispType DISP_IP set backlight 1 mask 66.
+
+LCM  I Wed Jan  1 00:00:03 2020, 172, DispType DISP_HUT set backlight 1 mask 66.
+
+LCM  I Wed Jan  1 00:00:03 2020, 173, DispType DISP_COPILOT set backlight 1 mask 66.
+
+LCM  I Wed Jan  1 00:00:03 2020, 174, SUSDFdbDispatcher dispatch_publishNotificationEvents published.
+
+LCM  I Wed Jan  1 00:00:03 2020, 175, IviPowerServer IVI_POWER_STATE_CHANGED power_state ON_DISP_OFF
+
+LCM  I Wed Jan  1 00:00:04 2020, 176, SUSDFdbLcmServer session online: 10, secure: 0
+
+LCM  I Wed Jan  1 00:00:04 2020, 177, PM_NORMAL isn't sent to IVI for animation not ready
+
+LCM  I Wed Jan  1 00:00:04 2020, 178, SUSDFdbDispatcher dispatch_publishPowerMode published.
+
+LCM  I Wed Jan  1 00:00:04 2020, 179, IviPowerServer IVI_POWER_STATE_CHANGED power_state ON_DISP_OFF
+
+LCM  I Wed Jan  1 00:00:04 2020, 180, SUSDFdbLcmServer session online: 11, secure: 0
+
+LCM  I Wed Jan  1 00:00:04 2020, 181, PM_NORMAL isn't sent to IVI for animation not ready
+
+LCM  I Wed Jan  1 00:00:04 2020, 182, SUSDFdbDispatcher dispatch_publishPowerMode published.
+
+LCM  I Wed Jan  1 00:00:04 2020, 183, IviPowerServer IVI_POWER_STATE_CHANGED power_state ON_DISP_OFF
+
+LCM  I Wed Jan  1 00:00:04 2020, 184, LCM /dev/vmm is ready for 1500 ms!
+
+LCM  I Wed Jan  1 00:00:04 2020, 185, LCM Number of guests = 1
+
+LCM  I Wed Jan  1 00:00:04 2020, 186, LCM vmid for guest[0] with name la and  vmid=2 manual_mode=1
+
+LCM  W Wed Jan  1 00:00:04 2020, 187, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM  E Wed Jan  1 00:00:05 2020, 188, handleSohTimeout unexpectedly 0
+
+LCM  W Wed Jan  1 00:00:05 2020, 189, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM  I Wed Jan  1 00:00:05 2020, 190, SUSDFdbLcmServer session online: 12, secure: 0
+
+LCM  I Wed Jan  1 00:00:05 2020, 191, PM_NORMAL isn't sent to IVI for animation not ready
+
+LCM  I Wed Jan  1 00:00:05 2020, 192, SUSDFdbDispatcher dispatch_publishPowerMode published.
+
+LCM  I Wed Jan  1 00:00:05 2020, 193, IviPowerServer IVI_POWER_STATE_CHANGED power_state ON_DISP_OFF
+
+LCM  I Wed Jan  1 00:00:05 2020, 194, IviPowerServer IVI_POWER_STATE_CHANGED power_state ON_FULL
+
+LCM  W Wed Jan  1 00:00:05 2020, 195, handleAnimationReadyTimeout for IGNITION_ON
+
+LCM  I Wed Jan  1 00:00:05 2020, 196, SUSDFdbLcmServer session online: 13, secure: 0
+
+LCM  I Wed Jan  1 00:00:05 2020, 197, SUSDFdbLcmServer onSubscribe message 158 received unexpected
+LCM  I Wed Jan  1 00:00:05 2020, 198, SUSDFdbLcmServer session online: 14, secure: 0
+
+LCM  I Wed Jan  1 00:00:05 2020, 199, SUSDFdbLcmServer onSubscribe message 158 received unexpected
+LCM  I Wed Jan  1 00:00:05 2020, 200, SUSDFdbLcmServer session online: 15, secure: 0
+
+LCM  I Wed Jan  1 00:00:05 2020, 201, SUSDFdbLcmServer onSubscribe message 158 received unexpected
+LCM  I Wed Jan  1 00:00:06 2020, 202, SUSDFdbLcmServer tt_info is 1 tt_state 0
+LCM  I Wed Jan  1 00:00:06 2020, 203, SUSDFdbLcmServer tt_info is 2 tt_state 0
+LCM  I Wed Jan  1 00:00:06 2020, 204, SUSDFdbLcmServer tt_info is 2 tt_state 1
+LCM  W Wed Jan  1 00:00:06 2020, 205, processIpkEvent event 14 in IPK_IGNITE_ON
+
+LCM  W Wed Jan  1 00:00:06 2020, 206, mLastIviBCallStatus 0, mBcallStatus 1
+
+LCM  I Wed Jan  1 00:00:06 2020, 207, SUSDFdbDispatcher LCM_BCALL_STATUS_REQ 1, 5
+LCM  W Wed Jan  1 00:00:06 2020, 208, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM E Wed Jan  1 00:00:07 2020, 210, LCM /var/log  is ready for 18 sec!
+LCM E Wed Jan  1 00:00:07 2020, 211, LCM is running! pid=221248
+
+LCM I Wed Jan  1 00:00:07 2020, 212, SdReasonManager got 0, 205, 946684800, 768, 205
+
+LCM I Wed Jan  1 00:00:07 2020, 213, lcm_pwr_ctrl_init entry
+LCM I Wed Jan  1 00:00:07 2020, 214, SdReasonManager got 0, 204, 946684800, 768, 204
+
+LCM I Wed Jan  1 00:00:07 2020, 215, SdReasonManager got 0, 203, 946684800, 768, 203
+
+LCM I Wed Jan  1 00:00:07 2020, 216, SdReasonManager got 0, 202, 946684800, 768, 202
+
+LCM I Wed Jan  1 00:00:07 2020, 217, SdReasonManager got 0, 199, 946684800, 768, 200
+
+LCM I Wed Jan  1 00:00:07 2020, 218, SdReasonManager got 0, 198, 946684800, 768, 199
+
+LCM I Wed Jan  1 00:00:07 2020, 219, SdReasonManager got 0, 197, 946684800, 256, 198
+
+LCM I Wed Jan  1 00:00:07 2020, 220, SdReasonManager got 0, 196, 946684800, 768, 197
+
+LCM I Wed Jan  1 00:00:07 2020, 221, SdReasonManager got 0, 195, 946684800, 768, 196
+
+LCM I Wed Jan  1 00:00:07 2020, 222, SdReasonManager got 0, 192, 946684880, 256, 194
+
+LCM I Wed Jan  1 00:00:07 2020, 223, SdReasonManager got 0, 191, 946684800, 768, 193
+
+LCM I Wed Jan  1 00:00:07 2020, 224, SdReasonManager got 0, 190, 946684800, 768, 192
+
+LCM E Wed Jan  1 00:00:07 2020, 225, could not create / open sync file : /logdata/lcm_sync
+LCM I Wed Jan  1 00:00:07 2020, 226, SdReasonManager got 0, 180, 946684800, 768, 189
+
+LCM E Wed Jan  1 00:00:07 2020, 227, sync file creation failed
+LCM I Wed Jan  1 00:00:07 2020, 228, SdReasonManager got 0, 179, 946684800, 768, 188
+
+LCM E Wed Jan  1 00:00:07 2020, 229, LCM Power control module initialization failed, status:-1
+
+LCM I Wed Jan  1 00:00:07 2020, 230, SdReasonManager got 0, 178, 946684800, 768, 187
+
+LCM E Wed Jan  1 00:00:07 2020, 231, wakeup device failed during initialization: No such process
+
+LCM I Wed Jan  1 00:00:07 2020, 232, SdReasonManager got 0, 177, 946684800, 768, 186
+
+LCM I Wed Jan  1 00:00:07 2020, 233, SdReasonManager got 0, 174, 946684800, 256, 184
+
+LCM I Wed Jan  1 00:00:07 2020, 234, SdReasonManager got 0, 173, 946684800, 768, 183
+
+LCM I Wed Jan  1 00:00:07 2020, 235, SdReasonManager got 0, 172, 946684800, 768, 182
+
+LCM I Wed Jan  1 00:00:07 2020, 236, SdReasonManager got 0, 171, 946684800, 768, 181
+
+LCM I Wed Jan  1 00:00:07 2020, 237, SdReasonManager got 0, 170, 946684800, 768, 180
+
+LCM I Wed Jan  1 00:00:07 2020, 238, SdReasonManager got 0, 169, 946684800, 768, 179
+
+LCM I Wed Jan  1 00:00:07 2020, 239, SdReasonManager got 0, 168, 946684800, 768, 178
+
+LCM I Wed Jan  1 00:00:07 2020, 240, SdReasonManager got 0, 167, 946684800, 768, 177
+
+LCM I Wed Jan  1 00:00:07 2020, 241, SdReasonManager got 0, 166, 946684800, 768, 176
+
+LCM I Wed Jan  1 00:00:07 2020, 242, SdReasonManager got 0, 165, 946684800, 768, 175
+
+LCM I Wed Jan  1 00:00:07 2020, 243, SdReasonManager got 0, 164, 946684800, 768, 174
+
+LCM I Wed Jan  1 00:00:07 2020, 244, SdReasonManager got 0, 163, 946684800, 768, 173
+
+LCM I Wed Jan  1 00:00:07 2020, 245, SdReasonManager got 0, 162, 946684800, 768, 172
+
+LCM I Wed Jan  1 00:00:07 2020, 246, SdReasonManager got 0, 161, 946684800, 768, 171
+
+LCM I Wed Jan  1 00:00:07 2020, 247, SdReasonManager got 0, 0, 0, 0, 0
+
+LCM E Wed Jan  1 00:00:07 2020, 248, SdReasonManager bad input got all zero
+
+LCM I Wed Jan  1 00:00:07 2020, 249, Ready to report SdRsn
+
+LCM E Wed Jan  1 00:00:07 2020, 250, LCM_READ_SHUTDOWN_REASON sent
+
+LCM I Wed Jan  1 00:00:07 2020, 251, monitorApplications ofstream opened
+LCM I Wed Jan  1 00:00:07 2020, 252, susd_controller's pid - 221248
+LCM E Wed Jan  1 00:00:07 2020, 253, detachAppPulse susd_controller ptrEntityHandle is NUL
+
+LCM I Wed Jan  1 00:00:07 2020, 254, EntityName -> susd_controller AppIxdex-> 0  HAM Condition -> 1
+LCM I Wed Jan  1 00:00:07 2020, 255, EntityName -> susd_controller AppIxdex-> 0  HAM Condition -> 3
+LCM I Wed Jan  1 00:00:07 2020, 256, EntityName -> susd_controller AppIxdex-> 0  HAM Condition -> 7
+LCM I Wed Jan  1 00:00:07 2020, 257, Recovery EntityName -> susd_controller AppIxdex-> 0  HAM Condition -> 1
+LCM I Wed Jan  1 00:00:07 2020, 258, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_SHUTDOWN_REASON received
+LCM W Wed Jan  1 00:00:07 2020, 259, sd_counter 206, reset_time_stamp 946684800
+
+LCM I Wed Jan  1 00:00:07 2020, 260, sd_counter 206 added mLastShutdownReason 0 soft_reset_reason 768
+
+LCM W Wed Jan  1 00:00:07 2020, 261, sd_counter 0, reset_time_stamp 0
+
+LCM W Wed Jan  1 00:00:07 2020, 262, sd_counter 0, reset_time_stamp 0
+
+LCM W Wed Jan  1 00:00:07 2020, 263, sd_counter 0, reset_time_stamp 0
+
+LCM W Wed Jan  1 00:00:07 2020, 264, sd_counter 0, reset_time_stamp 0
+
+LCM W Wed Jan  1 00:00:07 2020, 265, vSdRsnList size 31
+
+LCM I Wed Jan  1 00:00:07 2020, 266, Store mSdRsnList size 31
+
+LCM I Wed Jan  1 00:00:07 2020, 267, Store mSdRsnList mSocResetCounter 206
+
+LCM I Wed Jan  1 00:00:07 2020, 268, Store mSdRsnList mSocResetCounter 205
+
+LCM I Wed Jan  1 00:00:07 2020, 269, Store mSdRsnList mSocResetCounter 204
+
+LCM I Wed Jan  1 00:00:07 2020, 270, Store mSdRsnList mSocResetCounter 203
+
+LCM I Wed Jan  1 00:00:07 2020, 271, Store mSdRsnList mSocResetCounter 202
+
+LCM I Wed Jan  1 00:00:07 2020, 272, Store mSdRsnList mSocResetCounter 200
+
+LCM I Wed Jan  1 00:00:07 2020, 273, Store mSdRsnList mSocResetCounter 199
+
+LCM I Wed Jan  1 00:00:07 2020, 274, Store mSdRsnList mSocResetCounter 198
+
+LCM I Wed Jan  1 00:00:07 2020, 275, Store mSdRsnList mSocResetCounter 197
+
+LCM I Wed Jan  1 00:00:07 2020, 276, Store mSdRsnList mSocResetCounter 196
+
+LCM I Wed Jan  1 00:00:07 2020, 277, Store mSdRsnList mSocResetCounter 194
+
+LCM I Wed Jan  1 00:00:07 2020, 278, Store mSdRsnList mSocResetCounter 193
+
+LCM I Wed Jan  1 00:00:07 2020, 279, Store mSdRsnList mSocResetCounter 192
+
+LCM I Wed Jan  1 00:00:07 2020, 280, Store mSdRsnList mSocResetCounter 189
+
+LCM I Wed Jan  1 00:00:07 2020, 281, Store mSdRsnList mSocResetCounter 188
+
+LCM I Wed Jan  1 00:00:07 2020, 282, Store mSdRsnList mSocResetCounter 187
+
+LCM I Wed Jan  1 00:00:07 2020, 283, Store mSdRsnList mSocResetCounter 186
+
+LCM I Wed Jan  1 00:00:07 2020, 284, Store mSdRsnList mSocResetCounter 184
+
+LCM I Wed Jan  1 00:00:07 2020, 285, Store mSdRsnList mSocResetCounter 183
+
+LCM I Wed Jan  1 00:00:07 2020, 286, Store mSdRsnList mSocResetCounter 182
+
+LCM I Wed Jan  1 00:00:07 2020, 287, Store mSdRsnList mSocResetCounter 181
+
+LCM I Wed Jan  1 00:00:07 2020, 288, Store mSdRsnList mSocResetCounter 180
+
+LCM I Wed Jan  1 00:00:07 2020, 289, Store mSdRsnList mSocResetCounter 179
+
+LCM I Wed Jan  1 00:00:07 2020, 290, Store mSdRsnList mSocResetCounter 178
+
+LCM I Wed Jan  1 00:00:07 2020, 291, Store mSdRsnList mSocResetCounter 177
+
+LCM I Wed Jan  1 00:00:07 2020, 292, Store mSdRsnList mSocResetCounter 176
+
+LCM I Wed Jan  1 00:00:07 2020, 293, Store mSdRsnList mSocResetCounter 175
+
+LCM I Wed Jan  1 00:00:07 2020, 294, Store mSdRsnList mSocResetCounter 174
+
+LCM I Wed Jan  1 00:00:07 2020, 295, Store mSdRsnList mSocResetCounter 173
+
+LCM I Wed Jan  1 00:00:07 2020, 296, Store mSdRsnList mSocResetCounter 172
+
+LCM W Wed Jan  1 00:00:07 2020, 297, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Wed Jan  1 00:00:07 2020, 298, entity: jackd_media ret: 254027
+
+LCM I Wed Jan  1 00:00:07 2020, 299, jackd_media appInfos[index].pid 0 result_buf 254027
+
+LCM I Wed Jan  1 00:00:07 2020, 300, jackd_media's pid - 254027
+LCM E Wed Jan  1 00:00:07 2020, 301, detachAppPulse jackd_media ptrEntityHandle is NUL
+
+LCM I Wed Jan  1 00:00:07 2020, 302, EntityName -> jackd_media AppIxdex-> 2  HAM Condition -> 1
+LCM I Wed Jan  1 00:00:07 2020, 303, EntityName -> jackd_media AppIxdex-> 2  HAM Condition -> 3
+LCM I Wed Jan  1 00:00:07 2020, 304, EntityName -> jackd_media AppIxdex-> 2  HAM Condition -> 7
+LCM I Wed Jan  1 00:00:07 2020, 305, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_SUPPLY_STATE
+LCM I Wed Jan  1 00:00:07 2020, 306, handleSusdSetSupplyState id 4, state 0
+LCM I Wed Jan  1 00:00:07 2020, 307, SUSDDisplayClient handleSetBacklightOn on 0 mask 8.
+
+LCM I Wed Jan  1 00:00:07 2020, 308, SupportedDisplays size 3 got.
+
+LCM I Wed Jan  1 00:00:07 2020, 309, DispType DISP_IP set backlight 0 mask 8.
+
+LCM I Wed Jan  1 00:00:07 2020, 310, SUSDFdbDispatcher dispatch_publishNotificationEvents published.
+
+LCM I Wed Jan  1 00:00:07 2020, 311, entity: jackd_acoustic ret: 372792
+
+LCM I Wed Jan  1 00:00:07 2020, 312, jackd_acoustic appInfos[index].pid 0 result_buf 372792
+
+LCM I Wed Jan  1 00:00:07 2020, 313, jackd_acoustic's pid - 372792
+LCM E Wed Jan  1 00:00:07 2020, 314, detachAppPulse jackd_acoustic ptrEntityHandle is NUL
+
+LCM I Wed Jan  1 00:00:07 2020, 315, EntityName -> jackd_acoustic AppIxdex-> 3  HAM Condition -> 1
+LCM I Wed Jan  1 00:00:07 2020, 316, EntityName -> jackd_acoustic AppIxdex-> 3  HAM Condition -> 3
+LCM I Wed Jan  1 00:00:07 2020, 317, EntityName -> jackd_acoustic AppIxdex-> 3  HAM Condition -> 7
+LCM I Wed Jan  1 00:00:07 2020, 318, entity: vehicleservice ret: 57388
+
+LCM I Wed Jan  1 00:00:07 2020, 319, vehicleservice appInfos[index].pid 0 result_buf 57388
+
+LCM I Wed Jan  1 00:00:07 2020, 320, vehicleservice's pid - 57388
+LCM E Wed Jan  1 00:00:07 2020, 321, detachAppPulse vehicleservice ptrEntityHandle is NUL
+
+LCM I Wed Jan  1 00:00:07 2020, 322, EntityName -> vehicleservice AppIxdex-> 5  HAM Condition -> 1
+LCM I Wed Jan  1 00:00:07 2020, 323, EntityName -> vehicleservice AppIxdex-> 5  HAM Condition -> 3
+LCM I Wed Jan  1 00:00:07 2020, 324, EntityName -> vehicleservice AppIxdex-> 5  HAM Condition -> 7
+LCM I Wed Jan  1 00:00:07 2020, 325, entity: dispctrl ret: 204865
+
+LCM I Wed Jan  1 00:00:07 2020, 326, dispctrl appInfos[index].pid 0 result_buf 204865
+
+LCM I Wed Jan  1 00:00:07 2020, 327, dispctrl's pid - 204865
+LCM E Wed Jan  1 00:00:07 2020, 328, detachAppPulse dispctrl ptrEntityHandle is NUL
+
+LCM I Wed Jan  1 00:00:07 2020, 329, EntityName -> dispctrl AppIxdex-> 6  HAM Condition -> 1
+LCM I Wed Jan  1 00:00:07 2020, 330, EntityName -> dispctrl AppIxdex-> 6  HAM Condition -> 3
+LCM I Wed Jan  1 00:00:07 2020, 331, EntityName -> dispctrl AppIxdex-> 6  HAM Condition -> 7
+LCM I Wed Jan  1 00:00:07 2020, 332, entity: openwfd_server ret: 49186
+
+LCM I Wed Jan  1 00:00:07 2020, 333, openwfd_server appInfos[index].pid 0 result_buf 49186
+
+LCM I Wed Jan  1 00:00:07 2020, 334, openwfd_server's pid - 49186
+LCM E Wed Jan  1 00:00:07 2020, 335, detachAppPulse openwfd_server ptrEntityHandle is NUL
+
+LCM I Wed Jan  1 00:00:07 2020, 336, EntityName -> openwfd_server AppIxdex-> 7  HAM Condition -> 1
+LCM I Wed Jan  1 00:00:07 2020, 337, EntityName -> openwfd_server AppIxdex-> 7  HAM Condition -> 3
+LCM I Wed Jan  1 00:00:07 2020, 338, EntityName -> openwfd_server AppIxdex-> 7  HAM Condition -> 7
+LCM I Wed Jan  1 00:00:07 2020, 339, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Wed Jan  1 00:00:07 2020, 340, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Wed Jan  1 00:00:07 2020, 341, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM I Wed Jan  1 00:00:07 2020, 342, entity: screen ret: 69683
+
+LCM I Wed Jan  1 00:00:07 2020, 343, screen appInfos[index].pid 0 result_buf 69683
+
+LCM I Wed Jan  1 00:00:07 2020, 344, screen's pid - 69683
+LCM E Wed Jan  1 00:00:07 2020, 345, detachAppPulse screen ptrEntityHandle is NUL
+
+LCM I Wed Jan  1 00:00:07 2020, 346, EntityName -> screen AppIxdex-> 8  HAM Condition -> 1
+LCM I Wed Jan  1 00:00:07 2020, 347, EntityName -> screen AppIxdex-> 8  HAM Condition -> 3
+LCM I Wed Jan  1 00:00:07 2020, 348, EntityName -> screen AppIxdex-> 8  HAM Condition -> 7
+LCM I Wed Jan  1 00:00:08 2020, 349, entity: devb-ufs-qualcomm ret: 57384
+
+LCM I Wed Jan  1 00:00:08 2020, 350, devb-ufs-qualcomm appInfos[index].pid 0 result_buf 57384
+
+LCM I Wed Jan  1 00:00:08 2020, 351, devb-ufs-qualcomm's pid - 57384
+LCM E Wed Jan  1 00:00:08 2020, 352, detachAppPulse devb-ufs-qualcomm ptrEntityHandle is NUL
+
+LCM I Wed Jan  1 00:00:08 2020, 353, EntityName -> devb-ufs-qualcomm AppIxdex-> 9  HAM Condition -> 1
+LCM I Wed Jan  1 00:00:08 2020, 354, EntityName -> devb-ufs-qualcomm AppIxdex-> 9  HAM Condition -> 3
+LCM I Wed Jan  1 00:00:08 2020, 355, EntityName -> devb-ufs-qualcomm AppIxdex-> 9  HAM Condition -> 7
+LCM I Wed Jan  1 00:00:08 2020, 356, entity: gsl_hab_server ret: 434235
+
+LCM I Wed Jan  1 00:00:08 2020, 357, gsl_hab_server appInfos[index].pid 0 result_buf 434235
+
+LCM I Wed Jan  1 00:00:08 2020, 358, gsl_hab_server's pid - 434235
+LCM E Wed Jan  1 00:00:08 2020, 359, detachAppPulse gsl_hab_server ptrEntityHandle is NUL
+
+LCM I Wed Jan  1 00:00:08 2020, 360, EntityName -> gsl_hab_server AppIxdex-> 10  HAM Condition -> 1
+LCM I Wed Jan  1 00:00:08 2020, 361, EntityName -> gsl_hab_server AppIxdex-> 10  HAM Condition -> 3
+LCM I Wed Jan  1 00:00:08 2020, 362, EntityName -> gsl_hab_server AppIxdex-> 10  HAM Condition -> 7
+LCM I Wed Jan  1 00:00:08 2020, 363, entity: kgsl ret: 69682
+
+LCM I Wed Jan  1 00:00:08 2020, 364, kgsl appInfos[index].pid 0 result_buf 69682
+
+LCM I Wed Jan  1 00:00:08 2020, 365, kgsl's pid - 69682
+LCM E Wed Jan  1 00:00:08 2020, 366, detachAppPulse kgsl ptrEntityHandle is NUL
+
+LCM I Wed Jan  1 00:00:08 2020, 367, EntityName -> kgsl AppIxdex-> 11  HAM Condition -> 1
+LCM I Wed Jan  1 00:00:08 2020, 368, EntityName -> kgsl AppIxdex-> 11  HAM Condition -> 3
+LCM I Wed Jan  1 00:00:08 2020, 369, EntityName -> kgsl AppIxdex-> 11  HAM Condition -> 7
+LCM I Wed Jan  1 00:00:08 2020, 370, entity: qcpe_service ret: 32779
+
+LCM I Wed Jan  1 00:00:08 2020, 371, qcpe_service appInfos[index].pid 0 result_buf 32779
+
+LCM I Wed Jan  1 00:00:08 2020, 372, qcpe_service's pid - 32779
+LCM E Wed Jan  1 00:00:08 2020, 373, detachAppPulse qcpe_service ptrEntityHandle is NUL
+
+LCM I Wed Jan  1 00:00:08 2020, 374, EntityName -> qcpe_service AppIxdex-> 12  HAM Condition -> 1
+LCM I Wed Jan  1 00:00:08 2020, 375, EntityName -> qcpe_service AppIxdex-> 12  HAM Condition -> 3
+LCM I Wed Jan  1 00:00:08 2020, 376, EntityName -> qcpe_service AppIxdex-> 12  HAM Condition -> 7
+LCM W Wed Jan  1 00:00:08 2020, 377, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Wed Jan  1 00:00:08 2020, 378, entity: qcpe_qhee ret: 28680
+
+LCM I Wed Jan  1 00:00:08 2020, 379, qcpe_qhee appInfos[index].pid 0 result_buf 28680
+
+LCM I Wed Jan  1 00:00:08 2020, 380, qcpe_qhee's pid - 28680
+LCM E Wed Jan  1 00:00:08 2020, 381, detachAppPulse qcpe_qhee ptrEntityHandle is NUL
+
+LCM I Wed Jan  1 00:00:08 2020, 382, EntityName -> qcpe_qhee AppIxdex-> 13  HAM Condition -> 1
+LCM I Wed Jan  1 00:00:08 2020, 383, EntityName -> qcpe_qhee AppIxdex-> 13  HAM Condition -> 3
+LCM I Wed Jan  1 00:00:08 2020, 384, EntityName -> qcpe_qhee AppIxdex-> 13  HAM Condition -> 7
+LCM I Wed Jan  1 00:00:08 2020, 385, entity: AudioSystemControllerDeamon ret: 143398
+
+LCM I Wed Jan  1 00:00:08 2020, 386, AudioSystemControllerDeamon appInfos[index].pid 0 result_buf 143398
+
+LCM I Wed Jan  1 00:00:08 2020, 387, AudioSystemControllerDeamon's pid - 143398
+LCM E Wed Jan  1 00:00:08 2020, 388, detachAppPulse AudioSystemControllerDeamon ptrEntityHandle is NUL
+
+LCM I Wed Jan  1 00:00:08 2020, 389, EntityName -> AudioSystemControllerDeamon AppIxdex-> 14  HAM Condition -> 1
+LCM I Wed Jan  1 00:00:08 2020, 390, EntityName -> AudioSystemControllerDeamon AppIxdex-> 14  HAM Condition -> 3
+LCM I Wed Jan  1 00:00:08 2020, 391, EntityName -> AudioSystemControllerDeamon AppIxdex-> 14  HAM Condition -> 7
+LCM I Wed Jan  1 00:00:08 2020, 392, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_SUPPLY_STATE
+LCM I Wed Jan  1 00:00:08 2020, 393, handleSusdSetSupplyState id 4, state 1
+LCM I Wed Jan  1 00:00:08 2020, 394, SUSDDisplayClient handleSetBacklightOn on 1 mask 8.
+
+LCM I Wed Jan  1 00:00:08 2020, 395, SupportedDisplays size 3 got.
+
+LCM I Wed Jan  1 00:00:08 2020, 396, DispType DISP_IP set backlight 1 mask 8.
+
+LCM I Wed Jan  1 00:00:08 2020, 397, SUSDFdbDispatcher dispatch_publishNotificationEvents published.
+
+LCM I Wed Jan  1 00:00:08 2020, 398, entity: psis_server ret: 57386
+
+LCM I Wed Jan  1 00:00:08 2020, 399, psis_server appInfos[index].pid 0 result_buf 57386
+
+LCM I Wed Jan  1 00:00:08 2020, 400, psis_server's pid - 57386
+LCM E Wed Jan  1 00:00:08 2020, 401, detachAppPulse psis_server ptrEntityHandle is NUL
+
+LCM I Wed Jan  1 00:00:08 2020, 402, EntityName -> psis_server AppIxdex-> 15  HAM Condition -> 1
+LCM I Wed Jan  1 00:00:08 2020, 403, EntityName -> psis_server AppIxdex-> 15  HAM Condition -> 3
+LCM I Wed Jan  1 00:00:08 2020, 404, EntityName -> psis_server AppIxdex-> 15  HAM Condition -> 7
+LCM I Wed Jan  1 00:00:08 2020, 405, entity: variant_server ret: 925785
+
+LCM I Wed Jan  1 00:00:08 2020, 406, variant_server appInfos[index].pid 0 result_buf 925785
+
+LCM I Wed Jan  1 00:00:08 2020, 407, variant_server's pid - 925785
+LCM E Wed Jan  1 00:00:08 2020, 408, detachAppPulse variant_server ptrEntityHandle is NUL
+
+LCM I Wed Jan  1 00:00:08 2020, 409, EntityName -> variant_server AppIxdex-> 16  HAM Condition -> 1
+LCM I Wed Jan  1 00:00:08 2020, 410, EntityName -> variant_server AppIxdex-> 16  HAM Condition -> 3
+LCM I Wed Jan  1 00:00:08 2020, 411, EntityName -> variant_server AppIxdex-> 16  HAM Condition -> 7
+LCM I Wed Jan  1 00:00:08 2020, 412, entity: name_server ret: 45084
+
+LCM I Wed Jan  1 00:00:08 2020, 413, name_server appInfos[index].pid 0 result_buf 45084
+
+LCM I Wed Jan  1 00:00:08 2020, 414, name_server's pid - 45084
+LCM E Wed Jan  1 00:00:08 2020, 415, detachAppPulse name_server ptrEntityHandle is NUL
+
+LCM I Wed Jan  1 00:00:08 2020, 416, EntityName -> name_server AppIxdex-> 17  HAM Condition -> 1
+LCM I Wed Jan  1 00:00:08 2020, 417, EntityName -> name_server AppIxdex-> 17  HAM Condition -> 3
+LCM I Wed Jan  1 00:00:08 2020, 418, EntityName -> name_server AppIxdex-> 17  HAM Condition -> 7
+LCM I Wed Jan  1 00:00:08 2020, 419, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Wed Jan  1 00:00:08 2020, 420, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Wed Jan  1 00:00:08 2020, 421, entity: host_server ret: 942157
+
+LCM I Wed Jan  1 00:00:08 2020, 422, host_server appInfos[index].pid 0 result_buf 942157
+
+LCM I Wed Jan  1 00:00:08 2020, 423, host_server's pid - 942157
+LCM I Wed Jan  1 00:00:08 2020, 424, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM E Wed Jan  1 00:00:08 2020, 425, detachAppPulse host_server ptrEntityHandle is NUL
+
+LCM I Wed Jan  1 00:00:08 2020, 426, EntityName -> host_server AppIxdex-> 18  HAM Condition -> 1
+LCM I Wed Jan  1 00:00:08 2020, 427, EntityName -> host_server AppIxdex-> 18  HAM Condition -> 3
+LCM I Wed Jan  1 00:00:08 2020, 428, EntityName -> host_server AppIxdex-> 18  HAM Condition -> 7
+LCM I Wed Jan  1 00:00:09 2020, 429, entity: io-pkt-v6-hc ret: 45080
+
+LCM I Wed Jan  1 00:00:09 2020, 430, io-pkt-v6-hc appInfos[index].pid 0 result_buf 45080
+
+LCM I Wed Jan  1 00:00:09 2020, 431, io-pkt-v6-hc's pid - 45080
+LCM E Wed Jan  1 00:00:09 2020, 432, detachAppPulse io-pkt-v6-hc ptrEntityHandle is NUL
+
+LCM I Wed Jan  1 00:00:09 2020, 433, EntityName -> io-pkt-v6-hc AppIxdex-> 19  HAM Condition -> 1
+LCM I Wed Jan  1 00:00:09 2020, 434, EntityName -> io-pkt-v6-hc AppIxdex-> 19  HAM Condition -> 3
+LCM I Wed Jan  1 00:00:09 2020, 435, EntityName -> io-pkt-v6-hc AppIxdex-> 19  HAM Condition -> 7
+LCM I Wed Jan  1 00:00:09 2020, 436, entity: i2c_service ret: 45076
+
+LCM I Wed Jan  1 00:00:09 2020, 437, i2c_service appInfos[index].pid 0 result_buf 45076
+
+LCM I Wed Jan  1 00:00:09 2020, 438, i2c_service's pid - 45076
+LCM E Wed Jan  1 00:00:09 2020, 439, detachAppPulse i2c_service ptrEntityHandle is NUL
+
+LCM I Wed Jan  1 00:00:09 2020, 440, EntityName -> i2c_service AppIxdex-> 20  HAM Condition -> 1
+LCM I Wed Jan  1 00:00:09 2020, 441, EntityName -> i2c_service AppIxdex-> 20  HAM Condition -> 3
+LCM I Wed Jan  1 00:00:09 2020, 442, EntityName -> i2c_service AppIxdex-> 20  HAM Condition -> 7
+LCM I Wed Jan  1 00:00:09 2020, 443, entity: smmu_service ret: 36879
+
+LCM I Wed Jan  1 00:00:09 2020, 444, smmu_service appInfos[index].pid 0 result_buf 36879
+
+LCM I Wed Jan  1 00:00:09 2020, 445, smmu_service's pid - 36879
+LCM E Wed Jan  1 00:00:09 2020, 446, detachAppPulse smmu_service ptrEntityHandle is NUL
+
+LCM I Wed Jan  1 00:00:09 2020, 447, EntityName -> smmu_service AppIxdex-> 21  HAM Condition -> 1
+LCM I Wed Jan  1 00:00:09 2020, 448, EntityName -> smmu_service AppIxdex-> 21  HAM Condition -> 3
+LCM I Wed Jan  1 00:00:09 2020, 449, EntityName -> smmu_service AppIxdex-> 21  HAM Condition -> 7
+LCM I Wed Jan  1 00:00:09 2020, 450, entity: pipe ret: 45077
+
+LCM I Wed Jan  1 00:00:09 2020, 451, pipe appInfos[index].pid 0 result_buf 45077
+
+LCM I Wed Jan  1 00:00:09 2020, 452, pipe's pid - 45077
+LCM E Wed Jan  1 00:00:09 2020, 453, detachAppPulse pipe ptrEntityHandle is NUL
+
+LCM I Wed Jan  1 00:00:09 2020, 454, EntityName -> pipe AppIxdex-> 22  HAM Condition -> 1
+LCM I Wed Jan  1 00:00:09 2020, 455, EntityName -> pipe AppIxdex-> 22  HAM Condition -> 3
+LCM I Wed Jan  1 00:00:09 2020, 456, EntityName -> pipe AppIxdex-> 22  HAM Condition -> 7
+LCM W Wed Jan  1 00:00:09 2020, 457, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Wed Jan  1 00:00:09 2020, 458, entity: devc-pty ret: 36878
+
+LCM I Wed Jan  1 00:00:09 2020, 459, devc-pty appInfos[index].pid 0 result_buf 36878
+
+LCM I Wed Jan  1 00:00:09 2020, 460, devc-pty's pid - 36878
+LCM E Wed Jan  1 00:00:09 2020, 461, detachAppPulse devc-pty ptrEntityHandle is NUL
+
+LCM I Wed Jan  1 00:00:09 2020, 462, EntityName -> devc-pty AppIxdex-> 23  HAM Condition -> 1
+LCM I Wed Jan  1 00:00:09 2020, 463, EntityName -> devc-pty AppIxdex-> 23  HAM Condition -> 3
+LCM I Wed Jan  1 00:00:09 2020, 464, EntityName -> devc-pty AppIxdex-> 23  HAM Condition -> 7
+LCM I Wed Jan  1 00:00:09 2020, 465, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Wed Jan  1 00:00:09 2020, 466, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Wed Jan  1 00:00:09 2020, 467, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM I Wed Jan  1 00:00:09 2020, 468, entity: ais_server ret: 57389
+
+LCM I Wed Jan  1 00:00:09 2020, 469, ais_server appInfos[index].pid 0 result_buf 57389
+
+LCM I Wed Jan  1 00:00:09 2020, 470, ais_server's pid - 57389
+LCM E Wed Jan  1 00:00:09 2020, 471, detachAppPulse ais_server ptrEntityHandle is NUL
+
+LCM I Wed Jan  1 00:00:09 2020, 472, EntityName -> ais_server AppIxdex-> 24  HAM Condition -> 1
+LCM I Wed Jan  1 00:00:09 2020, 473, EntityName -> ais_server AppIxdex-> 24  HAM Condition -> 3
+LCM I Wed Jan  1 00:00:09 2020, 474, EntityName -> ais_server AppIxdex-> 24  HAM Condition -> 7
+LCM I Wed Jan  1 00:00:09 2020, 475, SUSDFdbLcmServer session online: 16, secure: 0
+
+LCM I Wed Jan  1 00:00:09 2020, 476, SUSDFdbLcmServer session online: 17, secure: 0
+
+LCM I Wed Jan  1 00:00:09 2020, 477, SUSDFdbLcmServer onInvoke msg code: SUSD_SHUTDOWN_PREPARE_COMPLETED
+LCM I Wed Jan  1 00:00:09 2020, 478, app_name diag_server register for shutdown prepare
+LCM W Wed Jan  1 00:00:10 2020, 479, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Wed Jan  1 00:00:11 2020, 480, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Wed Jan  1 00:00:11 2020, 481, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Wed Jan  1 00:00:11 2020, 482, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM I Wed Jan  1 00:00:11 2020, 483, SUSDFdbLcmServer session online: 18, secure: 0
+
+LCM I Wed Jan  1 00:00:11 2020, 484, SUSDFdbDispatcher dispatch_publishPowerMode published.
+
+LCM I Wed Jan  1 00:00:11 2020, 485, IviPowerServer IVI_POWER_STATE_CHANGED power_state ON_FULL
+
+LCM W Wed Jan  1 00:00:11 2020, 486, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Wed Jan  1 00:00:11 2020, 487, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Wed Jan  1 00:00:11 2020, 488, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Wed Jan  1 00:00:11 2020, 489, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Wed Jan  1 00:00:12 2020, 490, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Wed Jan  1 00:00:12 2020, 491, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Wed Jan  1 00:00:12 2020, 492, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Wed Jan  1 00:00:12 2020, 493, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM I Wed Jan  1 00:00:13 2020, 494, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Wed Jan  1 00:00:13 2020, 495, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Wed Jan  1 00:00:13 2020, 496, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_SUPPLY_STATE
+LCM I Wed Jan  1 00:00:13 2020, 497, handleSusdSetSupplyState id 4, state 0
+LCM I Wed Jan  1 00:00:13 2020, 498, SUSDDisplayClient handleSetBacklightOn on 0 mask 8.
+
+LCM I Wed Jan  1 00:00:13 2020, 499, SupportedDisplays size 3 got.
+
+LCM I Wed Jan  1 00:00:13 2020, 500, DispType DISP_IP set backlight 0 mask 8.
+
+LCM I Wed Jan  1 00:00:13 2020, 501, SUSDFdbDispatcher dispatch_publishNotificationEvents published.
+
+LCM I Wed Jan  1 00:00:13 2020, 502, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Wed Jan  1 00:00:13 2020, 503, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Wed Jan  1 00:00:13 2020, 504, SUSDFdbLcmServer session online: 19, secure: 0
+
+LCM I Wed Jan  1 00:00:13 2020, 505, SUSDFdbDispatcher dispatch_publishPowerMode published.
+
+LCM I Wed Jan  1 00:00:13 2020, 506, IviPowerServer IVI_POWER_STATE_CHANGED power_state ON_FULL
+
+LCM I Wed Jan  1 00:00:14 2020, 507, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_SUPPLY_STATE
+LCM I Wed Jan  1 00:00:14 2020, 508, handleSusdSetSupplyState id 4, state 1
+LCM I Wed Jan  1 00:00:14 2020, 509, SUSDDisplayClient handleSetBacklightOn on 1 mask 8.
+
+LCM I Wed Jan  1 00:00:14 2020, 510, SupportedDisplays size 3 got.
+
+LCM I Wed Jan  1 00:00:14 2020, 511, DispType DISP_IP set backlight 1 mask 8.
+
+LCM I Wed Jan  1 00:00:14 2020, 512, SUSDFdbDispatcher dispatch_publishNotificationEvents published.
+
+LCM I Wed Jan  1 00:00:14 2020, 513, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Wed Jan  1 00:00:14 2020, 514, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Wed Jan  1 00:00:14 2020, 515, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Wed Jan  1 00:00:14 2020, 516, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM E Wed Jan  1 00:00:14 2020, 517, current log path is cycle_196
+
+LCM W Wed Jan  1 00:00:15 2020, 518, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Wed Jan  1 00:00:15 2020, 519, SUSDFdbLcmServer session online: 20, secure: 0
+
+LCM I Wed Jan  1 00:00:15 2020, 520, SUSDFdbLcmServer onInvoke msg code: SUSD_SHUTDOWN_PREPARE_COMPLETED
+LCM I Wed Jan  1 00:00:15 2020, 521, app_name log_storage register for shutdown prepare
+LCM I Wed Jan  1 00:00:15 2020, 522, SUSDIviClient session online: 0, secure: 1
+
+LCM I Wed Jan  1 00:00:15 2020, 523, SUSDFdbLcmServer session online: 21, secure: 1
+
+LCM I Wed Jan  1 00:00:16 2020, 524, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_IVI_POWER_LEVEL
+LCM I Wed Jan  1 00:00:16 2020, 525, Sent LCM_REPORT_POWER_LEVEL 4
+LCM E Wed Jan  1 00:00:16 2020, 526, IVI_INC_READY in SUSD_IVI_ON 2!
+
+LCM I Wed Jan  1 00:00:16 2020, 527, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_IVI_POWER_LEVEL
+LCM I Wed Jan  1 00:00:16 2020, 528, Sent LCM_REPORT_POWER_LEVEL 5
+LCM I Wed Jan  1 00:00:16 2020, 529, DisplayPowerModeChanged mPowerDispActive 1 mIpkDispActive 1 mIpkTransportActive 0
+
+LCM I Wed Jan  1 00:00:16 2020, 530, DisplayPowerModeChanged mStatic2DispActive 0 mVoltDispActive 0 mThermalDispActive 0
+
+LCM I Wed Jan  1 00:00:16 2020, 531, DisplayPowerModeChanged ivi_disp 1 cluster_disp 1
+
+LCM I Wed Jan  1 00:00:16 2020, 532, app_name IVI android register for shutdown prepare
+LCM I Wed Jan  1 00:00:16 2020, 533, SUSDFdbDispatcher dispatch_publishPowerMode published.
+
+LCM I Wed Jan  1 00:00:16 2020, 534, IviPowerServer IVI_POWER_STATE_CHANGED power_state ON_FULL
+
+LCM I Wed Jan  1 00:00:16 2020, 535, SUSDFdbDispatcher dispatch_publishPowerMode published.
+
+LCM I Wed Jan  1 00:00:16 2020, 536, IviPowerServer IVI_POWER_STATE_CHANGED power_state ON_FULL
+
+LCM W Wed Jan  1 00:00:16 2020, 537, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Wed Jan  1 00:00:16 2020, 538, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Wed Jan  1 00:00:16 2020, 539, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Wed Jan  1 00:00:16 2020, 540, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM I Wed Jan  1 00:00:16 2020, 541, EVT_LCM_RTC_UPDATE_EVENTS sync!
+LCM I Wed Jan  1 00:00:16 2020, 542, dispatch_publishLcmTimerEvent SUSD_SOC_START 1577836797978.
+
+LCM I Wed Jan  1 00:00:16 2020, 543, SUSDFdbDispatcher dispatch_publishLcmTimerEvent published.
+
+LCM I Wed Jan  1 00:00:16 2020, 544, mSocStartTimeTs 1577836797978!
+LCM I Wed Jan  1 00:00:16 2020, 545, mAndroidStartTs 1577836813079!
+LCM I Wed Jan  1 00:00:16 2020, 546, dispatch_publishLcmTimerEvent SUSD_ANDROID_STARTED 1577836813079.
+
+LCM I Wed Jan  1 00:00:16 2020, 547, SUSDFdbDispatcher dispatch_publishLcmTimerEvent published.
+
+LCM I Wed Jan  1 00:00:16 2020, 548, dispatch_publishLcmTimerEvent SUSD_ACC_ON_TIME 1577836799993.
+
+LCM I Wed Jan  1 00:00:16 2020, 549, SUSDFdbDispatcher dispatch_publishLcmTimerEvent published.
+
+LCM I Wed Jan  1 00:00:16 2020, 550, mAccOnTimeTs 1577836799993!
+LCM I Wed Jan  1 00:00:16 2020, 551, dispatch_publishLcmTimerEvent SUSD_IGNITE_ON_TIME 1577836799939.
+
+LCM I Wed Jan  1 00:00:16 2020, 552, SUSDFdbDispatcher dispatch_publishLcmTimerEvent published.
+
+LCM I Wed Jan  1 00:00:16 2020, 553, mIgnOnTimeTs 1577836799939!
+LCM W Wed Jan  1 00:00:17 2020, 554, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Wed Jan  1 00:00:17 2020, 555, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Wed Jan  1 00:00:17 2020, 556, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Wed Jan  1 00:00:17 2020, 557, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM I Wed Jan  1 00:00:18 2020, 558, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_SUPPLY_STATE
+LCM I Wed Jan  1 00:00:18 2020, 559, handleSusdSetSupplyState id 4, state 0
+LCM I Wed Jan  1 00:00:18 2020, 560, SUSDDisplayClient handleSetBacklightOn on 0 mask 8.
+
+LCM I Wed Jan  1 00:00:18 2020, 561, SupportedDisplays size 3 got.
+
+LCM I Wed Jan  1 00:00:18 2020, 562, DispType DISP_IP set backlight 0 mask 8.
+
+LCM I Wed Jan  1 00:00:18 2020, 563, SUSDFdbDispatcher dispatch_publishNotificationEvents published.
+
+LCM I Wed Jan  1 00:00:18 2020, 564, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Wed Jan  1 00:00:18 2020, 565, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Wed Jan  1 00:00:18 2020, 566, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Wed Jan  1 00:00:18 2020, 567, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Wed Jan  1 00:00:19 2020, 568, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_SUPPLY_STATE
+LCM I Wed Jan  1 00:00:19 2020, 569, handleSusdSetSupplyState id 4, state 1
+LCM I Wed Jan  1 00:00:19 2020, 570, SUSDDisplayClient handleSetBacklightOn on 1 mask 8.
+
+LCM I Wed Jan  1 00:00:19 2020, 571, SupportedDisplays size 3 got.
+
+LCM I Wed Jan  1 00:00:19 2020, 572, DispType DISP_IP set backlight 1 mask 8.
+
+LCM I Wed Jan  1 00:00:19 2020, 573, SUSDFdbDispatcher dispatch_publishNotificationEvents published.
+
+LCM I Wed Jan  1 00:00:19 2020, 574, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Wed Jan  1 00:00:19 2020, 575, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Wed Jan  1 00:00:19 2020, 576, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Wed Jan  1 00:00:19 2020, 577, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Wed Jan  1 00:00:20 2020, 578, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Wed Jan  1 00:00:20 2020, 579, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Wed Jan  1 00:00:20 2020, 580, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Wed Jan  1 00:00:20 2020, 581, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Wed Jan  1 00:00:21 2020, 582, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Wed Jan  1 00:00:21 2020, 583, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Wed Jan  1 00:00:21 2020, 584, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM I Wed Jan  1 00:00:21 2020, 585, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Wed Jan  1 00:00:21 2020, 586, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Wed Jan  1 00:00:21 2020, 587, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Wed Jan  1 00:00:21 2020, 588, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Wed Jan  1 00:00:22 2020, 589, SUSDFdbLcmServer onInvoke msg code: BC_GET_ACTIVE_BOOT_MODE
+LCM I Wed Jan  1 00:00:22 2020, 590, gwm_BootControl_GetActiveBootMode called mode 0
+
+LCM I Wed Jan  1 00:00:22 2020, 591, SUSDFdbLcmServer onInvoke msg code: VEHICLE_POWER_STATE_REPORT
+LCM I Wed Jan  1 00:00:22 2020, 592, SUSDFdbLcmServer VEHICLE_POWER_STATE_REPORT BOOT_COMPLETE delay 0
+LCM I Wed Jan  1 00:00:22 2020, 593, Vehicle hal BOOT_COMPLETE!
+
+LCM I Wed Jan  1 00:00:22 2020, 594, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Wed Jan  1 00:00:22 2020, 595, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Wed Jan  1 00:00:22 2020, 596, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Wed Jan  1 00:00:22 2020, 597, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM W Wed Jan  1 00:00:23 2020, 598, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM W Mon Apr 15 16:54:40 2024, 599, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:54:40 2024, 600, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:54:40 2024, 601, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:54:40 2024, 602, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:54:41 2024, 603, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:54:41 2024, 604, LcmPersist read freeze_config success as 1
+LCM I Mon Apr 15 16:54:41 2024, 605, mFreezeModeEnabled and FreezeTime got 300s
+
+LCM I Mon Apr 15 16:54:41 2024, 606, SUSDFdbDispatcher LCM_SET_FREEZE_MODE_ENABLE 1 sent
+
+LCM I Mon Apr 15 16:54:41 2024, 607, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:54:41 2024, 608, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:54:41 2024, 609, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:54:42 2024, 610, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:54:42 2024, 611, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:54:42 2024, 612, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:54:42 2024, 613, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:54:43 2024, 614, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:54:43 2024, 615, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:54:43 2024, 616, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:54:43 2024, 617, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM I Mon Apr 15 16:54:43 2024, 618, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:54:43 2024, 619, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:54:43 2024, 620, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:54:44 2024, 621, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:54:44 2024, 622, IviPowerServer IVI_POWER_STATE_CHANGED power_state ON_FULL
+
+LCM W Mon Apr 15 16:54:44 2024, 623, handleAnimationReadyTimeout Animation abnormal
+
+LCM W Mon Apr 15 16:54:44 2024, 624, processIpkEvent event 17 in IPK_IGNITE_ON
+
+LCM I Mon Apr 15 16:54:44 2024, 625, SUSDPowerModeChanged power_mode PM_NORMAL, voltage_state VOLTAGE_NORMAL, ps_mode SUSD_TRANPORT_OFF, ipk_mode IPK_IGNITE_ON
+
+LCM I Mon Apr 15 16:54:44 2024, 626, IVI Display ON, Cluster Display ON, Audio ON
+
+LCM I Mon Apr 15 16:54:44 2024, 627, SUSDFdbDispatcher dispatch_publishPowerMode published.
+
+LCM I Mon Apr 15 16:54:44 2024, 628, IviPowerServer IVI_POWER_STATE_CHANGED power_state ON_FULL
+
+LCM I Mon Apr 15 16:54:44 2024, 629, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_ANIMATION_STATUS
+LCM I Mon Apr 15 16:54:44 2024, 630, SUSDSetAnimationStatus changed to SUSD_ANIMATION_READY
+LCM W Mon Apr 15 16:54:44 2024, 631, processIpkEvent event 17 in IPK_IGNITE_ON
+
+LCM W Mon Apr 15 16:54:44 2024, 632, SUSD_ANIMATION_READY
+LCM I Mon Apr 15 16:54:44 2024, 633, IviPowerServer IVI_POWER_STATE_CHANGED power_state ON_FULL
+
+LCM I Mon Apr 15 16:54:44 2024, 634, DisplayPowerModeChanged mPowerDispActive 1 mIpkDispActive 1 mIpkTransportActive 0
+
+LCM I Mon Apr 15 16:54:44 2024, 635, DisplayPowerModeChanged mStatic2DispActive 0 mVoltDispActive 0 mThermalDispActive 0
+
+LCM I Mon Apr 15 16:54:44 2024, 636, DisplayPowerModeChanged ivi_disp 1 cluster_disp 1
+
+LCM I Mon Apr 15 16:54:44 2024, 637, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:54:44 2024, 638, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:54:44 2024, 639, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:54:45 2024, 640, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:54:45 2024, 641, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:54:45 2024, 642, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:54:45 2024, 643, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:54:46 2024, 644, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:54:46 2024, 645, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:54:46 2024, 646, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:54:46 2024, 647, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM I Mon Apr 15 16:54:46 2024, 648, SUSDFdbLcmServer session shutdown: 10, secure: 0
+
+LCM W Mon Apr 15 16:54:47 2024, 649, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM W Mon Apr 15 16:54:48 2024, 650, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:54:49 2024, 651, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:54:49 2024, 652, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:54:49 2024, 653, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:54:49 2024, 654, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:54:50 2024, 655, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:54:50 2024, 656, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:54:50 2024, 657, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:54:50 2024, 658, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:54:50 2024, 659, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:54:50 2024, 660, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:54:50 2024, 661, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:54:51 2024, 662, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:54:51 2024, 663, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:54:51 2024, 664, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:54:51 2024, 665, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM I Mon Apr 15 16:54:52 2024, 666, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:54:52 2024, 667, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:54:52 2024, 668, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:54:52 2024, 669, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:54:53 2024, 670, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:54:53 2024, 671, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:54:53 2024, 672, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:54:53 2024, 673, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:54:53 2024, 674, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:54:53 2024, 675, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:54:53 2024, 676, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:54:54 2024, 677, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:54:54 2024, 678, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:54:54 2024, 679, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:54:54 2024, 680, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:54:55 2024, 681, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM W Mon Apr 15 16:54:56 2024, 682, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:54:57 2024, 683, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:54:57 2024, 684, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:54:57 2024, 685, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:54:57 2024, 686, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:54:57 2024, 687, LCM dcvs is ready for 37500 ms!
+
+LCM I Mon Apr 15 16:54:57 2024, 688, LCM DisableDcvs cmd: echo 1 > /dev/pdbg/qcore/dcvs/force_max_freqency
+
+LCM I Mon Apr 15 16:54:57 2024, 689, RegisterForVMMNotification - exit
+LCM I Mon Apr 15 16:54:58 2024, 690, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:54:58 2024, 691, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:54:58 2024, 692, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:54:58 2024, 693, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:54:58 2024, 694, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:54:58 2024, 695, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:54:58 2024, 696, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:54:59 2024, 697, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:54:59 2024, 698, SUSDFdbLcmServer session shutdown: 8, secure: 0
+
+LCM I Mon Apr 15 16:54:59 2024, 699, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:54:59 2024, 700, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:54:59 2024, 701, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:55:00 2024, 702, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:55:00 2024, 703, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:00 2024, 704, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:00 2024, 705, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:55:01 2024, 706, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:55:01 2024, 707, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:01 2024, 708, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:01 2024, 709, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM I Mon Apr 15 16:55:01 2024, 710, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:01 2024, 711, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:01 2024, 712, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:55:02 2024, 713, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:55:02 2024, 714, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:02 2024, 715, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:02 2024, 716, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:55:03 2024, 717, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM W Mon Apr 15 16:55:04 2024, 718, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM W Mon Apr 15 16:55:05 2024, 719, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:55:05 2024, 720, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:05 2024, 721, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:05 2024, 722, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:55:06 2024, 723, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:55:06 2024, 724, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:06 2024, 725, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:06 2024, 726, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM I Mon Apr 15 16:55:06 2024, 727, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:06 2024, 728, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:07 2024, 729, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:55:07 2024, 730, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:55:08 2024, 731, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:08 2024, 732, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:08 2024, 733, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:55:08 2024, 734, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:55:08 2024, 735, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:08 2024, 736, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:08 2024, 737, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:55:09 2024, 738, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:55:09 2024, 739, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:09 2024, 740, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:09 2024, 741, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM I Mon Apr 15 16:55:10 2024, 742, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:10 2024, 743, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:10 2024, 744, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:55:10 2024, 745, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:55:11 2024, 746, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:11 2024, 747, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:11 2024, 748, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:55:11 2024, 749, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM W Mon Apr 15 16:55:12 2024, 750, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM W Mon Apr 15 16:55:13 2024, 751, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:55:13 2024, 752, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:13 2024, 753, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:13 2024, 754, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM E Mon Apr 15 16:55:13 2024, 755, LCM_READ_SHUTDOWN_REASON sent
+
+LCM I Mon Apr 15 16:55:13 2024, 756, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_SHUTDOWN_REASON received
+LCM W Mon Apr 15 16:55:13 2024, 757, sd_counter 206, reset_time_stamp 946684800
+
+LCM W Mon Apr 15 16:55:13 2024, 758, sd_counter 0, reset_time_stamp 0
+
+LCM W Mon Apr 15 16:55:13 2024, 759, sd_counter 0, reset_time_stamp 0
+
+LCM W Mon Apr 15 16:55:13 2024, 760, sd_counter 0, reset_time_stamp 0
+
+LCM W Mon Apr 15 16:55:13 2024, 761, sd_counter 0, reset_time_stamp 0
+
+LCM W Mon Apr 15 16:55:13 2024, 762, vSdRsnList size 31
+
+LCM W Mon Apr 15 16:55:14 2024, 763, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:55:14 2024, 764, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:14 2024, 765, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:14 2024, 766, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM I Mon Apr 15 16:55:15 2024, 767, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:15 2024, 768, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:15 2024, 769, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:55:15 2024, 770, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:55:16 2024, 771, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:16 2024, 772, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:16 2024, 773, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:55:16 2024, 774, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:55:16 2024, 775, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:16 2024, 776, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:16 2024, 777, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:55:17 2024, 778, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:55:17 2024, 779, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:17 2024, 780, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:17 2024, 781, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:55:18 2024, 782, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:55:18 2024, 783, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:18 2024, 784, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:18 2024, 785, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:55:19 2024, 786, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:55:19 2024, 787, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:19 2024, 788, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:19 2024, 789, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:55:20 2024, 790, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM W Mon Apr 15 16:55:21 2024, 791, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:55:21 2024, 792, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:21 2024, 793, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:21 2024, 794, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:55:22 2024, 795, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:55:22 2024, 796, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:22 2024, 797, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:22 2024, 798, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM I Mon Apr 15 16:55:23 2024, 799, SUSDFdbLcmServer onInvoke msg code: SUSD_READ_SHUTDOWN_REASON
+LCM E Mon Apr 15 16:55:23 2024, 800, gwm_BootControl_GetRecoveryReason_Bitmask reset_reason 0
+
+LCM I Mon Apr 15 16:55:23 2024, 801, SUSDLastPowerCycleReason SUSD_SOC_ERROR_RECOVERY!
+
+LCM I Mon Apr 15 16:55:23 2024, 802, SUSDPowerCycleReason SUSD_REBOOT_REASON_ERROR_RECOVERY!
+
+LCM I Mon Apr 15 16:55:23 2024, 803, time_stamp 1577836797978!
+
+LCM I Mon Apr 15 16:55:23 2024, 804, boot_counter 206!
+
+LCM E Mon Apr 15 16:55:23 2024, 805, LCM_READ_SHUTDOWN_REASON sent
+
+LCM I Mon Apr 15 16:55:23 2024, 806, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_SHUTDOWN_REASON received
+LCM W Mon Apr 15 16:55:23 2024, 807, sd_counter 206, reset_time_stamp 946684800
+
+LCM W Mon Apr 15 16:55:23 2024, 808, sd_counter 0, reset_time_stamp 0
+
+LCM W Mon Apr 15 16:55:23 2024, 809, sd_counter 0, reset_time_stamp 0
+
+LCM W Mon Apr 15 16:55:23 2024, 810, sd_counter 0, reset_time_stamp 0
+
+LCM W Mon Apr 15 16:55:23 2024, 811, sd_counter 0, reset_time_stamp 0
+
+LCM W Mon Apr 15 16:55:23 2024, 812, vSdRsnList size 31
+
+LCM W Mon Apr 15 16:55:23 2024, 813, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:55:23 2024, 814, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:23 2024, 815, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:23 2024, 816, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:55:24 2024, 817, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:55:24 2024, 818, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:24 2024, 819, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:24 2024, 820, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM I Mon Apr 15 16:55:24 2024, 821, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:24 2024, 822, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:24 2024, 823, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:55:25 2024, 824, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:55:25 2024, 825, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:25 2024, 826, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:25 2024, 827, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:55:26 2024, 828, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:55:26 2024, 829, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:26 2024, 830, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:26 2024, 831, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:55:27 2024, 832, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:55:27 2024, 833, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:27 2024, 834, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:27 2024, 835, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:55:28 2024, 836, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM W Mon Apr 15 16:55:29 2024, 837, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:55:30 2024, 838, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:30 2024, 839, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:30 2024, 840, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:55:30 2024, 841, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:55:31 2024, 842, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:31 2024, 843, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:31 2024, 844, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:55:31 2024, 845, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:55:31 2024, 846, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:31 2024, 847, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:31 2024, 848, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:55:32 2024, 849, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:55:32 2024, 850, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:32 2024, 851, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:32 2024, 852, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM I Mon Apr 15 16:55:33 2024, 853, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:33 2024, 854, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:33 2024, 855, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:55:33 2024, 856, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:55:34 2024, 857, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:34 2024, 858, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:34 2024, 859, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:55:34 2024, 860, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:55:34 2024, 861, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:34 2024, 862, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:34 2024, 863, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:55:35 2024, 864, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:55:35 2024, 865, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:35 2024, 866, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:35 2024, 867, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:55:36 2024, 868, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM W Mon Apr 15 16:55:37 2024, 869, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:55:38 2024, 870, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:38 2024, 871, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:38 2024, 872, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:55:38 2024, 873, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:55:39 2024, 874, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:39 2024, 875, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:39 2024, 876, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:55:39 2024, 877, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:55:39 2024, 878, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:39 2024, 879, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:39 2024, 880, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:55:40 2024, 881, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:55:40 2024, 882, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:40 2024, 883, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:40 2024, 884, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:55:41 2024, 885, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:55:41 2024, 886, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:41 2024, 887, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:41 2024, 888, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:55:42 2024, 889, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:55:42 2024, 890, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:42 2024, 891, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:42 2024, 892, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM I Mon Apr 15 16:55:42 2024, 893, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:42 2024, 894, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:42 2024, 895, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:55:43 2024, 896, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:55:43 2024, 897, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:43 2024, 898, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:43 2024, 899, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:55:44 2024, 900, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM W Mon Apr 15 16:55:45 2024, 901, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM W Mon Apr 15 16:55:46 2024, 902, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:55:46 2024, 903, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:46 2024, 904, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:46 2024, 905, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:55:47 2024, 906, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+
+LCM I Mon Apr 15 16:55:47 2024, 907, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:47 2024, 908, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:47 2024, 909, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM I Mon Apr 15 16:55:48 2024, 910, SUSDFdbLcmServer onInvoke msg code: SUSD_SET_CAMERA_POWER_REQ
+LCM I Mon Apr 15 16:55:48 2024, 911, SUSDFdbDispatcher LCM_SET_CAMERA_POWER_REQ sent
+LCM I Mon Apr 15 16:55:48 2024, 912, SUSDFdbLcmClient onBroadcast Message LCM_REPORT_CAMERA_POWER_RSP received
+LCM W Mon Apr 15 16:55:48 2024, 913, LCM send LCM_RTOS_STATE_OF_HEALTH to SCC
+

@@ -1,0 +1,87 @@
+Network Interface check: time=01-01 08:00:05.001
+
+ifconfig -a
+bond0     Link encap:Ethernet  HWaddr 56:3e:bd:40:0b:2f
+          BROADCAST MASTER MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 TX bytes:0 
+
+wlan2     Link encap:Ethernet  HWaddr 2a:0f:eb:50:06:49
+          BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 TX bytes:0 
+
+vt3       Link encap:Ethernet  HWaddr aa:aa:aa:aa:aa:b3  Driver virtio_net
+          inet addr:192.168.118.1  Bcast:0.0.0.0  Mask:255.255.255.0 
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:818 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:872 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:121741 TX bytes:61360 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0 
+          inet6 addr: ::1/128 Scope: Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:2 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:2 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:80 TX bytes:80 
+
+wlan1     Link encap:Ethernet  HWaddr 2a:0f:eb:50:06:49
+          BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 TX bytes:0 
+
+dummy0    Link encap:Ethernet  HWaddr 46:f3:45:99:ec:7a
+          inet6 addr: fe80::44f3:45ff:fe99:ec7a/64 Scope: Link
+          UP BROADCAST RUNNING NOARP  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:18 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 TX bytes:3281 
+
+sit0      Link encap:IPv6-in-IPv4  
+          NOARP  MTU:1480  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 TX bytes:0 
+
+veth0     Link encap:Ethernet  HWaddr 02:47:00:00:00:2b  Driver virtio_net
+          inet addr:10.0.0.43  Bcast:0.0.0.0  Mask:255.255.0.0 
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:5 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:17 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:342 TX bytes:2167 
+
+wlan0     Link encap:Ethernet  HWaddr 28:0f:eb:50:06:49
+          inet addr:192.168.7.16  Bcast:192.168.7.255  Mask:255.255.255.0 
+          inet6 addr: fe80::2a0f:ebff:fe50:649/64 Scope: Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:21 errors:0 dropped:30 overruns:0 frame:0 
+          TX packets:19 errors:0 dropped:2 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:3412 TX bytes:2877 
+
+==================
+PING 192.168.118.2 (192.168.118.2) 56(84) bytes of data.
+64 bytes from 192.168.118.2: icmp_seq=1 ttl=255 time=0.208 ms
+
+--- 192.168.118.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.208/0.208/0.208/0.000 ms
+==================
+PING 192.168.118.2 (192.168.118.2) 56(84) bytes of data.
+64 bytes from 192.168.118.2: icmp_seq=1 ttl=255 time=0.760 ms
+
+--- 192.168.118.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.760/0.760/0.760/0.000 ms

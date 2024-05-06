@@ -1,0 +1,164 @@
+2024-04-15 16:53:09.81     a2b.143400                 a2b_setup       34911  8 I Unregister notification done 
+
+2024-04-15 16:53:09.81     a2b.143400                 a2b_setup       34912  8 I Stop IRQ done... 
+
+2024-04-15 16:53:09.81     a2b.143400                 a2b_setup       34913  8 I Free Stack context done 
+
+2024-04-15 16:53:09.81     a2b.143400                 a2b_setup       34914  8 I Free heap done 
+
+2024-04-15 16:53:09.81     a2b.143400                 a2b_setup       34915  8 I Reset context done 
+
+2024-04-15 16:53:09.81     a2b.143400                 a2b_setup       34916  8 I System Init done 
+
+2024-04-15 16:53:09.81     a2b.143400                 a2b_setup       34917  8 I PAL Init done 
+
+2024-04-15 16:53:09.81     a2b.143400                 a2b_setup       34918  8 I 
+Using SigmaStudio BCF File
+
+2024-04-15 16:53:09.81     a2b.143400                 a2b_setup       34919  8 I BCF parse done 
+
+2024-04-15 16:53:09.81     a2b.143400                 a2b_setup       34920  8 I BDD PAL Init done 
+
+2024-04-15 16:53:09.81     a2b.143400                 a2b_setup       34921  8 I Allocate Heap done 
+
+2024-04-15 16:53:09.81     a2b.143400                 a2b_setup       34922  8 I Master plugin load done 
+
+2024-04-15 16:53:09.81     a2b.143400                 a2b_setup       34923  8 I Slave plugins load done 
+
+2024-04-15 16:53:09.81     a2b.143400                 a2b_setup       34924  8 I Allocate Stack done 
+
+2024-04-15 16:53:09.86     a2b.143400                 a2b_setup       34925  8 I Triggering discovery... 
+
+2024-04-15 16:53:09.87     a2b.143400                 a2b_setup       34926  8 W INTERRUPT: intrType=255 nodeAddr=-1
+
+2024-04-15 16:53:09.120    a2b.143400                 a2b_setup       34927  8 W INTERRUPT: intrType=12 nodeAddr=-1
+
+2024-04-15 16:53:09.120    a2b.143400                 a2b_setup       34928  8 I 
+ Line fault During Discovery: 
+2024-04-15 16:53:09.121    a2b.143400                 a2b_setup       34929  8 I Fault detected on Master node: 
+2024-04-15 16:53:09.121    a2b.143400                 a2b_setup       34930  8 I Cable Disconnected or Open Circuit
+
+2024-04-15 16:53:09.121    a2b.143400                 a2b_setup       34931  8 I Discovery failed! status is 17
+2024-04-15 16:53:10.173    a2b.143400                 a2b_setup       34933  8 I Unregister notification done 
+
+2024-04-15 16:53:10.173    a2b.143400                 a2b_setup       34934  8 I Stop IRQ done... 
+
+2024-04-15 16:53:10.173    a2b.143400                 a2b_setup       34935  8 I Free Stack context done 
+
+2024-04-15 16:53:10.173    a2b.143400                 a2b_setup       34936  8 I Free heap done 
+
+2024-04-15 16:53:10.173    a2b.143400                 a2b_setup       34937  8 I Reset context done 
+
+2024-04-15 16:53:10.173    a2b.143400                 a2b_setup       34938  8 I System Init done 
+
+2024-04-15 16:53:10.173    a2b.143400                 a2b_setup       34939  8 I PAL Init done 
+
+2024-04-15 16:53:10.173    a2b.143400                 a2b_setup       34940  8 I 
+Using SigmaStudio BCF File
+
+2024-04-15 16:53:10.173    a2b.143400                 a2b_setup       34941  8 I BCF parse done 
+
+2024-04-15 16:53:10.173    a2b.143400                 a2b_setup       34942  8 I BDD PAL Init done 
+
+2024-04-15 16:53:10.173    a2b.143400                 a2b_setup       34943  8 I Allocate Heap done 
+
+2024-04-15 16:53:10.173    a2b.143400                 a2b_setup       34944  8 I Master plugin load done 
+
+2024-04-15 16:53:10.173    a2b.143400                 a2b_setup       34945  8 I Slave plugins load done 
+
+2024-04-15 16:53:10.173    a2b.143400                 a2b_setup       34946  8 I Allocate Stack done 
+
+2024-04-15 16:53:10.178    a2b.143400                 a2b_setup       34947  8 I Triggering discovery... 
+
+2024-04-15 16:53:10.179    a2b.143400                 a2b_setup       34948  8 W INTERRUPT: intrType=255 nodeAddr=-1
+
+2024-04-15 16:53:10.212    a2b.143400                 a2b_setup       34949  8 W INTERRUPT: intrType=12 nodeAddr=-1
+
+2024-04-15 16:53:10.212    a2b.143400                 a2b_setup       34950  8 I 
+ Line fault During Discovery: 
+2024-04-15 16:53:10.212    a2b.143400                 a2b_setup       34951  8 I Fault detected on Master node: 
+2024-04-15 16:53:10.212    a2b.143400                 a2b_setup       34952  8 I Cable Disconnected or Open Circuit
+
+2024-04-15 16:53:10.213    a2b.143400                 a2b_setup       34953  8 I Discovery failed! status is 17
+2024-04-15 16:53:11.265    a2b.143400                 a2b_setup       34955  8 I Unregister notification done 
+
+2024-04-15 16:53:11.265    a2b.143400                 a2b_setup       34956  8 I Stop IRQ done... 
+
+2024-04-15 16:53:11.265    a2b.143400                 a2b_setup       34957  8 I Free Stack context done 
+
+2024-04-15 16:53:11.265    a2b.143400                 a2b_setup       34958  8 I Free heap done 
+
+2024-04-15 16:53:11.265    a2b.143400                 a2b_setup       34959  8 I Reset context done 
+
+2024-04-15 16:53:11.265    a2b.143400                 a2b_setup       34960  8 I System Init done 
+
+2024-04-15 16:53:11.265    a2b.143400                 a2b_setup       34961  8 I PAL Init done 
+
+2024-04-15 16:53:11.265    a2b.143400                 a2b_setup       34962  8 I 
+Using SigmaStudio BCF File
+
+2024-04-15 16:53:11.265    a2b.143400                 a2b_setup       34963  8 I BCF parse done 
+
+2024-04-15 16:53:11.265    a2b.143400                 a2b_setup       34964  8 I BDD PAL Init done 
+
+2024-04-15 16:53:11.265    a2b.143400                 a2b_setup       34965  8 I Allocate Heap done 
+
+2024-04-15 16:53:11.265    a2b.143400                 a2b_setup       34966  8 I Master plugin load done 
+
+2024-04-15 16:53:11.265    a2b.143400                 a2b_setup       34967  8 I Slave plugins load done 
+
+2024-04-15 16:53:11.265    a2b.143400                 a2b_setup       34968  8 I Allocate Stack done 
+
+2024-04-15 16:53:11.270    a2b.143400                 a2b_setup       34969  8 I Triggering discovery... 
+
+2024-04-15 16:53:11.271    a2b.143400                 a2b_setup       34970  8 W INTERRUPT: intrType=255 nodeAddr=-1
+
+2024-04-15 16:53:11.304    a2b.143400                 a2b_setup       34971  8 W INTERRUPT: intrType=12 nodeAddr=-1
+
+2024-04-15 16:53:11.304    a2b.143400                 a2b_setup       34972  8 I 
+ Line fault During Discovery: 
+2024-04-15 16:53:11.304    a2b.143400                 a2b_setup       34973  8 I Fault detected on Master node: 
+2024-04-15 16:53:11.304    a2b.143400                 a2b_setup       34974  8 I Cable Disconnected or Open Circuit
+
+2024-04-15 16:53:11.304    a2b.143400                 a2b_setup       34975  8 I Discovery failed! status is 17
+2024-04-15 16:53:12.355    a2b.143400                 a2b_setup       34977  8 I Unregister notification done 
+
+2024-04-15 16:53:12.355    a2b.143400                 a2b_setup       34978  8 I Stop IRQ done... 
+
+2024-04-15 16:53:12.355    a2b.143400                 a2b_setup       34979  8 I Free Stack context done 
+
+2024-04-15 16:53:12.355    a2b.143400                 a2b_setup       34980  8 I Free heap done 
+
+2024-04-15 16:53:12.355    a2b.143400                 a2b_setup       34981  8 I Reset context done 
+
+2024-04-15 16:53:12.355    a2b.143400                 a2b_setup       34982  8 I System Init done 
+
+2024-04-15 16:53:12.355    a2b.143400                 a2b_setup       34983  8 I PAL Init done 
+
+2024-04-15 16:53:12.355    a2b.143400                 a2b_setup       34984  8 I 
+Using SigmaStudio BCF File
+
+2024-04-15 16:53:12.355    a2b.143400                 a2b_setup       34985  8 I BCF parse done 
+
+2024-04-15 16:53:12.355    a2b.143400                 a2b_setup       34986  8 I BDD PAL Init done 
+
+2024-04-15 16:53:12.355    a2b.143400                 a2b_setup       34987  8 I Allocate Heap done 
+
+2024-04-15 16:53:12.355    a2b.143400                 a2b_setup       34988  8 I Master plugin load done 
+
+2024-04-15 16:53:12.355    a2b.143400                 a2b_setup       34989  8 I Slave plugins load done 
+
+2024-04-15 16:53:12.355    a2b.143400                 a2b_setup       34990  8 I Allocate Stack done 
+
+2024-04-15 16:53:12.360    a2b.143400                 a2b_setup       34991  8 I Triggering discovery... 
+
+2024-04-15 16:53:12.363    a2b.143400                 a2b_setup       34992  8 W INTERRUPT: intrType=255 nodeAddr=-1
+
+2024-04-15 16:53:12.397    a2b.143400                 a2b_setup       34993  8 W INTERRUPT: intrType=12 nodeAddr=-1
+
+2024-04-15 16:53:12.397    a2b.143400                 a2b_setup       34994  8 I 
+ Line fault During Discovery: 
+2024-04-15 16:53:12.397    a2b.143400                 a2b_setup       34995  8 I Fault detected on Master node: 
+2024-04-15 16:53:12.397    a2b.143400                 a2b_setup       34996  8 I Cable Disconnected or Open Circuit
+
+2024-04-15 16:53:12.397    a2b.143400                 a2b_setup       34997  8 I Discovery failed! status is 17

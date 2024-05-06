@@ -1,6 +1,6 @@
 from common.adb.adb import adb
 from common.qnx.qnx import qnx
-from common.can.can import CANoe
+from common.can.canoe import CANoe
 from common.utils import read_yaml
 from common.utils import read_excel
 from common.images.images import Images
@@ -14,10 +14,10 @@ class TestUint_Panel():
     def setup_class(self):
         #启动CANoe并连接仪表
         self.config_data=read_yaml.read_yaml('./config/config.yaml')
-        # self.app = CANoe() #定义CANoe为app
-        # self.app.open_cfg(self.config_data["cfg_path"]) #导入某个CANoe congif
-        # self.app.start_Measurement()
-        # time.sleep(3)
+        self.app = CANoe() #定义CANoe为app
+        self.app.open_cfg(self.config_data["cfg_path"]) #导入某个CANoe congif
+        self.app.start_Measurement()
+        time.sleep(3)
         self.test_qnx = qnx(self.config_data["devices"],self.config_data["qnx_ip"],self.config_data["qnx_user"],self.config_data["qnx_passwd"])
 
 

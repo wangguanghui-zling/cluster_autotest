@@ -1,0 +1,171 @@
+PBL, End at 0.111446 seconds
+SBL1, Start at 0.126937 seconds
+SBL1, End at 0.812516 seconds
+ifs1_entry at 0.931509 seconds
+init_parti_end at 0.938680 seconds
+ifs2_load_start at 1.045736 seconds
+cpu1_psci_start at 1.073385 seconds
+cpu1_psci_start_done at 1.074117 seconds
+cpu2_psci_start at 1.074117 seconds
+cpu2_psci_start_done at 1.074911 seconds
+cpu3_psci_start at 1.074911 seconds
+cpu3_psci_start_done at 1.075674 seconds
+cpu4_psci_start at 1.075674 seconds
+cpu4_psci_start_done at 1.088064 seconds
+cpu5_psci_start at 1.088094 seconds
+cpu5_psci_start_done at 1.100149 seconds
+cpu6_psci_start at 1.100149 seconds
+cpu6_psci_start_done at 1.112295 seconds
+cpu7_psci_start at 1.112295 seconds
+cpu7_psci_start_done at 1.125906 seconds
+ifs1_exit at 1.126058 seconds
+bmetrics_service took - 0.000305 seconds,( 1.189199 , 1.189504 )
+DRIVER UART Ready:/dev/ser at 1.194082 seconds
+init_loader_and_launcher at 1.199728 seconds
+ifs_coreservices.img DMA (size=0xd15000, nloop=0) at 1.201437 seconds
+ifs_coreservices.img SHA256 (size=0xd1422c) took - 0.009979 seconds,( 1.201467 , 1.211447 )
+Ifsloader-load_early_variant took - 0.000977 seconds,( 1.201467 , 1.202444 )
+ifs_coreservices.img mount took - 0.000183 seconds,( 1.211447 , 1.211630 )
+watchdog launching at 1.211752 seconds
+syscache_service launching at 1.213003 seconds
+ifs_inc.img DMA (size=0x1863928) took - 0.049744 seconds,( 1.245779 , 1.295522 )
+pil_service launching at 1.251821 seconds
+smmu_service launching at 1.255789 seconds
+dumper launching at 1.275167 seconds
+watchdog ready at 1.281362 seconds
+qcgpio launching at 1.293752 seconds
+ifs_display.img DMA (size=0x943c58) took - 0.019806 seconds,( 1.296652 , 1.316458 )
+qcore launching at 1.306265 seconds
+ifs_inc.img SHA256 (size=0x1863928) took - 0.019409 seconds,( 1.316396 , 1.335806 )
+ifs_audio.img DMA (size=0x2c34754) took - 0.089111 seconds,( 1.316793 , 1.405905 )
+spi_service launching at 1.317281 seconds
+i2c_service launching at 1.322256 seconds
+pipe launching at 1.325765 seconds
+diag_service launching at 1.331289 seconds
+ifs_inc.img mount took - 0.000732 seconds,( 1.335867 , 1.336599 )
+/dev/qcore at 1.346700 seconds
+/dev/spi8 ready at 1.350820 seconds
+/dev/spi9 ready at 1.350912 seconds
+/dev/spi_service at 1.350912 seconds
+DRIVER I2C Ready:/dev/i2c2 at 1.351522 seconds
+DRIVER I2C Ready:/dev/i2c3 at 1.352651 seconds
+DRIVER I2C Ready:/dev/i2c4 at 1.353689 seconds
+DRIVER I2C Ready:/dev/i2c5 at 1.358297 seconds
+DRIVER I2C Ready:/dev/i2c6 at 1.359365 seconds
+DRIVER I2C Ready:/dev/i2c7 at 1.360555 seconds
+/dev/i2c_service at 1.361105 seconds
+DRIVER I2C Ready:/dev/i2c8 at 1.362081 seconds
+fastrpc launching at 1.364401 seconds
+io-pkt-v6-hc launching at 1.374258 seconds
+ifs_display.img SHA256 (size=0x943c58) took - 0.007538 seconds,( 1.387228 , 1.394766 )
+sync point created /dev/shmem/iopkt at 1.390341 seconds
+inc_tp launching at 1.391805 seconds
+ifs_display.img mount took - 0.003723 seconds,( 1.395071 , 1.398794 )
+hab launching at 1.402151 seconds
+variant_handle launching at 1.405386 seconds
+name_server launching at 1.405569 seconds
+ifs_camera.img DMA (size=0x76b51c) took - 0.015533 seconds,( 1.406942 , 1.422476 )
+/dev/diag_service at 1.409261 seconds
+sync point created /dev/shmem/name_server at 1.412649 seconds
+ntfcenter launching at 1.413595 seconds
+sync point created /dev/shmem/ntf_center at 1.417776 seconds
+ifs_camera.img SHA256 (size=0x76b51c) took - 0.005829 seconds,( 1.422598 , 1.428427 )
+ifs_graphics.img DMA (size=0x362c42c) took - 0.057617 seconds,( 1.422811 , 1.480428 )
+ifs_camera.img mount took - 0.000549 seconds,( 1.428427 , 1.428976 )
+ifs_audio.img SHA256 (size=0x2c34754) took - 0.034607 seconds,( 1.466268 , 1.500875 )
+inc_server launching at 1.479696 seconds
+bridgechip_server launching at 1.480337 seconds
+ifs_video.img DMA (size=0x6ec6d4) took - 0.012848 seconds,( 1.481039 , 1.493887 )
+sync point created /dev/shmem/inc_server_core at 1.483267 seconds
+inc_server launching at 1.483968 seconds
+sync point created /dev/shmem/inc_server_cluster at 1.489462 seconds
+devb-ram launching at 1.489706 seconds
+ifs_video.img SHA256 (size=0x6ec6d4) took - 0.005707 seconds,( 1.494039 , 1.499746 )
+ifs_disk.img DMA (size=0x636220) took - 0.012756 seconds,( 1.494283 , 1.507040 )
+ifs_video.img mount took - 0.001129 seconds,( 1.499777 , 1.500906 )
+ifs_audio.img mount took - 0.001953 seconds,( 1.501089 , 1.503042 )
+mq launching at 1.503927 seconds
+videoCore launching at 1.507742 seconds
+sync point created /dev/shmem/ifs2_dma at 1.508871 seconds
+bridgechip_server main() at 1.521658 seconds
+/bin/ASC.sh launching at 1.521780 seconds
+hyp_video_be launching at 1.522024 seconds
+openwfd_server launching at 1.523733 seconds
+audio:start ASC at 1.532736 seconds
+audiovariant launching at 1.534750 seconds
+ifs_disk.img SHA256 (size=0x636220) took - 0.006012 seconds,( 1.544393 , 1.550405 )
+ifs_disk.img mount took - 0.000549 seconds,( 1.551351 , 1.551901 )
+mkqnx6fs launching at 1.552053 seconds
+hyp_video_be launched at 1.552999 seconds
+devb-ufs-qualcomm launching at 1.555105 seconds
+hyp_video_be ready at 1.555654 seconds
+ifs_graphics.img SHA256 (size=0x362c42c) took - 0.040863 seconds,( 1.566244 , 1.607107 )
+openwfd_server main() at 1.582998 seconds
+openwfd slog2_register -- Start at 1.583730 seconds
+openwfd slog2_register -- Done at 1.584646 seconds
+openwfd DALSYSInit -- Start at 1.585256 seconds
+openwfd DALSYSInit -- Done at 1.585684 seconds
+openwfd SMMU open -- Start at 1.587240 seconds
+VideoCore at 1.588552 seconds
+openwfd SMMU open -- Done at 1.591543 seconds
+ifs_graphics.img mount took - 0.000549 seconds,( 1.607107 , 1.607656 )
+sync point created /dev/shmem/gpt_makelinks at 1.978414 seconds
+psis_server launching at 1.982626 seconds
+sync point created /dev/shmem/ifs_disks at 2.018453 seconds
+audio_service launching at 2.029043 seconds
+/scripts/startup.sh launching at 2.029073 seconds
+vehicleservice launching at 2.039205 seconds
+ais_server launching at 2.039327 seconds
+sync point created /dev/shmem/vehicle_service at 2.044485 seconds
+early_log_storage launching at 2.047445 seconds
+openwfd_server ready() at 2.121023 seconds
+wfd_be launching at 2.127798 seconds
+kgsl launching at 2.151235 seconds
+screen launching at 2.165853 seconds
+GFX_KGSL_PROCESS took - 0.413361 seconds,( 2.215994 , 2.629354 )
+/dev/audio_service at 2.272695 seconds
+/bin/IoAudioStart.sh launching at 2.284353 seconds
+audio:starting io-audio at 2.294271 seconds
+audio:io-audio started complete at 2.311453 seconds
+DRIVER Camera Init at 2.368459 seconds
+DEVA_ctrl_init_enter at 2.393911 seconds
+DRIVER Camera Ready at 2.472738 seconds
+audio:ASC main at 2.676260 seconds
+audio:JackDaemon Media service for INDEPENDENT Amplifier starts at 2.752798 seconds
+RTC smartservice: launching at 2.769888 seconds
+audio:ASCDaemon create /dev/shmem/asc_ready at 2.843069 seconds
+audio:ASC start complete at 2.971548 seconds
+audio:JackDaemon Media Service done at 3.173544 seconds
+audio:JackDaemon Acoustic service for INDEPENDENT Amplifier and ICC starts at 3.179830 seconds
+audio:JackDaemon Acoustic Service Done at 3.269979 seconds
+cluster-app: launching at 3.285177 seconds
+OpenWFD DSI1 Selected fVCOFreqMHz = 1695.772827 fDesiredBitclockMHz=1695.772827 at 3.287344 seconds
+cluster-app ready at 3.395498 seconds
+avm-app run.sh: launching at 3.593313 seconds
+OpenWFD DSI2 Selected fVCOFreqMHz = 2159.135986 fDesiredBitclockMHz=1079.567993 at 3.663168 seconds
+avm-app:mtouch: launching at 3.816061 seconds
+avm-app:persist: launching at 3.871725 seconds
+First input frame submit to codec at 3.917715 seconds
+First decoder output frame after start at 3.926260 seconds
+qseecom_service: launching at 4.694082 seconds
+audio:qvm waits for jack server at 4.735769 seconds
+audio:qvm waits for jack server ready or timeout at 4.773184 seconds
+GVM(s): launching at 4.774984 seconds
+qseecom_daemon: launching at 5.249014 seconds
+qnetconfig:main launching at 7.100210 seconds
+qnetconfig:main ready at 7.202658 seconds
+avm-app:exec: launching at 7.312613 seconds
+/dev/qcarcam Camera Start at 7.479330 seconds
+pps: launching at 10.456564 seconds
+io-usb: launching at 10.626547 seconds
+EMAC PROBE START in Entry at 10.640890 seconds
+EMAC Link UP at 10.899923 seconds
+/dev/cdsp_service at 11.216543 seconds
+DRIVER Ethernet Ready at 11.245321 seconds
+km_be: launching at 11.445028 seconds
+BE SERVER Init at 11.583914 seconds
+/dev/qcarcam Camera Start at 11.584921 seconds
+BE SERVER Ready at 11.602530 seconds
+/dev/io_service at 12.679220 seconds
+ESM CheckGigaPhy start at 13.250021 seconds
+wfd_be main() at 17.803305 seconds

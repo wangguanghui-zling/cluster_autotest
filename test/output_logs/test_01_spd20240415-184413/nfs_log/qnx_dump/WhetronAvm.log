@@ -1,0 +1,1001 @@
+WhetronAvm.bin start
+IS_AVM_NOTSTART=        1 !!!
+WhetronAvm.bin Start !!!
+[     6.505 s: ]ERR: [ /media/data2/SDK_A58/a58_base/fibocom-sa6125-car-la10/baseline/android/vendor/runAVM/apps/linuxAVM/AppMain.cpp main()(498) ] ==> pthread_self: 1 tid=1
+
+Producer put FC_use,FC_fill = 0/1
+[     6.508 s: ]ERR: [ /media/data2/SDK_A58/a58_base/fibocom-sa6125-car-la10/baseline/android/vendor/runAVM/target/prebuild/common/LibLogicCtrl/src/SRV_LogicCtrl_core.cpp SRV_LogicCtrl_Loop()(3121) ] ==> LogicCtrl Process start tid=2!
+
+init_commu ing  
+init_commu ing . 
+init_commu ing .. 
+commuThreadinit_commu() pthread_self: 3 tid=3
+funcCB_getMsg = 0x33700342b0
+init_commu ing .... 
+init_commu ing .... 
+com.bosch.cm.vehicle : em_D2A_LongitudinalAcceleration 
+[     6.532 s: ]ERR: [ /media/data2/SDK_A58/a58_base/fibocom-sa6125-car-la10/baseline/android/vendor/runAVM/target/prebuild/GAC_A8E/LibSrvCamera/CameraApi_A88.cpp CameraApi_drv_Loop()(2546) ] ==> CameraApi_drv_Loop :tid=6
+
+init_commu ing .... 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 559940098
+com.bosch.cm.vehicle : em_D2A_PlgConnSt 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557846111
+com.bosch.cm.vehicle : em_D2A_FIL_VEH_LAL_ACCEL 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 559940097
+com.bosch.cm.vehicle : em_D2A_YawAngularVelocity 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 559940722
+[     6.543 s: ]ERR: [ /media/data2/SDK_A58/a58_base/fibocom-sa6125-car-la10/baseline/android/vendor/runAVM/Middleware/SRVRender/SRV_Engine.c SRV_InputProcess()(814) ] ==> pthread_self: 7 tid=7
+
+com.bosch.cm.vehicle : em_D2A_YawAngularVelocity 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557916565
+init_commu ing .... 
+com.bosch.cm.vehicle : em_D2A_SteeringWheelAngle 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 559940723
+com.bosch.cm.vehicle : em_D2A_CarSpeed 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 559940103
+[     6.548 s: ]ERR: [ /media/data2/SDK_A58/a58_base/fibocom-sa6125-car-la10/baseline/android/vendor/runAVM/Middleware/SRVRender/SRV_Engine.c SRV_RMProcess()(1074) ] ==> pthread_self: 8 tid=8
+
+com.bosch.cm.vehicle : em_D2A_LeftFrontWheelForwardDirection 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557843572
+com.bosch.cm.vehicle : em_D2A_LeftFrontWheelSpeed 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 559940725
+com.bosch.cm.vehicle : em_D2A_LeftFrontWheelPulse 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557843574
+com.bosch.cm.vehicle : em_D2A_RightFrontWheelForwardDirection 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557843575
+com.bosch.cm.vehicle : em_D2A_RightFrontWheelSpeed 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 559940728
+com.bosch.cm.vehicle : em_D2A_RightFrontWheelPulse 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557843577
+com.bosch.cm.vehicle : em_D2A_LeftRearWheelForwardDirection 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557843578
+com.bosch.cm.vehicle : em_D2A_LeftRearWheelSpeed 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 559940731
+com.bosch.cm.vehicle : em_D2A_LeftRearWheelPulse 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557843580
+com.bosch.cm.vehicle : em_D2A_RightRearWheelForwardDirection 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557843581
+com.bosch.cm.vehicle : em_D2A_RightRearWheelSpeed 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 559940734
+com.bosch.cm.vehicle : em_D2A_RightRearWheelPulse 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557843583
+com.bosch.cm.vehicle : em_D2A_Gears 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557844941
+com.bosch.cm.vehicle : em_D2A_Gears 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557851010
+com.bosch.cm.vehicle : em_D2A_Wiper 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 591398016
+com.bosch.cm.vehicle : em_D2A_HighHeadlamps 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557842953
+com.bosch.cm.vehicle : em_D2A_LowHeadlamps 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557842955
+com.bosch.cm.vehicle : em_D2A_FrontFogLamps 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557844716
+com.bosch.cm.vehicle : em_D2A_RearFogLamps 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557844717
+com.bosch.cm.vehicle : em_D2A_Brakelight 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557842959
+init_commu ing .... 
+com.bosch.cm.vehicle : em_D2A_LeftTurnSignal 
+[     6.559 s: ]ERR: [ /media/data2/SDK_A58/a58_base/fibocom-sa6125-car-la10/baseline/android/vendor/runAVM/Middleware/Platform/SystemDebugInfo.cpp System_Test_TouchEvent_RunTest()(370) ] ==> open FileName TouchEventTest.txt Failed !!!
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557844719
+init_commu ing .... 
+com.bosch.cm.vehicle : em_D2A_RightTurnSignal 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557844718
+com.bosch.cm.vehicle : em_D2A_ParkingLamp 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557843519
+com.bosch.cm.vehicle : em_D2A_DriverDoorAjarSt 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 641729089
+com.bosch.cm.vehicle : em_D2A_PsngrDoorAjarSt 
+com.bosch.cm.vehicle : em_D2A_PsngrDoorAjarSt 
+com.bosch.cm.vehicle : em_D2A_PsngrDoorAjarSt 
+com.bosch.cm.vehicle : em_D2A_BonnetAjarSt 
+com.bosch.cm.vehicle : em_D2A_TrunkAjarSt 
+com.bosch.cm.vehicle : em_D2A_Snapshot 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557843879
+com.bosch.cm.vehicle : em_A2D_SnapshotStatus 
+com.bosch.cm.vehicle : em_D2A_Radar_RRMidDistance 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557844918
+com.bosch.cm.vehicle : em_D2A_Radar_RRMidSnsErrFlag 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557843585
+com.bosch.cm.vehicle : em_D2A_Radar_RLMidDistance 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557844919
+com.bosch.cm.vehicle : em_D2A_Radar_RLMidSnsErrFlag 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557843586
+com.bosch.cm.vehicle : em_D2A_Radar_RRDistance 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557844920
+com.bosch.cm.vehicle : em_D2A_Radar_RRSnsErrFlag 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557843587
+com.bosch.cm.vehicle : em_D2A_Radar_RLDistance 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557844921
+com.bosch.cm.vehicle : em_D2A_Radar_RLSnsErrFlag 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557843588
+init_commu ing .... 
+com.bosch.cm.vehicle : em_D2A_Radar_RSLSideDistance 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557844922
+com.bosch.cm.vehicle : em_D2A_Radar_RSLSnsErrFlag 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557843589
+[     6.596 s: ]TIP:  ==> 0:Camera inputid 1  nIsCameraClose 1, flags = 0
+[     6.596 s: ]TIP:  ==> AVM camera chnl 3 is lost
+[     6.596 s: ]TIP:  ==> 1:Camera inputid 2  nIsCameraClose 1, flags = 0
+[     6.596 s: ]TIP:  ==> AVM camera chnl 0 is lost
+[     6.596 s: ]TIP:  ==> 2:Camera inputid 3  nIsCameraClose 1, flags = 0
+[     6.596 s: ]TIP:  ==> AVM camera chnl 1 is lost
+[     6.596 s: ]TIP:  ==> 3:Camera inputid 0  nIsCameraClose 1, flags = 0
+[     6.596 s: ]TIP:  ==> AVM camera chnl 2 is lost
+com.bosch.cm.vehicle : em_D2A_Radar_RSRSideDistance 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557844923
+init_commu ing .... 
+com.bosch.cm.vehicle : em_D2A_Radar_RSRSnsErrFlag 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557843590
+com.bosch.cm.vehicle : em_D2A_Radar_FRDistance 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557844924
+com.bosch.cm.vehicle : em_D2A_Radar_FRSnsErrFlag 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557843591
+com.bosch.cm.vehicle : em_D2A_Radar_FLDistance 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557844925
+com.bosch.cm.vehicle : em_D2A_Radar_FLSnsErrFlag 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557843592
+Producer put FC_use,FC_fill = 0/2
+com.bosch.cm.vehicle : em_D2A_Radar_FRMidDistance 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557844926
+com.bosch.cm.vehicle : em_D2A_Radar_FLMidDistance 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557844927
+com.bosch.cm.vehicle : em_D2A_Radar_FSRSideDistance 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557844928
+com.bosch.cm.vehicle : em_D2A_Radar_FSLSideDistance 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557844929
+com.bosch.cm.vehicle : em_D2A_NightModel 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557851220
+com.bosch.cm.vehicle : em_A2D_DispStatus 
+com.bosch.cm.vehicle : em_D2A_DispReq 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557843599
+com.bosch.cm.vehicle : em_D2A_DispReq 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557851091
+com.bosch.cm.vehicle : em_A2D_HardBtnLampSw 
+com.bosch.cm.vehicle : em_D2A_DispReq 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557843603
+com.bosch.cm.vehicle : em_D2A_Radar_PCS_DisplayReq 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557843598
+com.bosch.cm.vehicle : em_D2A_FLDCM_MirrorFoldUnfoldSt 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557843595
+com.bosch.cm.vehicle : em_D2A_OSRMAngleAdjFuncCfgSt 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557843495
+com.bosch.cm.vehicle : em_A2D_OSRMAngleAdjFuncCfg 
+com.bosch.cm.vehicle : em_D2A_Radar_ButtonPressSt 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557843755
+com.bosch.cm.vehicle : em_A2D_Radar_ButtonPressSw 
+com.bosch.cm.vehicle : em_D2A_HUTStartupSt 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557845507
+com.bosch.cm.vehicle : em_D2A_Power_Keyst 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557850882
+com.bosch.cm.vehicle : em_D2A_BattVoltErrFlag 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557843593
+com.bosch.cm.vehicle : em_D2A_FCTAWarnLeft 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557844799
+com.bosch.cm.vehicle : em_D2A_FCTAWarnRight 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557844798
+com.bosch.cm.vehicle : em_D2A_RCTAWarnLeft 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557844765
+com.bosch.cm.vehicle : em_D2A_RCTAWarnRight 
+com.bosch.cm.vehicle_AVM_client: addNotifyItem 557844764
+init_commu ing .... 
+init_commu ing .... 
+init_commu ing .... 
+init_commu ing .... 
+init_commu ing .... 
+init_commu ing .... 
+[     6.706 s: ]TIP:  ==> qcarcam_open nChNo 0 Done ,o/c 1/0 success!!,handle=-1588591732
+Producer put FC_use,FC_fill = 0/3
+[     6.706 s: ]TIP:  ==> qcarcam_s_param  uint_value success!!
+[     6.710 s: ]TIP:  ==> qcarcam_s_buffers nChNo:0 s/s= 0/0 success!!
+[     6.710 s: ]TIP:  ==> OpenCamera nChNo 0 qcarcam_drv_OpenCamera  o/c 1/0 successfully
+init_commu ing .... 
+init_commu ing .... 
+svc://com.bosch.cm.vehicle  connect img ...
+init_commu ing .... 
+init_commu ing .... 
+init_commu ing .... 
+init_commu ing .... 
+init_commu ing .... 
+init_commu ing .... 
+init_commu ing .... 
+init_commu ing .... 
+svc://com.bosch.cm.vehicle  connect img ...
+init_commu ing .... 
+init_commu ing .... 
+init_commu ing .... 
+init_commu ing .... 
+init_commu ing .... 
+init_commu ing .... 
+init_commu ing .... 
+svc://com.bosch.cm.vehicle  connect img ...
+init_commu ing .... 
+init_commu ing .... 
+init_commu ing .... 
+init_commu ing .... 
+[     6.973 s: ]TIP:  ==> qcarcam_open nChNo 1 Done ,o/c 1/0 success!!,handle=-1588591327
+Producer put FC_use,FC_fill = 0/4
+[     6.973 s: ]TIP:  ==> qcarcam_s_param  uint_value success!!
+[     6.977 s: ]TIP:  ==> qcarcam_s_buffers nChNo:1 s/s= 0/0 success!!
+[     6.977 s: ]TIP:  ==> OpenCamera nChNo 1 qcarcam_drv_OpenCamera  o/c 1/0 successfully
+init_commu ing .... 
+init_commu ing .... 
+[     7.023 s: ]TIP:  ==> qcarcam_open nChNo 2 Done ,o/c 1/0 success!!,handle=-1588590593
+Producer put FC_use,FC_fill = 0/5
+[     7.024 s: ]TIP:  ==> qcarcam_s_param  uint_value success!!
+[     7.027 s: ]TIP:  ==> qcarcam_s_buffers nChNo:2 s/s= 0/0 success!!
+[     7.027 s: ]TIP:  ==> OpenCamera nChNo 2 qcarcam_drv_OpenCamera  o/c 1/0 successfully
+init_commu ing .... 
+svc://com.bosch.cm.vehicle  connect img ...
+init_commu ing .... 
+init_commu ing .... 
+init_commu ing .... 
+init_commu ing .... 
+com.bosch.cm.vehicle_AVM_client: subscribe 
+init_commu ing .... 
+HU_SoftBtn_DispReq:0
+nDistance:0, HU_MirrorDipSt:0
+nDistance:0, HU_RadarBtnSt:1
+Producer put FC_use,FC_fill = 0/6
+init_commu ing .... 
+init_commu ing .... 
+init_commu ing .... 
+init_commu ing .... 
+svc://com.bosch.cm.vehicle  connect img ...
+150:(com.bosch.cm.vehicle init ok
+com.bosch.cm.lcm : em_A2D_Camera_power_ctrl 
+Clinet Name : com.bosch.cm.lcm_AvmClient 
+init_commu ing .... 
+com.bosch.cm.platform.AvmCalib : emCALIB_EnterCalibrationReq 
+176  com.bosch.cm.lcm init ok
+com.bosch.cm.platform.AvmCalib : emCALIB_EnterCalibrationReq 
+[     7.143 s: ]TIP:  ==> qcarcam_open nChNo 3 Done ,o/c 1/0 success!!,handle=-1588590478
+Producer put FC_use,FC_fill = 0/7
+Fdb server connect url: svc://com.bosch.cm.platform.AvmCalib
+Fdb server instance init ok
+com.bosch.cm.platform.AvmCalib : emCALIB_EnterCalibrationResultReq 
+com.bosch.cm.platform.AvmCalib : emCALIB_CalibrationPreCheckReq 
+com.bosch.cm.platform.AvmCalib : emCALIB_CalibrationPreCheckResultReq 
+com.bosch.cm.platform.AvmCalib : emCALIB_StartCalibrationReq 
+com.bosch.cm.platform.AvmCalib : emCALIB_StartCalibrationResultReq 
+com.bosch.cm.platform.AvmCalib : emCALIB_EnterCalibrationFailReq 
+com.bosch.cm.platform.AvmCalib : emCALIB_EnterCalibrationFailResultReq 
+com.bosch.cm.platform.AvmCalib : emCALIB_EnterCalibrationCheckReq 
+com.bosch.cm.platform.AvmCalib : emCALIB_EnterCalibrationCheckResultReq 
+com.bosch.cm.platform.AvmCalib : em_A2D_CameraCalibParam_FRONT 
+com.bosch.cm.platform.AvmCalib : em_A2D_CameraCalibParam_LEFT 
+com.bosch.cm.platform.AvmCalib : em_A2D_CameraCalibParam_RIGHT 
+com.bosch.cm.platform.AvmCalib : em_A2D_CameraCalibParam_REAR 
+com.bosch.cm.platform.AvmCalib : em_A2D_SoftwareVersion_ASCII 
+com.bosch.cm.platform.AvmCalib : em_A2DREQ_Calib_Info 
+com.bosch.cm.platform.AvmCalib : em_A2DREQ_Calib_Succeed_Time 
+202:! init ok
+[     7.144 s: ]TIP:  ==> qcarcam_s_param  uint_value success!!
+[     7.152 s: ]TIP:  ==> qcarcam_s_buffers nChNo:3 s/s= 0/0 success!!
+[     7.152 s: ]TIP:  ==> OpenCamera nChNo 3 qcarcam_drv_OpenCamera  o/c 1/0 successfully
+Consumer get: [1583809.168 s: ]Enter AVM APP
+Consumer get: 2[1583809.285 s: ]Init done! fail chnnl = 03000102
+Consumer get: N`[1583809.368 s: ]OpenCamera nChNo 0 successfully, o/c 1/0, hand
+Consumer get: Na[1583809.635 s: ]OpenCamera nChNo 1 successfully, o/c 1/0, hand
+Consumer get: Nb[1583809.686 s: ]OpenCamera nChNo 2 successfully, o/c 1/0, hand
+Consumer get: "B[1583809.754 s: ]Radar sound open
+Consumer get: Nc[1583809.806 s: ]OpenCamera nChNo 3 successfully, o/c 1/0, hand
+[     7.195 s: ]TIP:  ==> WriteAVM2HU_Msg: MSG_NAME[em_A2D_SoftwareVersion], value: 18615063
+
+[     7.195 s: ]TIP:  ==> WriteAVM2HU_Msg: MSG_NAME[em_A2D_SoftwareVersion_ASCII], value: 858927154
+
+[     7.195 s: ]TIP:  ==> Commu_Send_MSG: MSG_NAME[em_A2D_SoftwareVersion], value: 18615063
+
+length = 6
+send em_A2D_SoftwareVersion_ASCII ,length = 17 
+[     7.195 s: ]TIP:  ==> Commu_Send_MSG: MSG_NAME[em_A2D_SoftwareVersion_ASCII], value: 858927154
+
+[     7.195 s: ]TIP:  ==> Commu_Send_MSG: MSG_NAME[em_A2D_Get_VehicleConfig], value: 0
+
+[     7.195 s: ]TIP:  ==> WriteAVM2HU_Msg: MSG_NAME[em_A2D_AVMRunningStatus], value: 1
+
+[     7.195 s: ]TIP:  ==> WriteAVM2HU_Msg: MSG_NAME[em_A2D_AVMWorkMode], value: 3
+
+[     7.195 s: ]TIP:  ==> WriteAVM2HU_Msg: MSG_NAME[em_A2D_CameraSignalStatus_FRONT], value: 1
+
+[     7.195 s: ]TIP:  ==> stCam_F_Status:6, emCam_F_ConnectSt:0, emCam_F_FailStatus:1
+
+[     7.196 s: ]TIP:  ==> WriteAVM2HU_Msg: MSG_NAME[em_A2D_CameraSignalStatus_REAR], value: 1
+
+[     7.196 s: ]TIP:  ==> stCam_B_Status:6, emCam_B_ConnectSt:0, emCam_B_FailStatus:1
+
+[     7.198 s: ]TIP:  ==> WriteAVM2HU_Msg: MSG_NAME[em_A2D_CameraSignalStatus_LEFT], value: 1
+
+[     7.215 s: ]TIP:  ==> stCam_L_Status:6, emCam_L_ConnectSt:0, emCam_L_FailStatus:1
+
+[     7.215 s: ]TIP:  ==> WriteAVM2HU_Msg: MSG_NAME[em_A2D_CameraSignalStatus_RIGHT], value: 1
+
+[     7.215 s: ]TIP:  ==> stCam_R_Status:6, emCam_R_ConnectSt:0, emCam_R_FailStatus:1
+
+[     7.215 s: ]TIP:  ==> Commu_Send_MSG: MSG_NAME[em_A2D_AVMWorkMode], value: 3
+
+[     7.215 s: ]TIP:  ==> Commu_Send_MSG: MSG_NAME[em_A2D_CameraSignalStatus_FRONT], value: 1
+
+[     7.215 s: ]TIP:  ==> Commu_Send_MSG: MSG_NAME[em_A2D_CameraSignalStatus_REAR], value: 1
+
+[     7.215 s: ]TIP:  ==> Commu_Send_MSG: MSG_NAME[em_A2D_CameraSignalStatus_LEFT], value: 1
+
+[     7.215 s: ]TIP:  ==> Commu_Send_MSG: MSG_NAME[em_A2D_CameraSignalStatus_RIGHT], value: 1
+
+[     7.313 s: ]ERR: [ /media/data2/SDK_A58/a58_base/fibocom-sa6125-car-la10/baseline/android/vendor/runAVM/Middleware/Platform/qnx700/qnx700_EglWin.c Qnx_ScreenEventTheread()(804) ] ==> pthread_self: 24 tid=24
+
+[     7.314 s: ]TIP:  ==> Get Car ID is 2
+
+SEND succeed : em_A2D_DispStatus, msgType=4
+[557843568] = 0 , length = 1
+[CameraFdbTestClient] client session online: 0
+onOnline: sid = 0
+It is the first session connected.
+single message 115, filter  of session 0 is registered!
+writeDidInDiag: start to write DID 0xf195 to DiagServer 
+---------- did = 61845; length = 6 ----------
+32 33 31 31 32 38 
+-------------------------------------------
+single message 116, filter  of session 0 is registered!
+Unknown subscription!
+[     9.306 s: ]TIP:  ==> Calib Algo Memery Malloc Success 
+
+[     9.306 s: ]TIP:  ==> pthread_self: 25 tid=25
+
+[     9.306 s: ]TIP:  ==> [Lib Calib Module] Task Init Done!!!!!!!!
+
+[     9.306 s: ]TIP:  ==> mark_pixel_postion[0].xy : 260.000000, 459.000000
+
+[     9.306 s: ]TIP:  ==> mark_pixel_postion[1].xy : 362.000000, 458.000000
+
+[     9.306 s: ]TIP:  ==> mark_pixel_postion[2].xy : 225.000000, 596.000000
+
+[     9.306 s: ]TIP:  ==> mark_pixel_postion[3].xy : 148.000000, 558.000000
+
+[     9.307 s: ]TIP:  ==> mark_pixel_postion[4].xy : 908.000000, 463.000000
+
+[     9.307 s: ]TIP:  ==> mark_pixel_postion[5].xy : 1007.000000, 463.000000
+
+[     9.307 s: ]TIP:  ==> mark_pixel_postion[6].xy : 1120.000000, 564.000000
+
+[     9.307 s: ]TIP:  ==> mark_pixel_postion[7].xy : 1046.000000, 600.000000
+
+[     9.308 s: ]TIP:  ==> mark_pixel_postion[8].xy : 251.000000, 530.000000
+
+[     9.308 s: ]TIP:  ==> mark_pixel_postion[9].xy : 347.000000, 535.000000
+
+[     9.308 s: ]TIP:  ==> mark_pixel_postion[10].xy : 241.000000, 690.000000
+
+[     9.308 s: ]TIP:  ==> mark_pixel_postion[11].xy : 156.000000, 648.000000
+
+[     9.308 s: ]TIP:  ==> mark_pixel_postion[12].xy : 926.000000, 536.000000
+
+[     9.308 s: ]TIP:  ==> mark_pixel_postion[13].xy : 1028.000000, 525.000000
+
+[     9.308 s: ]TIP:  ==> mark_pixel_postion[14].xy : 1127.000000, 649.000000
+
+[     9.308 s: ]TIP:  ==> mark_pixel_postion[15].xy : 1035.000000, 697.000000
+
+[     9.308 s: ]TIP:  ==> mark_pixel_postion[16].xy : 168.000000, 508.000000
+
+[     9.308 s: ]TIP:  ==> mark_pixel_postion[17].xy : 201.000000, 513.000000
+
+[     9.308 s: ]TIP:  ==> mark_pixel_postion[18].xy : 141.000000, 596.000000
+
+[     9.308 s: ]TIP:  ==> mark_pixel_postion[19].xy : 114.000000, 575.000000
+
+[     9.308 s: ]TIP:  ==> mark_pixel_postion[20].xy : 953.000000, 530.000000
+
+[     9.308 s: ]TIP:  ==> mark_pixel_postion[21].xy : 1019.000000, 523.000000
+
+[     9.308 s: ]TIP:  ==> mark_pixel_postion[22].xy : 1090.000000, 616.000000
+
+[     9.308 s: ]TIP:  ==> mark_pixel_postion[23].xy : 1031.000000, 647.000000
+
+[     9.308 s: ]TIP:  ==> mark_pixel_postion[24].xy : 242.000000, 527.000000
+
+[     9.308 s: ]TIP:  ==> mark_pixel_postion[25].xy : 310.000000, 532.000000
+
+[     9.308 s: ]TIP:  ==> mark_pixel_postion[26].xy : 234.000000, 652.000000
+
+[     9.308 s: ]TIP:  ==> mark_pixel_postion[27].xy : 173.000000, 619.000000
+
+[     9.308 s: ]TIP:  ==> mark_pixel_postion[28].xy : 1063.000000, 506.000000
+
+[     9.308 s: ]TIP:  ==> mark_pixel_postion[29].xy : 1097.000000, 500.000000
+
+[     9.309 s: ]TIP:  ==> mark_pixel_postion[30].xy : 1152.000000, 564.000000
+
+[     9.309 s: ]TIP:  ==> mark_pixel_postion[31].xy : 1129.000000, 582.000000
+
+[     9.309 s: ]TIP:  ==> [Init1.1] Module: Cam(cent=640 480); Thresh(1.100) FrameRange(105);
+
+[     9.309 s: ]TIP:  ==> [Init] Model_block[0]: Num(Vert=2752 Bright=418), Cam(Major=0 Minor=3), ILData=0x347f8dc040
+
+[     9.309 s: ]TIP:  ==> [Init] Model_block[1]: Num(Vert=2752 Bright=418), Cam(Major=0 Minor=1), ILData=0x347f953040
+
+[     9.309 s: ]TIP:  ==> [Init] Model_block[2]: Num(Vert=2752 Bright=418), Cam(Major=2 Minor=3), ILData=0x347f9f9040
+
+[     9.309 s: ]TIP:  ==> [Init] Model_block[3]: Num(Vert=2752 Bright=418), Cam(Major=2 Minor=1), ILData=0x347fa9f040
+
+[     9.309 s: ]TIP:  ==> [Init] PA Valid, Model: MSaddr(0x3370601f10), blocks(4), totalnum(vertex=11008 ga=22016 pa=3344)
+
+[     9.310 s: ]TIP:  ==> Loading Calib ./CalibData_road.bin File Failed
+
+[     9.310 s: ]TIP:  ==> Loading Calib ./CalibData.bin File Failed
+
+[     9.311 s: ]TIP:  ==> Read Calib file  NULL ,using default!!
+
+[     9.311 s: ]TIP:  ==> [CALIB state setting nCalibSelect 0]
+
+[     9.311 s: ]TIP:  ==> [CALIB state using default]
+
+[     9.311 s: ]TIP:  ==> [GALUT Update] success!!!
+
+cameraWidth,height:1280,960
+F:20.000000,L:15.000000,B:30.000000,R:15.000000
+W:188.000000,H:509.000000,WB:300.000000,CF:100.000000
+Producer put FC_use,FC_fill = 7/8
+Consumer get: +3[1583812.345 s: ]Set SRV_STATUS_SWITCH_2D
+
+[     9.683 s: ]TIP:  ==> WriteAVM2HU_Msg: MSG_NAME[em_A2D_RadarOpenSvm], value: 1
+
+[     9.683 s: ]TIP:  ==> WriteAVM2HU_Msg: MSG_NAME[em_A2D_DirLampOpenSvm], value: 1
+
+[     9.683 s: ]TIP:  ==> Logic control window off, delay to hide!
+
+Producer put FC_use,FC_fill = 8/9
+Consumer get: %-[1583812.346 s: ]A2D_DispStatus is 0
+[     9.683 s: ]TIP:  ==> emWindowType:0, bWindowFullCtrlFlag:0, bWindowHalfCtrlFlag:0, bWindowOffCtrlFlag:1, bCameraStopCtrlFlag:0, bCameraStopCompleteFlag:1
+
+[     9.692 s: ]TIP:  ==> Commu_Send_MSG: MSG_NAME[em_A2D_DirLampOpenSvm], value: 1
+
+[     9.692 s: ]TIP:  ==> Commu_Send_MSG: MSG_NAME[em_A2D_RadarOpenSvm], value: 1
+
+[     9.773 s: ]TIP:  ==> Logic Control Window begin to Hide!
+
+[     9.873 s: ]TIP:  ==> Logic Control view to close mode!
+
+[     9.974 s: ]TIP:  ==> Logic Control Window Hide Complete!
+
+[     9.974 s: ]TIP:  ==> Logic Control all camera begin to stop!
+
+[     9.978 s: ]TIP:  ==> set STOPCAMERA 1
+SEND succeed : em_A2D_HardBtnLampSw, msgType=4
+[557845323] = 0 , length = 1
+[     9.984 s: ]TIP:  ==> Commu_Send_MSG: MSG_NAME[em_A2D_HardBtnLampSw], value: 0
+
+SEND succeed : em_A2D_DispStatus, msgType=4
+[557843568] = 0 , length = 1
+[    10.177 s: ]TIP:  ==> stCam_F_Status:6, stCam_B_Status:6, stCam_L_Status:6, stCam_R_Status:6, tCameraStopCnt:20
+
+[    10.177 s: ]TIP:  ==> Logic Control all camera stop Complete!
+
+[    23.636 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_NightModel], value: 0
+
+[    24.385 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_NightModel], value: 0
+
+[    27.938 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_HUTStartupSt], value: 1
+
+[   784.145 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_RCTAWarnLeft], value: 0
+
+[   784.149 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_RCTAWarnRight], value: 0
+
+[   784.215 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_BonnetAjarSt], value: 0
+
+[   784.216 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_DriverDoorAjarSt], value: 0
+
+[   784.216 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_FrontFogLamps], value: 0
+
+[   784.218 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_HighHeadlamps], value: 0
+
+[   784.219 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Power_Keyst], value: 0
+
+[   784.220 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_LeftTurnSignal], value: 0
+
+[   784.222 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_LowHeadlamps], value: 0
+
+[   784.223 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_ParkingLamp], value: 0
+
+[   784.224 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_PsngrDoorAjarSt], value: 0
+
+[   784.224 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_RLDoorAjarSt], value: 0
+
+[   784.224 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_RRDoorAjarSt], value: 0
+
+[   784.224 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_RearFogLamps], value: 0
+
+[   784.225 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_RightTurnSignal], value: 0
+
+[   784.225 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_TrunkAjarSt], value: 0
+
+[   784.380 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_RCTAWarnLeft], value: 0
+
+[   784.386 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_RCTAWarnRight], value: 0
+
+nDistance:0, HU_RadarBtnSt:1
+Producer put FC_use,FC_fill = 9/10
+Consumer get: "B[3804102.544 s: ]Radar sound open
+[   784.671 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_ButtonPressSt], value: 1
+
+[   784.672 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RLDistance], value: 99
+
+[   784.672 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RLMidDistance], value: 0
+
+[   784.672 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RRDistance], value: 38
+
+[   784.675 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RRMidDistance], value: 0
+
+[   784.676 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RSLSideDistance], value: 0
+
+[   784.677 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RSRSideDistance], value: 0
+
+[   784.699 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_BonnetAjarSt], value: 0
+
+[   784.708 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_DriverDoorAjarSt], value: 0
+
+[   784.709 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_FrontFogLamps], value: 0
+
+[   784.710 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_HighHeadlamps], value: 0
+
+[   784.712 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Power_Keyst], value: 0
+
+[   784.714 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_LeftTurnSignal], value: 0
+
+[   784.715 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_LowHeadlamps], value: 0
+
+[   784.716 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_ParkingLamp], value: 0
+
+[   784.718 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_PsngrDoorAjarSt], value: 0
+
+[   784.719 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_RLDoorAjarSt], value: 0
+
+[   784.719 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_RRDoorAjarSt], value: 0
+
+[   784.720 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_RearFogLamps], value: 0
+
+[   784.721 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_RightTurnSignal], value: 0
+
+[   784.723 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_TrunkAjarSt], value: 0
+
+[   784.739 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_BattVoltErrFlag], value: 0
+
+[   784.743 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FLDistance], value: 0
+
+[   784.743 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FLMidDistance], value: 0
+
+[   784.743 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FLSnsErrFlag], value: 0
+
+[   784.743 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FRDistance], value: 0
+
+[   784.744 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FRMidDistance], value: 0
+
+[   784.744 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FRSnsErrFlag], value: 0
+
+[   784.744 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FSLSideDistance], value: 99
+
+[   784.744 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FSRSideDistance], value: 38
+
+[   784.744 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_PCS_DisplayReq], value: 0
+
+[   784.745 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RLMidSnsErrFlag], value: 0
+
+[   784.745 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RLSnsErrFlag], value: 0
+
+[   784.746 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RRMidSnsErrFlag], value: 0
+
+[   784.747 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RRSnsErrFlag], value: 0
+
+[   784.747 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RSLSnsErrFlag], value: 0
+
+[   784.747 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RSRSnsErrFlag], value: 0
+
+[   784.775 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_PlgConnSt], value: 0
+
+nDistance:0, HU_RadarBtnSt:1
+Producer put FC_use,FC_fill = 10/11
+Consumer get: "B[3804102.970 s: ]Radar sound open
+[   785.097 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_ButtonPressSt], value: 1
+
+[   785.098 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RLDistance], value: 99
+
+[   785.099 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RLMidDistance], value: 0
+
+[   785.106 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RRDistance], value: 38
+
+[   785.107 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RRMidDistance], value: 0
+
+[   785.112 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RSLSideDistance], value: 0
+
+[   785.113 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RSRSideDistance], value: 0
+
+[   785.142 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_BattVoltErrFlag], value: 0
+
+[   785.143 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FLDistance], value: 0
+
+[   785.145 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FLMidDistance], value: 0
+
+[   785.146 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FLSnsErrFlag], value: 0
+
+[   785.148 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FRDistance], value: 0
+
+[   785.150 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FRMidDistance], value: 0
+
+[   785.150 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FRSnsErrFlag], value: 0
+
+[   785.152 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FSLSideDistance], value: 99
+
+[   785.153 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FSRSideDistance], value: 38
+
+[   785.159 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_PCS_DisplayReq], value: 0
+
+[   785.159 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RLMidSnsErrFlag], value: 0
+
+[   785.159 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RLSnsErrFlag], value: 0
+
+[   785.161 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RRMidSnsErrFlag], value: 0
+
+[   785.161 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RRSnsErrFlag], value: 0
+
+[   785.163 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RSLSnsErrFlag], value: 0
+
+[   785.163 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RSRSnsErrFlag], value: 0
+
+[   785.244 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_PlgConnSt], value: 0
+
+[   785.361 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Gears], value: 0
+
+[   785.818 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Gears], value: 0
+
+[   785.898 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Brakelight], value: 0
+
+nDistance:0, HU_MirrorDipSt:0
+[   786.259 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_OSRMAngleAdjFuncCfgSt], value: 0
+
+[   786.351 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Brakelight], value: 0
+
+nDistance:0, HU_MirrorDipSt:0
+[   786.720 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_OSRMAngleAdjFuncCfgSt], value: 0
+
+[   798.248 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_RCTAWarnLeft], value: 0
+
+[   798.251 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_RCTAWarnRight], value: 0
+
+[   798.319 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_BonnetAjarSt], value: 0
+
+[   798.319 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_DriverDoorAjarSt], value: 0
+
+[   798.320 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_FrontFogLamps], value: 0
+
+[   798.320 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_HighHeadlamps], value: 0
+
+[   798.321 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Power_Keyst], value: 0
+
+[   798.322 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_LeftTurnSignal], value: 0
+
+[   798.322 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_LowHeadlamps], value: 0
+
+[   798.323 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_ParkingLamp], value: 0
+
+[   798.323 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_PsngrDoorAjarSt], value: 0
+
+[   798.323 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_RLDoorAjarSt], value: 0
+
+[   798.324 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_RRDoorAjarSt], value: 0
+
+[   798.324 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_RearFogLamps], value: 0
+
+[   798.324 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_RightTurnSignal], value: 0
+
+[   798.325 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_TrunkAjarSt], value: 0
+
+[   798.483 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_RCTAWarnLeft], value: 0
+
+[   798.488 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_RCTAWarnRight], value: 0
+
+nDistance:0, HU_RadarBtnSt:1
+Producer put FC_use,FC_fill = 11/12
+Consumer get: "B[3804116.617 s: ]Radar sound open
+[   798.744 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_ButtonPressSt], value: 1
+
+[   798.744 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RLDistance], value: 99
+
+[   798.748 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RLMidDistance], value: 0
+
+[   798.749 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RRDistance], value: 38
+
+[   798.750 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RRMidDistance], value: 0
+
+[   798.751 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RSLSideDistance], value: 0
+
+[   798.751 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RSRSideDistance], value: 0
+
+[   798.779 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_BonnetAjarSt], value: 0
+
+[   798.780 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_DriverDoorAjarSt], value: 0
+
+[   798.781 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_FrontFogLamps], value: 0
+
+[   798.782 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_HighHeadlamps], value: 0
+
+[   798.783 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Power_Keyst], value: 0
+
+[   798.784 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_LeftTurnSignal], value: 0
+
+[   798.784 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_LowHeadlamps], value: 0
+
+[   798.785 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_ParkingLamp], value: 0
+
+[   798.785 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_PsngrDoorAjarSt], value: 0
+
+[   798.786 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_RLDoorAjarSt], value: 0
+
+[   798.787 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_RRDoorAjarSt], value: 0
+
+[   798.787 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_RearFogLamps], value: 0
+
+[   798.788 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_RightTurnSignal], value: 0
+
+[   798.790 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_TrunkAjarSt], value: 0
+
+[   798.791 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_BattVoltErrFlag], value: 0
+
+[   798.791 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FLDistance], value: 0
+
+[   798.791 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FLMidDistance], value: 0
+
+[   798.791 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FLSnsErrFlag], value: 0
+
+[   798.791 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FRDistance], value: 0
+
+[   798.793 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FRMidDistance], value: 0
+
+[   798.793 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FRSnsErrFlag], value: 0
+
+[   798.793 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FSLSideDistance], value: 99
+
+[   798.793 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FSRSideDistance], value: 38
+
+[   798.793 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_PCS_DisplayReq], value: 0
+
+[   798.794 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RLMidSnsErrFlag], value: 0
+
+[   798.794 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RLSnsErrFlag], value: 0
+
+[   798.794 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RRMidSnsErrFlag], value: 0
+
+[   798.799 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RRSnsErrFlag], value: 0
+
+[   798.800 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RSLSnsErrFlag], value: 0
+
+[   798.800 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RSRSnsErrFlag], value: 0
+
+[   798.881 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_PlgConnSt], value: 0
+
+nDistance:0, HU_RadarBtnSt:1
+Producer put FC_use,FC_fill = 12/13
+Consumer get: "B[3804117.074 s: ]Radar sound open
+[   799.201 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_ButtonPressSt], value: 1
+
+[   799.201 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RLDistance], value: 99
+
+[   799.202 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RLMidDistance], value: 0
+
+[   799.203 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RRDistance], value: 38
+
+[   799.206 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RRMidDistance], value: 0
+
+[   799.206 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RSLSideDistance], value: 0
+
+[   799.210 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RSRSideDistance], value: 0
+
+[   799.237 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_BattVoltErrFlag], value: 0
+
+[   799.238 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FLDistance], value: 0
+
+[   799.241 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FLMidDistance], value: 0
+
+[   799.247 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FLSnsErrFlag], value: 0
+
+[   799.249 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FRDistance], value: 0
+
+[   799.251 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FRMidDistance], value: 0
+
+[   799.251 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FRSnsErrFlag], value: 0
+
+[   799.252 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FSLSideDistance], value: 99
+
+[   799.253 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FSRSideDistance], value: 38
+
+[   799.256 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_PCS_DisplayReq], value: 0
+
+[   799.257 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RLMidSnsErrFlag], value: 0
+
+[   799.259 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RLSnsErrFlag], value: 0
+
+[   799.259 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RRMidSnsErrFlag], value: 0
+
+[   799.259 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RRSnsErrFlag], value: 0
+
+[   799.259 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RSLSnsErrFlag], value: 0
+
+[   799.262 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RSRSnsErrFlag], value: 0
+
+[   799.332 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_PlgConnSt], value: 0
+
+[   799.465 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Gears], value: 0
+
+[   799.926 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Gears], value: 0
+
+[   799.992 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Brakelight], value: 0
+
+nDistance:0, HU_MirrorDipSt:0
+[   800.363 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_OSRMAngleAdjFuncCfgSt], value: 0
+
+[   800.454 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Brakelight], value: 0
+
+nDistance:0, HU_MirrorDipSt:0
+[   800.825 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_OSRMAngleAdjFuncCfgSt], value: 0
+
+[   815.249 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_RCTAWarnLeft], value: 0
+
+[   815.250 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_RCTAWarnRight], value: 0
+
+[   815.320 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_BonnetAjarSt], value: 0
+
+[   815.321 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_DriverDoorAjarSt], value: 0
+
+[   815.321 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_FrontFogLamps], value: 0
+
+[   815.321 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_HighHeadlamps], value: 0
+
+[   815.321 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Power_Keyst], value: 0
+
+[   815.322 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_LeftTurnSignal], value: 0
+
+[   815.323 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_LowHeadlamps], value: 0
+
+[   815.323 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_ParkingLamp], value: 0
+
+[   815.324 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_PsngrDoorAjarSt], value: 0
+
+[   815.324 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_RLDoorAjarSt], value: 0
+
+[   815.324 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_RRDoorAjarSt], value: 0
+
+[   815.324 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_RearFogLamps], value: 0
+
+[   815.325 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_RightTurnSignal], value: 0
+
+[   815.325 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_TrunkAjarSt], value: 0
+
+[   815.485 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_RCTAWarnLeft], value: 0
+
+[   815.491 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_RCTAWarnRight], value: 0
+
+nDistance:0, HU_RadarBtnSt:1
+Producer put FC_use,FC_fill = 13/14
+Consumer get: "B[3804133.621 s: ]Radar sound open
+[   815.747 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_ButtonPressSt], value: 1
+
+[   815.749 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RLDistance], value: 99
+
+[   815.751 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RLMidDistance], value: 0
+
+[   815.753 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RRDistance], value: 38
+
+[   815.754 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RRMidDistance], value: 0
+
+[   815.755 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RSLSideDistance], value: 0
+
+[   815.755 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RSRSideDistance], value: 0
+
+[   815.776 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_BonnetAjarSt], value: 0
+
+[   815.784 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_DriverDoorAjarSt], value: 0
+
+[   815.785 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_FrontFogLamps], value: 0
+
+[   815.786 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_HighHeadlamps], value: 0
+
+[   815.787 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Power_Keyst], value: 0
+
+[   815.788 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_LeftTurnSignal], value: 0
+
+[   815.789 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_LowHeadlamps], value: 0
+
+[   815.789 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_ParkingLamp], value: 0
+
+[   815.790 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_PsngrDoorAjarSt], value: 0
+
+[   815.790 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_RLDoorAjarSt], value: 0
+
+[   815.791 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_RRDoorAjarSt], value: 0
+
+[   815.791 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_RearFogLamps], value: 0
+
+[   815.791 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_RightTurnSignal], value: 0
+
+[   815.792 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_TrunkAjarSt], value: 0
+
+[   815.792 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_BattVoltErrFlag], value: 0
+
+[   815.792 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FLDistance], value: 0
+
+[   815.793 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FLMidDistance], value: 0
+
+[   815.793 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FLSnsErrFlag], value: 0
+
+[   815.793 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FRDistance], value: 0
+
+[   815.794 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FRMidDistance], value: 0
+
+[   815.815 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FRSnsErrFlag], value: 0
+
+[   815.815 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FSLSideDistance], value: 99
+
+[   815.815 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FSRSideDistance], value: 38
+
+[   815.815 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_PCS_DisplayReq], value: 0
+
+[   815.815 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RLMidSnsErrFlag], value: 0
+
+[   815.815 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RLSnsErrFlag], value: 0
+
+[   815.815 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RRMidSnsErrFlag], value: 0
+
+[   815.815 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RRSnsErrFlag], value: 0
+
+[   815.815 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RSLSnsErrFlag], value: 0
+
+[   815.815 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RSRSnsErrFlag], value: 0
+
+[   815.870 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_PlgConnSt], value: 0
+
+nDistance:0, HU_RadarBtnSt:1
+Producer put FC_use,FC_fill = 14/15
+Consumer get: "B[3804134.077 s: ]Radar sound open
+[   816.204 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_ButtonPressSt], value: 1
+
+[   816.204 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RLDistance], value: 99
+
+[   816.207 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RLMidDistance], value: 0
+
+[   816.207 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RRDistance], value: 38
+
+[   816.208 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RRMidDistance], value: 0
+
+[   816.211 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RSLSideDistance], value: 0
+
+[   816.215 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RSRSideDistance], value: 0
+
+[   816.238 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_BattVoltErrFlag], value: 0
+
+[   816.240 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FLDistance], value: 0
+
+[   816.240 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FLMidDistance], value: 0
+
+[   816.241 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FLSnsErrFlag], value: 0
+
+[   816.245 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FRDistance], value: 0
+
+[   816.248 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FRMidDistance], value: 0
+
+[   816.249 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FRSnsErrFlag], value: 0
+
+[   816.254 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FSLSideDistance], value: 99
+
+[   816.256 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_FSRSideDistance], value: 38
+
+[   816.257 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_PCS_DisplayReq], value: 0
+
+[   816.260 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RLMidSnsErrFlag], value: 0
+
+[   816.260 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RLSnsErrFlag], value: 0
+
+[   816.261 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RRMidSnsErrFlag], value: 0
+
+[   816.263 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RRSnsErrFlag], value: 0
+
+[   816.263 s: ]TIP:  ==> Commu_Rcv_MSG: MSG_NAME[em_D2A_Radar_RSLSnsErrFlag

@@ -1,0 +1,4 @@
+{"fault_time_stamp":1577808006518,-----ONLINE-----}
+{"fault_time_stamp":1577808007240,-----ONLINE-----}
+{"fault_time_stamp":1577808007242,"tag":03,"fault_code":1114146,"fault_string":"768","fault_reason":"VIP_POWER_RESET","fault_detail":"VIP_POWER_RESET"}
+{"fault_time_stamp":1577808012633,-----ONLINE-----}

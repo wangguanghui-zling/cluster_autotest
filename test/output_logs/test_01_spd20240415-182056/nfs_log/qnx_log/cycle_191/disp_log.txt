@@ -1,0 +1,325 @@
+DISPCTRL  E Thu Jan  1 00:00:03 1970, 0, DispCtrlMain main thread dispctrl.main
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 1, DispCtrlVersion constructed
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 2, DispCtrlVersion build version as PJ_GAC_AVNT_MAIN_V1.2.9.0
+DISPCTRL  E Thu Jan  1 00:00:03 1970, 3, DispCtrlMain Version: PJ_GAC_AVNT_MAIN_V1.2.9.0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 4, DispCtrlServer constructed
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 5, DispCtrlDiagnoser constructed
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 6, DispCtrlBacklight constructed
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 7, DispCtrlPersist constructed
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 8, DispCtrlPersist read USR_CNTRL_IVI_DISP_BRT_LVL success as 32
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 9, DispCtrlPersist read USR_CNTRL_IVI_DISP_BRT_LVL_NIGHT success as 10
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 10, DispCtrlPersist read USR_IPC_DISP_BRT_LVL success as 8
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 11, DispCtrlPersist read USR_IPC_DISP_BRT_LVL_NIGHT success as 4
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 12, DispCtrlPersist read USR_COD_IVI_DISP_BRT_LVL success as 50
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 13, DispCtrlPersist read USR_COD_IVI_DISP_BRT_LVL_NIGHT success as 25
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 14, DispCtrlPersist read USR_DISP_BRT_MODE from persist: 0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 15, DispCtrlPersist read CFG_VARIANT_TYPE from persist: 74
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 16, DispCtrlInduction constructed
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 17, DispCtrlHeadUp constructed
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 18, DispCtrlCalibration constructed
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 19, DispCtrlModInfo constructed
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 20, DispCtrlBrightnessClient constructed
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 21, DispCtrlVehicleClient constructed
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 22, DispCtrlLCMClient constructed
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 23, DispCtrlNtfCenterClient constructed
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 24, DispCtrlMain server bind url: svc://com.bosch.cm.dispctrl
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 25, DispCtrlMain client connect url: svc://com.bosch.cm.inc.brightness
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 26, DispCtrlMain client connect url: svc://com.bosch.cm.vehicle
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 27, DispCtrlMain client connect url: svc://com.bosch.cm.lcm
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 28, DispCtrlMain client connect url: svc://com.bosch.cm.qnx.notification-center
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 29, DispCtrlBrightnessClient session online: 0, secure: 0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 30, DispCtrlBrightnessClient updateClusterExecutionMode: 0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 31, DispCtrlVehicleClient session online: 0, secure: 0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 32, DispCtrlNtfCenterClient session online: 0, secure: 0
+DISPCTRL  E Thu Jan  1 00:00:03 1970, 33, DispCtrlNtfCenterClient publishDispCtrlModuleInfo with version PJ_GAC_AVNT_MAIN_V1.2.9.0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 34, DispCtrlPersist read USR_HUD_ROT_DIR from persist: 0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 35, DispCtrlPersist read USR_HUD_ROT_LVL from persist: 0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 36, DispCtrlPersist read ENG_DISP_AUTO_DETECT_STAT from persist: 1
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 37, DispCtrlDiagWorker constructed
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 38, DispCtrlDiagRequestJob intenral DiagReq for DISP_HUT service id:22 info type:fefc
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 39, DispCtrlNtfCenterClient buildDispModInfo requested
+DISPCTRL  E Thu Jan  1 00:00:03 1970, 40, DispCtrlBrightnessClient onStatus Error
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 41, DispCtrlDiagRequestJob intenral DiagReq for DISP_HUT service id:22 info type:fef0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 42, DispCtrlBrightnessClient onStatus Reason: Automatically reply to subscribe request.
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 43, DispCtrlAdapter constructed
+DISPCTRL  E Thu Jan  1 00:00:03 1970, 44, DispCtrlVehicleClient can message lost.
+DISPCTRL  E Thu Jan  1 00:00:03 1970, 45, DispCtrlVehicleClient onStatus Error
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 46, DispCtrlVehicleClient onStatus Reason: Automatically reply to subscribe request.
+DISPCTRL  E Thu Jan  1 00:00:03 1970, 47, DispCtrlNtfCenterClient onStatus Error
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 48, DispCtrlNtfCenterClient onStatus Reason: Automatically reply to subscribe request.
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 49, DispCtrlServer session online: 0, secure: 0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 50, DispCtrlPersist read USR_HUD_ROT_DIR from persist: 0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 51, DispCtrlPersist read USR_HUD_ROT_LVL from persist: 0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 52, DispCtrlLCMClient session online: 0, secure: 0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 53, DispCtrlNtfCenterClient onBroadcast DispPwrSplyStat: ivi 0, cluster:0, hvac:0, hud:0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 54, DispCtrlBacklight setBacklight DISP_HUT state to 0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 55, DispCtrlServer onInvoke display: client , pid 237634, sid 0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 56, DispCtrlBacklight setBacklight DISP_COPILOT state to 0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 57, DispCtrlServer onInvoke display: client , pid 237634, sid 0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 58, DispCtrlBacklight setBacklight DISP_IP state to 0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 59, DispCtrlServer onInvoke display: client , pid 237634, sid 0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 60, DispCtrlBacklight setBacklight DISP_COPILOT state to 0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 61, DispCtrlServer onInvoke display: client , pid 237634, sid 0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 62, DispCtrlNtfCenterClient onBroadcast PwrModeStat save_mode :NTF_TRANPORT_OFF
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 63, DispCtrlBacklight setBacklight DISP_IP state to 0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 64, DispCtrlServer onInvoke display: client , pid 237634, sid 0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 65, DispCtrlBacklight setBacklight DISP_HUT state to 0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 66, DispCtrlServer onInvoke display: client , pid 237634, sid 0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 67, DispCtrlBacklight setBacklight DISP_COPILOT state to 0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 68, DispCtrlServer onInvoke display: client , pid 237634, sid 0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 69, DispCtrlNtfCenterClient onBroadcast DispPwrSplyStat: ivi 0, cluster:0, hvac:0, hud:0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 70, DispCtrlNtfCenterClient onBroadcast PwrModeStat save_mode :NTF_TRANPORT_OFF
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 71, DispCtrlNtfCenterClient onBroadcast PwrModeStat save_mode :NTF_TRANPORT_OFF
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 72, DispCtrlBacklight setBacklight DISP_IP state to 1
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 73, DispCtrlPersist persistBacklight DISP_IP to 1 success
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 74, DispCtrlServer onInvoke display: client , pid 237634, sid 0
+DISPCTRL  I Thu Jan  1 00:00:03 1970, 75, DispCtrlNtfCenterClient onBroadcast DispPwrSplyStat: ivi 0, cluster:1, hvac:0, hud:0
+DISPCTRL  E Thu Jan  1 00:00:03 1970, 76, DispCtrlBacklight onBacklightUpdate DISP_IP failed
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 77, DispCtrlAdapter diag 0xfefc retrun 02 01 
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 78, DispCtrlDiagResultJob received info type:fefc code:DISP_DIAG_POSITIVE_RESPONSE
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 79, DispCtrlCalibration processUniqueId readed DISP_HUT unique id: 02 01
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 80, DispCtrlPersist read ENG_CNTRL_IVI_DISP_VEN_ID from persist: 2
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 81, DispCtrlPersist read ENG_CNTRL_IVI_DISP_SCRN_ID from persist: 1
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 82, DispCtrlCalibration processUniqueId keep DISP_HUT latest calibration result
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 83, DispCtrlDiagRequestJob intenral DiagReq for DISP_IP service id:22 info type:fefc
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 84, DispCtrlNtfCenterClient onBroadcast PwrModeStat save_mode :NTF_TRANPORT_OFF
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 85, DispCtrlBacklight setBacklight DISP_IP state to 1
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 86, DispCtrlServer onInvoke display: client , pid 237634, sid 0
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 87, DispCtrlBacklight setBacklight DISP_HUT state to 1
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 88, DispCtrlPersist persistBacklight DISP_HUT to 1 success
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 89, DispCtrlServer onInvoke display: client , pid 237634, sid 0
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 90, DispCtrlBacklight setBacklight DISP_COPILOT state to 1
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 91, DispCtrlPersist persistBacklight DISP_COPILOT to 1 success
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 92, DispCtrlServer onInvoke display: client , pid 237634, sid 0
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 93, DispCtrlBacklight broadcastDisplayStatus DISP_HUT state:1 level:32
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 94, DispCtrlNtfCenterClient onBroadcast PwrModeStat save_mode :NTF_TRANPORT_OFF
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 95, DispCtrlBacklight broadcastDisplayStatus DISP_COPILOT state:1 level:50
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 96, DispCtrlNtfCenterClient onBroadcast DispPwrSplyStat: ivi 1, cluster:1, hvac:1, hud:1
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 97, DispCtrlAdapter diag 0xfef0 retrun 38 35 36 30 30 31 30 43 4d 56 30 31 53 2e 41 30 39 
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 98, DispCtrlDiagResultJob received info type:fef0 code:DISP_DIAG_POSITIVE_RESPONSE
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 99, DispCtrlModInfo translateDispInfo result DISP_HUT:DISP_SW_VERSION:8560010CMV01S.A09
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 100, DispCtrlDiagRequestJob intenral DiagReq for DISP_HUT service id:22 info type:fef1
+DISPCTRL  W Wed Jan  1 00:00:03 2020, 101, DispCtrlDiagRequestJob reqDiag failed DISP_IP with type 0xfefc
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 102, DispCtrlDiagResultJob received info type:fefc code:DISP_DIAG_NEGATIVE_RESPONSE
+DISPCTRL  W Wed Jan  1 00:00:03 2020, 103, DispCtrlCalibration processUniqueId failed to read DISP_IP unique id
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 104, DispCtrlDiagRequestJob intenral DiagReq for DISP_IP service id:22 info type:fef5
+DISPCTRL  I Wed Jan  1 00:00:03 2020, 105, DispCtrlNtfCenterClient onBroadcast PwrModeStat save_mode :NTF_TRANPORT_OFF
+DISPCTRL  I Wed Jan  1 00:00:04 2020, 106, DispCtrlNtfCenterClient onBroadcast PwrModeStat save_mode :NTF_TRANPORT_OFF
+DISPCTRL  I Wed Jan  1 00:00:04 2020, 107, DispCtrlAdapter diag 0xfef1 retrun 38 35 36 30 30 31 30 43 4d 56 30 31 48 2e 44 30 30 
+DISPCTRL  I Wed Jan  1 00:00:04 2020, 108, DispCtrlDiagResultJob received info type:fef1 code:DISP_DIAG_POSITIVE_RESPONSE
+DISPCTRL  I Wed Jan  1 00:00:04 2020, 109, DispCtrlModInfo translateDispInfo result DISP_HUT:DISP_HW_VERSION:8560010CMV01H.D00
+DISPCTRL  I Wed Jan  1 00:00:04 2020, 110, DispCtrlDiagRequestJob intenral DiagReq for DISP_HUT service id:22 info type:fef5
+DISPCTRL  W Wed Jan  1 00:00:04 2020, 111, DispCtrlDiagRequestJob reqDiag failed DISP_IP with type 0xfef5
+DISPCTRL  I Wed Jan  1 00:00:04 2020, 112, DispCtrlDiagResultJob received info type:fef5 code:DISP_DIAG_NEGATIVE_RESPONSE
+DISPCTRL  W Wed Jan  1 00:00:04 2020, 113, DispCtrlCalibration processPartNum failed to read DISP_IP PN
+DISPCTRL  E Wed Jan  1 00:00:04 2020, 114, DispCtrlCalibration processNextDisplayCalibration failed to mapping HUD display.
+DISPCTRL  I Wed Jan  1 00:00:04 2020, 115, DispCtrlCalibration reportCalibrationResult PARTIAL_CALIBRATED
+DISPCTRL  I Wed Jan  1 00:00:04 2020, 116, DispCtrlPersist write ENG_DISP_AUTO_DETECT_STAT to 1 success
+DISPCTRL  E Wed Jan  1 00:00:04 2020, 117, DispCtrlCalibration reportCalibrationResult NO RESET for unchanged self calibration
+DISPCTRL  I Wed Jan  1 00:00:04 2020, 118, DispCtrlAdapter diag 0xfef5 retrun 38 35 36 30 30 31 30 43 4d 56 30 31 30 30 
+DISPCTRL  I Wed Jan  1 00:00:04 2020, 119, DispCtrlDiagResultJob received info type:fef5 code:DISP_DIAG_POSITIVE_RESPONSE
+DISPCTRL  I Wed Jan  1 00:00:04 2020, 120, DispCtrlModInfo translateDispInfo result DISP_HUT: DISP_PART_NUMBER:8560010CMV0100
+DISPCTRL  I Wed Jan  1 00:00:04 2020, 121, DispCtrlDiagRequestJob intenral DiagReq for DISP_HUT service id:22 info type:fef6
+DISPCTRL  I Wed Jan  1 00:00:05 2020, 122, DispCtrlNtfCenterClient onBroadcast PwrModeStat save_mode :NTF_TRANPORT_OFF
+DISPCTRL  I Wed Jan  1 00:00:05 2020, 123, DispCtrlServer session online: 1, secure: 0
+DISPCTRL  I Wed Jan  1 00:00:05 2020, 124, DispCtrlAdapter diag 0xfef6 retrun ff ff ff ff ff ff ff ff 20 20 20 20 20 20 20 20 20 20 20 20 
+DISPCTRL  I Wed Jan  1 00:00:05 2020, 125, DispCtrlDiagResultJob received info type:fef6 code:DISP_DIAG_POSITIVE_RESPONSE
+DISPCTRL  E Wed Jan  1 00:00:05 2020, 126, DispCtrlModInfo translateDispInfo invalid ASCII info:255
+DISPCTRL  I Wed Jan  1 00:00:05 2020, 127, DispCtrlModInfo translateDispInfo result DISP_HUT:$DISP_SERIAL_NUMBER:
+DISPCTRL  I Wed Jan  1 00:00:05 2020, 128, DispCtrlDiagRequestJob intenral DiagReq for DISP_IP service id:22 info type:fef0
+DISPCTRL  W Wed Jan  1 00:00:05 2020, 129, DispCtrlDiagRequestJob reqDiag failed DISP_IP with type 0xfef0
+DISPCTRL  I Wed Jan  1 00:00:05 2020, 130, DispCtrlDiagResultJob received info type:fef0 code:DISP_DIAG_NEGATIVE_RESPONSE
+DISPCTRL  I Wed Jan  1 00:00:05 2020, 131, DispCtrlDiagRequestJob intenral DiagReq for DISP_IP service id:22 info type:fef1
+DISPCTRL  N Wed Jan  1 00:00:05 2020, 132, DispCtrlDiagnoser onDtcInfo diag online state is: 0
+DISPCTRL  N Wed Jan  1 00:00:05 2020, 133, DispCtrlDiagnoser onDtcInfo screen 2 dtc:100000000 lvds:0
+DISPCTRL  N Wed Jan  1 00:00:05 2020, 134, DispCtrlDiagnoser onDtcInfo DISP_IP DISPLAY_DTC_DESERIALIZER_IIC_ERROR 0 => 1
+DISPCTRL  W Wed Jan  1 00:00:05 2020, 135, DispCtrlDiagRequestJob reqDiag failed DISP_IP with type 0xfef1
+DISPCTRL  I Wed Jan  1 00:00:05 2020, 136, handleInternelDTC type:DISP_IP,dtcid:10,dtcStatus:0
+DISPCTRL  I Wed Jan  1 00:00:05 2020, 137, DispCtrlDiagResultJob received info type:fef1 code:DISP_DIAG_NEGATIVE_RESPONSE
+DISPCTRL  I Wed Jan  1 00:00:05 2020, 138, DispCtrlDiagRequestJob intenral DiagReq for DISP_IP service id:22 info type:fef5
+DISPCTRL  W Wed Jan  1 00:00:05 2020, 139, DispCtrlDiagRequestJob reqDiag failed DISP_IP with type 0xfef5
+DISPCTRL  I Wed Jan  1 00:00:05 2020, 140, DispCtrlDiagResultJob received info type:fef5 code:DISP_DIAG_NEGATIVE_RESPONSE
+DISPCTRL  I Wed Jan  1 00:00:05 2020, 141, DispCtrlDiagRequestJob intenral DiagReq for DISP_IP service id:22 info type:fef6
+DISPCTRL  W Wed Jan  1 00:00:05 2020, 142, DispCtrlDiagRequestJob reqDiag failed DISP_IP with type 0xfef6
+DISPCTRL  I Wed Jan  1 00:00:05 2020, 143, DispCtrlDiagResultJob received info type:fef6 code:DISP_DIAG_NEGATIVE_RESPONSE
+DISPCTRL  I Wed Jan  1 00:00:06 2020, 144, DispCtrlServer session online: 2, secure: 0
+DISPCTRL  E Wed Jan  1 00:00:06 2020, 145, DispCtrlNtfCenterClient onBroadcast EVT_DIAG_SERV_ONLINE
+DISPCTRL  N Wed Jan  1 00:00:07 2020, 146, DispCtrlDiagnoser onDtcInfo diag online state is: 1
+DISPCTRL  N Wed Jan  1 00:00:07 2020, 147, DispCtrlDiagnoser onDtcInfo screen 2 dtc:900000000 lvds:1
+DISPCTRL  N Wed Jan  1 00:00:07 2020, 148, DispCtrlDiagnoser onDtcInfo DISP_IP DISPLAY_DTC_LVDS_LOST 0 => 1
+DISPCTRL  N Wed Jan  1 00:00:07 2020, 149, DispCtrlBacklight onDisplayConnectionChanged DISP_IP connection changed 1 -> 0
+DISPCTRL  I Wed Jan  1 00:00:07 2020, 150, handleInternelDTC type:DISP_IP,dtcid:10,dtcStatus:1
+DISPCTRL  I Wed Jan  1 00:00:07 2020, 151, DISP_IP----dtc---- delay cnt:0,send cnt:0,
+DISPCTRL  I Wed Jan  1 00:00:07 2020, 152, DispCtrlLCMClient report dtc to LCM
+DISPCTRL  I Wed Jan  1 00:00:07 2020, 153, DispCtrlDiagnoser handleInternelDTC send reset cmd: 0
+DISPCTRL  N Wed Jan  1 00:00:07 2020, 154, DispCtrlDiagnoser onDtcInfo DISP_IP DISPLAY_DTC_LOCK_IIC_FAULT 0 => 1
+DISPCTRL  I Wed Jan  1 00:00:07 2020, 155, DispCtrlBacklight setBacklight DISP_IP state to 0
+DISPCTRL  I Wed Jan  1 00:00:07 2020, 156, DispCtrlPersist persistBacklight DISP_IP to 0 success
+DISPCTRL  I Wed Jan  1 00:00:07 2020, 157, DispCtrlServer onInvoke display: client , pid 237634, sid 0
+DISPCTRL  I Wed Jan  1 00:00:07 2020, 158, DispCtrlLCMClient onReply Message 0x59 received from  com.bosch.cm.lcm
+DISPCTRL  E Wed Jan  1 00:00:07 2020, 159, DispCtrlBacklight onBacklightUpdate DISP_IP failed
+DISPCTRL  I Wed Jan  1 00:00:07 2020, 160, DispCtrlNtfCenterClient onBroadcast DispPwrSplyStat: ivi 1, cluster:0, hvac:1, hud:1
+DISPCTRL  N Wed Jan  1 00:00:08 2020, 161, DispCtrlDiagnoser onDtcInfo diag online state is: 1
+DISPCTRL  N Wed Jan  1 00:00:08 2020, 162, DispCtrlDiagnoser onDtcInfo screen 2 dtc:900000000 lvds:1
+DISPCTRL  I Wed Jan  1 00:00:08 2020, 163, handleInternelDTC type:DISP_IP,dtcid:10,dtcStatus:1
+DISPCTRL  I Wed Jan  1 00:00:08 2020, 164, DISP_IP----dtc---- delay cnt:0,send cnt:1,
+DISPCTRL  I Wed Jan  1 00:00:08 2020, 165, DispCtrlLCMClient report dtc to LCM
+DISPCTRL  I Wed Jan  1 00:00:08 2020, 166, DispCtrlDiagnoser handleInternelDTC send reset cmd: 1
+DISPCTRL  I Wed Jan  1 00:00:08 2020, 167, DispCtrlBacklight setBacklight DISP_IP state to 1
+DISPCTRL  I Wed Jan  1 00:00:08 2020, 168, DispCtrlPersist persistBacklight DISP_IP to 1 success
+DISPCTRL  I Wed Jan  1 00:00:08 2020, 169, DispCtrlServer onInvoke display: client , pid 237634, sid 0
+DISPCTRL  I Wed Jan  1 00:00:08 2020, 170, DispCtrlLCMClient onReply Message 0x59 received from  com.bosch.cm.lcm
+DISPCTRL  I Wed Jan  1 00:00:09 2020, 171, DispCtrlNtfCenterClient onBroadcast DispPwrSplyStat: ivi 1, cluster:1, hvac:1, hud:1
+DISPCTRL  E Wed Jan  1 00:00:09 2020, 172, DispCtrlBacklight onBacklightUpdate DISP_IP failed
+DISPCTRL  N Wed Jan  1 00:00:09 2020, 173, DispCtrlDiagnoser onDtcInfo diag online state is: 1
+DISPCTRL  N Wed Jan  1 00:00:09 2020, 174, DispCtrlDiagnoser onDtcInfo screen 2 dtc:900000000 lvds:1
+DISPCTRL  I Wed Jan  1 00:00:09 2020, 175, handleInternelDTC type:DISP_IP,dtcid:10,dtcStatus:1
+DISPCTRL  I Wed Jan  1 00:00:09 2020, 176, DISP_IP----dtc---- delay cnt:3,send cnt:2,
+DISPCTRL N Wed Jan  1 00:00:10 2020, 178, DispCtrlDiagnoser onDtcInfo diag online state is: 1
+DISPCTRL N Wed Jan  1 00:00:10 2020, 179, DispCtrlDiagnoser onDtcInfo screen 2 dtc:900000000 lvds:1
+DISPCTRL I Wed Jan  1 00:00:10 2020, 180, handleInternelDTC type:DISP_IP,dtcid:10,dtcStatus:1
+DISPCTRL I Wed Jan  1 00:00:10 2020, 181, DISP_IP----dtc---- delay cnt:2,send cnt:2,
+DISPCTRL N Wed Jan  1 00:00:11 2020, 182, DispCtrlDiagnoser onDtcInfo diag online state is: 1
+DISPCTRL N Wed Jan  1 00:00:11 2020, 183, DispCtrlDiagnoser onDtcInfo screen 2 dtc:900000000 lvds:1
+DISPCTRL I Wed Jan  1 00:00:11 2020, 184, handleInternelDTC type:DISP_IP,dtcid:10,dtcStatus:1
+DISPCTRL I Wed Jan  1 00:00:11 2020, 185, DISP_IP----dtc---- delay cnt:1,send cnt:2,
+DISPCTRL N Wed Jan  1 00:00:12 2020, 186, DispCtrlDiagnoser onDtcInfo diag online state is: 1
+DISPCTRL N Wed Jan  1 00:00:12 2020, 187, DispCtrlDiagnoser onDtcInfo screen 2 dtc:900000000 lvds:1
+DISPCTRL I Wed Jan  1 00:00:12 2020, 188, handleInternelDTC type:DISP_IP,dtcid:10,dtcStatus:1
+DISPCTRL I Wed Jan  1 00:00:12 2020, 189, DISP_IP----dtc---- delay cnt:0,send cnt:2,
+DISPCTRL I Wed Jan  1 00:00:12 2020, 190, DispCtrlLCMClient report dtc to LCM
+DISPCTRL I Wed Jan  1 00:00:12 2020, 191, DispCtrlDiagnoser handleInternelDTC send reset cmd: 0
+DISPCTRL I Wed Jan  1 00:00:13 2020, 192, DispCtrlBacklight setBacklight DISP_IP state to 0
+DISPCTRL I Wed Jan  1 00:00:13 2020, 193, DispCtrlPersist persistBacklight DISP_IP to 0 success
+DISPCTRL I Wed Jan  1 00:00:13 2020, 194, DispCtrlServer onInvoke display: client , pid 237634, sid 0
+DISPCTRL I Wed Jan  1 00:00:13 2020, 195, DispCtrlLCMClient onReply Message 0x59 received from  com.bosch.cm.lcm
+DISPCTRL E Wed Jan  1 00:00:13 2020, 196, DispCtrlBacklight onBacklightUpdate DISP_IP failed
+DISPCTRL I Wed Jan  1 00:00:13 2020, 197, DispCtrlNtfCenterClient onBroadcast DispPwrSplyStat: ivi 1, cluster:0, hvac:1, hud:1
+DISPCTRL I Wed Jan  1 00:00:13 2020, 198, DispCtrlNtfCenterClient onBroadcast PwrModeStat save_mode :NTF_TRANPORT_OFF
+DISPCTRL N Wed Jan  1 00:00:13 2020, 199, DispCtrlDiagnoser onDtcInfo diag online state is: 1
+DISPCTRL N Wed Jan  1 00:00:13 2020, 200, DispCtrlDiagnoser onDtcInfo screen 2 dtc:900000000 lvds:1
+DISPCTRL I Wed Jan  1 00:00:13 2020, 201, handleInternelDTC type:DISP_IP,dtcid:10,dtcStatus:1
+DISPCTRL I Wed Jan  1 00:00:13 2020, 202, DISP_IP----dtc---- delay cnt:0,send cnt:3,
+DISPCTRL I Wed Jan  1 00:00:13 2020, 203, DispCtrlLCMClient report dtc to LCM
+DISPCTRL I Wed Jan  1 00:00:13 2020, 204, DispCtrlDiagnoser handleInternelDTC send reset cmd: 1
+DISPCTRL I Wed Jan  1 00:00:13 2020, 205, DispCtrlBacklight setBacklight DISP_IP state to 1
+DISPCTRL I Wed Jan  1 00:00:13 2020, 206, DispCtrlPersist persistBacklight DISP_IP to 1 success
+DISPCTRL I Wed Jan  1 00:00:13 2020, 207, DispCtrlServer onInvoke display: client , pid 237634, sid 0
+DISPCTRL I Wed Jan  1 00:00:13 2020, 208, DispCtrlLCMClient onReply Message 0x59 received from  com.bosch.cm.lcm
+DISPCTRL E Wed Jan  1 00:00:13 2020, 209, DispCtrlBacklight onBacklightUpdate DISP_IP failed
+DISPCTRL I Wed Jan  1 00:00:13 2020, 210, DispCtrlNtfCenterClient onBroadcast DispPwrSplyStat: ivi 1, cluster:1, hvac:1, hud:1
+DISPCTRL N Wed Jan  1 00:00:14 2020, 211, DispCtrlDiagnoser onDtcInfo diag online state is: 1
+DISPCTRL N Wed Jan  1 00:00:14 2020, 212, DispCtrlDiagnoser onDtcInfo screen 2 dtc:900000000 lvds:1
+DISPCTRL I Wed Jan  1 00:00:14 2020, 213, handleInternelDTC type:DISP_IP,dtcid:10,dtcStatus:1
+DISPCTRL I Wed Jan  1 00:00:14 2020, 214, DISP_IP----dtc---- delay cnt:3,send cnt:4,
+DISPCTRL N Wed Jan  1 00:00:15 2020, 215, DispCtrlDiagnoser onDtcInfo diag online state is: 1
+DISPCTRL N Wed Jan  1 00:00:15 2020, 216, DispCtrlDiagnoser onDtcInfo screen 2 dtc:900000000 lvds:1
+DISPCTRL I Wed Jan  1 00:00:15 2020, 217, handleInternelDTC type:DISP_IP,dtcid:10,dtcStatus:1
+DISPCTRL I Wed Jan  1 00:00:15 2020, 218, DISP_IP----dtc---- delay cnt:2,send cnt:4,
+DISPCTRL I Wed Jan  1 00:00:17 2020, 219, DispCtrlServer session online: 3, secure: 1
+DISPCTRL I Wed Jan  1 00:00:17 2020, 220, DispCtrlNtfCenterClient onBroadcast PwrModeStat save_mode :NTF_TRANPORT_OFF
+DISPCTRL I Wed Jan  1 00:00:17 2020, 221, DispCtrlNtfCenterClient onBroadcast PwrModeStat save_mode :NTF_TRANPORT_OFF
+DISPCTRL N Wed Jan  1 00:00:17 2020, 222, DispCtrlDiagnoser onDtcInfo diag online state is: 1
+DISPCTRL N Wed Jan  1 00:00:17 2020, 223, DispCtrlDiagnoser onDtcInfo screen 2 dtc:900000000 lvds:1
+DISPCTRL I Wed Jan  1 00:00:17 2020, 224, handleInternelDTC type:DISP_IP,dtcid:10,dtcStatus:1
+DISPCTRL I Wed Jan  1 00:00:17 2020, 225, DISP_IP----dtc---- delay cnt:1,send cnt:4,
+DISPCTRL N Wed Jan  1 00:00:18 2020, 226, DispCtrlDiagnoser onDtcInfo diag online state is: 1
+DISPCTRL N Wed Jan  1 00:00:18 2020, 227, DispCtrlDiagnoser onDtcInfo screen 2 dtc:900000000 lvds:1
+DISPCTRL I Wed Jan  1 00:00:18 2020, 228, handleInternelDTC type:DISP_IP,dtcid:10,dtcStatus:1
+DISPCTRL I Wed Jan  1 00:00:18 2020, 229, DISP_IP----dtc---- delay cnt:0,send cnt:4,
+DISPCTRL I Wed Jan  1 00:00:18 2020, 230, DispCtrlLCMClient report dtc to LCM
+DISPCTRL I Wed Jan  1 00:00:18 2020, 231, DispCtrlDiagnoser handleInternelDTC send reset cmd: 0
+DISPCTRL I Wed Jan  1 00:00:18 2020, 232, DispCtrlBacklight setBacklight DISP_IP state to 0
+DISPCTRL I Wed Jan  1 00:00:18 2020, 233, DispCtrlPersist persistBacklight DISP_IP to 0 success
+DISPCTRL I Wed Jan  1 00:00:18 2020, 234, DispCtrlServer onInvoke display: client , pid 237634, sid 0
+DISPCTRL I Wed Jan  1 00:00:18 2020, 235, DispCtrlLCMClient onReply Message 0x59 received from  com.bosch.cm.lcm
+DISPCTRL E Wed Jan  1 00:00:18 2020, 236, DispCtrlBacklight onBacklightUpdate DISP_IP failed
+DISPCTRL I Wed Jan  1 00:00:18 2020, 237, DispCtrlNtfCenterClient onBroadcast DispPwrSplyStat: ivi 1, cluster:0, hvac:1, hud:1
+DISPCTRL N Wed Jan  1 00:00:19 2020, 238, DispCtrlDiagnoser onDtcInfo diag online state is: 1
+DISPCTRL N Wed Jan  1 00:00:19 2020, 239, DispCtrlDiagnoser onDtcInfo screen 2 dtc:900000000 lvds:1
+DISPCTRL I Wed Jan  1 00:00:19 2020, 240, handleInternelDTC type:DISP_IP,dtcid:10,dtcStatus:1
+DISPCTRL I Wed Jan  1 00:00:19 2020, 241, DISP_IP----dtc---- delay cnt:0,send cnt:5,
+DISPCTRL I Wed Jan  1 00:00:19 2020, 242, DispCtrlLCMClient report dtc to LCM
+DISPCTRL I Wed Jan  1 00:00:19 2020, 243, DispCtrlDiagnoser handleInternelDTC send reset cmd: 1
+DISPCTRL I Wed Jan  1 00:00:19 2020, 244, DispCtrlBacklight setBacklight DISP_IP state to 1
+DISPCTRL I Wed Jan  1 00:00:19 2020, 245, DispCtrlPersist persistBacklight DISP_IP to 1 success
+DISPCTRL I Wed Jan  1 00:00:19 2020, 246, DispCtrlServer onInvoke display: client , pid 237634, sid 0
+DISPCTRL I Wed Jan  1 00:00:19 2020, 247, DispCtrlLCMClient onReply Message 0x59 received from  com.bosch.cm.lcm
+DISPCTRL I Wed Jan  1 00:00:19 2020, 248, DispCtrlNtfCenterClient onBroadcast DispPwrSplyStat: ivi 1, cluster:1, hvac:1, hud:1
+DISPCTRL E Wed Jan  1 00:00:19 2020, 249, DispCtrlBacklight onBacklightUpdate DISP_IP failed
+DISPCTRL N Wed Jan  1 00:00:20 2020, 250, DispCtrlDiagnoser onDtcInfo diag online state is: 1
+DISPCTRL N Wed Jan  1 00:00:20 2020, 251, DispCtrlDiagnoser onDtcInfo screen 2 dtc:900000000 lvds:1
+DISPCTRL I Wed Jan  1 00:00:20 2020, 252, handleInternelDTC type:DISP_IP,dtcid:10,dtcStatus:1
+DISPCTRL I Wed Jan  1 00:00:20 2020, 253, DISP_IP----dtc---- delay cnt:3,send cnt:6,
+DISPCTRL N Wed Jan  1 00:00:21 2020, 254, DispCtrlDiagnoser onDtcInfo diag online state is: 1
+DISPCTRL N Wed Jan  1 00:00:21 2020, 255, DispCtrlDiagnoser onDtcInfo screen 2 dtc:900000000 lvds:1
+DISPCTRL I Wed Jan  1 00:00:21 2020, 256, handleInternelDTC type:DISP_IP,dtcid:10,dtcStatus:1
+DISPCTRL I Wed Jan  1 00:00:21 2020, 257, DISP_IP----dtc---- delay cnt:2,send cnt:6,
+DISPCTRL N Wed Jan  1 00:00:22 2020, 258, DispCtrlDiagnoser onDtcInfo diag online state is: 1
+DISPCTRL N Wed Jan  1 00:00:22 2020, 259, DispCtrlDiagnoser onDtcInfo screen 2 dtc:900000000 lvds:1
+DISPCTRL I Wed Jan  1 00:00:22 2020, 260, handleInternelDTC type:DISP_IP,dtcid:10,dtcStatus:1
+DISPCTRL I Wed Jan  1 00:00:22 2020, 261, DISP_IP----dtc---- delay cnt:1,send cnt:6,
+DISPCTRL N Wed Jan  1 00:00:23 2020, 262, DispCtrlDiagnoser onDtcInfo diag online state is: 1
+DISPCTRL N Wed Jan  1 00:00:23 2020, 263, DispCtrlDiagnoser onDtcInfo screen 2 dtc:900000000 lvds:1
+DISPCTRL I Wed Jan  1 00:00:23 2020, 264, handleInternelDTC type:DISP_IP,dtcid:10,dtcStatus:1
+DISPCTRL I Wed Jan  1 00:00:23 2020, 265, DISP_IP----dtc---- delay cnt:0,send cnt:6,
+DISPCTRL I Wed Jan  1 00:00:23 2020, 266, DISP_IP send cnt > 6,continue....
+DISPCTRL I Wed Jan  1 00:00:23 2020, 267, DispCtrlServer handleGetDisplayInfo for DISP_HUT
+DISPCTRL I Wed Jan  1 00:00:23 2020, 268, DispCtrlBacklight broadcastDisplayStatus DISP_HUT state:1 level:32
+DISPCTRL I Wed Jan  1 00:00:23 2020, 269, DispCtrlServer onInvoke display: client 192.168.118.1, pid 498, sid 3
+DISPCTRL I Wed Jan  1 00:00:23 2020, 270, DispCtrlServer handleGetDisplayInfo for DISP_IP
+DISPCTRL I Wed Jan  1 00:00:23 2020, 271, DispCtrlBacklight broadcastDisplayStatus DISP_IP state:1 level:8
+DISPCTRL I Wed Jan  1 00:00:23 2020, 272, DispCtrlServer onInvoke display: client 192.168.118.1, pid 498, sid 3
+DISPCTRL I Wed Jan  1 00:00:23 2020, 273, DispCtrlServer handleGetDisplayInfo for DISP_COPILOT
+DISPCTRL I Wed Jan  1 00:00:23 2020, 274, DispCtrlBacklight broadcastDisplayStatus DISP_COPILOT state:1 level:50
+DISPCTRL I Wed Jan  1 00:00:23 2020, 275, DispCtrlServer onInvoke display: client 192.168.118.1, pid 498, sid 3
+DISPCTRL N Wed Jan  1 00:00:24 2020, 276, DispCtrlDiagnoser onDtcInfo diag online state is: 1
+DISPCTRL N Wed Jan  1 00:00:24 2020, 277, DispCtrlDiagnoser onDtcInfo screen 2 dtc:900000000 lvds:1
+DISPCTRL I Wed Jan  1 00:00:24 2020, 278, handleInternelDTC type:DISP_IP,dtcid:10,dtcStatus:1
+DISPCTRL I Wed Jan  1 00:00:24 2020, 279, DISP_IP----dtc---- delay cnt:0,send cnt:6,
+DISPCTRL I Wed Jan  1 00:00:24 2020, 280, DISP_IP send cnt > 6,continue....
+DISPCTRL N Wed Jan  1 00:00:25 2020, 281, DispCtrlDiagnoser onDtcInfo diag online state is: 1
+DISPCTRL N Wed Jan  1 00:00:25 2020, 282, DispCtrlDiagnoser onDtcInfo screen 2 dtc:900000000 lvds:1
+DISPCTRL I Wed Jan  1 00:00:25 2020, 283, handleInternelDTC type:DISP_IP,dtcid:10,dtcStatus:1
+DISPCTRL I Wed Jan  1 00:00:25 2020, 284, DISP_IP----dtc---- delay cnt:0,send cnt:6,
+DISPCTRL I Wed Jan  1 00:00:25 2020, 285, DISP_IP send cnt > 6,continue....
+DISPCTRL I Mon Apr 15 11:20:11 2024, 286, DispCtrlServer handleGetDisplayInfo for DISP_HUT
+DISPCTRL I Mon Apr 15 11:20:11 2024, 287, DispCtrlBacklight broadcastDisplayStatus DISP_HUT state:1 level:32
+DISPCTRL I Mon Apr 15 11:20:11 2024, 288, DispCtrlServer onInvoke display: client 192.168.118.1, pid 498, sid 3
+DISPCTRL I Mon Apr 15 11:20:11 2024, 289, DispCtrlServer handleGetDisplayInfo for DISP_IP
+DISPCTRL I Mon Apr 15 11:20:11 2024, 290, DispCtrlBacklight broadcastDisplayStatus DISP_IP state:1 level:8
+DISPCTRL I Mon Apr 15 11:20:11 2024, 291, DispCtrlServer onInvoke display: client 192.168.118.1, pid 498, sid 3
+DISPCTRL I Mon Apr 15 11:20:11 2024, 292, DispCtrlServer handleGetDisplayInfo for DISP_COPILOT
+DISPCTRL I Mon Apr 15 11:20:11 2024, 293, DispCtrlBacklight broadcastDisplayStatus DISP_COPILOT state:1 level:50
+DISPCTRL I Mon Apr 15 11:20:11 2024, 294, DispCtrlServer onInvoke display: client 192.168.118.1, pid 498, sid 3
+DISPCTRL N Mon Apr 15 11:20:11 2024, 295, DispCtrlDiagnoser onDtcInfo diag online state is: 1
+DISPCTRL N Mon Apr 15 11:20:11 2024, 296, DispCtrlDiagnoser onDtcInfo screen 2 dtc:900000000 lvds:1
+DISPCTRL I Mon Apr 15 11:20:11 2024, 297, handleInternelDTC type:DISP_IP,dtcid:10,dtcStatus:1
+DISPCTRL I Mon Apr 15 11:20:11 2024, 298, DISP_IP----dtc---- delay cnt:0,send cnt:6,
+DISPCTRL I Mon Apr 15 11:20:11 2024, 299, DISP_IP send cnt > 6,continue....
+DISPCTRL N Mon Apr 15 11:20:12 2024, 300, DispCtrlDiagnoser onDtcInfo diag online state is: 1
+DISPCTRL N Mon Apr 15 11:20:12 2024, 301, DispCtrlDiagnoser onDtcInfo screen 2 dtc:900000000 lvds:1
+DISPCTRL I Mon Apr 15 11:20:12 2024, 302, handleInternelDTC type:DISP_IP,dtcid:10,dtcStatus:1
+DISPCTRL I Mon Apr 15 11:20:12 2024, 303, DISP_IP----dtc---- delay cnt:0,send cnt:6,
+DISPCTRL I Mon Apr 15 11:20:12 2024, 304, DISP_IP send cnt > 6,continue....
+DISPCTRL N Mon Apr 15 11:20:13 2024, 305, DispCtrlDiagnoser onDtcInfo diag online state is: 1
+DISPCTRL N Mon Apr 15 11:20:13 2024, 306, DispCtrlDiagnoser onDtcInfo screen 2 dtc:900000000 lvds:1
+DISPCTRL I Mon Apr 15 11:20:13 2024, 307, handleInternelDTC type:DISP_IP,dtcid:10,dtcStatus:1
+DISPCTRL I Mon Apr 15 11:20:13 2024, 308, DISP_IP----dtc---- delay cnt:0,send cnt:6,
+DISPCTRL I Mon Apr 15 11:20:13 2024, 309, DISP_IP send cnt > 6,continue....
+DISPCTRL I Mon Apr 15 11:20:14 2024, 310, DispCtrlNtfCenterClient onBroadcast PwrModeStat save_mode :NTF_TRANPORT_OFF
+DISPCTRL N Mon Apr 15 11:20:14 2024, 311, DispCtrlDiagnoser onDtcInfo diag online state is: 1
+DISPCTRL N Mon Apr 15 11:20:14 2024, 312, DispCtrlDiagnoser onDtcInfo screen 2 dtc:900000000 lvds:1
+DISPCTRL I Mon Apr 15 11:20:14 2024, 313, handleInternelDTC type:DISP_IP,dtcid:10,dtcStatus:1
+DISPCTRL I Mon Apr 15 11:20:14 2024, 314, DISP_IP----dtc---- delay cnt:0,send cnt:6,
+DISPCTRL I Mon Apr 15 11:20:14 2024, 315, DISP_IP send cnt > 6,continue....
+DISPCTRL N Mon Apr 15 11:20:16 2024, 316, DispCtrlDiagnoser onDtcInfo diag online state is: 1
+DISPCTRL N Mon Apr 15 11:20:16 2024, 317, DispCtrlDiagnoser onDtcInfo screen 2 dtc:900000000 lvds:1
+DISPCTRL I Mon Apr 15 11:20:16 2024, 318, handleInternelDTC type:DISP_IP,dtcid:10,dtcStatus:1
+DISPCTRL I Mon Apr 15 11:20:16 2024, 319, DISP_IP----dtc---- delay cnt:0,send cnt:6,
+DISPCTRL I Mon Apr 15 11:20:16 2024, 320, DISP_IP send cnt > 6,continue....
+DISPCTRL N Mon Apr 15 11:20:17 2024, 321, DispCtrlDiagnoser onDtcInfo diag online state is: 1
+DISPCTRL N Mon Apr 15 11:20:17 2024, 322, DispCtrlDiagnoser onDtcInfo screen 2 dtc:900000000 lvds:1
+DISPCTRL I Mon Apr 15 11:20:17 2024, 323, handleInternelDTC type:DISP_IP,dtcid:10,dtcStatus:1
+DISPCTRL I Mon Apr 15 11:20:17 2024, 324, DISP_IP----dtc---- delay cnt:0,send cnt:6,
+DISPCTRL I Mon Apr 15 11:20:17 2024, 325, DISP_IP send cnt > 6,continue....
