@@ -6,6 +6,7 @@ from common.utils import *
 from common.utils import case_fail
 from common.utils import read_yaml
 from common.can.canoe import CANoe
+from common.can.dbc import DBCtoXML
 
 #zcan
 ###########################################
@@ -29,15 +30,20 @@ from common.can.canoe import CANoe
 #     print("CloseDevice success! ")
 #CANoe
 #############################################
-config_data=read_yaml.read_yaml('./config/config.yaml')
-app = CANoe() #定义CANoe为app
-app.open_cfg(config_data["cfg_path"]) #导入某个CANoe congif
-app.start_Measurement()
+#config_data=read_yaml.read_yaml('./config/config.yaml')
+#app = CANoe() #定义CANoe为app
+#app.open_cfg(config_data["cfg_path"]) #导入某个CANoe config
+#app.start_Measurement()
 #app.set_SysVar("GW_BCS_2_B_260","BCS_VehSpd",92) #发送报文
 #app.set_SysVar("GW_BCS_2_B_260","BCS_VehSpdVD",1) #发送报文
-app.get_SigVal(1, "ACU_HVAC_1_B", "ACU_HVACFR_RrTempSetting", bus_type="CAN")
+#app.get_SigVal(1, "ACU_HVAC_1_B", "ACU_HVACFR_RrTempSetting", bus_type="CAN")#接收报文
+#app.import_all_SysVar()#导入xml到系统变量
+#dbc to xml
+#############################################
+#test_data=read_yaml.read_yaml('./config/config.yaml')
+#test=DBCtoXML()
+#path=test.DictoXML(test_data["dbc_path"],test_data["xml_path"]) #生成xml文件返回路径
 
-"""
 if __name__ == '__main__':
     pytest.main([
                 "-q",
@@ -56,4 +62,3 @@ if __name__ == '__main__':
     #打开报告
     #allure open -h 127.0.0.1 -p 8883 ./report/
     os.system(r'allure serve .\test\output_report')
-"""

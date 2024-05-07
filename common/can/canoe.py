@@ -207,6 +207,18 @@ class CANoe:
         except Exception as e:
             logger.error(e)
             raise
+    def import_all_SysVar(self,path):
+        """
+        将xml导入到CANoe工程的系统变量值中
+        param: path: xml路径
+        """
+        try:
+            if (self.application != None):
+                Variables = self.application.System.VariablesFiles
+                Variables.Add(path)
+        except Exception as e:
+            logger.error(e)
+            raise
         
     def DoEvents(self):
         """

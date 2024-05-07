@@ -142,4 +142,3 @@ logger = _logger
 """
 set_logger("debug","./test/output_logs")
 logger= _logger
-logger.info("test")

@@ -6,26 +6,16 @@ includes
 
 variables
 {
-  msTimer timer1;
   message GW_BCS_2_B msg260;
-  int Spd;
-  int VD;
 }
 
-on start{
-  setTimer(timer1,100);
-}
 
 on sysvar GW_BCS_2_B_260::BCS_VehSpd{
-  Spd = @this;
   msg260.BCS_VehSpd.phys = @this; //phys发送物理值
-  write("%d",Spd);
   output(msg260);
 }
 
 on sysvar GW_BCS_2_B_260::BCS_VehSpdVD{
-  VD = @this;
   msg260.BCS_VehSpdVD.phys = @this; //phys发送物理值
-  write("%d",VD);
   output(msg260);
 }
