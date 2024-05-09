@@ -42,7 +42,7 @@ from common.can.dbc import DBCtoXML
 #############################################
 #test_data=read_yaml.read_yaml('./config/config.yaml')
 #test=DBCtoXML()
-#path=test.DictoXML(test_data["dbc_path"],test_data["xml_path"]) #生成xml文件返回路径
+#path=test.DictoXML(r"C:/Users/Administrator/Desktop/A02/CANdb/A02Project_CMX_IDC_V6.3.3(G38.0)20230308.dbc",r"C:/Users/Administrator/Desktop/A02/SystemVariable") #生成xml文件返回路径
 
 if __name__ == '__main__':
     pytest.main([
