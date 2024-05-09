@@ -189,8 +189,10 @@ class DBCtoXML():
             #读取DBC文件并进行处理
             DBCFile = dbc_path.split('/')[-1]
             self.DBCFile = DBCFile.split('.dbc')[0]
-            f= open(dbc_path)
-            contents = f.read()
+            #f= open(dbc_path)
+            contents =""
+            with open(dbc_path, 'r', encoding='gbk', errors='ignore') as f:
+                contents = f.read()
             contents = contents.split("CM_ SG_")[0] #将DBC文件读取到的内容的后半部分裁剪掉
             messagelist = contents.split("BO_ ") #将裁剪掉的内容按照“BO_ ”进行拆分(按照报文进行进行拆分)
             messagelistdic = {}
@@ -248,7 +250,11 @@ class DBCtoXML():
                     variable_unit = ' unit="%s"'%(value["unit"])
                     variable_name = ' name="%s"'%(k)
                     variable_min = ' minValue="%s" minValuePhys="%s" '%(value["min"],value["min"])
-                    variable_max = 'maxValue="%s" maxValuePhys="%s" />\n'%(value["max"],value["max"])
+                    if "." in value["max"]:#对小数处理
+                        value["max"]=str(float(value["max"].partition(".")[0])+1)
+                        variable_max = 'maxValue="%s" maxValuePhys="%s" />\n'%(value["max"],value["max"])
+                    else:
+                        variable_max = 'maxValue="%s" maxValuePhys="%s" />\n'%(value["max"],value["max"])
                     variable_other = ""
                     if ("-" in value["min"]) or ("." in value["min"]) or ("-" in value["max"]) or ("." in value["max"]):
                         if float(value["max"]) > 999999999:
