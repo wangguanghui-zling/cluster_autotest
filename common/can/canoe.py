@@ -119,7 +119,7 @@ class CANoe:
         except Exception as e:
             logger.error(e)
             raise
-    def set_SigVal(self, channel_num, msg_name, sig_name, bus_type,setValue):
+    def set_SigVal(self, msg_name, sig_name, bus_type, setValue, channel_num = 1):
         """
         通过CANoe发送信号
         param: channel_num: CAN通道

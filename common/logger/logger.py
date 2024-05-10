@@ -18,7 +18,7 @@ from loguru import logger as _logger
     3、 如果找不到配置文件，默认使用info级别输出log，并且不保存log内容到文件
 """
 
-config_file_name = "./config/config.yml"
+config_file_name = "./config/settings.ini"
 current_path = os.getcwd()
 log_level_type = "trace", "debug", "info", "warning", "error"
 print(current_path)

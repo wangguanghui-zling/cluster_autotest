@@ -125,11 +125,13 @@ class Gen:
                     # f.module_globals()
                     f.class_name(os.path.split(source)[1])
                     # f.class_doc()
-                    f.class_setup(["API.reset_measurement()", "API.reset_battery()"])
+                    # f.class_setup(["API.reset_measurement()", "API.reset_battery()"])
+                    f.class_setup(["API.reset_measurement()"])
                     f.class_teardown(["# API.close()"])
                     # f.method_setup(["API.reset_battery()"])
                     f.method_setup()
-                    f.method_teardown(["API.reset_battery()", "API.reset_signals()"])
+                    # f.method_teardown(["API.reset_battery()", "API.reset_signals()"])
+                    # f.method_teardown(["API.reset_battery()"])
                     if num == script_num - 1:
                         s_data = tc_data[num * count:]
                     else:
