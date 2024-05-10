@@ -82,38 +82,38 @@ class ImageCropper:
 
         return (start_x, start_y, end_x, end_y)
 
-    def batch_crop_images(self, input_dir, output_dir, source_resolution, target_resolution):
+    def batch_crop_images(self, image_path, output_dir, source_resolution, target_resolution):
         """
         Used for batch cropping images and creating output directories;
         Build input and output paths, then open the input image to convert the coordinates of the cropping area from
         source resolution to target resolution. Crop the image based on the converted coordinates, and finally save the
         cropped image to the output path,Generate cropped images named after coordinates
         """
-        os.makedirs(output_dir, exist_ok=True)
-
-        for filename in os.listdir(input_dir):
-            if filename.endswith(".jpg") or filename.endswith(".png"):
-                input_path = os.path.join(input_dir, filename)
-                output_path = os.path.join(output_dir, str(self.crop_coordinates) + ".png")
-                image = Image.open(input_path)
-                converted_coordinates = self.convert_coordinates(self.crop_coordinates, source_resolution,
+        # os.makedirs(output_dir, exist_ok=True)
+        #
+        # for filename in os.listdir(input_dir):
+        #     if filename.endswith(".jpg") or filename.endswith(".png"):
+        # input_path = os.path.join(input_dir, filename)
+        output_path = os.path.join(output_dir, str(self.crop_coordinates) + ".png")
+        image = Image.open(image_path)
+        converted_coordinates = self.convert_coordinates(self.crop_coordinates, source_resolution,
                                                                  target_resolution)
-                cropped_image = image.crop(converted_coordinates)
-                cropped_image.save(output_path)
+        cropped_image = image.crop(converted_coordinates)
+        cropped_image.save(output_path)
 
-                print(f"Cropped and saved image: {output_path}")
+        print(f"Cropped and saved image: {output_path}")
 
 
 if __name__ == '__main__':
     # 图片路径
-    image_path = r"E:\output1\photo\record_2024_4_25-14_40_10_621384.png"
+    image_path = r"E:\output1\photo\AirbagFault.jpg"
     # 创建ImageCropper实例并获取裁剪区域坐标
     cropper = ImageCropper(image_path)
     crop_coordinates = cropper.crop_coordinates
     print("裁剪区域坐标:", crop_coordinates)
     print(type(crop_coordinates))
-    input_dir = r"E:\output1\photo"
+    # input_dir = r"E:\output1\photo"
     output_dir = r"E:\output1"
     source_resolution = (1920, 1080)
     target_resolution = (1920, 1080)
-    cropper.batch_crop_images(input_dir, output_dir, source_resolution, target_resolution)
+    cropper.batch_crop_images(image_path, output_dir, source_resolution, target_resolution)
